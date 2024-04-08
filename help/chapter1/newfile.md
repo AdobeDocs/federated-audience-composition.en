@@ -27,10 +27,6 @@ keywords: new file, add file, file
 >abstract="In this section, you can select the targeting dimension to target profiles in the workflow, and choose to keep the worklow results between two executions. This option should be used for testing purposes only and must never be enabled in a production workflow."
 
 
->[!CONTEXTUALHELP]
->id="dc_orchestration_reconciliation"
->title="Reconciliation activity"
->abstract="The **Reconciliation** activity is a **Targeting** activity which allows you to define the link between the data in the Adobe Campaign database and the data in a work table. For example, the **Reconciliation** activity can be placed after a **Load file** activity to import non-standard data into the database. In this case, the **Reconciliation** activity lets you define the link between the data in the Adobe Campaign database and the data in the external table." 
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_reconciliation_field"
@@ -274,8 +270,4 @@ keywords: new file, add file, file
 >title="Generate a complement"
 >abstract="You can generate an additional outbound transition with the remaining population, which was excluded as a duplicate. To do this, toggle on the **Generate complement** option"
 
->[!CONTEXTUALHELP]
->id="dc_orchestration_change_dimension"
->title="Change dimension activity"
->abstract="This activity allows you to change the targeting dimension as you are building an audience. It shifts the axis depending on the data template and the input dimension. For example, you can switch from the "contracts" dimension to the "clients" dimension."
 
