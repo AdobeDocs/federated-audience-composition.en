@@ -1,7 +1,7 @@
 ---
 title: New file
 description: Description
-keywords: new file, add file
+keywords: new file, add file, file
 ---
 
 # New file {#new}
