@@ -6,6 +6,8 @@ keywords: new file, add file, file
 
 # New file {#new}
 
+## Learn more {#learn}
+
 <!-- Workflow + Workflow activities-->
 
 >[!CONTEXTUALHELP]
