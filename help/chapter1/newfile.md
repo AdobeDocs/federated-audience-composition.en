@@ -6,6 +6,8 @@ keywords: new file, add file, file
 
 # New file {#new}
 
+<!-- Workflow + Workflow activities-->
+
 >[!CONTEXTUALHELP]
 >id="dc_workflow_creation_properties"
 >title="Workflow properties"
@@ -53,13 +55,11 @@ keywords: new file, add file, file
 >id="dc_orchestration_reconciliation_rules"
 >title="Reconciliation rules"
 >abstract="Select reconciliation rules to use for the deduplication. To use attributes, select the **Simple attributes** option and choose the source and destination fields. To create your own reconciliation condition using the query modeler, select the **Advanced reconciliation conditions** option."
->additional-url="https://experienceleague.adobe.com/en/docs/campaign-web/v8/query-database/query-modeler-overview" text="Work with the query modeler"
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_reconciliation_targeting_selection"
 >title="Select the targeting dimension"
 >abstract="Select the targeting dimension for your inbound data to reconcile with." 
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/audiences/gs-audiences-recipients.html#targeting-dimensions" text="Targeting dimensions"
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_keep_unreconciled_data"
@@ -71,15 +71,24 @@ keywords: new file, add file, file
 >title="Reconciliation attribute"
 >abstract="Select the attribute to use to reconciliate data, and click Confirm." 
 
+
+
+<!-- Not Supported in FAC - to remove -->
+<!--
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_query_enrichment_noneditable"
 >title="Activity non editable"
 >abstract="When a **Query** or an **Enrichment** activity is configured with additional data in the console, the enrichment data is taken into account in Campaign Web and passed into the outbound transition, but it cannot be edited."
+-->
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_change_dimension"
 >title="Change dimension activity"
 >abstract="This activity allows you to change the targeting dimension as you are building an audience. It shifts the axis depending on the data template and the input dimension. For example, you can switch from the "contracts" dimension to the "clients" dimension."
+
+
+<!-- Not Supported in FAC - to remove -->
+<!--
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_build_audience"
@@ -90,6 +99,7 @@ keywords: new file, add file, file
 >id="dc_orchestration_build_audience_dimension"
 >title="Select the targeting dimension"
 >abstract="The targeting dimension lets you define the population targeted by the operation: recipients, contract beneficiaries, operator, subscribers, etc. By default, for emails and SMS, the target is selected from the Recipients built-in table. For Push notifications, the default target dimension is Subscriber applications."
+-->
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_combine"
@@ -126,10 +136,16 @@ keywords: new file, add file, file
 >title="Configure the AND-join activity"
 >abstract="Select which activities you want to join. In the **Primary set** drop-down, choose which inbound transition population you want to keep."
 
+
+
+<!-- Not Supported in FAC - to remove -->
+<!--
+
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_email"
 >title="Email activity"
 >abstract="The Email activity facilitates email sending within your workflow, allowing for both one-time and recurring messages. It serves to automate the process of sending emails to a target calculated within the same workflow. You can combine channel activities into the workflow canvas to create cross-channel workflows that can trigger actions based on customer behavior and data."
+
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_sms"
@@ -145,12 +161,16 @@ keywords: new file, add file, file
 >id="dc_orchestration_push_android"
 >title="Push Android activity"
 >abstract="The Push Android activity streamlines the process of sending Android Push notifications as part of your workflow. It enables the delivery of both one-time and recurring messages, automating the sending Android Push notifications to a predefined target within the same workflow. You can combine channel activities into the workflow canvas to create cross-channel workflows that can trigger actions based on customer behavior and data."
+-->
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_enrichment"
 >title="Enrichment activity"
 >abstract="The **Enrichment** activity allows you to enhance the targeted data with additional information from the database. It is commonly used in a workflow after segmentation activities."
 
+
+<!-- Not Supported in FAC - to remove -->
+<!--
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_fork"
 >title="Fork activity"
@@ -166,6 +186,7 @@ keywords: new file, add file, file
 >id="dc_orchestration_wait"
 >title="Wait activity"
 >abstract="The **Wait** activity is used to delay the transition from an activity to another."
+-->
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_split"
@@ -182,7 +203,6 @@ keywords: new file, add file, file
 >id="dc_orchestration_split_filter"
 >title="Split activity filter"
 >abstract="To apply a filtering condition to the subset, click **[!UICONTROL Create filter]** and configure the desired filtering rule using the query modeler. For example, include profiles from the incoming population whose email address exist in the database."
->additional-url="https://experienceleague.adobe.com/en/docs/campaign-web/v8/query-database/query-modeler-overview" text="Work with the query modeler"
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_split_limit"
@@ -209,6 +229,8 @@ keywords: new file, add file, file
 >title="Skip empty transition"
 >abstract="Skip empty transition."
 
+<!-- Not Supported in FAC - to remove -->
+<!--
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_end"
 >title="End activity"
@@ -229,6 +251,7 @@ keywords: new file, add file, file
 >title="Scheduler validity"
 >abstract="You can define a validity period for the scheduler. It can be permanent (default), or can be valid until a specific date."
 
+--> 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_deduplication"
 >title="Deduplication activity"
@@ -271,3 +294,78 @@ keywords: new file, add file, file
 >abstract="You can generate an additional outbound transition with the remaining population, which was excluded as a duplicate. To do this, toggle on the **Generate complement** option"
 
 
+<!-- Datamodels-->
+
+>[!CONTEXTUALHELP]
+>id="dc_model_menu"
+>title="Work with models"
+>abstract="Schemas and datamodels are listed in this screen. You can create schemas and datamodels from the Create button."
+
+>[!CONTEXTUALHELP]
+>id="dc_datamodel_add_schema"
+>title="Select schemas"
+>abstract="Select the schemas for the datamodel."
+
+
+>[!CONTEXTUALHELP]
+>id="dc_datamodel_add_audience"
+>title="Select an audience"
+>abstract="Select the audience for the datamodel."
+
+>[!CONTEXTUALHELP]
+>id="dc_datamodel_properties"
+>title="Datamodel properties"
+>abstract="Enter the label of the datamodel."
+
+<!-- Schemas-->
+
+
+>[!CONTEXTUALHELP]
+>id="dc_schema_create_select_tables"
+>title="Select tables"
+>abstract="Select the tables to add for the datamodel."
+
+>[!CONTEXTUALHELP]
+>id="dc_schema_create_key"
+>title="Key"
+>abstract="Select a key for data reconciliation."
+
+>[!CONTEXTUALHELP]
+>id="dc_schema_edit_description"
+>title="Schema description"
+>abstract="The schema description lists columns, types and labels. You can also check the reconciliation key for the schema. To update the schema definition, click the pencil icon."
+
+>[!CONTEXTUALHELP]
+>id="dc_schema_filter_sources"
+>title="Select the source database to filter"
+>abstract="You can filter the schemas based on their source. Select one or several Federated Databases to displays their schemas."
+
+
+
+<!-- Connections / Federated Databases-->
+
+
+>[!CONTEXTUALHELP]
+>id="dc_connection_federated_database_menu"
+>title="Federated Databases"
+>abstract="Existing connections to Federated Databases are listed in this screen. To create a new connection, click the **Add federated database** button."
+
+
+>[!CONTEXTUALHELP]
+>id="dc_connection_federated_database_properties"
+>title="Federated Database properties"
+>abstract="Enter the name of the new Federated Database, and select its type."
+
+
+>[!CONTEXTUALHELP]
+>id="dc_connection_federated_database_details"
+>title="Federated Database details"
+>abstract="Enter the settings to connect to the new Federated Database. Use the **Test connection** button to validate your configuration."
+
+<!-- Destination -->
+
+
+>[!CONTEXTUALHELP]
+>id="dc_new_destination"
+>title="Create a destination"
+>abstract="Enter the settings to connect to the new Federated Database. Use the **Connect to destination** button to validate your configuration."
