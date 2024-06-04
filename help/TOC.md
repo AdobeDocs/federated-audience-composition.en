@@ -1,12 +1,11 @@
 ---
-user-guide-title: Data composition
-title: Adobe Data composition Documentation
-breadcrumb-title: Data composition
+user-guide-title: Federated Audience Composition 
+title: Adobe Federated Audience Composition Documentation
+breadcrumb-title: DFederated Audience Composition
 ---
+#  Federated Audience Composition documentation {#using}
 
-#  documentation {#using}
-
-+ [Federated Data Access documentation](home.md)
++ [Federated Audience Composition documentation](home.md)
 + [Get started](chapter1/newfile.md)
 + Compositions {#compositions}
     + [Get started with compositions](compositions/gs-compositions.md)

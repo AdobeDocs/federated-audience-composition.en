@@ -2,7 +2,6 @@
 audience: end-user
 title: Use the Split activity
 description: Learn how to use the Split activity
-exl-id: 4457c70d-bc92-476f-90a3-d51e26ada8f1
 ---
 # Split {#split}
 

@@ -63,10 +63,10 @@ Follow these steps to configure the **Enrichment** activity:
     * [Single enrichment attribute](#single-attribute)
     * [Collection lnk](#collection-link)
 
-<!-->
-    >[!NOTE]
-    >
-    >The **Edit expression button** in the attribute selection screen allows you to build advanced expressions to select the attribute. [Learn how to work with the expression editor](../../query/expression-editor.md)-->
+<!--
+>[!NOTE]
+>
+>The **Edit expression button** in the attribute selection screen allows you to build advanced expressions to select the attribute. [Learn how to work with the expression editor](../../query/expression-editor.md)-->
 
 ## Create links between tables {#create-links}
 
