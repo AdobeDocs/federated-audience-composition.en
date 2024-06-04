@@ -42,20 +42,6 @@ keywords: new file, add file, file
 
 
 
-<!-- Not Supported in FAC - to remove -->
-<!--
-
->[!CONTEXTUALHELP]
->id="dc_orchestration_build_audience"
->title="Build audience activity"
->abstract="The **Build audience** activity allows you to define the audience that will enter the workflow. When sending messages in the context of a workflow, the message audience is not defined in the channel activity, but in the **Build audience** activity."
-
->[!CONTEXTUALHELP]
->id="dc_orchestration_build_audience_dimension"
->title="Select the targeting dimension"
->abstract="The targeting dimension lets you define the population targeted by the operation: recipients, contract beneficiaries, operator, subscribers, etc. By default, for emails and SMS, the target is selected from the Recipients built-in table. For Push notifications, the default target dimension is Subscriber applications."
--->
-
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_and-join"

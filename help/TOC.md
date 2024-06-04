@@ -12,6 +12,7 @@ breadcrumb-title: Federated Audience Composition
     + [Get started with compositions](compositions/gs-compositions.md)
     + [Work with activities](compositions/activities/about-activities.md)
     + List of activities {#activities}
+        + [Build audience](compositions/activities/build-audience.md)
         + [Change dimension](compositions/activities/change-dimension.md)
         + [Combine](compositions/activities/combine.md)
         + [Deduplication](compositions/activities/deduplication.md)
