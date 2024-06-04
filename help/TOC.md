@@ -3,7 +3,8 @@ user-guide-title: Federated Audience Composition
 title: Adobe Federated Audience Composition Documentation
 breadcrumb-title: DFederated Audience Composition
 ---
-#  Federated Audience Composition documentation {#using}
+
+# Federated Audience Composition documentation {#using}
 
 + [Federated Audience Composition documentation](home.md)
 + [Get started](chapter1/newfile.md)
