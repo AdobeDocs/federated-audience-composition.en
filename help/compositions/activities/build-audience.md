@@ -10,7 +10,7 @@ description: Learn how to use the Build audience activity
 >title="Build audience activity"
 >abstract="The **Build audience** activity allows you to define the audience that will enter the composition."
 
-The **Build audience** activity allows you to define the audience that will enter the workflow.
+The **Build audience** activity allows you to define the audience that will enter the composition.
 
 To define the audience population, you can:
 

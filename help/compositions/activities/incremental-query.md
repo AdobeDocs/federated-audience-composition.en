@@ -35,8 +35,6 @@ If the result of an incremental query is equal to 0 during one of its executions
 
 Follow these steps to configure the **Incremental query** activity:
 
-![](../assets/incremental-query.png)
-
 1. Add an **Incremental query** activity into your composition.
 
 1. In the **[!UICONTROL Audience]** section, choose the **Targeting dimension** then click **[!UICONTROL Continue]**.
@@ -57,7 +55,7 @@ Follow these steps to configure the **Incremental query** activity:
 
     >[!NOTE]
     >
-    >The **[!UICONTROL Use a date field]** mode allows more flexibility depending on the date field that is selected. For example, if the specified field corresponds to a modification date, the date field mode will allow you to retrieve data that were recently updated, while the other mode will simply exclude recordings that were already targeted in a previous execution, even if they have been modified since the last execution of the workflow.
+    >The **[!UICONTROL Use a date field]** mode allows more flexibility depending on the date field that is selected. For example, if the specified field corresponds to a modification date, the date field mode will allow you to retrieve data that were recently updated, while the other mode will simply exclude recordings that were already targeted in a previous execution, even if they have been modified since the last execution of the composition.
 
 <!--
 
