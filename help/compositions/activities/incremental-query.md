@@ -59,7 +59,8 @@ Follow these steps to configure the **Incremental query** activity:
     >
     >The **[!UICONTROL Use a date field]** mode allows more flexibility depending on the date field that is selected. For example, if the specified field corresponds to a modification date, the date field mode will allow you to retrieve data that were recently updated, while the other mode will simply exclude recordings that were already targeted in a previous execution, even if they have been modified since the last execution of the workflow.
 
-<!-->
+<!--
+
 ## Example {#incremental-query-example}
 
 The following example shows the configuration of a workflow which filters every week the profiles in the Adobe Campaign database that are subscribed to the Yoga Newsletter service, to send them a welcome email.
