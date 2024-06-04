@@ -17,6 +17,7 @@ breadcrumb-title: Federated Audience Composition
         + [Combine](compositions/activities/combine.md)
         + [Deduplication](compositions/activities/deduplication.md)
         + [Enrichment](compositions/activities/enrichment.md)
+        + [Incremental query](compositions/activities/incremental-query.md)
         + [Reconciliation](compositions/activities/reconciliation.md)
         + [Save audience](compositions/activities/save-audience.md)
         + [Split](compositions/activities/split.md)
