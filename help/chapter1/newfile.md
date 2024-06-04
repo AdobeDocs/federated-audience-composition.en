@@ -31,74 +31,11 @@ keywords: new file, add file, file
 >abstract="In this section, you can select the targeting dimension to target profiles in the workflow, and choose to keep the worklow results between two executions. This option should be used for testing purposes only and must never be enabled in a production workflow."
 
 
-<!-- Not Supported in FAC - to remove -->
-<!--
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_query_enrichment_noneditable"
 >title="Activity non editable"
 >abstract="When a **Query** or an **Enrichment** activity is configured with additional data in the console, the enrichment data is taken into account in Campaign Web and passed into the outbound transition, but it cannot be edited."
--->
 
-
-
-
-
->[!CONTEXTUALHELP]
->id="dc_orchestration_and-join"
->title="AND-join activity"
->abstract="The **And-join** activity allows you to synchronize multiple execution branches of a workflow. It is triggered once all of the preceding activities have finished. This allows you to make sure that certain activities are finished before continuing to execute the workflow."
-
->[!CONTEXTUALHELP]
->id="dc_orchestration_and-join_merging"
->title="Configure the AND-join activity"
->abstract="Select which activities you want to join. In the **Primary set** drop-down, choose which inbound transition population you want to keep."
-
-
-
-<!-- Not Supported in FAC - to remove -->
-<!--
-
->[!CONTEXTUALHELP]
->id="dc_orchestration_email"
->title="Email activity"
->abstract="The Email activity facilitates email sending within your workflow, allowing for both one-time and recurring messages. It serves to automate the process of sending emails to a target calculated within the same workflow. You can combine channel activities into the workflow canvas to create cross-channel workflows that can trigger actions based on customer behavior and data."
-
-
->[!CONTEXTUALHELP]
->id="dc_orchestration_sms"
->title="SMS activity"
->abstract="The SMS activity facilitates SMS sending within your workflow, allowing for both one-time and recurring messages. It serves to automate the process of sending SMS to a target calculated within the same workflow. You can combine channel activities into the workflow canvas to create cross-channel workflows that can trigger actions based on customer behavior and data."
-
->[!CONTEXTUALHELP]
->id="dc_orchestration_push_ios"
->title="Push iOS activity"
->abstract="The Push iOS activity streamlines the process of sending iOS Push notifications as part of your workflow. It enables the delivery of both one-time and recurring messages, automating the sending iOS Push notifications to a predefined target within the same workflow. You can combine channel activities into the workflow canvas to create cross-channel workflows that can trigger actions based on customer behavior and data."
-
->[!CONTEXTUALHELP]
->id="dc_orchestration_push_android"
->title="Push Android activity"
->abstract="The Push Android activity streamlines the process of sending Android Push notifications as part of your workflow. It enables the delivery of both one-time and recurring messages, automating the sending Android Push notifications to a predefined target within the same workflow. You can combine channel activities into the workflow canvas to create cross-channel workflows that can trigger actions based on customer behavior and data."
--->
-
-
-<!-- Not Supported in FAC - to remove -->
-<!--
->[!CONTEXTUALHELP]
->id="dc_orchestration_fork"
->title="Fork activity"
->abstract="The **Fork** activity allows you to create outbound transitions to start several activities at the same time."
-
-
->[!CONTEXTUALHELP]
->id="dc_orchestration_fork_transitions"
->title="Fork activity transitions"
->abstract="By default, two transitions are created with a **Fork** activity. Click the **Add transition** button to define an additional outbound transition, and enter its label."
-
->[!CONTEXTUALHELP]
->id="dc_orchestration_wait"
->title="Wait activity"
->abstract="The **Wait** activity is used to delay the transition from an activity to another."
--->
 
 
 <!-- Datamodels-->
