@@ -1,7 +1,7 @@
 ---
 user-guide-title: Federated Audience Composition 
 title: Adobe Federated Audience Composition Documentation
-breadcrumb-title: DFederated Audience Composition
+breadcrumb-title: Federated Audience Composition
 ---
 
 # Federated Audience Composition documentation {#using}
