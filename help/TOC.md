@@ -21,6 +21,15 @@ breadcrumb-title: Federated Audience Composition
         + [Reconciliation](compositions/activities/reconciliation.md)
         + [Save audience](compositions/activities/save-audience.md)
         + [Split](compositions/activities/split.md)
++ Models {#models}
+    + [Get started with models](data-management/gs-models.md)
++ Audiences and schemas {#audiences-schemas}
+    + [Work with audiences](customer/audiences.md)
+    + [Create and configure schemas](customer/schemas.md)
++ Federated Databases {#federated}
+    + [Get started with federated databases](connections/federated-db.md)
++ Audit Trail {#audit-trail}
+    + [Monitor your databases](admin/audit-trail.md)
 + Query the database {#query-database}
     + [Work with the query modeler](query/query-modeler-overview.md)
     + [Build your first query](query/build-query.md)
