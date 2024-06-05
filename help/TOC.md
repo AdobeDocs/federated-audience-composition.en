@@ -21,4 +21,8 @@ breadcrumb-title: Federated Audience Composition
         + [Reconciliation](compositions/activities/reconciliation.md)
         + [Save audience](compositions/activities/save-audience.md)
         + [Split](compositions/activities/split.md)
-
++ Query the database {#query-database}
+    + [Work with the query modeler](query/query-modeler-overview.md)
+    + [Build your first query](query/build-query.md)
+    + [Edit expressions](query/expression-editor.md)
+    + [Filter lists](query/filter.md)
