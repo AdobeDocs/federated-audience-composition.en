@@ -15,6 +15,21 @@ description: Learn how to use the Fork activity
 >title="Generate outbound transition"
 >abstract="Use this option option if you want to add a transition after the **Save audience** activity."
 
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_save_audience_primary_identity"
+>title="Primary identity field"
+>abstract="Select the primary identity to use for profiles."
+>additional-url="https://experienceleague.adobe.com/en/docs/experience-platform/xdm/ui/fields/identity#define-a-identity-field" text="Learn more in Experience Platform documentation"
+
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_saveaudience_namespace"
+>title="Identity namespace"
+>abstract="Select the primary identity to use for profiles."
+>additional-url="https://experienceleague.adobe.com/en/docs/experience-platform/identity/features/namespaces" text="Learn more in Experience Platform documentation"
+
+
+
 The **Save audience** activity allows you to update an existing audience or create a new audience from the population computed upstream in a composition. The audiences created are added to the list of application audiences, and are made available via the **Audiences** menu.
 
 This activity is essentially used to keep population groups computed in the same composition, by converting them into reusable audiences. Connect it to other targeting activities such as a **Build audience** or a **Combine** activity. 
