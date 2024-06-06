@@ -25,7 +25,7 @@ description: Learn how to use the Fork activity
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_saveaudience_namespace"
 >title="Identity namespace"
->abstract="Select the primary identity to use for profiles."
+>abstract="Select the namespace to use for profiles."
 >additional-url="https://experienceleague.adobe.com/en/docs/experience-platform/identity/features/namespaces" text="Learn more in Experience Platform documentation"
 
 
