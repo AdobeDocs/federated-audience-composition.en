@@ -22,3 +22,14 @@ description: Learn how to create and manage your Federated Databases
 >id="dc_connection_federated_database_details"
 >title="Federated Database details"
 >abstract="Enter the settings to connect to the new Federated Database. Use the **Test connection** button to validate your configuration."
+
+
+Create, Configure, Test and Save the connection to an external database.
+
+Supported External Databases:
+
+* Amazon Redshift
+* Azure Synapse
+* Google Big Query
+* Snowflake
+* Vertica Analytics

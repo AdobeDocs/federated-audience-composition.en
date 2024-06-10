@@ -38,10 +38,3 @@ keywords: new file, add file, file
 
 
 
-<!-- Destination -->
-
-
->[!CONTEXTUALHELP]
->id="dc_new_destination"
->title="Create a destination"
->abstract="Enter the settings to connect to the new Federated Database. Use the **Connect to destination** button to validate your configuration."
