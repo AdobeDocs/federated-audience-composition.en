@@ -9,7 +9,7 @@ breadcrumb-title: Federated Audience Composition
 + [Federated Audience Composition documentation](home.md)
 + [Get started](chapter1/newfile.md)
 + Configuration steps {#config}
-    + [Connect AEP with Federated Audience Composition](connections/destination.md)
+    + [Connect AEP with Federated Audience Composition](connections/destinations.md)
     + [Configure your federated databases](connections/federated-db.md)
     + Data models and schemas{#datamodel}
         + [Configure your data models](data-management/gs-models.md)
