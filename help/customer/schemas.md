@@ -17,6 +17,12 @@ description: Learn how to start with schemas
 >abstract="Select a key for data reconciliation."
 
 >[!CONTEXTUALHELP]
+>id="dc_schema_create_schema_name"
+>title="Name of the schema"
+>abstract="Enter the name of the schema."
+
+
+>[!CONTEXTUALHELP]
 >id="dc_schema_edit_description"
 >title="Schema description"
 >abstract="The schema description lists columns, types and labels. You can also check the reconciliation key for the schema. To update the schema definition, click the pencil icon."
@@ -25,3 +31,5 @@ description: Learn how to start with schemas
 >id="dc_schema_filter_sources"
 >title="Select the source database to filter"
 >abstract="You can filter the schemas based on their source. Select one or several Federated Databases to displays their schemas."
+
+
