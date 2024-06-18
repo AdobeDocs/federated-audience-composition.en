@@ -10,6 +10,8 @@ description: Learn how to work with activities
 
 In Federated Audience Composition, activities are specific to targeting. They let you build one or more targets by defining an audience and splitting or combining these audiences using intersection, union or exclusion operations.
 
+<!--to update -->
+
 * [Change dimension](change-dimension.md): Change the targeting dimension as you are building your composition.
 * [Combine](combine.md): Perform segmentation on your inbound population. You can use a union, an intersection or an exclusion.
 * [Deduplication](deduplication.md): Delete duplicates in the result(s) of the inbound activities.
