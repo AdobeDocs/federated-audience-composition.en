@@ -6,14 +6,15 @@ description: Learn how to start with compositions
 # Get started with compositions {#compositions}
 
 >[!CONTEXTUALHELP]
->id="dc_composition_settings_properties"
+>id="dc_workflow_settings_properties"
 >title="Composition properties"
 >abstract="This section provides generic composition properties that are also accessible when creating the composition."
 
 >[!CONTEXTUALHELP]
->id="dc_composition_settings_segmentation"
+>id="dc_workflow_settings_segmentation"
 >title="Composition segmentation"
 >abstract="By default, only the working tables of the last execution of the composition are kept. You can enable this option to keep working tables for testing purposes. It must be used **only** on development or staging environments. It must never be checked in a production environment."
+
 
 
 
@@ -21,7 +22,7 @@ description: Learn how to start with compositions
 
 
 >[!CONTEXTUALHELP]
->id="dc_composition_list"
+>id="dc_workflow_list"
 >title="Compositions"
 >abstract="In this screen, you can access the full list of compositions, check their current status, last/next execution dates, and create a new composition."
 
@@ -29,7 +30,7 @@ description: Learn how to start with compositions
 ## Error management settings  {#error-settings}
 
 >[!CONTEXTUALHELP]
->id="dc_composition_settings_error"
+>id="dc_workflow_settings_error"
 >title="Error management settings"
 >abstract="In this section, you can define how to manage errors during the execution. You can choose to pause the process, ignore a certain number of errors, or stop the composition execution."
 
