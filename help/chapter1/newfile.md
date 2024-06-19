@@ -36,5 +36,9 @@ keywords: new file, add file, file
 >title="Activity non editable"
 >abstract="When a **Query** or an **Enrichment** activity is configured with additional data in the console, the enrichment data is taken into account and passed into the outbound transition, but it cannot be edited."
 
+<!-- Create a link --> 
 
-
+>[!CONTEXTUALHELP]
+>id="dc_federated_database_create_link"
+>title="Create a link"
+>abstract="Define the link settings."

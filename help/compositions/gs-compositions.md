@@ -31,7 +31,7 @@ description: Learn how to start with compositions
 >[!CONTEXTUALHELP]
 >id="dc_composition_settings_error"
 >title="Error management settings"
->abstract="In this section, you can define how to manage errors during the execution. You can choose to pause the process, ignore a certain number of errors, or stop the workflow execution."
+>abstract="In this section, you can define how to manage errors during the execution. You can choose to pause the process, ignore a certain number of errors, or stop the composition execution."
 
 * **[!UICONTROL Error management]**: This field lets you define the actions to be taken if a composition activity has errors. 
     There are three possible options:
