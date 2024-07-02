@@ -11,11 +11,6 @@ keywords: new file, add file, file
 <!-- Workflow + Workflow activities-->
 
 
->[!CONTEXTUALHELP]
->id="dc_workflow_creation_properties"
->title="Workflow properties"
->abstract="In this screen, choose the template to use to create the workflow and specify a label. Expand the ADDITIONAL OPTIONS section to configure more settings such as the workflow internal name, its folder, timezone, and supervisor group. It is highly recommended to select a supervisor group so that operators are alerted if an error occurs."
-
 
 >[!CONTEXTUALHELP]
 >id="dc_workflow_settings_execution"
