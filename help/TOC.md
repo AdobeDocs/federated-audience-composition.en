@@ -17,7 +17,7 @@ breadcrumb-title: Federated Audience Composition
     + [Work with audiences](customer/audiences.md)
 + Compositions {#compositions}
     + [Get started with compositions](compositions/gs-compositions.md)
-    + [Create a composition](compositions/create-compositions.md)
+    + [Create a composition](compositions/create-composition.md)
     + [Access & manage compositions](compositions/manage-compositions.md)
     + Work with activities {#activities}
         + [List of activities](compositions/activities/about-activities.md)
