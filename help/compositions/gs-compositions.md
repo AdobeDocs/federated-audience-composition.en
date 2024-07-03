@@ -26,7 +26,7 @@ From this screen, you can create new compositions and access existing ones.
 
 To refine the list and easily find the composition you are looking for, you can search the list, and filter compositions by their statuses or last processing dates.
 
-You can also customize the list by adding or removing columns. To do this, clickc the Configure columns button and manage 
+You can also customize the list by adding or removing columns. To do this, click the **Configure column**s button and add or remove the desired output columns.
 
 ![](assets/compositions-columns.png)
 
