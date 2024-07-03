@@ -14,7 +14,7 @@ Adobe Data Composition allows you to create compositions, where you can leverage
 ## Access compositions {#access}
 
 >[!CONTEXTUALHELP]
->id="dc_workflow_list"
+>id="dc_composition_list"
 >title="Compositions"
 >abstract="In this screen, you can access the full list of compositions, check their current status, last/next execution dates, and create a new composition."
 

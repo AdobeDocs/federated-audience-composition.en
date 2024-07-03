@@ -17,7 +17,12 @@ breadcrumb-title: Federated Audience Composition
     + [Work with audiences](customer/audiences.md)
 + Compositions {#compositions}
     + [Get started with compositions](compositions/gs-compositions.md)
-    + [Create a composition](compositions/create-composition.md)
+    + Create and run your first composition {#create-composition}
+        + [Key principles of composition creation](compositions/gs-composition-creation.md)
+        + [Create the composition](compositions/create-composition.md)
+        + [Orchestrate activities](compositions/orchestrate-activities.md)
+        + [Configure composition settings](compositions/composition-settings.md)
+        + [Start and monitor your composition](compositions/start-monitor-composition.md)
     + Work with activities {#activities}
         + [List of activities](compositions/activities/about-activities.md)
         + [And-Join](compositions/activities/and-join.md)
