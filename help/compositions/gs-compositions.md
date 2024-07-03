@@ -9,7 +9,7 @@ description: Learn how to start with compositions
 
 Adobe Data Composition allows you to create compositions, where you can leverage various activities (split, exclude…) into a visual canvas to create audiences. Once done, the resulting audiences are saved into Adobe Experience Platform along with existing audiences and can be leveraged in destinations such as Journey Optimizer to target customers.
 
-![](assets/compositions-example.png)
+![](assets/composition-example.png)
 
 ## Access compositions {#access}
 
