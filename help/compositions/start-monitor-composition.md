@@ -25,18 +25,16 @@ In compositions, data transported from one activity to another through transitio
 * Click **[!UICONTROL Preview schema]** to display the schema of the work table.
 * Click **[!UICONTROL Preview results]** to visualize the data transported in the selected transition.
 
-![](assets/transition.png){zoomable="yes"}
-
 ## Monitor activity execution {#activities}
 
 Visual indicators in the upper-right corner of each activity box allows you to check their execution:
 
 |Visual indicator | Description | 
 |-----|------------|
-|![](assets/activity-status-pending.png){zoomable="yes"}{width="70%"}| The activity is currently being executed. |
-|![](assets/activity-status-orange.png){zoomable="yes"}{width="70%"}| The activity requires your attention. This may involve confirming the sending of a delivery or taking a necessary action. |
-|![](assets/activity-status-red.png){zoomable="yes"}{width="70%"}|The activity has encountered an error. To resolve the issue, open the composition logs for more information.|
-|![](assets/activity-status-green.png){zoomable="yes"}{width="70%"}|The activity has been succesfully executed. | 
+|| The activity is currently being executed. |
+|| The activity requires your attention. This may involve confirming the sending of a delivery or taking a necessary action. |
+||The activity has encountered an error. To resolve the issue, open the composition logs for more information.|
+||The activity has been succesfully executed. | 
 
 ## Monitor logs and tasks {#logs-tasks}
 

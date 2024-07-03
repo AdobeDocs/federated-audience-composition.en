@@ -34,7 +34,6 @@ The toolbar located in the upper-right corner of the canvas provides options to 
 * **Zoom out** / **Zoom in**: Zoom out or in the canvas.
 * **Display map**: Opens a snapshot of the canvas showing you are located.
 
-![](assets/workflow-toolbar.png){zoomable="yes"}{width="50%"}
 
 ## Manage activities {#manage}
 
@@ -87,8 +86,6 @@ The **Initialization script** lets you initialize variables or modify activity p
 ## Example {#example}
 
 Here is a workflow example designed to send an email to all customers (other than VIP customers) with an email who are interested in coffee machines.
-
-![](assets/workflow-example.png){zoomable="yes"}{zoomable="yes"}
 
 To achieve this, activities below have been added:
 
