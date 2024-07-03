@@ -81,7 +81,7 @@ The **In case of error** field allows you to specify the action to be carried ou
 
 ### Initialization script
 
-The **Initialization script** lets you initialize variables or modify activity properties. Click the **Edit code** button and type the snippet of code to execute. The script is called when the activity executes. Refer to the section related to [event variables](../workflows/event-variables.md).
+The **Initialization script** lets you initialize variables or modify activity properties. Click the **Edit code** button and type the snippet of code to execute. The script is called when the activity executes.
 
 ## Example {#example}
 
@@ -102,4 +102,4 @@ To achieve this, activities below have been added:
 
 Once you have completed the workflow, add en **[!UICONTROL End]** activity at the end of the diagram. This activity allow you to visually mark the end of a workflow and has no functional impact.
 
-After successfully designing the workflow diagram, you can execute the workflow and track the progress of its various tasks. [Learn how to start a workflow and monitor its execution](start-monitor-workflows.md)
+After successfully designing the workflow diagram, you can execute the workflow and track the progress of its various tasks.
