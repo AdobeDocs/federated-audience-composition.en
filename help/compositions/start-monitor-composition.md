@@ -16,8 +16,6 @@ Once the composition is running, each activity in the canvas is executed in a se
 
 You can track the progress of targeted profiles in real-time using a visual flow. This allows you to quickly identify the status of each activity and the number of profiles transitioning between them.
 
-![](assets/composition-execution.png){zoomable="yes"}
-
 ## Composition transitions {#transitions}
 
 In compositions, data transported from one activity to another through transitions is stored in a temporary work table. This data can be displayed for each transition. To do this, select a transition to open its properties in the right hand side of the screen.
@@ -41,8 +39,6 @@ Visual indicators in the upper-right corner of each activity box allows you to c
 Monitoring compositions logs and tasks is a key step to analyze your compositions and make sure they are running properly. They are accessible from the **[!UICONTROL Logs]** icon which is available in the action tool bar, and in each activity's properties pane.
 
 The **[!UICONTROL Logs and tasks]** menu provides an history of the composition execution, recording all user actions and encountered errors. This history is saved for the duration specified in the composition [execution options](composition-settings.md). During this duration, all the messages are saved, even after a restart of the composition. If you do not want to save the messages from a previous execution, click the **[!UICONTROL Purge history]** button.
-
-![](assets/composition-logs.png){zoomable="yes"}
 
 Two types of information are available:
 
