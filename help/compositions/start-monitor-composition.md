@@ -10,11 +10,11 @@ Once that you have created your composition and designed the tasks to perform in
 
 ## Start the composition {#start}
 
-To start the composition, navigate to the **[!UICONTROL Compositions]** menu or the associated campaign and click the **[!UICONTROL Start]** button in the upper-right corner of the canvas.
-
-Once the composition is running, each activity in the canvas is executed in a sequential order, until the end of the composition is reached.
+To start a composition, click the **[!UICONTROL Start]** button in the upper-right corner of the screen. When the composition is running, each activity in the canvas is executed in a sequential order, until the end of the composition is reached.
 
 You can track the progress of targeted profiles in real-time using a visual flow. This allows you to quickly identify the status of each activity and the number of profiles transitioning between them.
+
+![](assets/composition-visual-flow.png)
 
 ## Composition transitions {#transitions}
 
@@ -23,36 +23,53 @@ In compositions, data transported from one activity to another through transitio
 * Click **[!UICONTROL Preview schema]** to display the schema of the work table.
 * Click **[!UICONTROL Preview results]** to visualize the data transported in the selected transition.
 
+![](assets/transition-preview.png)
+
 ## Monitor activity execution {#activities}
 
 Visual indicators in the upper-right corner of each activity box allows you to check their execution:
 
 |Visual indicator | Description | 
 |-----|------------|
-|| The activity is currently being executed. |
-|| The activity requires your attention. This may involve confirming the sending of a delivery or taking a necessary action. |
-||The activity has encountered an error. To resolve the issue, open the composition logs for more information.|
-||The activity has been succesfully executed. | 
+|![](assets/activity-status-pending.png){zoomable="yes"}{width="70%"}| The activity is currently being executed. |
+|![](assets/activity-status-orange.png){zoomable="yes"}{width="70%"}| The activity requires your attention. This may involve confirming the sending of a delivery or taking a necessary action. |
+|![](assets/activity-status-red.png){zoomable="yes"}{width="70%"}|The activity has encountered an error. To resolve the issue, open the composition logs for more information.|
+|![](assets/activity-status-green.png){zoomable="yes"}{width="70%"}|The activity has been succesfully executed. | 
 
 ## Monitor logs and tasks {#logs-tasks}
 
-Monitoring compositions logs and tasks is a key step to analyze your compositions and make sure they are running properly. They are accessible from the **[!UICONTROL Logs]** icon which is available in the action tool bar, and in each activity's properties pane.
+Monitoring compositions logs and tasks is a key step to analyze your compositions and make sure they are running properly. They are accessible from the **[!UICONTROL Logs]** button which is available in the action tool bar and in each activity's properties pane.
 
-The **[!UICONTROL Logs and tasks]** menu provides an history of the composition execution, recording all user actions and encountered errors. This history is saved for the duration specified in the composition [execution options](composition-settings.md). During this duration, all the messages are saved, even after a restart of the composition. If you do not want to save the messages from a previous execution, click the **[!UICONTROL Purge history]** button.
+![](assets/logs-button.png)
 
-Two types of information are available:
+The **[!UICONTROL Composition logs and tasks]** screen provides an history of the composition execution, recording all user actions and encountered errors.
+
+<!-- à confirmer, pas trouvé dans les options = The workflow history is saved for the duration specified in the workflow execution options. During this duration, all the messages are therefore saved, even after a restart. If you do not want to save the messages from a previous execution, you have to purge the history by clicking the ![](assets/delete_darkgrey-24px.png) button.-->
+
+The history is organized into several tabs, detailed below:
 
 * The **[!UICONTROL Log]** tab contains the execution history of all the composition activities. It indexes the operations carried out and execution errors by chronological order.
-* The **[!UICONTROL Tasks]** tab details the execution sequencing of the activities. 
+* The **[!UICONTROL Tasks]** tab details the execution sequencing of the activities. The button located at the end of each task allows you to list the event variables passed through the activity.
+* The **[!UICONTROL Variables]** tab lists all variables passed in the composition. It is available when accessing the logs and tasks from the composition canvas only. It is now available when accessing the logs from an activity's properties pane.  <!-- à confirmer-->
 
-In both tabs, you can choose the displayed columns and their order, apply filters, and use the search field to quickly find the desired information.
+![](assets/logs-tasks.png)
+
+In all tabs, you can choose the displayed columns and their order, apply filters, and use the search field to quickly find the desired information.
 
 ## Composition execution commands {#execution-commands}
 
-The action bar in the upper-right corner provides commands that allow you to manage the composition execution. You can:
+The action bar in the upper-right corner provides commands that allow you to manage the composition execution.
 
-* **[!UICONTROL Start]** / **[!UICONTROL Resume]** the execution of the  composition, which then takes on the In progress status. If the composition was paused, it is resumed, otherwise it is started and the initial activities are then activated.
+![](assets/execution-actions.png)
 
-* **[!UICONTROL Pause]** the execution of the composition, which then takes on the Paused status. No new activities will be activated until it is resumed, but operations in progress are not suspended.
+Available actions are:
 
-* **[!UICONTROL Stop]** a composition that is being executed, which will then take on the Finished status. The operations in progress are interrupted if possible. You cannot resume from the composition from the same place that it was stopped.
+* **Start**: Starts the execution of the composition, which then takes on the **In progress** status. The composition is started and the initial activities are activated.
+
+* **[!UICONTROL Resume]**: Resumes the execution of the  composition that had been paused. The composition takes on the **In progress** status.
+
+* **[!UICONTROL Pause]** the execution of the composition, which then takes on the **Paused** status. No new activities will be activated until it is resumed, but operations in progress are not suspended.
+
+* **[!UICONTROL Stop]** a composition that is being executed, which will then take on the **Finished** status. The operations in progress are interrupted if possible. You cannot resume from the composition from the same place that it was stopped.
+
+* **Restart**: Stops then restart a composition. In most cases, this allows you to restart quicker, as stopping takes a certain amount of time, and the **Start** button is only available when the stop is effective.
