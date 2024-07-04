@@ -22,9 +22,7 @@ The composition diagram is a representation of what is supposed to happen. It de
 Each composition contains:
 
 * **Activities**: An activity is a task to be performed. The various activities are represented on the diagram by icons. Each activity has specific properties and other properties that are common to all activities.
-
 * **Transitions**: Transitions link a source activity to a destination activity and define their sequence. 
-
 * **Worktables**: The worktable contains all the information carried by the transition. Each composition uses several worktables. The data conveyed in these tables can be used throughout the composition's life cycle.
 
 ## Key steps to create a composition {#gs-composition-steps}
