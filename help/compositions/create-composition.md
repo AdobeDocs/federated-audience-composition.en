@@ -8,7 +8,7 @@ description: Learn how to create compositions
 
 The first step to create a composition is to define its label and configure additional settings if needed.
 
-## Create the composition {#create}
+## Create the composition {#create-the-composition}
 
 1. Access the **[!UICONTROL Audiences]** menu and select the **[!UICONTROL Federated compositions]** tab.
 
