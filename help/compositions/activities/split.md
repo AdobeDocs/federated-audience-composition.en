@@ -3,6 +3,7 @@ audience: end-user
 title: Use the Split activity
 description: Learn how to use the Split activity
 ---
+
 # Split {#split}
 
 >[!CONTEXTUALHELP]
@@ -13,7 +14,7 @@ description: Learn how to use the Split activity
 The **Split** activity allows you to segment incoming populations into multiple subsets based on different selection criteria, such as filtering rules or population size.
 
 ## Configure the Split activity {#split-configuration}
-
+ 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_split_segments"
 >title="Segments for split activity"

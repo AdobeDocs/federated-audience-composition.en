@@ -33,7 +33,7 @@ breadcrumb-title: Federated Audience Composition
         + [Fork](compositions/activities/fork.md)
         + [Reconciliation](compositions/activities/reconciliation.md)
         + [Save audience](compositions/activities/save-audience.md)
-        * [Scheduler](scheduler.md): Schedule when the workflow gets started.
+        * [Scheduler](scheduler.md)
         + [Split](compositions/activities/split.md)
         + [Wait](compositions/activities/wait.md)
 + Query the database {#query-database}

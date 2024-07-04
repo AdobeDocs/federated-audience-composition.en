@@ -3,6 +3,7 @@ audience: end-user
 title: Use the Build audience activity
 description: Learn how to use the Build audience activity
 ---
+
 # Build audience {#build-audience}
 
 >[!CONTEXTUALHELP]
@@ -18,10 +19,7 @@ To define the audience population, you can:
 * Select an Adobe Experience Platform audience. 
 * Build a new audience with the query modeler builder by defining and combining filtering criteria.
 
-
-
 The **Build audience** activity can be placed at the beginning of the composition or after any other activity. Any activity can be placed after the **Build audience**.
-
 
 ## Configure the Build audience activity {#build-audience-configuration}
 

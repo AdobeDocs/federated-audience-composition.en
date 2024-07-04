@@ -3,8 +3,9 @@ audience: end-user
 title: Use the Reconciliation activity
 description: Learn how to use the Reconciliation activity
 ---
-# Reconciliation {#reconciliation}
 
+# Reconciliation {#reconciliation}
+ 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_reconciliation"
 >title="Reconciliation activity"

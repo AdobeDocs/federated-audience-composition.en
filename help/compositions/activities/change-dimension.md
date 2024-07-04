@@ -3,8 +3,9 @@ audience: end-user
 title: Use the Change dimension activity
 description: Learn how to use the Change dimension activity
 ---
-# Change dimension {#change-dimension}
 
+# Change dimension {#change-dimension}
+ 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_dimension_complement"
 >title="Generate a complement"

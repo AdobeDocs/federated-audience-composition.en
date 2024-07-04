@@ -3,8 +3,9 @@ audience: end-user
 title: Use the Deduplication activity
 description: Learn how to use the Deduplication activity
 ---
-# Deduplication {#deduplication}
 
+# Deduplication {#deduplication}
+ 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_deduplication_fields"
 >title="Fields to identify duplicates"

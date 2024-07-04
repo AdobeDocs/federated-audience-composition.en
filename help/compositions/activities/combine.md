@@ -3,6 +3,7 @@ audience: end-user
 title: Use the Combine activity
 description: Learn how to use the Combine activity
 ---
+
 # Combine {#combine}
 
 >[!CONTEXTUALHELP]
@@ -16,9 +17,7 @@ The **Combine** activity allows you to perform segmentation on your inbound popu
 * The **Intersection** allows you to keep only the elements common to the different inbound populations in the activity.
 * The **Exclusion** allows you to exclude elements from one population according to certain criteria. 
 
-
 The **Combine** activity can be placed after any other activity, but not at the beginning of the composition. Any activity can be placed after the **Combine**.
-
 
 ## Configure the Combine activity {#combine-configuration}
 

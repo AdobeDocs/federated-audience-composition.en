@@ -22,3 +22,4 @@ Follow these steps to configure the **Wait** activity:
 
 1. Select the time unit in the **Periods** field: seconds, minutes, hours, days.
 
+ 
