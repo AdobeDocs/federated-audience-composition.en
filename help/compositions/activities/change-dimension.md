@@ -14,10 +14,9 @@ description: Learn how to use the Change dimension activity
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_change_dimension"
 >title="Change dimension activity"
->abstract="This activity allows you to change the targeting dimension as you are building an audience. It shifts the axis depending on the data template and the input dimension. For example, you can switch from the "contracts" dimension to the "clients" dimension."
+>abstract="This activity allows you to change the targeting dimension, i.e. the schema, as you are building an audience. It shifts the axis depending on the data template and the input dimension. For example, you can switch from the "contracts" dimension to the "clients" dimension."
 
-The **Change dimension** activity allows you to change the targeting dimension as you are building your audience. It shifts the axis depending on the data template and the input dimension. <!--[Learn more on targeting dimensions](../../audience/about-recipients.md#targeting-dimensions)-->
-
+The **Change dimension** activity allows you to change the targeting dimension, i.e. the schema, as you are building your audience. It shifts the axis depending on the data template and the input dimension. <!--[Learn more on targeting dimensions](../../audience/about-recipients.md#targeting-dimensions)-->
 
 ## Configure the Change dimension activity {#configure}
 
@@ -25,7 +24,9 @@ Follow these steps to configure the **Change dimension** activity:
 
 1. Add a **Change dimension** activity to your composition.
 
-1. Define the **New target dimension**. During dimension change, all records are kept. 
+    ![](../assets/change-dimension.png)
+
+1. Define the **New scheman**. During schema change, all records are kept. 
 
 1. Execute the composition to view the result. Compare the data in the tables before and after the change dimension activity, and compare the structure of the composition tables.
 
@@ -36,3 +37,7 @@ In this example, we want to send an SMS delivery to all the profiles who have ma
 
 We then use a **[!UICONTROL Change dimension]** activity to switch the workflow targeting dimension to "Recipients". This allows us to be able to target the recipients who match the query.
 -->
+
+
+
+<!-- on parle de dimension, mais dans UI "schema", va rester comme ça ?-->

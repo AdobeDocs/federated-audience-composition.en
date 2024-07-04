@@ -24,7 +24,7 @@ breadcrumb-title: Federated Audience Composition
         + [Start and monitor your composition](compositions/start-monitor-composition.md)
     + Work with activities {#activities}
         + [List of activities](compositions/activities/about-activities.md)
-        + [And-Join](compositions/activities/and-join.md)
+        + [AND-Join](compositions/activities/and-join.md)
         + [Build audience](compositions/activities/build-audience.md)
         + [Change dimension](compositions/activities/change-dimension.md)
         + [Combine](compositions/activities/combine.md)
