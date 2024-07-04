@@ -31,9 +31,9 @@ breadcrumb-title: Federated Audience Composition
         + [Deduplication](compositions/activities/deduplication.md)
         + [Enrichment](compositions/activities/enrichment.md)
         + [Fork](compositions/activities/fork.md)
-        + [Incremental query](compositions/activities/incremental-query.md)
         + [Reconciliation](compositions/activities/reconciliation.md)
         + [Save audience](compositions/activities/save-audience.md)
+        * [Scheduler](scheduler.md): Schedule when the workflow gets started.
         + [Split](compositions/activities/split.md)
         + [Wait](compositions/activities/wait.md)
 + Query the database {#query-database}

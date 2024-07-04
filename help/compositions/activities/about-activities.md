@@ -6,12 +6,14 @@ description: Learn how to work with activities
 
 # Work with activities {#activities}
 
-## List of activities {#activity-list}
+In Federated Audience Composition, you can create compositions using two types of activites:
 
-In Federated Audience Composition, activities are specific to targeting. They let you build one or more targets by defining an audience and splitting or combining these audiences using intersection, union or exclusion operations.
+* **Targeting activities** let you build one or more targets by defining an audience and splitting or combining these audiences using intersection, union or exclusion operations.
+* **Flow control** activities are specific to organizing and executing compositions. Their main task is to coordinate the other activities.
 
-<!--to update -->
+## Targeting activities
 
+* [Build audience activity](build-audience.md): Define your target population. You can either select an existing audience or use the query modeler to define your own query.
 * [Change dimension](change-dimension.md): Change the targeting dimension as you are building your composition.
 * [Combine](combine.md): Perform segmentation on your inbound population. You can use a union, an intersection or an exclusion.
 * [Deduplication](deduplication.md): Delete duplicates in the result(s) of the inbound activities.
@@ -20,3 +22,10 @@ In Federated Audience Composition, activities are specific to targeting. They le
 * [Save audience](save-audience.md): Update an existing audience or create a new audience from the population computed upstream in a composition.
 * [Split](split.md): Segment incoming population into several subsets.
 
+## Flow control activities
+
+* [AND-join](and-join.md): Synchronize multiple execution branches of a workflow.
+* **End** : Graphically mark the end of a workflow. This activity has no functional impact and is therefore optional.
+* [Fork](fork.md): Create outbound transitions to start several activities at the same time.
+* [Scheduler](scheduler.md): Schedule when the workflow gets started.
+* [Wait](wait.md): Momentarily pause execution of a part of a workflow.
