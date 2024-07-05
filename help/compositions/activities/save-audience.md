@@ -1,8 +1,9 @@
 ---
 audience: end-user
 title: Use the Save audience activity
-description: Learn how to use the Fork activity
+description: Learn how to use the Save audience activity
 ---
+
 # Save audience {#save-audience}
 
 >[!CONTEXTUALHELP]
@@ -21,14 +22,11 @@ description: Learn how to use the Fork activity
 >abstract="Select the primary identity to use for profiles."
 >additional-url="https://experienceleague.adobe.com/en/docs/experience-platform/xdm/ui/fields/identity#define-a-identity-field" text="Learn more in Experience Platform documentation"
 
-
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_saveaudience_namespace"
 >title="Identity namespace"
 >abstract="Select the namespace to use for profiles."
 >additional-url="https://experienceleague.adobe.com/en/docs/experience-platform/identity/features/namespaces" text="Learn more in Experience Platform documentation"
-
-
 
 The **Save audience** activity allows you to update an existing audience or create a new audience from the population computed upstream in a composition. The audiences created are added to the list of application audiences, and are made available via the **Audiences** menu.
 
@@ -40,21 +38,23 @@ Follow these steps to configure the **Save audience** activity:
 
 1. Add a **Save audience** activity to your composition.
 
-1. In the **Mode** drop-down, select the action that you would like to carry out:
+    ![](../assets/save-audience.png)
 
-    * **Create or update an existing audience**: define an **Audience label**. If the audience already exists, it will be updated, otherwise a new audience will be created.
+1. Specify the label of the audience to create.
 
-    * **Update an existing audience**: choose the **Audience** you wish to update among the list of existing audiences. 
+1. Click **Add Audience Mapping** then choose the source and target audience fields:
 
-1. Select the **Update mode** which will apply for existing audiences:
+    * **Source Audience Field**: 
+    * **Target Audience Field**: 
 
-    * **Replace audience content with new data**: all audience content is replaced. The old data is lost. Only the data from the inbound transition of the save audience activity is kept. This option erases the audience type and the targeting dimension of the updated audience.
+    Repeat the operation to add as many audience mappings as needed.
 
-    * **Complete audience with new data**: the old audience content is kept and the data from the save audience activity's inbound transition is added to it.
+1. Select the primary identity and namespace to use to identify the targeted profiles in the database:
 
-1. Check the **Generate an outbound transition** option if you wish to add a transition after the **Save audience** activity.
+    * **Primary identity field**: Select the field to use to identify the profiles. For example, its email address or phone number.
+    * **Identity namespace**: Select the namespace to use to identity the profiles, i.e. the type of data to use as identification key. For example, if the email address has been selected as primary identity field, the identity namespace **Email** should be selected. If the unique identifier is the phone number, then the identity namespace **Phone** should be selected.
 
-The content of the saved audience is then available in the detail view of the audience, which can be accessed from the **Audiences** menu. The columns available from this view correspond to the columns of the inbound transition of the **Save audience** activity. 
+After executing the composition, the resulting audience is saved in Adobe Experience Platform, and made accessible in the **Audiences** menu.
 
 <!--
 

@@ -3,6 +3,7 @@ audience: end-user
 title: Use the Combine activity
 description: Learn how to use the Combine activity
 ---
+
 # Combine {#combine}
 
 >[!CONTEXTUALHELP]
@@ -10,15 +11,9 @@ description: Learn how to use the Combine activity
 >title="Combine activity"
 >abstract="The **Combine** activity allows you to perform segmentation on your inbound population. You can thus combine several populations, exclude part of it, or only keep data common to several targets."
 
-The **Combine** activity allows you to perform segmentation on your inbound population. You can thus combine several populations, exclude part of it or only keep data common to several targets. Here are the available segmentation types:
-
-* The **Union** allows you to regroup the result of multiple activities into a single target.
-* The **Intersection** allows you to keep only the elements common to the different inbound populations in the activity.
-* The **Exclusion** allows you to exclude elements from one population according to certain criteria. 
-
+The **Combine** activity allows you to perform segmentation on your inbound population. You can thus combine several populations, exclude part of it or only keep data common to several targets.
 
 The **Combine** activity can be placed after any other activity, but not at the beginning of the composition. Any activity can be placed after the **Combine**.
-
 
 ## Configure the Combine activity {#combine-configuration}
 
@@ -40,10 +35,14 @@ The **Combine** activity can be placed after any other activity, but not at the 
 Follow these common steps to start configuring the **Combine** activity:
 
 1. Add multiple activities to form at least two different execution branches.
+
 1. Add a **Combine** activity to any of the previous branches.
-1. Select the segmentation type: [union](#union), [intersection](#intersection) or [exclusion](#exclusion).
-1. Click **Continue**.
-1. In the **Sets to join** section, check all the previous activities you want you join. 
+
+1. Select the segmentation type: [Union](#union), [Intersection](#intersection) or [Exclusion](#exclusion), and click **Continue**.
+
+    ![](../assets/combine.png)
+
+1. In the **Sets to join** section, check all the previous activities you want to join. 
 
 ## Union {#combine-union}
 
@@ -57,17 +56,25 @@ Follow these common steps to start configuring the **Combine** activity:
 >title="Reconciliation options"
 >abstract="Select the **Reconciliation type** to define how to handle duplicates."
 
-In the **Combine** activity, you can configure a **Union**. For this, you need to select the **Reconciliation type** to define how duplicates are handled:
+In the **Combine** activity, you can configure a **Union**.
+
+![](../assets/combine-union.png)
+
+For this, you need to select the **Reconciliation type** to define how duplicates are handled:
 
 * **Keys only**: this is the default mode. The activity only keeps one element when elements from the different inbound transitions have the same key. This option can only be used if the inbound populations are homogeneous.
 * **A selection of columns**: select this option to define the list of columns on which the data reconciliation is applied. You must first select the primary set (that which contains the source data), then the columns to use for the join.
 
 ## Intersection {#combine-intersection}
 
-In the **Combine** activity, you can configure an **Intersection**. For this, follow the extra steps below:
+In the **Combine** activity, you can configure an **Intersection**.
+
+![](../assets/combine-intersection.png)
+
+For this, follow the extra steps below:
 
 1. Select the **Reconciliation type** to define how duplicates are handled. See the [Union](#union) section.
-1. You can check the **Generate completement** option if you wish to process the remaining population. The complement will contain the union of the results of all inbound activities minus the intersection. An additional outbound transition will then be added to the activity.
+1. You can check the **Generate complement** option if you wish to process the remaining population. The complement will contain the union of the results of all inbound activities minus the intersection. An additional outbound transition will then be added to the activity.
 
 ## Exclusion {#combine-exclusion}
 
@@ -91,10 +98,15 @@ In the **Combine** activity, you can configure an **Intersection**. For this, fo
 >title="Combine generate complement"
 >abstract="Toggle on the **Generate complement** option to process the remaining population in an additional transition." 
 
-In the **Combine** activity, you can configure an **Exclusion**. For this, you need to follow the extra steps below:
+In the **Combine** activity, you can configure an **Exclusion**.
+
+![](../assets/combine-exclusion.png)
+    
+For this, you need to follow the extra steps below:
 
 1. In the **Sets to join** section, select the **Primary set** from the inbound transitions. This is the set from which elements are excluded. The other sets match elements before being excluded from the primary set.
-1. When necessary, you can manipulate inbound tables. Indeed, to exclude a target from another dimension, this target has to be returned to the same targeting dimension as the main target. To do this, click **Add a rule** in the **Exclusion rules** section and specify the dimension change conditions. Data reconciliation is carried out either via an attribute or a join.
+
+1. When necessary, you can manipulate inbound tables. Indeed, to exclude a target from another dimension, this target has to be returned to the same targeting dimension as the main target. To do this, click **Add a rule** in the **Exclusion rules** section and specify the dimension change conditions. Data reconciliation is carried out either via an attribute or a join. <!-- pas compris-->
 1. You can check the **Generate completement** option if you wish to process the remaining population. See the [Intersection](#intersection) section.
 
 <!--

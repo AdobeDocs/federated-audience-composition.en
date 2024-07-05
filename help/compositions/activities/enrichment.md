@@ -3,8 +3,9 @@ audience: end-user
 title: Use the Enrichment activity
 description: Learn how to use the Enrichment activity
 ---
-# Enrichment {#enrichment}
 
+# Enrichment {#enrichment}
+ 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_enrichment"
 >title="Enrichment activity"

@@ -3,6 +3,7 @@ audience: end-user
 title: Use the Split activity
 description: Learn how to use the Split activity
 ---
+
 # Split {#split}
 
 >[!CONTEXTUALHELP]
@@ -13,7 +14,7 @@ description: Learn how to use the Split activity
 The **Split** activity allows you to segment incoming populations into multiple subsets based on different selection criteria, such as filtering rules or population size.
 
 ## Configure the Split activity {#split-configuration}
-
+ 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_split_segments"
 >title="Segments for split activity"
@@ -52,7 +53,7 @@ The **Split** activity allows you to segment incoming populations into multiple 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_split_enable_overlapping"
 >title="Enable overlapping of output populations"
->abstract="Enable overlapping of output populations"
+>abstract="The **[!UICONTROL Enable overlapping of output populations]** option lets you manage populations belonging to several subsets. When the box isn't checked, the split activity makes sure a recipient cannot be present in several output transitions, even if it meets the criteria of several subsets. They will be in the target of the first tab with matching criteria. When the box is checked, the recipients can be found in several subsets if they meet their filter criteria. Adobe Campaign recommends using exclusive criteria."
 
 Follow these steps to configure the **Split** activity:
 
@@ -68,9 +69,13 @@ Follow these steps to configure the **Split** activity:
 
 1. Once subsets have been added, the activity shows as many output transitions as there are subsets. We strongly recommend changing the label of each subset to identify them easily in the composition canvas. 
 
+    ![](../assets/split.png)
+
 1. Configure how each subset should filter the incoming population. To do this, follow these steps:
 
-    1. Open the subset to display its properties.
+    1. Expand the subset to display its properties.
+
+        ![](../assets/split-subset.png)
 
     1. To apply a filtering condition to the subset, click **[!UICONTROL Create filter]** and configure the desired filtering rule using the query modeler. For example, include profiles from the incoming population whose email address exist in the database. <!--[Learn how to work with the query modeler](../../query/query-modeler-overview.md)-->
 
@@ -87,7 +92,12 @@ Follow these steps to configure the **Split** activity:
     >[!NOTE]
     >
     >The **[!UICONTROL Generate all subsets in the same table]** option allows you to group all the subsets into a single output transition.
-    
+
+1. The **[!UICONTROL Enable overlapping of output populations]** option lets you manage populations belonging to several subsets:
+
+    * When the box isn't checked, the split activity makes sure a recipient cannot be present in several output transitions, even if it meets the criteria of several subsets. They will be in the target of the first tab with matching criteria.
+    * When the box is checked, the recipients can be found in several subsets if they meet their filter criteria. Adobe Campaign recommends using exclusive criteria.
+
 The activity is now configured. At execution, the population will be segmented into the different subsets, in the order they have been added to the activity.
 
 <!--

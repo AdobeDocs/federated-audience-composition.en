@@ -11,7 +11,7 @@ Adobe Data Composition allows you to create compositions, where you can leverage
 
 ![](assets/composition-example.png)
 
-## Access compositions {#access}
+## Access & manage compositions {#access}
 
 >[!CONTEXTUALHELP]
 >id="dc_composition_list"
@@ -20,17 +20,15 @@ Adobe Data Composition allows you to create compositions, where you can leverage
 
 Compositions are accessible from the Adobe Experience Platform **[!UICONTROL Audiences]** menu, in the **Federated compositions** tab.
 
-![](assets/compositions-list.png)
+From this screen, you can create new compositions and access existing ones. You can also duplicate or delete an existing composition by clicking the ellipsis button next to its name.
 
-From this screen, you can create new compositions and access existing ones.
+![](assets/compositions-list.png)
 
 To refine the list and easily find the composition you are looking for, you can search the list, and filter compositions by their statuses or last processing dates.
 
 You can also customize the list by adding or removing columns. To do this, click the **Configure column**s button and add or remove the desired output columns.
 
 ![](assets/compositions-columns.png)
-
-To duplicate or delete an existing composition, click the ellipsis button next to its name and select the desired operation.
 
 ## Compositions' statuses {#status}
 
@@ -41,3 +39,5 @@ Compositions can have multiple statuses:
 * **[!UICONTROL Stopped]**: The composition execution has stopped.
 * **[!UICONTROL Paused]**: The composition execution has been paused.
 * **[!UICONTROL Erroneous]**: The composition execution has encountered an error. Open the composition and access the logs and tasks to identify the error and resolve it.
+
+Detailed information on how to start and monitor a composition is available in [this section](../compositions/start-monitor-composition.md).

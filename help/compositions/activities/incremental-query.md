@@ -2,6 +2,8 @@
 audience: end-user
 title: Use the Incremental query activity
 description: Learn how to use the Incremental query activity
+hide: yes
+hidefromtoc: yes
 ---
 # Incremental query {#incremental-query}
 

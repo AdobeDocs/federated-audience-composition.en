@@ -27,3 +27,4 @@ Follow these steps to configure the **Fork** activity:
 1. Click **Add transition** to add a new outbound transition. By default two transitions are defined.
 1. Add a label to each of your transitions. 
 
+ 
