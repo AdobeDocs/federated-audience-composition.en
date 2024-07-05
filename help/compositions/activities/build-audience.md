@@ -14,7 +14,7 @@ description: Learn how to use the Build audience activity
 The **Build audience** activity allows you to define the audience that will enter the composition.
 
 To define the audience population, you can:
-
+ 
 <!--* Select an existing audience, created as a list in the client console.-->
 * Select an Adobe Experience Platform audience. 
 * Build a new audience with the query modeler builder by defining and combining filtering criteria.

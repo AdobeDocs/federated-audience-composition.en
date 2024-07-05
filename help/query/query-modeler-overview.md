@@ -8,7 +8,7 @@ description: Learn how to work with the query modeler.
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_querymodeler_querymessage"
 >title="Query modeler"
->abstract="Define filtering criteria for recipients or any other targeting dimension from the database."
+>abstract="Define filtering criteria for recipients or any other schema, also known as targeting dimension, from the database."
 
 The query modeler simplifies the process of filtering the database based on various criteria. Additionally, the query modeler can manage very complex and long queries efficiently, offering enhanced flexibility and precision. Furthermore, it supports predefined filters within conditions, empowering you to refine your queries with ease while utilizing advanced expressions and operators for comprehensive audience targeting and segmentation strategies.
 

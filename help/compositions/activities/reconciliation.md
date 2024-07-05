@@ -37,7 +37,7 @@ The **Reconciliation** activity allows you to link unidentified data to existing
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_reconciliation_targeting"
 >title="Schema"
->abstract="Select the new schema to apply to the data. A schema, also known as "targeting dimension", lets you define the targeted population: recipients, app subscribers, operators, subscribers, etc. By default, the composition current targeting dimension is selected." 
+>abstract="Select the new schema to apply to the data. A schema, also known as targeting dimension, lets you define the targeted population: recipients, app subscribers, operators, subscribers, etc. By default, the composition current schema is selected." 
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_reconciliation_rules"
@@ -47,7 +47,7 @@ The **Reconciliation** activity allows you to link unidentified data to existing
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_reconciliation_targeting_selection"
 >title="Select the targeting dimension"
->abstract="Select the targeting dimension for your inbound data to reconcile with." 
+>abstract="Select the schema, also known as targeting dimension, for your inbound data to reconcile with." 
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_keep_unreconciled_data"
@@ -63,7 +63,7 @@ Follow these steps to configure the **Reconciliation** activity:
 
 1. Add a **Reconciliation** activity into your composition.
 
-1. Select the **New schema**. A schema, also known as "targeting dimension", lets you define the targeted population: recipients, app subscribers, operators, subscribers, etc.
+1. Select the **New schema**. A schema, also known as targeting dimension, lets you define the targeted population: recipients, app subscribers, operators, subscribers, etc.
 
 1. Select the field(s) to use for the reconciliation. You can use one or more reconciliation criteria.
 

@@ -29,7 +29,7 @@ description: Learn how to use the Enrichment activity
 >[!CONTEXTUALHELP]
 >id="dc_targetdata_personalization_enrichmentdata"
 >title="Enrichment data"
->abstract="Select the data to use to enrich your composition. You can select two types of enrichment data: a single enrichment attribute from the target dimension, or a collection link, which is a link with a 1-N cardinality between tables."
+>abstract="Select the data to use to enrich your composition. You can select two types of enrichment data: a single enrichment attribute from the schema, also known as targeting dimension, or a collection link, which is a link with a 1-N cardinality between tables."
 
 The **Enrichment** activity allows you to enhance the targeted data with additional information from the federated database. It is commonly used in a compositions after segmentation activities.
 
@@ -78,7 +78,7 @@ Follow these steps to configure the **Enrichment** activity:
 Here, we are just adding a single enrichment attribute, for example, the date of birth. Follow these steps:
 
 1. Click inside the **Attribute** field.
-1. Select a simple field from the targeting dimension, the date of birth in our example. 
+1. Select a simple field from the schema, also known as targeting dimension, the date of birth in our example. 
 1. Click **Confirm**.
 
 <!--### Collection link {#collection-link}

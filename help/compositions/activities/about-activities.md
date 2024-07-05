@@ -14,7 +14,7 @@ In Federated Audience Composition, you can create compositions using two types o
 ## Targeting activities
 
 * [Build audience activity](build-audience.md): Define your target population. You can either select an existing audience or use the query modeler to define your own query.
-* [Change dimension](change-dimension.md): Change the targeting dimension as you are building your composition.
+* [Change dimension](change-dimension.md): Change the schema, also known as targeting dimension, as you are building your composition.
 * [Combine](combine.md): Perform segmentation on your inbound population. You can use a union, an intersection or an exclusion.
 * [Deduplication](deduplication.md): Delete duplicates in the result(s) of the inbound activities.
 * [Enrichment](enrichment.md): Define additional data to process in your composition. With this activity, you can leverage the inbound transition and configure the activity to complete the output transition with additional data.

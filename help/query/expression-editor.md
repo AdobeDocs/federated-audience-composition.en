@@ -22,7 +22,7 @@ The expression editor is available from the query modeler **[!UICONTROL Edit exp
 The expression editor provides:
 
 * An **input field (1)** in which the expression is defined.
-* The list of available **fields (2)** that can be used in the expression and corresponding to the targeting dimension of the query.
+* The list of available **fields (2)** that can be used in the expression and corresponding to the schema, also known as targeting dimension, of the query.
 * **Helper functions (3)**, sorted by category.
 
 Edit the expression by entering an expression directly in the input field. To add a field or a helper function, place your cursor in the expression where you want to add it and click the + button.
