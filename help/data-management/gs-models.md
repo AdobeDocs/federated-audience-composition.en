@@ -30,3 +30,27 @@ description: Learn how to start with data models
 
 ## What is a data model? {#data-model-start}
 
+A data model is a set of schemas, audiences, and the links between them.
+
+Learn more about [schemas](customer/schemas.md).
+
+Learn more about [audiences](customer/audiences.md).
+
+Learn more about [links]().
+
+## How to create a data model? {#data-model-create}
+
+In **[!UICONTROL FEDERATED DATA]** section, go in the **[!UICONTROL Models]** link. You will find there the **[!UICONTROL Data model]** tab.
+
+![](assets/datamodel_create.png){zoomable="yes"}
+
+By clicking on the **[!UICONTROL Create data model]** button, you will have the possibility to name your data model and click on the **[!UICONTROL Create]** button.
+
+![](assets/datamodel_name.png){zoomable="yes"}
+
+You will access to the window where you can add the schemas, the audiences and the links of your data model.
+
+![](assets/datamodel_created.png){zoomable="yes"}
+
+![](assets/datamodel_schemas.png){zoomable="yes"}
+
