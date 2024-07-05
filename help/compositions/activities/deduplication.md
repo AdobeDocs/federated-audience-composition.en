@@ -34,7 +34,11 @@ Follow these steps to configure the **Deduplication** activity:
 
 1. Add a **Deduplication** activity to your composition.
 
+1. If the activity has several inbound transitions, select the transition to use to perform deduplication from the **[!UICONTROL Primary set]** drop-down list
+
 1. In the **Fields to identify duplicates** section, click the **Add attribute** button to specify the fields for which the identical values allow the duplicates to be identified, such as: email address, first name, last name, etc. The order of the fields allows you to specify those to process first.
+
+    ![](../assets/deduplication.png)
 
 1. In the **Deduplication settings** section, select the number of unique **Duplicates to keep**. The default value for this field is 1. The value 0 allows you to keep all the duplicates.
 
@@ -46,9 +50,10 @@ Follow these steps to configure the **Deduplication** activity:
 
 1. Select the **Deduplication method** to use:
 
-    * **Random selection**: randomly selects the record to be kept out of the duplicates.
-    * **Using an expression**: this lets you keep the records in which the value of the expression entered is the smallest or the biggest.
-    * **Following a list of values**: lets you define a value priority for one or more fields. To define the values, click **Attribute** to select a field or create an expression, then add the value(s) into the appropriate table. To define a new field, click the Add button located above the list of values. 
+    * **Random selection**: Randomly selects the record to be kept out of the duplicates.
+    * **Using an expression**: Keep the records in which the value of the expression entered is the smallest or the biggest.
+    * **Non-empty values**: Keep the records for which the expression is not empty.
+    * **Following a list of values**: Define a value priority for one or more fields. To define the values, click **Attribute** to select a field or create an expression, then add the value(s) into the appropriate table. To define a new field, click the **Add button** located above the list of values. 
 
 1. Check the **Generate complement** option if you wish to exploit the remaining population. The complement consists of all the duplicates. An additional transition will then be added to the activity.
 
