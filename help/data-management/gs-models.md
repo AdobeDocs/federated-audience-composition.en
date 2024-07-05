@@ -36,8 +36,6 @@ Learn more about [schemas](customer/schemas.md).
 
 Learn more about [audiences](customer/audiences.md).
 
-Learn more about [links]().
-
 ## How to create a data model? {#data-model-create}
 
 In **[!UICONTROL FEDERATED DATA]** section, go in the **[!UICONTROL Models]** link. You will find there the **[!UICONTROL Data model]** tab.
