@@ -77,7 +77,7 @@ Follow these steps to configure the **Split** activity:
 
         ![](../assets/split-subset.png)
 
-    1. To apply a filtering condition to the subset, click **[!UICONTROL Create filter]** and configure the desired filtering rule using the query modeler. For example, include profiles from the incoming population whose email address exist in the database. <!--[Learn how to work with the query modeler](../../query/query-modeler-overview.md)-->
+    1. To apply a filtering condition to the subset, click **[!UICONTROL Create filter]** and configure the desired filtering rule using the query modeler. For example, include profiles from the incoming population whose email address exist in the database. [Learn how to work with the query modeler](../../query/query-modeler-overview.md)
 
     1. To limit the number of profiles selected by the subset, toggle on the **[!UICONTROL Enable limit]** option, and specify the number or percentages of the population to include.
 

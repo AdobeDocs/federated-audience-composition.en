@@ -9,7 +9,7 @@ To start building a query, access the query modeler from the location of your ch
 
 You can add two types of elements:  
 
-* **Filtering components** (Custom condition, Select audience, Predefined filter) allow you to build your own rules, select an audience or a predefined filter to refine your query. They are added at the start of your query and on dotted transitions. [Learn how to work with filtering components](#filtering)
+* **Filtering components** (Custom condition, Select audience) allow you to build your own rules or select an audience to refine your query. They are added at the start of your query and on dotted transitions. [Learn how to work with filtering components](#filtering)
 
     Example: *Recipients who subscribed to the 'Sports' newsletter*. *Recipients living in New York*, *Recipients living in San Francisco*
 
@@ -27,7 +27,6 @@ Filtering components allow you to refine your query by using:
 
 * **[Custom conditions](#custom-condition)**: Filter your query by building your own condition with attributes from the database and advanced expressions.
 * **[Audiences](#audiences)**: Filter your query using an existing audience.
-* **[Predefined filter](#predefined-filters)**: Filter your query using existing predefined filters.
 
 ### Configure a custom condition {#custom-condition}
 
@@ -46,7 +45,7 @@ To filter your query using a custom condition, follow these steps:
 
     >[!NOTE]
     >
-    >The **Edit expression** button allows you to leverage the Web expression editor to manually define an expression using fields from the database and helper functions. [Learn how to edit expressions](expression-editor.md)
+    >The **Edit expression** button allows you to leverage the expression editor to manually define an expression using fields from the database and helper functions. [Learn how to edit expressions](expression-editor.md)
 
 1. Select the operator to apply from the drop-down list. Various operators are available for use. Note that operators available in the drop-down list depend on the attribute's data type. 
 
@@ -73,15 +72,11 @@ To filter your query using a custom condition, follow these steps:
 
     +++
 
-1. In the **Value** field, define the expected value. You can also leverage the Web expression editor to manually define an expression using fields from the database and helper functions. To do this, click the **Edit expression** button. [Learn how to edit expressions](expression-editor.md)
+1. In the **Value** field, define the expected value. You can also leverage the expression editor to manually define an expression using fields from the database and helper functions. To do this, click the **Edit expression** button. [Learn how to edit expressions](expression-editor.md)
 
     *Query example returning all profiles aged 21 or more:*
 
     ![](assets/query-custom-condition.png){zoomable="yes"}
-
-    For date-type attributes, predefined values are available using the **[!UICONTROL Presets]** option.
-
-    ![](assets/date-presets.png){zoomable="yes"}
 
 #### Custom conditions on linked tables (1-1 and 1-N links){#links}
 
@@ -237,12 +232,12 @@ In the example below, we have created an intermediate group to include results f
 >title="Rule properties"
 >abstract="Once you've built your query in the canvas, you can check it using the **Rule properties** pane located on the right hand side.<br/>This pane allows you to display the resulting data, to retrieve an SQL code version of the query, and check the number of targeted records.<br/>Use the **Select or save filter** button to save your query as a predefined filter, or replace the canvas content with an existing filter."
 
-Once you've built your query in the canvas, you can check it using the **Rule properties** pane located on the right hand side. Available operations are:
+Once you've built your query in the canvas, you can check it using the **Rule properties** pane located on the right hand side. This pane displays when building a query to create an audience. Available operations are:
 
 * **View results:** Displays the data resulting from your query.
 * **Code view**: Displays a code-based version of the query in SQL.
 * **Calculate**: Updates and displays the number of records targeted by your query.
-* **Select or save filter**: Choose an existing predefined filter to use in the canvas, or save your query as a predefined filter for future reuse. <!--[Learn how to work with predefined filters](../get-started/predefined-filters.md)-->
+* **Select or save filter**: Choose an existing predefined filter to use in the canvas, or save your query as a predefined filter for future reuse.
 
     >[!IMPORTANT]
     >

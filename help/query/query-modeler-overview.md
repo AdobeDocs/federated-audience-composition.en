@@ -41,4 +41,4 @@ The toolbar located in the upper-right corner of the canvas provides options to 
 
 ### The Rule properties pane {#rule-properties}
 
-On the right hand side, the **[!UICONTROL Rule properties]** pane provides information on your query. It allows you to perform various operations to check the query and ensure it suits your needs. [Learn how to check and validate your query](build-query.md#check-and-validate-your-query)
+On the right hand side, the **[!UICONTROL Rule properties]** pane provides information on your query. It allows you to perform various operations to check the query and ensure it suits your needs. This pane displays when building a query to create an audience. [Learn how to check and validate your query](build-query.md#check-and-validate-your-query)

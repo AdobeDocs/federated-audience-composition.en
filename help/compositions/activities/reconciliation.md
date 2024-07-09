@@ -76,7 +76,7 @@ Follow these steps to configure the **Reconciliation** activity:
 
         ![](../assets/reconciliation-rules.png)
 
-    1. To use other attributes to reconcile data, select the **Advanced reconciliation conditions** option then click the **Create conditions** button. You can then create your own reconciliation condition using the query modeler.
+    1. To use other attributes to reconcile data, select the **Advanced reconciliation conditions** option then click the **Create conditions** button. You can then create your own reconciliation condition using the query modeler. [Learn how to work with the query modeler](../../query/query-modeler-overview.md)
 
         ![](../assets/reconciliation-advanced.png)
 

@@ -41,6 +41,5 @@ breadcrumb-title: Federated Audience Composition
     + [Work with the query modeler](query/query-modeler-overview.md)
     + [Build your first query](query/build-query.md)
     + [Edit expressions](query/expression-editor.md)
-    + [Filter lists](query/filter.md)
 + Audit Trail {#audit-trail}
     + [Monitor your databases](admin/audit-trail.md)

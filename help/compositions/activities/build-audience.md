@@ -32,19 +32,19 @@ Follow these steps to configure the **Build audience** activity:
 
 1. Add a **Build audience** activity. 
 1. Define a label.
-1. Define the audience type: **Create your own** or **Read audience**. 
+1. Specfiy if you want to create an audiance or select an existing one.
 1. Configure your audience by following the steps detailed in the tabs below.
 
 >[!BEGINTABS]
 
->[!TAB Create your own (query)]
+>[!TAB Create audience]
 
-To create your own query, follow these steps:
+To create your own audience, follow these steps:
 
-1. Select **Create your own (query)**.
-1. Choose the **Targeting dimension**. The targeting dimension lets you define the population targeted by the operation: recipients, contract beneficiaries, operator, subscribers, etc. By default, the target is selected from the recipients.<!-- [Learn more about targeting dimensions](../../audience/about-recipients.md#targeting-dimensions)-->
+1. Select **Create audience**.
+1. Choose the **Schema**, also known as targeting dimension. The schema lets you define the population targeted by the operation: recipients, contract beneficiaries, operator, subscribers, etc. By default, the schema is selected from the recipients.
 1. Click **Continue**.
-1. Use the query modeler to define your query, the same way you create an audience when designing a new email. <!--[Learn how to work with the query modeler](../../query/query-modeler-overview.md)-->
+1. Use the query modeler to define your query. [Learn how to work with the query modeler](../../query/query-modeler-overview.md)
 
 >[!TAB Read audience]
 
@@ -52,7 +52,7 @@ To select an existing audience, follow these steps:
 
 1. Select **Read audience**.
 1. Click **Continue**.
-1. Select your audience, the same way you use an audience when designing a new delivery. <!--Refer to this [section](../../audience/add-audience.md).-->
+1. Select your audience.
 
 >[!ENDTABS]
 
