@@ -9,6 +9,6 @@ description: Learn how to create a new destination in AEP to connect to FAC
 >[!CONTEXTUALHELP]
 >id="dc_new_destination"
 >title="Create a destination"
->abstract="Enter the settings to connect to the new Federated Database. Use the **Connect to destination** button to validate your configuration."
+>abstract="Enter the settings to connect to the new Federated Database. Use the **[!UICONTROL Connect to destination]** button to validate your configuration."
 
 

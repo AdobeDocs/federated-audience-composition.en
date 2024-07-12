@@ -32,11 +32,11 @@ The toolbar located in the upper-right corner of the canvas provides options to 
 
 Available actions are:
 
-* **Multiple selection**: Select multiple activities to delete them all at once or copy and paste them. See [this section](#copy).
-* **Rotate**: Switch the canvas vertically.
-* **Fit to screen**: Adapt the canvas zoom level to your screen.
-* **Zoom out** / **Zoom in**: Zoom out or in the canvas.
-* **Display map**: Opens a snapshot of the canvas showing you are located.
+* **[!UICONTROL Multiple selection]**: Select multiple activities to delete them all at once or copy and paste them. See [this section](#copy).
+* **[!UICONTROL Rotate]**: Switch the canvas vertically.
+* **[!UICONTROL Fit to screen]**: Adapt the canvas zoom level to your screen.
+* **[!UICONTROL Zoom out]** / **[!UICONTROL Zoom in]**: Zoom out or in the canvas.
+* **[!UICONTROL Display map]**: Opens a snapshot of the canvas showing you are located.
 
 ## Manage activities {#manage}
 
@@ -46,25 +46,25 @@ When adding activities, action buttons are available in the properties pane, all
 
 You can:
 
-* **Delete** the activity from the canvas.
-* **Disable/Enable** the activity. When the workflow is executed, disabled activities and the following activities on the same path are not executed and the workflow is stopped.
-* **Pause/Resume** the activity. When the workflow is executed, it pauses at the paused activity. The corresponding task as well as all those that follow it in the same path are not executed.
-* **Copy** the activity to paste it at another location in the composition. To do this, click the **+** button on a transition and select "Paste X activity". <!-- cannot copy multiple activities ? cannot paste in another composition?-->
-* Configure **Execution options** for the selected activity. Expand the section below to learn more on the available options.
+* **[!UICONTROL Delete]** the activity from the canvas.
+* **[!UICONTROL Disable]/[!UICONTROL Enable]** the activity. When the workflow is executed, disabled activities and the following activities on the same path are not executed and the workflow is stopped.
+* **[!UICONTROL Pause]/[!UICONTROL Resume]** the activity. When the workflow is executed, it pauses at the paused activity. The corresponding task as well as all those that follow it in the same path are not executed.
+* **[!UICONTROL Copy]** the activity to paste it at another location in the composition. To do this, click the **+** button on a transition and select **[!UICONTROL Paste X activity]**. <!-- cannot copy multiple activities ? cannot paste in another composition?-->
+* Configure **[!UICONTROL Execution options]** for the selected activity. Expand the section below to learn more on the available options.
 
     +++Available execution options
 
-    The **Properties** section allows you to configure generic settings regarding the execution of the activity:
+    The **[!UICONTROL Properties]** section allows you to configure generic settings regarding the execution of the activity:
 
-    * **Execution**: Define the action to be carried out when the is started.
-    * **Maximum execution duration**: Specify a duration such as "30s" or "1h". If the activity is not finished after the duration specified has been elapsed, an alert is triggered. This has no impact on how the workflow functions.
-    * **Time zone**: Select the time zone of the activity. Federated Audience Composition allows you to manage the time differences between multiple countries on the same instance. The setting applied is configured when the instance is created.
-    * **Affinity**: Force the composition activity to execute on a particular machine. To do this, you must specify one or several affinities for the activity in question.
-    * **Behavior**: Define the procedure to follow if asynchronous tasks are used.
+    * **[!UICONTROL Execution]**: Define the action to be carried out when the is started.
+    * **[!UICONTROL Maximum execution duration]**: Specify a duration such as "30s" or "1h". If the activity is not finished after the duration specified has been elapsed, an alert is triggered. This has no impact on how the workflow functions.
+    * **[!UICONTROL Time zone]**: Select the time zone of the activity. Federated Audience Composition allows you to manage the time differences between multiple countries on the same instance. The setting applied is configured when the instance is created.
+    * **[!UICONTROL Affinity]**: Force the composition activity to execute on a particular machine. To do this, you must specify one or several affinities for the activity in question.
+    * **[!UICONTROL Behavior]**: Define the procedure to follow if asynchronous tasks are used.
 
-    The **Error management** section allows you to specify the action to be carried out should the activity encounter an error.
+    The **[!UICONTROL Error management]** section allows you to specify the action to be carried out should the activity encounter an error.
 
-    The **Initialization script** section lets you initialize variables or modify activity properties. Click the **Edit code** button and type the snippet of code to execute. The script is called when the activity executes.
+    The **[!UICONTROL Initialization script]** section lets you initialize variables or modify activity properties. Click the **[!UICONTROL Edit code]** button and type the snippet of code to execute. The script is called when the activity executes.
 
     +++
 

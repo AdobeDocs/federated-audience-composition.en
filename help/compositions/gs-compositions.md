@@ -18,7 +18,7 @@ Adobe Data Composition allows you to create compositions, where you can leverage
 >title="Compositions"
 >abstract="In this screen, you can access the full list of compositions, check their current status, last/next execution dates, and create a new composition."
 
-Compositions are accessible from the Adobe Experience Platform **[!UICONTROL Audiences]** menu, in the **Federated compositions** tab.
+Compositions are accessible from the Adobe Experience Platform **[!UICONTROL Audiences]** menu, in the **[!UICONTROL Federated compositions]** tab.
 
 From this screen, you can create new compositions and access existing ones. You can also duplicate or delete an existing composition by clicking the ellipsis button next to its name.
 
@@ -26,7 +26,7 @@ From this screen, you can create new compositions and access existing ones. You 
 
 To refine the list and easily find the composition you are looking for, you can search the list, and filter compositions by their statuses or last processing dates.
 
-You can also customize the list by adding or removing columns. To do this, click the **Configure column**s button and add or remove the desired output columns.
+You can also customize the list by adding or removing columns. To do this, click the **[!UICONTROL Configure column]**s button and add or remove the desired output columns.
 
 ![](assets/compositions-columns.png)
 

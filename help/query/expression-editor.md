@@ -15,7 +15,7 @@ Editing an expression involves manually entering conditions to form a rule. This
 
 The expression editor is available from the query modeler **[!UICONTROL Edit expression]** button, available for the **[!UICONTROL Attribute]** and **[!UICONTROL Value]** fields when configuring a custom condition. 
 
-|Access from the **Attribute** field|Access from the **Value** field|
+|Access from the **[!UICONTROL Attribute]** field|Access from the **[!UICONTROL Value]** field|
 |  ---  |  ---  |
 |![](assets/expression-editor-attribute.png){zoomable="yes"}{width="200" align="center" zoomable="yes"}|![](assets/edit-expression.png){zoomable="yes"}{width="200" align="center" zoomable="yes"}|
 
