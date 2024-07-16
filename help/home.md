@@ -3,7 +3,7 @@ title: Adobe Experience Platform - Federated Audience Composition Documentation 
 description: This is the article overview.
 ---
 
-# Federated Audience Composition Documentation
+# Federated Audience Composition Documentation  {#fac-home}
 
 Welcome to Adobe Experience Platform Federated Audience Composition Documentation.
 
@@ -32,7 +32,8 @@ Create, configure, test and save the connection to an external database.
 
 >[!ENDTABS]
 
-## Additional resources
+
+## Additional resources  {#additional-resources}
 
 [Real-Time Customer Data Platform Documentation](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/home){target="_blank"} - [Adobe Audience Portal documentation](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/segment-builder){target="_blank"} - [Tutorials](https://experienceleague.adobe.com/en/docs/platform-learn/tutorials/audiences/introduction-to-audience-portal-and-composition){target="_blank"} 
 
