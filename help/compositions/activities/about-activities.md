@@ -24,8 +24,8 @@ In Federated Audience Composition, you can create compositions using two types o
 
 ## Flow control activities
 
-* [AND-join](and-join.md): Synchronize multiple execution branches of a workflow.
-* **End** : Graphically mark the end of a workflow. This activity has no functional impact and is therefore optional.
+* [AND-join](and-join.md): Synchronize multiple execution branches of a composition.
+* **End** : Graphically mark the end of a composition. This activity has no functional impact and is therefore optional.
 * [Fork](fork.md): Create outbound transitions to start several activities at the same time.
-* [Scheduler](scheduler.md): Schedule when the workflow gets started.
-* [Wait](wait.md): Momentarily pause execution of a part of a workflow.
+* [Scheduler](scheduler.md): Schedule when the composition gets started.
+* [Wait](wait.md): Momentarily pause execution of a part of a composition.
