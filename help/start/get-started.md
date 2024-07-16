@@ -30,7 +30,7 @@ Key steps:
 * **Compose audiences**
 
     1. Design and execute compositions to create audiences. 
-        Learn more in [this page](../compositions/gs-composition.md)
+        Learn more in [this page](../compositions/gs-compositions.md)
     1. Update or reuse existing audiences through Adobe Experience Platform Audience portal and Destinations. 
         Learn more in [this page](../connections/destinations.md)
 
