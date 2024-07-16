@@ -23,7 +23,6 @@ Adobe Data Composition allows you to create compositions, where you can leverage
 
 [![image](assets/learn-more-button.svg)](compositions/gs-compositions.md)
 
->[!ENDTABS]
 
 >[!TAB Connect to your data warehouse]
 
