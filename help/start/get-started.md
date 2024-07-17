@@ -124,11 +124,13 @@ No, Identity Service is not being leveraged during a composition. The data betwe
 
 +++
 
+<!--
 +++If I want to combine federated data with datasets that live in Adobe Experience Platform, how is this done?
 
 Likewise, the Identity Service is not being leveraged in this scenario either. The data model underpinning a composition needs to express how the data warehouse data and the audience to be enriched are related. e.g. assume an existing audience in Adobe Experience Platform contains several attributes, among which is the CRM ID. Assume transactional data is in the data warehouse containing purchases with various attributes, including the CRM ID of the purchaser. The end-user would have to specify that the CRM ID for both objects is used to stitch the two objects together.
 
 +++
+-->
 
 ## Learn more {#learn}
 
