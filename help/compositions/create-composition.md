@@ -42,7 +42,7 @@ The first step to create a composition is to define its label and configure addi
 
 When accessing a composition, you can access advanced settings that allow you, for example, to define how the composition should behave in case of error.
 
-To access additiona options for your composition, click the **Settings** button located in the upper section of the composition creation screen.
+To access additiona options for your composition, click the **[!UICONTROL Settings]** button located in the upper section of the composition creation screen.
 
 ![](assets/composition-create-settings.png)
 

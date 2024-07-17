@@ -33,11 +33,11 @@ The query modeler central canvas is where you add and combine the different comp
 
 The toolbar located in the upper-right corner of the canvas provides options to easily manipulate the query components and navigate in the canvas:
 
-* **Multiple selection mode**: Select multiple filtering components to copy and paste them at the location of your choice.
-* **Rotate**: Switch the canvas vertically.
-* **Fit to screen**: Adapt the canvas zoom level to your screen.
-* **Zoom out** / **Zoom in**: Zoom out or in the canvas.
-* **Display map**: Opens a snapshot of the canvas showing you are located.
+* **[!UICONTROL Multiple selection mode]**: Select multiple filtering components to copy and paste them at the location of your choice.
+* **[!UICONTROL Rotate]**: Switch the canvas vertically.
+* **[!UICONTROL Fit to screen]**: Adapt the canvas zoom level to your screen.
+* **[!UICONTROL Zoom out]** / **[!UICONTROL Zoom in]**: Zoom out or in the canvas.
+* **[!UICONTROL Display map]**: Opens a snapshot of the canvas showing you are located.
 
 ### The Rule properties pane {#rule-properties}
 

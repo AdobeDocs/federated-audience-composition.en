@@ -39,13 +39,13 @@ To filter your query using a custom condition, follow these steps:
 
 1. Click the **+** button on the desired node and select **[!UICONTROL Custom condition]**. The custom condition properties pane opens on the right hand side. 
 
-1. In the **Attribute** field, select the attribute from the database that you want to leverage to create your condtion. The attributes list includes all the attributes from your database, including attributes from linked tables.
+1. In the **[!UICONTROL Attribute]** field, select the attribute from the database that you want to leverage to create your condtion. The attributes list includes all the attributes from your database, including attributes from linked tables.
 
     ![](assets/query-custom-condition-fields.png){zoomable="yes"}
 
     >[!NOTE]
     >
-    >The **Edit expression** button allows you to leverage the expression editor to manually define an expression using fields from the database and helper functions. [Learn how to edit expressions](expression-editor.md)
+    >The **[!UICONTROL Edit expression]** button allows you to leverage the expression editor to manually define an expression using fields from the database and helper functions. [Learn how to edit expressions](expression-editor.md)
 
 1. Select the operator to apply from the drop-down list. Various operators are available for use. Note that operators available in the drop-down list depend on the attribute's data type. 
 
@@ -72,7 +72,7 @@ To filter your query using a custom condition, follow these steps:
 
     +++
 
-1. In the **Value** field, define the expected value. You can also leverage the expression editor to manually define an expression using fields from the database and helper functions. To do this, click the **Edit expression** button. [Learn how to edit expressions](expression-editor.md)
+1. In the **[!UICONTROL Value]** field, define the expected value. You can also leverage the expression editor to manually define an expression using fields from the database and helper functions. To do this, click the **[!UICONTROL Edit expression]** button. [Learn how to edit expressions](expression-editor.md)
 
     *Query example returning all profiles aged 21 or more:*
 
@@ -84,13 +84,13 @@ Custom conditions allows you to query tables linked to the table currently used 
 
 For a **1-1 link**, navigate to the linked table, select the desired attribute and define the expected value.
 
-You can also directly select a table link in the **Value** picker and confirm. In that case, values available for the selected table need to be selected using a dedicated picker, as shown in the example below.
+You can also directly select a table link in the **[!UICONTROL Value]** picker and confirm. In that case, values available for the selected table need to be selected using a dedicated picker, as shown in the example below.
 
 +++Query example
 
 Here, the query is targeting brands whose label is "running". 
 
-1. Navigate inside the **Brand** table and select the **Label** attribute.
+1. Navigate inside the **[!UICONTROL Brand]** table and select the **[!UICONTROL Label]** attribute.
 
     ![](assets/1-1-attribute.png){zoomable="yes"}{width="85%" align="center"}
 
@@ -110,7 +110,7 @@ For a **1-N link**, you can define sub-conditions to refine your query, as shown
 
 Here, the query is targeting recipients who made purchases related to the BrewMaster product, for a total amount of at least 100$.
 
-1. Select the **Purchases** table and confirm.
+1. Select the **[!UICONTROL Purchases]** table and confirm.
 
     ![](assets/1-N-collection.png){zoomable="yes"}{width="50%" align="center"}
 
@@ -118,7 +118,7 @@ Here, the query is targeting recipients who made purchases related to the BrewMa
 
     ![](assets/1-n-subcondition.png){zoomable="yes"}{width="85%" align="center"}
 
-1. Select the **Price** attribute and target purchases of 1000$ or more
+1. Select the **[!UICONTROL Price]** attribute and target purchases of 1000$ or more
 
     ![](assets/1-n-price.png){zoomable="yes"}{width="85%" align="center"}
 
@@ -136,7 +136,7 @@ Custom conditions allow you to perform aggregate operations. To do this, you nee
 
     ![](assets/aggregate-attribute.png){zoomable="yes"}{width="85%" align="center"}
 
-1. In the properties pane, toggle on the **Aggregate data** option and select the desired aggregate function.
+1. In the properties pane, toggle on the **[!UICONTROL Aggregate data]** option and select the desired aggregate function.
 
     ![](assets/aggregate.png){zoomable="yes"}{width="85%" align="center"}
 
@@ -145,13 +145,13 @@ Custom conditions allow you to perform aggregate operations. To do this, you nee
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_querymodeler_selectaudience"
 >title="Select audience"
->abstract="By using the **Select audience** option, you can choose the audience that you want to use to filter your query."
+>abstract="By using the **[!UICONTROL Select audience]** option, you can choose the audience that you want to use to filter your query."
 
 To filter your query using an existing audience, follow these steps:
 
 1. Click the **+** button on the desired node and choose **[!UICONTROL Select audience]**.
 
-1. The **Select audience** properties pane opens on the right hand side. Choose the audience that you want to use to filter your query.
+1. The **[!UICONTROL Select audience]** properties pane opens on the right hand side. Choose the audience that you want to use to filter your query.
 
     *Query example returning all profiles belonging to the "Festival Goers" audience":*
 
@@ -162,13 +162,13 @@ To filter your query using an existing audience, follow these steps:
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_querymodeler_predefinedfilter"
 >title="Predefined filter"
->abstract="By using the **Predefined filter** option, you can select a predefined filter from the list of custom filters or from favorites."
+>abstract="By using the **[!UICONTROL Predefined filter]** option, you can select a predefined filter from the list of custom filters or from favorites."
 
 To filter your query using a predefined filter, follow these steps:
 
 1. Click the **+** button on the desired node and select **[!UICONTROL Predefined filter]**.
 
-1. The **Predefined filter** properties pane opens on the right hand side. Select a predefined filter from the list of custom filters or from favorites.
+1. The **[!UICONTROL Predefined filter]** properties pane opens on the right hand side. Select a predefined filter from the list of custom filters or from favorites.
 
     *Query example returning all profiles corresponding to the "Inactive customers" predefined filter:*
 
@@ -192,7 +192,7 @@ To copy-paste filtering components, follow these steps:
     |  ---  |  ---  |
     |![](assets/copy-single-component.png){zoomable="yes"}{width="200" align="center" zoomable="yes"}|![](assets/copy-multiple-components.png){zoomable="yes"}{width="200" align="center" zoomable="yes"}|
 
-1. To paste the component(s), click the + button at the end of the desired transition and select **Paste n items**.
+1. To paste the component(s), click the + button at the end of the desired transition and select **[!UICONTROL Paste n items]**.
 
     ![](assets/copy-paste.png){zoomable="yes"}
 
@@ -209,7 +209,7 @@ In this example, we have added a new audience-type filtering components on the s
 
 ![](assets/query-operator.png){zoomable="yes"}
 
-To change the operator used to link filtering conditions together, click on it and select the desired operator in the **Group** pane that opens on the right hand side.
+To change the operator used to link filtering conditions together, click on it and select the desired operator in the **[!UICONTROL Group]** pane that opens on the right hand side.
 
 Available operators are:
 
@@ -230,14 +230,14 @@ In the example below, we have created an intermediate group to include results f
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_querymodeler_ruleproperties"
 >title="Rule properties"
->abstract="Once you've built your query in the canvas, you can check it using the **Rule properties** pane located on the right hand side.<br/>This pane allows you to display the resulting data, to retrieve an SQL code version of the query, and check the number of targeted records.<br/>Use the **Select or save filter** button to save your query as a predefined filter, or replace the canvas content with an existing filter."
+>abstract="Once you've built your query in the canvas, you can check it using the **[!UICONTROL Rule properties]** pane located on the right hand side.<br/>This pane allows you to display the resulting data, to retrieve an SQL code version of the query, and check the number of targeted records.<br/>Use the **[!UICONTROL Select or save filter]** button to save your query as a predefined filter, or replace the canvas content with an existing filter."
 
-Once you've built your query in the canvas, you can check it using the **Rule properties** pane located on the right hand side. This pane displays when building a query to create an audience. Available operations are:
+Once you've built your query in the canvas, you can check it using the **[!UICONTROL Rule properties]** pane located on the right hand side. This pane displays when building a query to create an audience. Available operations are:
 
-* **View results:** Displays the data resulting from your query.
-* **Code view**: Displays a code-based version of the query in SQL.
-* **Calculate**: Updates and displays the number of records targeted by your query.
-* **Select or save filter**: Choose an existing predefined filter to use in the canvas, or save your query as a predefined filter for future reuse.
+* **[!UICONTROL View results]:** Displays the data resulting from your query.
+* **[!UICONTROL Code view]**: Displays a code-based version of the query in SQL.
+* **[!UICONTROL Calculate]**: Updates and displays the number of records targeted by your query.
+* **[!UICONTROL Select or save filter]**: Choose an existing predefined filter to use in the canvas, or save your query as a predefined filter for future reuse.
 
     >[!IMPORTANT]
     >

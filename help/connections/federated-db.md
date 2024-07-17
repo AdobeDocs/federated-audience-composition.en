@@ -9,7 +9,7 @@ description: Learn how to create and manage your Federated Databases
 >[!CONTEXTUALHELP]
 >id="dc_connection_federated_database_menu"
 >title="Federated Databases"
->abstract="Existing connections to Federated Databases are listed in this screen. To create a new connection, click the **Add federated database** button."
+>abstract="Existing connections to Federated Databases are listed in this screen. To create a new connection, click the **[!UICONTROL Add federated database]** button."
 
 
 >[!CONTEXTUALHELP]
@@ -21,7 +21,7 @@ description: Learn how to create and manage your Federated Databases
 >[!CONTEXTUALHELP]
 >id="dc_connection_federated_database_details"
 >title="Federated Database details"
->abstract="Enter the settings to connect to the new Federated Database. Use the **Test connection** button to validate your configuration."
+>abstract="Enter the settings to connect to the new Federated Database. Use the **[!UICONTROL Test connection]** button to validate your configuration."
 
 Create, Configure, Test and Save the connection to an external database.
 
