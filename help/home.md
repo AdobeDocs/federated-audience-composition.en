@@ -33,7 +33,7 @@ Create, configure, test and save the connection to an external database.
 
 >[!TAB Prepare and model data]
 
-Create, configure, test and save the connection to an external database.
+Prepare and map your data in a custom and extensible data model.
 
 [![image](assets/learn-more-button.svg)](data-management/gs-models.md)
 
