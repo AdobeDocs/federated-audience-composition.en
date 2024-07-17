@@ -14,13 +14,13 @@ Adobe Experience Platform Federated Audience Composition brings an easy and powe
 
 Through a marketing-friendly UI, create segment rules that query your data warehouse for a list of users that qualify for a specific segment needed for marketing campaigns, access existing audiences in the warehouse for activation, or enrich Adobe Experience Platform audiences with additional datapoints that exist in the warehouse.
 
-![diagram](assets/fac-use-cases.png)
+![diagram](assets/fac-use-cases.png){zoomable="yes"}
 
 ## Key steps {#gs-steps}
 
 Adobe Federated Audience Composition lets you create and update Adobe Experience Platform audiences directly from your database, without any ingestion process.
 
-![diagram](assets/steps-diagram.png)
+![diagram](assets/steps-diagram.png){zoomable="yes"}
 
 Key steps:
 
@@ -99,7 +99,7 @@ Federated Audience Composition does not maintain a physical copy of the data. Fr
 For example:
 
 * In the case of an Audience Segmentation, the audience is created in your warehouse, and you can use Federated Audience Composition for additional composition tasks and data manipulation before publishing the resulting audience and associated attributes via Adobe Experience Platform Audience Portal. The audience definition and associated attributes come over to Adobe Experience Platform.
-    Note that the current data expiration for externally generated audiences is 30 days. This data expiration reduces the amount of excess data stored within an organization. After the data expiration period passes, the associated dataset is still visible within the dataset inventory, but you cannot activate the audience and the profile count will show as zero. Learn more in [Adobe Experience Platform documentation](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/faq#how-long-do-externally-generated-audiences-last-for).
+    Note that the current data expiration for externally generated audiences is 30 days. This data expiration reduces the amount of excess data stored within an organization. After the data expiration period passes, the associated dataset is still visible within the dataset inventory, but you cannot activate the audience and the profile count will show as zero. Learn more in [Adobe Experience Platform documentation](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/faq#how-long-do-externally-generated-audiences-last-for){target="_blank"}.
 
 * In the case of an Audience Enrichment, the starting point is an existing Adobe Experience Platform audience. One can look at two scenarios here:
     1. Bring additional audience payload attributes from the federated data warehouse: in this case, the additional attributes that get added will come over as a part of this audience definition. Data expiration for externally generated audiences is the same as described above, 30 days.
@@ -114,7 +114,7 @@ The resulting Audience data do not persist indefinitely in Adobe Experience Plat
 
 +++Can I delete a custom uploaded audience?
 
-You can delete audiences that are not used in downstream activation directly in Audience Portal by simply selecting delete from the actions menu. Learn more in [Adobe Experience Platform documentation](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/faq#how-do-i-put-an-audience-in-the-deleted-state).
+You can delete audiences that are not used in downstream activation directly in Audience Portal by simply selecting delete from the actions menu. Learn more in [Adobe Experience Platform documentation](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/faq#how-do-i-put-an-audience-in-the-deleted-state){target="_blank"}.
 
 +++
 
