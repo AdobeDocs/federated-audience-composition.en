@@ -14,8 +14,7 @@ Adobe Experience Platform Federated Audience Composition brings an easy and powe
 
 Adobe Federated Audience Composition lets you create and update Adobe Experience Platform audiences directly from your database, without any ingestion process.
 
-![diagram](assets/fac-diagram.png)
-
+![](assets/fac-diagram.png)
 
 Key steps:
 
