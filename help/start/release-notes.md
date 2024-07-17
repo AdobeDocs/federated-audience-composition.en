@@ -19,7 +19,7 @@ Instead of ingesting datasets and/or audiences into Adobe Experience Platform, y
 >
 >Federated Audience Composition is currently only available for a set of organizations (Limited Availability). To gain access, contact your Adobe representative.
 >
->For now, the feature is unavailable for customers who have purchased the Adobe **Healthcare Shield** and **Privacy and Security Shield** add-on offerings.
+>For now, the feature is unavailable for customers who have purchased the Adobe **Healthcare Shield** add-on offering.
 
 
 ## Prerequisites and guardrails {#rn-guardrails}
