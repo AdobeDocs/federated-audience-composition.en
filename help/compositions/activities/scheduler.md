@@ -2,6 +2,8 @@
 audience: end-user
 title: Use the Scheduler activity
 description: Learn how to use the Scheduler activity
+badge: label="Limited availability" type="Informative"
+badge: label="Limited availability" type="Informative"
 ---
 
 # Scheduler {#scheduler}

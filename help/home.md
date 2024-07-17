@@ -1,19 +1,26 @@
 ---
 title: Adobe Experience Platform - Federated Audience Composition Documentation Home Page
 description: This is the article overview.
+badge: label="Limited availability" type="Informative"
 ---
 
 # Federated Audience Composition Documentation  {#fac-home}
 
 Welcome to Adobe Experience Platform Federated Audience Composition Documentation.
 
-Federated Audience Composition enable audiences to be created, refined and enriched via federated compositions, using raw data from external data warehouses.
+Federated Audience Composition provides Adobe Real-Time CDP and Adobe Journey Optimizer users with data management flexibility and efficiency. With Federated Audience Composition, you can access your enterprise data warehouse using a marketer-friendly UI to build audiences and leverage datasets in Adobe Experience Platform workflows without persisting underlying enterprise data. This helps you reduce data movement when accessing data warehouses for experience use cases.
 
 >[!BEGINTABS]
 
->[!TAB Welcome] 
+>[!TAB What's new] 
 
 Federated Audience Composition enable audiences to be created, refined and enriched via federated compositions, using raw data from external data warehouses.
+
+[![image](assets/learn-more-button.svg)](start/release-notes.md)
+
+>[!TAB Get started] 
+
+Adobe Federated Audience Composition lets you create and update Adobe Experience Platform audiences directly from your database, without any ingestion process.
 
 [![image](assets/learn-more-button.svg)](start/get-started.md)
 

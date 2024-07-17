@@ -2,6 +2,7 @@
 audience: end-user
 title: Get started with audiences
 description: Learn how to start with data models
+badge: label="Limited availability" type="Informative"
 ---
 # Get started with audiences {#gs-audiences}
 

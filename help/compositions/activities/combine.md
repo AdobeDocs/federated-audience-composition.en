@@ -2,6 +2,7 @@
 audience: end-user
 title: Use the Combine activity
 description: Learn how to use the Combine activity
+badge: label="Limited availability" type="Informative"
 ---
 
 # Combine {#combine}

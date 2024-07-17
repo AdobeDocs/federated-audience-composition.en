@@ -2,6 +2,7 @@
 audience: end-user
 title: Connect Adobe Experience Platform and Adobe Federated Audience Composition add-on
 description: Learn how to create a new destination in AEP to connect to FAC
+badge: label="Limited availability" type="Informative"
 ---
 # Connect AEP to FAC {#connect-aep-fac}
 

@@ -1,6 +1,7 @@
 ---
 title: Get Started with Federated Audience Composition
 description: Learn what is Adobe Federated Audience Composition and how to use it in Adobe Experience Platform
+badge: label="Limited availability" type="Informative"
 ---
 
 # Get Started with Federated Audience Composition {#gs-fac}
@@ -13,7 +14,7 @@ Adobe Experience Platform Federated Audience Composition brings an easy and powe
 
 Adobe Federated Audience Composition lets you create and update Adobe Experience Platform audiences directly from your database, without any ingestion process.
 
-![diagram](assets/FAC-diagram.png)
+![diagram](assets/fac-diagram.png)
 
 Key steps:
 

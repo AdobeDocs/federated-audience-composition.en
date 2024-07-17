@@ -2,6 +2,7 @@
 audience: end-user
 title: Use the Reconciliation activity
 description: Learn how to use the Reconciliation activity
+badge: label="Limited availability" type="Informative"
 ---
 
 # Reconciliation {#reconciliation}

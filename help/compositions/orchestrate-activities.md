@@ -2,6 +2,7 @@
 audience: end-user
 title: Create compositions
 description: Learn how to create compositions
+badge: label="Limited availability" type="Informative"
 ---
 
 # Orchestrate composition activities {#activities}

@@ -2,6 +2,7 @@
 audience: end-user
 title: Use the Fork activity
 description: Learn how to use the Fork activity
+badge: label="Limited availability" type="Informative"
 ---
 
 # Fork {#fork}
