@@ -43,7 +43,7 @@ Key steps:
 >[!CONTEXTUALHELP]
 >id="dc_workflow_settings_execution"
 >title="Execution settings"
->abstract="In this section, you can configure settings related to the execution of the worklow, such the number of days the workflow history is kept."
+>abstract="In this section, you can configure settings related to the execution of the worklow, such the number of days the composition history is kept."
 
 
 

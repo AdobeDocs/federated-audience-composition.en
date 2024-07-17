@@ -9,7 +9,7 @@ description: Learn how to use the Scheduler activity
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_scheduler"
 >title="Scheduler activity"
->abstract="The **Scheduler** activity allows you to schedule when the workflow gets started. This activity should be considered as a scheduled start. It can only be used as the first activity of the workflow."
+>abstract="The **Scheduler** activity allows you to schedule when the audience composition gets started. This activity should be considered as a scheduled start. It can only be used as the first activity of a composition."
 
 The **Scheduler** activity is a **Flow control** activity. It allows you to schedule when the composition gets started. This activity should be considered as a scheduled start. It can only be used as the first activity of the composition. 
 
@@ -27,7 +27,7 @@ The **Scheduler** activity is a **Flow control** activity. It allows you to sche
 
 Follow these steps to configure the **Scheduler** activity:
 
-1. Add a **Scheduler** activity to your workflow.
+1. Add a **Scheduler** activity to your composition.
 
 1. Configure the **Execution frequency**:
 

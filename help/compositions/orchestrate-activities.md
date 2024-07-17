@@ -6,13 +6,13 @@ description: Learn how to create compositions
 
 # Orchestrate composition activities {#activities}
 
-Once that you have created a composition, you can start orchestrating the differents tasks it will perform. To do this, a visual canvas is provided, allowing you to construct your composition diagram. Within this diagram, you can add various activities and connect them in a sequential order.
+Once that you have created a composition, you can start orchestrating the differents tasks it will perform. To do this, a visual canvas is provided, allowing you to construct your audience composition diagram. Within this diagram, you can add various activities and connect them in a sequential order.
 
 ## Add activities {#add}
 
-At this stage of the configuration, the diagram is displayed with a start icon, representing the beginning of your workflow. To add your first activity, click the **+** button connected to the start icon.
+At this stage of the configuration, the diagram is displayed with a start icon, representing the beginning of your composition. To add your first activity, click the **+** button connected to the start icon.
 
-A list of activities that can be added to the diagram appears. The available activities depend on your position within the composition diagram. For example, when adding your first activity, you can start your composition by targeting an audience, splitting the workflow path, settings a scheduler to delay the workflow execution or setting a **Wait** activity to delay the workflow execution. On the other hand, after a **Build audience** activity, you can refine your target with targeting activities or organize the composition process with flow control activities.
+A list of activities that can be added to the diagram appears. The available activities depend on your position within the composition diagram. For example, when adding your first activity, you can start your composition by targeting an audience, splitting the composition path, settings a scheduler to delay the composition execution or setting a **Wait** activity to delay the composition execution. On the other hand, after a **Build audience** activity, you can refine your target with targeting activities or organize the composition process with flow control activities.
 
 Once an activity has been added to the diagram, a right pane appears, allowing you to configure the newly added activity with specific settings. Detailed information on how to configure each activity is available in [this section](activities/about-activities.md).
 
@@ -47,8 +47,8 @@ When adding activities, action buttons are available in the properties pane, all
 You can:
 
 * **[!UICONTROL Delete]** the activity from the canvas.
-* **[!UICONTROL Disable]/[!UICONTROL Enable]** the activity. When the workflow is executed, disabled activities and the following activities on the same path are not executed and the workflow is stopped.
-* **[!UICONTROL Pause]/[!UICONTROL Resume]** the activity. When the workflow is executed, it pauses at the paused activity. The corresponding task as well as all those that follow it in the same path are not executed.
+* **[!UICONTROL Disable]/[!UICONTROL Enable]** the activity. When the composition is executed, disabled activities and the following activities on the same path are not executed and the composition is stopped.
+* **[!UICONTROL Pause]/[!UICONTROL Resume]** the activity. When the composition is executed, it pauses at the paused activity. The corresponding task as well as all those that follow it in the same path are not executed.
 * **[!UICONTROL Copy]** the activity to paste it at another location in the composition. To do this, click the **+** button on a transition and select **[!UICONTROL Paste X activity]**. <!-- cannot copy multiple activities ? cannot paste in another composition?-->
 * Configure **[!UICONTROL Execution options]** for the selected activity. Expand the section below to learn more on the available options.
 
@@ -57,7 +57,7 @@ You can:
     The **[!UICONTROL Properties]** section allows you to configure generic settings regarding the execution of the activity:
 
     * **[!UICONTROL Execution]**: Define the action to be carried out when the is started.
-    * **[!UICONTROL Maximum execution duration]**: Specify a duration such as "30s" or "1h". If the activity is not finished after the duration specified has been elapsed, an alert is triggered. This has no impact on how the workflow functions.
+    * **[!UICONTROL Maximum execution duration]**: Specify a duration such as "30s" or "1h". If the activity is not finished after the duration specified has been elapsed, an alert is triggered. This has no impact on how the composition functions.
     * **[!UICONTROL Time zone]**: Select the time zone of the activity. Federated Audience Composition allows you to manage the time differences between multiple countries on the same instance. The setting applied is configured when the instance is created.
     * **[!UICONTROL Affinity]**: Force the composition activity to execute on a particular machine. To do this, you must specify one or several affinities for the activity in question.
     * **[!UICONTROL Behavior]**: Define the procedure to follow if asynchronous tasks are used.
