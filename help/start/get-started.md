@@ -6,13 +6,16 @@ badge: label="Limited availability" type="Informative"
 
 # Get Started with Federated Audience Composition {#gs-fac}
 
-Adobe Federated Audience Composition helps Adobe Experience Platform apps users to access their customer data which stored into their enterprise data warehouse. Customer data can live in multiple data warehouses and should be accessible instantly, without replication.
+Adobe Experience Platform Federated Audience Composition brings an easy and powerful solution to connect your enterprise data warehouse directly within Adobe Real-Time Customer Data Platform and/or Adobe Journey Optimizer, and perform queries on the tables of your data warehouse.
 
-Adobe Experience Platform Federated Audience Composition brings an easy and powerful solution to connect your enterprise data warehouse directly within Adobe Real-Time Customer Data Platform, and perform queries on the tables of your data warehouse.
+Adobe Federated Audience Composition helps Adobe Experience Platform apps users to access their customer data which stored into their enterprise data warehouse. Customer data can live in multiple data warehouses and are now accessible instantly, without replication.
+
 
 ## Use cases {#rn-uc}
 
-Through a marketing-friendly UI, create segment rules that query your data warehouse for a list of users that qualify for a specific segment needed for marketing campaigns, access existing audiences in the warehouse for activation, or enrich Adobe Experience Platform audiences with additional datapoints that exist in the warehouse.
+Through a marketing-friendly UI, create segment rules that query your data warehouse for a list of users that qualify for a specific segment needed for marketing campaigns, access existing audiences in the warehouse for activation, or enrich Adobe Experience Platform audiences with additional datapoints that exist in the warehouse. 
+
+In this version, two use cases are available: Audience segmentation and Audience enrichment. Profile enrichment will be available in a future release.
 
 ![diagram](assets/fac-use-cases.png){zoomable="yes"}
 
