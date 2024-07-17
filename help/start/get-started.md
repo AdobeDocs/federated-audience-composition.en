@@ -16,6 +16,7 @@ Adobe Federated Audience Composition lets you create and update Adobe Experience
 
 ![diagram](assets/fac-diagram.png)
 
+
 Key steps:
 
 * **Configuration**
