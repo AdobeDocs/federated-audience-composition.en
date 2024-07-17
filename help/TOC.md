@@ -7,8 +7,9 @@ breadcrumb-title: Federated Audience Composition
 # Federated Audience Composition documentation {#using}
 
 + [Federated Audience Composition documentation](home.md)
-+ [What's new](start/release-notes.md)
-+ [Get started](start/get-started.md)
++ Get started with Federated Audience Composition {#start}
+    + [Get started](start/get-started.md)
+    + [Release notes](start/release-notes.md)
 + Configuration steps {#config}
     + [Connect AEP with Federated Audience Composition](connections/destinations.md)
     + [Configure your federated databases](connections/federated-db.md)

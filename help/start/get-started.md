@@ -43,6 +43,9 @@ Key steps:
 
 ## Frequently Asked Questions {#faq}
 
+The following is a list of frequently asked questions regarding Federated Audience Composition. A global FAQ is also available for Adobe Experience Platform Segmentation Service in [this page](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/faq){target="_blank"}.
+
+
 +++What are the permissions required to access Federated Audience Composition?
 
 There are no specific permissions for Federated Audience Composition. The only prerequisite to access this capability is to have purshased the Federated Audience Composition add-on.
