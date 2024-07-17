@@ -2,6 +2,7 @@
 audience: end-user
 title: Use the Change dimension activity
 description: Learn how to use the Change dimension activity
+badge: label="Limited availability" type="Informative"
 ---
 
 # Change dimension {#change-dimension}

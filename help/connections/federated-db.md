@@ -2,6 +2,7 @@
 audience: end-user
 title: Get started with Federated Databases
 description: Learn how to create and manage your Federated Databases
+badge: label="Limited availability" type="Informative"
 ---
 # Get started with Federated Databases {#federated-db}
 

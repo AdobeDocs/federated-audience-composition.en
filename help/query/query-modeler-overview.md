@@ -1,7 +1,8 @@
 ---
 audience: end-user
 title: Work with the query modeler
-description: Learn how to work with the query modeler.
+description: Learn how to work with the query modeler
+badge: label="Limited availability" type="Informative"
 ---
 # Work with the query modeler {#segment-builder}
 

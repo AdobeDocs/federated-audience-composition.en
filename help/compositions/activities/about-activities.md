@@ -2,6 +2,7 @@
 audience: end-user
 title: Work with activities
 description: Learn how to work with activities
+badge: label="Limited availability" type="Informative"
 ---
 
 # Work with activities {#activities}

@@ -7,6 +7,7 @@ breadcrumb-title: Federated Audience Composition
 # Federated Audience Composition documentation {#using}
 
 + [Federated Audience Composition documentation](home.md)
++ [What's new](start/release-notes.md)
 + [Get started](start/get-started.md)
 + Configuration steps {#config}
     + [Connect AEP with Federated Audience Composition](connections/destinations.md)
