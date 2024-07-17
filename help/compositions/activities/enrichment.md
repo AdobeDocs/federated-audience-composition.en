@@ -2,6 +2,7 @@
 audience: end-user
 title: Use the Enrichment activity
 description: Learn how to use the Enrichment activity
+badge: label="Limited availability" type="Informative"
 ---
 
 # Enrichment {#enrichment}

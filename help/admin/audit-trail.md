@@ -2,6 +2,7 @@
 audience: end-user
 title: Get started with Audit Trail
 description: Learn how to monitor your databases with the audit trail
+badge: label="Limited availability" type="Informative"
 ---
 # Get started with Audit Trail {#audit-trail}
 

@@ -2,10 +2,6 @@
 audience: end-user
 title: Use the Scheduler activity
 description: Learn how to use the Scheduler activity
-<<<<<<< Updated upstream
-=======
-badge: label="Limited availability" type="Informative"
->>>>>>> Stashed changes
 ---
 
 # Scheduler {#scheduler}

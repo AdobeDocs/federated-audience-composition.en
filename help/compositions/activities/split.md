@@ -2,6 +2,7 @@
 audience: end-user
 title: Use the Split activity
 description: Learn how to use the Split activity
+badge: label="Limited availability" type="Informative"
 ---
 
 # Split {#split}

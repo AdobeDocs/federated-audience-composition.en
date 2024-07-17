@@ -2,6 +2,7 @@
 audience: end-user
 title: Get started with compositions
 description: Learn how to start with compositions
+badge: label="Limited availability" type="Informative"
 ---
 # Get started with compositions {#compositions}
 
