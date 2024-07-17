@@ -10,6 +10,12 @@ Adobe Federated Audience Composition helps Adobe Experience Platform apps users 
 
 Adobe Experience Platform Federated Audience Composition brings an easy and powerful solution to connect your enterprise data warehouse directly within Adobe Real-Time Customer Data Platform, and perform queries on the tables of your data warehouse.
 
+## Use cases {#rn-uc}
+
+Through a marketing-friendly UI, create segment rules that query your data warehouse for a list of users that qualify for a specific segment needed for marketing campaigns, access existing audiences in the warehouse for activation, or enrich Adobe Experience Platform audiences with additional datapoints that exist in the warehouse.
+
+![diagram](assets/fac-use-cases.png)
+
 ## Key steps {#gs-steps}
 
 Adobe Federated Audience Composition lets you create and update Adobe Experience Platform audiences directly from your database, without any ingestion process.
@@ -63,7 +69,7 @@ Yes, multiple warehouses can be queried in the same composition, and can combine
 
 +++ Can I access my entire database using Federated Audience Composition?
 
-No, it is up to you to configure access to a dedicated or shared database/schema. We recommend you to creates a dedicated schema for Federated Audience Composition, and copy/share business case datasets only. 
+No, it is up to you to configure access to a dedicated or shared database/schema. We recommend you to create a dedicated schema for Federated Audience Composition, and copy/share business case datasets only. 
 +++
 
 
@@ -82,20 +88,18 @@ Yes, once connected, Federated Audience Composition can be used to discover all 
 
 +++Is there any temporary storage in Federated Audience Composition?
 
-No, Federated Audience Composition only stores metadata (schema descriptions). No customer data is transiting. The Audience export flow is done directly from Adobe Experience Platform Audience Portal (via
-destinations) to the customer database. Then creation/update flow is done directly from the database to Audience Portal.
+No, Federated Audience Composition only stores metadata (schema descriptions). No customer data is transiting. The Audience export flow is done directly from Adobe Experience Platform Audience Portal (via [Destination](../connections/destinations.md)) to the customer database. The creation and update flow is done directly from your data warehouse database to Adobe Experience Platform Audience Portal.
 
 +++
 
 +++Does Federated Audience Composition store a physical copy of that list of people to send to downstream systems?
 
-Federated Audience Composition does not maintain a physical copy of the data. Frequency is configured in the composition to define how frequently this data will be refreshed. The resulting audience data is not stored by
-Adobe Experience Platform any longer than required by the customer's use cases or action.
+Federated Audience Composition does not maintain a physical copy of the data. Frequency is configured in the composition to define how frequently this data will be refreshed. The resulting audience data is not stored by Adobe Experience Platform any longer than required by the customer's use cases or action.
 
 For example:
 
 * In the case of an Audience Segmentation, the audience is created in your warehouse, and you can use Federated Audience Composition for additional composition tasks and data manipulation before publishing the resulting audience and associated attributes via Adobe Experience Platform Audience Portal. The audience definition and associated attributes come over to Adobe Experience Platform.
-    Note that the current data expiration for externally generated audiences is 30 days. This data expiration reduces the amount of excess data stored within an organization. After the data expiration period passes, the associated dataset is still visible within the dataset inventory, but cyou cannot activate the audience and the profile count will show as zero. Learn more in [Adobe Experience Platform documentation](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/faq#how-long-do-externally-generated-audiences-last-for).
+    Note that the current data expiration for externally generated audiences is 30 days. This data expiration reduces the amount of excess data stored within an organization. After the data expiration period passes, the associated dataset is still visible within the dataset inventory, but you cannot activate the audience and the profile count will show as zero. Learn more in [Adobe Experience Platform documentation](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/faq#how-long-do-externally-generated-audiences-last-for).
 
 * In the case of an Audience Enrichment, the starting point is an existing Adobe Experience Platform audience. One can look at two scenarios here:
     1. Bring additional audience payload attributes from the federated data warehouse: in this case, the additional attributes that get added will come over as a part of this audience definition. Data expiration for externally generated audiences is the same as described above, 30 days.

@@ -21,11 +21,7 @@ Instead of ingesting datasets and/or audiences into Adobe Experience Platform, y
 >
 >For now, the feature is unavailable for customers who have purchased the Adobe **Healthcare Shield** and **Privacy and Security Shield** add-on offerings.
 
-## Use cases {#rn-uc}
 
-Through a marketing-friendly UI, create segment rules that query your data warehouse for a list of users that qualify for a specific segment needed for marketing campaigns, access existing audiences in the warehouse for activation, or enrich Adobe Experience Platform audiences with additional datapoints that exist in the warehouse.
-
-![diagram](assets/fac-use-cases.png)
 
 
 ## Prerequisites and guardrails {#rn-guardrails}
