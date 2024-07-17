@@ -51,7 +51,7 @@ The following is a list of frequently asked questions regarding Federated Audien
 
 +++What are the permissions required to access Federated Audience Composition?
 
-There are no specific permissions for Federated Audience Composition. The only prerequisite to access this capability is to have purshased the Federated Audience Composition add-on.
+There are no specific permissions for Federated Audience Composition. The only prerequisite to access this capability is to have purchased the Federated Audience Composition add-on.
 
 +++
 
