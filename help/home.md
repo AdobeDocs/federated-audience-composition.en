@@ -24,18 +24,26 @@ Adobe Federated Audience Composition lets you create and update Adobe Experience
 
 [![image](assets/learn-more-button.svg)](start/get-started.md)
 
->[!TAB Create a composition]
 
-Adobe Data Composition allows you to create compositions, where you can leverage various activities (split, exclude…) into a visual canvas to create audiences. 
-
-[![image](assets/learn-more-button.svg)](compositions/gs-compositions.md)
-
-
->[!TAB Connect to your data warehouse]
+>[!TAB Connect data]
 
 Create, configure, test and save the connection to an external database.
 
 [![image](assets/learn-more-button.svg)](connections/federated-db.md)
+
+>[!TAB Prepare and model data]
+
+Create, configure, test and save the connection to an external database.
+
+[![image](assets/learn-more-button.svg)](data-management/gs-models.md)
+
+>[!TAB Compose an audience]
+
+Add and configure activities (Split, Enrichment, Query, etc.) to build compositions and create your federated audience.
+
+[![image](assets/learn-more-button.svg)](compositions/gs-compositions.md)
+
+
 
 >[!ENDTABS]
 

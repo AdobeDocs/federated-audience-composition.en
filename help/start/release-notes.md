@@ -6,6 +6,8 @@ badge: label="Limited availability" type="Informative"
 
 # What's new {#rn-new}
 
+The Federated Audience Composition is an add-on offers a flexible access and expanded reach into enterprise data warehouses to power personalization use-cases.
+
 ## What is Federated Audience Composition {#rn-fac}
 
 Federated Audience Composition allows enterprises to compose data for better utilization across various use cases. With this new approach, as a Adobe Real-Time CDP and/or Adobe Journey Optimizer user, you can federate datasets directly from your existing data warehouse to enrich Adobe Experience Platform audiences and attributes all in one system.
@@ -26,12 +28,54 @@ Through a marketing-friendly UI, create segment rules that query your data wareh
 ![diagram](assets/fac-use-cases.png)
 
 
-## Prerequisites 
+## Prerequisites and guardrails {#rn-guardrails}
 
 * Your IP addresses must be added to the allow list to enable access to your data warehouse and use Federated Audience Composition. To add your IP addresses to the allow list, contact your Adobe representative.
 
+* Entitlements, product limitations and performance guardrails are listed in the [Guardrails for Real-time Customer Profile data before starting](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html){target="_blank"}.
 
-## Guardrails and limitations {#guardrails}
+## Frequently Asked Questions  {#rn-faq}
+
++++ What are the permissions required to access Federated Audience Composition?
+
+There are no specific permissions for Federated Audience Composition. The only prerequisite to access this capability is to have purshased the Federated Audience Composition add-on.
+
++++
+
++++ What cloud warehouses are supported?
+
+For this release, Federated Audience Composition is compatible with:
+
+* Snowflake
+* Google Big Query
+* Azure Synapse
+* Amazon Redshift
+
++++
 
 
-Entitlements, product limitations and performance guardrails are listed in the [Guardrails for Real-time Customer Profile data before starting](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html){target="_blank"}.
++++ Can multiple data warehouses be queried in the same composition?
+
+Yes, multiple warehouses can be queried in the same composition, and can combine data from multiple sources.  Typically, each [composition activity](../compositions/orchestrate-activities.md) (Query, Enrichment, Split, etc.) executes one or several SQL statements depending on the activity configuration, the targeted databases (there can be multiple cases of federated data access), and outputs of one or more worktables with the result of the execution. Those worktables are used as the input for consecutive activities.
+
++++
+
++++ Can I access my entire database using Federated Audience Composition?
+
+No, it is up to you to configure access to a dedicated or shared database/schema. We recommend you to creates a dedicated schema for Federated Audience Composition, and copy/share business case datasets only. 
++++
+
+
+
++++ Do I have access to all tables in the dedicated schema?
+
+Yes, once connected, Federated Audience Composition can be used to discover all tables based on initial rights defined, then you can use the visual schema editor to:
+
+* Discover columns and primary keys from your tables
+* Create friendly labels to those tables
+* Create friendly labels for each column
+* Hide unnecessary columns
+* Save those tables description
++++
+
+
