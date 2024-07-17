@@ -52,15 +52,15 @@ Add and configure activities (Split, Enrichment, Query, etc.) to build compositi
     </div>
     </td>
     <td>
-    <a href="../help/start/get-started.md#frequently-asked-questions-faq"><img src="assets/do-not-localize/start-faq.png"></a>
+    <a href="start/get-started.md#frequently-asked-questions-faq"><img src="assets/do-not-localize/start-faq.png"></a>
     <div><strong>FAQ</strong><br/>Frequently Asked Questions about Federated Audience Composition.</div>
     </td>
   </tr>
   <tr style="border: 0;">
     <td><a href="start/get-started.md"><img src="assets/learn-more-button.svg"></a></td>
     <td><a href="data-management/gs-models.md"><img src="assets/learn-more-button.svg"></a></td>
-    <td><a href="using/building-journeys/journey-gs.md"><img src="assets/learn-more-button.svg"></a></td>
     <td><a href="compositions/gs-compositions.md"><img src="assets/learn-more-button.svg"></a></td>
+    <td><a href="start/get-started.md#frequently-asked-questions-faq"><img src="assets/learn-more-button.svg"></a></td>
     </tr>
 </table>
 
