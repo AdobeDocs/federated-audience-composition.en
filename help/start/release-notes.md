@@ -14,6 +14,7 @@ Federated Audience Composition allows enterprises to compose data for better uti
 
 Instead of ingesting datasets and/or audiences into Adobe Experience Platform, you can now use Federated Audience Composition to reduce the volume of data copied from your data warehouse into Adobe Experience Platform by pulling specific audiences and attributes out of the warehouse that are needed for certain segmentation or activation use cases, and ensure sensitive data is not persisted outside the warehouse.
 
+Learn more about Federated Audience Composition capabilities in [this page](get-started.md), and in the [Frequently Asked Questions](get-started.md#faq).
 
 >[!AVAILABILITY]
 >
@@ -21,6 +22,14 @@ Instead of ingesting datasets and/or audiences into Adobe Experience Platform, y
 >
 >For now, the feature is unavailable for customers who have purchased the Adobe **Healthcare Shield** add-on offering.
 
+## Access to Federated Audience Composition {#rn-guardrails}
+
+There are no specific permissions for Federated Audience Composition. The only prerequisite to access this capability is to have purchased the Federated Audience Composition add-on.
+
+>[!AVAILABILITY]
+>
+>After your received the welcome email notification from Adobe, it might take a few more hours for the interface to be updated and features available to you.
+>
 
 ## Prerequisites and guardrails {#rn-guardrails}
 
