@@ -6,7 +6,7 @@ badge: label="Limited availability" type="Informative"
 
 # Release Notes {#rn-new}
 
-## Federated Audience Composition (LA) {#rn-la}
+## Federated Audience Composition (LA) {#fac-la}
 
 The Federated Audience Composition is an add-on offers a flexible access and expanded reach into enterprise data warehouses to power personalization use-cases.
 
@@ -22,7 +22,7 @@ Learn more about Federated Audience Composition capabilities in [this page](get-
 >
 >For now, the feature is unavailable for customers who have purchased the Adobe **Healthcare Shield** add-on offering.
 
-## Access to Federated Audience Composition {#rn-guardrails}
+## Access to Federated Audience Composition {#fac-access}
 
 There are no specific permissions for Federated Audience Composition. The only prerequisite to access this capability is to have purchased the Federated Audience Composition add-on.
 
@@ -31,7 +31,7 @@ There are no specific permissions for Federated Audience Composition. The only p
 >After your received the welcome email notification from Adobe, it might take a few more hours for the interface to be updated and features available to you.
 >
 
-## Prerequisites and guardrails {#rn-guardrails}
+## Prerequisites and guardrails {#fac-guardrails}
 
 * Your IP addresses must be added to the allow list to enable access to your data warehouse and use Federated Audience Composition. To add your IP addresses to the allow list, contact your Adobe representative.
 
