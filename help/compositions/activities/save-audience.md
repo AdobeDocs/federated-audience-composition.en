@@ -2,6 +2,7 @@
 audience: end-user
 title: Use the Save audience activity
 description: Learn how to use the Save audience activity
+badge: label="Limited availability" type="Informative"
 ---
 
 # Save audience {#save-audience}
@@ -54,7 +55,7 @@ Follow these steps to configure the **Save audience** activity:
     * **Primary identity field**: Select the field to use to identify the profiles. For example, its email address or phone number.
     * **Identity namespace**: Select the namespace to use to identity the profiles, i.e. the type of data to use as identification key. For example, if the email address has been selected as primary identity field, the identity namespace **Email** should be selected. If the unique identifier is the phone number, then the identity namespace **Phone** should be selected.
 
-After executing the composition, the resulting audience is saved in Adobe Experience Platform, and made accessible in the **Audiences** menu.
+After executing the composition, the resulting audience is saved in Adobe Experience Platform <!-- to check-->, and made accessible in the **Audiences** menu.
 
 <!--
 

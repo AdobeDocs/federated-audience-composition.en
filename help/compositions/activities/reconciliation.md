@@ -2,6 +2,7 @@
 audience: end-user
 title: Use the Reconciliation activity
 description: Learn how to use the Reconciliation activity
+badge: label="Limited availability" type="Informative"
 ---
 
 # Reconciliation {#reconciliation}
@@ -30,19 +31,14 @@ The **Reconciliation** activity allows you to define the link between the data i
 
 <!--For example, the **Reconciliation** activity can be placed after a **Load file** activity to import non-standard data into the database. In this case, the **Reconciliation** activity lets you define the link between the data in the Adobe Campaign database and the data in the work table.-->
 
-## Best practices {#reconciliation-best-practices}
-
-While the **Enrichment** activity allows you to define additional data to process in your composition (you can use an **Enrichment** activity to combine data coming from multiple sets, or to create links to a temporary resource), the **Reconciliation** activity allows you to link unidentified data to existing resources. 
-
->[!NOTE]
->Reconciliation operation implies that the data of the linked dimensions are already in the database.  For example, if you import a file of purchases showing which product was purchased, at what time, by which client, etc., the product as well as the client must already exist in the database.
+The **Reconciliation** activity allows you to link unidentified data to existing resources. Reconciliation operation implies that the data you are joining are already in the database. For example, if you want to reconciliate purchases information showing which product was purchased, at what time, by which client, etc., the product as well as the client must already exist in the database.
 
 ## Configure the Reconciliation activity {#reconciliation-configuration}
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_reconciliation_targeting"
->title="Targeting dimension"
->abstract="Select the new targeting dimension. A dimension lets you define the targeted population: recipients, app subscribers, operators, subscribers, etc. By default, the current targeting dimension is selected." 
+>title="Schema"
+>abstract="Select the new schema to apply to the data. A schema, also known as targeting dimension, lets you define the targeted population: recipients, app subscribers, operators, subscribers, etc. By default, the composition current schema is selected." 
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_reconciliation_rules"
@@ -52,7 +48,7 @@ While the **Enrichment** activity allows you to define additional data to proces
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_reconciliation_targeting_selection"
 >title="Select the targeting dimension"
->abstract="Select the targeting dimension for your inbound data to reconcile with." 
+>abstract="Select the schema, also known as targeting dimension, for your inbound data to reconcile with." 
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_keep_unreconciled_data"
@@ -66,21 +62,26 @@ While the **Enrichment** activity allows you to define additional data to proces
 
 Follow these steps to configure the **Reconciliation** activity:
 
-1. Add a **Reconciliation** activity into your composition. <!--This activity should be added following a transition containing a population whose targeting dimension does not directly come from Adobe Campaign. -->
+1. Add a **Reconciliation** activity into your composition.
 
-1. Select the new targeting dimension. A dimension lets you define the targeted population: recipients, app subscribers, operators, subscribers, etc. <!--[Learn more about targeting dimensions](../../audience/about-recipients.md#targeting-dimensions).-->
+1. Select the **New schema**. A schema, also known as targeting dimension, lets you define the targeted population: recipients, app subscribers, operators, subscribers, etc.
 
 1. Select the field(s) to use for the reconciliation. You can use one or more reconciliation criteria.
 
-    1. To use attributes to reconcile data, select the **Simple attributes** option. The **Source** field lists the fields available in the input transition, which are to be reconcilied. The **Destination** field corresponds to the fields of the selected targeting dimension. Data are reconcilied when source and destination are equal. For example, select the **Email** fields to deduplicate profiles based on their email address. 
+    1. To use attributes to reconcile data, select the **Simple attributes** option then click the **Add rule** button.
+    1. Select the **Source** and **Destination** fields for the reconciliation. The **Source** field. The **Destination** field corresponds to the fields of the selected schema.
+    
+        Data are reconcilied when source and destination are equal. For example, select the **Email** fields to deduplicate profiles based on their email address. 
         
         To add another reconciliation criteria, click the **Add rule** button. If several join conditions are specified, they must ALL be verified so that the data can be linked together.    
 
-   <!--     ![](../assets/workflow-reconciliation-criteria.png)-->
+        ![](../assets/reconciliation-rules.png)
 
-    1. To use other attributes to reconcile data, select the **Advanced reconciliation conditions** option. You can then create your own reconciliation condition using the query modeler. <!--[Learn how to work with the query modeler](../../query/query-modeler-overview.md).-->
+    1. To use other attributes to reconcile data, select the **Advanced reconciliation conditions** option then click the **Create conditions** button. You can then create your own reconciliation condition using the query modeler. [Learn how to work with the query modeler](../../query/query-modeler-overview.md)
 
-1. You can filter data to reconciliate using the **Create filter** button. This lets you create a custom condition using the query modeler. <!--[Learn how to work with the query modeler](../../query/query-modeler-overview.md)-->
+        ![](../assets/reconciliation-advanced.png)
+
+1. You can filter data to reconciliate using the **Create filter** button. This lets you create a custom condition using the query modeler.
 
 By default, non reconcilied data are kept in the outbound transition and available in the worktable for future use. To remove unreconciled data, desactivate the **Keep unreconciled data** option.
 

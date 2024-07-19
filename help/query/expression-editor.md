@@ -2,6 +2,7 @@
 audience: end-user
 title: Build your first query using the query modeler
 description: Learn how to build your first query in the query modeler.
+badge: label="Limited availability" type="Informative"
 ---
 # Edit expressions {#expression}
 
@@ -15,14 +16,14 @@ Editing an expression involves manually entering conditions to form a rule. This
 
 The expression editor is available from the query modeler **[!UICONTROL Edit expression]** button, available for the **[!UICONTROL Attribute]** and **[!UICONTROL Value]** fields when configuring a custom condition. 
 
-|Access from the **Attribute** field|Access from the **Value** field|
+|Access from the **[!UICONTROL Attribute]** field|Access from the **[!UICONTROL Value]** field|
 |  ---  |  ---  |
 |![](assets/expression-editor-attribute.png){zoomable="yes"}{width="200" align="center" zoomable="yes"}|![](assets/edit-expression.png){zoomable="yes"}{width="200" align="center" zoomable="yes"}|
 
 The expression editor provides:
 
 * An **input field (1)** in which the expression is defined.
-* The list of available **fields (2)** that can be used in the expression and corresponding to the targeting dimension of the query.
+* The list of available **fields (2)** that can be used in the expression and corresponding to the schema, also known as targeting dimension, of the query.
 * **Helper functions (3)**, sorted by category.
 
 Edit the expression by entering an expression directly in the input field. To add a field or a helper function, place your cursor in the expression where you want to add it and click the + button.

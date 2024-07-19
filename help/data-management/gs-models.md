@@ -2,6 +2,7 @@
 audience: end-user
 title: Get started with data models
 description: Learn how to start with data models
+badge: label="Limited availability" type="Informative"
 ---
 # Get started with data models {#data-model}
 

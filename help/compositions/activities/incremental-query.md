@@ -43,7 +43,7 @@ Follow these steps to configure the **Incremental query** activity:
 
     The targeting dimension lets you define the population targeted by the operation: recipients, contract beneficiaries, operator, subscribers, etc. By default, the target is selected from the recipients. <!--[Learn more about targeting dimensions](../../audience/about-recipients.md#targeting-dimensions)-->
 
-1. Use the query modeler to define your query, the same way you create an audience when designing a new email. <!--[Learn how to work with the query modeler](../../query/query-modeler-overview.md)-->
+1. Use the query modeler to define your query, the same way you create an audience when designing a new email. [Learn how to work with the query modeler](../../query/query-modeler-overview.md)
 
 1. In the **[!UICONTROL Processed data]** section, select the incremental mode to use:
 

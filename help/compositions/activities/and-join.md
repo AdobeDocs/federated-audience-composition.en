@@ -2,6 +2,7 @@
 audience: end-user
 title: Use the AND-join activity
 description: Learn how to use the AND-join activity
+badge: label="Limited availability" type="Informative"
 ---
 # AND-join {#join}
 
@@ -19,7 +20,7 @@ This activity only triggers its outbound transition once all the inbound transit
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_and-join_merging"
 >title="Configure the AND-join activity"
->abstract="Select which activities you want to join. In the **Primary set** drop-down, choose which inbound transition population you want to keep."
+>abstract="Select which activities you want to join. In the **[!UICONTROL Primary set]** drop-down, choose which inbound transition population you want to keep."
 
 Follow these steps to configure the **AND-join** activity:
 
@@ -28,5 +29,5 @@ Follow these steps to configure the **AND-join** activity:
 
     ![](../assets/and-join.png)
 
-1. In the **Merging options** section, check all the previous activities you wish to synchronize.
-1. In the **Primary set** drop-down, choose which inbound transition population you want to keep. The outbound transition can only contain one of the inbound transition populations. If the activity is not configured, the outbound transition will randomly select one of the inbound populations.
+1. In the **[!UICONTROL Merging options]** section, check all the previous activities you wish to synchronize.
+1. In the **[!UICONTROL Primary set]** drop-down, choose which inbound transition population you want to keep. The outbound transition can only contain one of the inbound transition populations. If the activity is not configured, the outbound transition will randomly select one of the inbound populations.

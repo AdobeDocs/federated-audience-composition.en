@@ -2,6 +2,7 @@
 audience: end-user
 title: Use the Wait activity
 description: Learn how to use the Wait activity
+badge: label="Limited availability" type="Informative"
 ---
 # Wait {#wait}
 

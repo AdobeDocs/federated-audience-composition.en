@@ -2,6 +2,7 @@
 audience: end-user
 title: Work with activities
 description: Learn how to work with activities
+badge: label="Limited availability" type="Informative"
 ---
 
 # Work with activities {#activities}
@@ -14,7 +15,7 @@ In Federated Audience Composition, you can create compositions using two types o
 ## Targeting activities
 
 * [Build audience activity](build-audience.md): Define your target population. You can either select an existing audience or use the query modeler to define your own query.
-* [Change dimension](change-dimension.md): Change the targeting dimension as you are building your composition.
+* [Change dimension](change-dimension.md): Change the schema, also known as targeting dimension, as you are building your composition.
 * [Combine](combine.md): Perform segmentation on your inbound population. You can use a union, an intersection or an exclusion.
 * [Deduplication](deduplication.md): Delete duplicates in the result(s) of the inbound activities.
 * [Enrichment](enrichment.md): Define additional data to process in your composition. With this activity, you can leverage the inbound transition and configure the activity to complete the output transition with additional data.
@@ -24,8 +25,8 @@ In Federated Audience Composition, you can create compositions using two types o
 
 ## Flow control activities
 
-* [AND-join](and-join.md): Synchronize multiple execution branches of a workflow.
-* **End** : Graphically mark the end of a workflow. This activity has no functional impact and is therefore optional.
+* [AND-join](and-join.md): Synchronize multiple execution branches of a composition.
+* **End** : Graphically mark the end of a composition. This activity has no functional impact and is therefore optional.
 * [Fork](fork.md): Create outbound transitions to start several activities at the same time.
-* [Scheduler](scheduler.md): Schedule when the workflow gets started.
-* [Wait](wait.md): Momentarily pause execution of a part of a workflow.
+* [Scheduler](scheduler.md): Schedule when the composition gets started.
+* [Wait](wait.md): Momentarily pause execution of a part of a composition.

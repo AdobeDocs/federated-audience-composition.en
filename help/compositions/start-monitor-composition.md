@@ -2,6 +2,7 @@
 audience: end-user
 title: Create compositions
 description: Learn how to create compositions
+badge: label="Limited availability" type="Informative"
 ---
 
 # Start and monitor your composition {#start-monitor}
@@ -64,12 +65,12 @@ The action bar in the upper-right corner provides commands that allow you to man
 
 Available actions are:
 
-* **Start**: Starts the execution of the composition, which then takes on the **In progress** status. The composition is started and the initial activities are activated.
+* **[!UICONTROL Start]**: Starts the execution of the composition, which then takes on the **[!UICONTROL In progress]** status. The composition is started and the initial activities are activated.
 
-* **[!UICONTROL Resume]**: Resumes the execution of the  composition that had been paused. The composition takes on the **In progress** status.
+* **[!UICONTROL Resume]**: Resumes the execution of the  composition that had been paused. The composition takes on the **[!UICONTROL In progress]** status.
 
-* **[!UICONTROL Pause]** the execution of the composition, which then takes on the **Paused** status. No new activities will be activated until it is resumed, but operations in progress are not suspended.
+* **[!UICONTROL Pause]** the execution of the composition, which then takes on the **[!UICONTROL Paused]** status. No new activities will be activated until it is resumed, but operations in progress are not suspended.
 
-* **[!UICONTROL Stop]** a composition that is being executed, which will then take on the **Finished** status. The operations in progress are interrupted if possible. You cannot resume from the composition from the same place that it was stopped.
+* **[!UICONTROL Stop]** a composition that is being executed, which will then take on the **[!UICONTROL Finished]** status. The operations in progress are interrupted if possible. You cannot resume from the composition from the same place that it was stopped.
 
-* **Restart**: Stops then restart a composition. In most cases, this allows you to restart quicker, as stopping takes a certain amount of time, and the **Start** button is only available when the stop is effective.
+* **[!UICONTROL Restart]**: Stops then restart a composition. In most cases, this allows you to restart quicker, as stopping takes a certain amount of time, and the **[!UICONTROL Start]** button is only available when the stop is effective.
