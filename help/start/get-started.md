@@ -61,10 +61,11 @@ There are no specific permissions for Federated Audience Composition. The only p
 
 For this release, Federated Audience Composition is compatible with:
 
-* Snowflake
-* Google Big Query
-* Azure Synapse
 * Amazon Redshift
+* Azure Synapse
+* Google Big Query
+* Snowflake
+* Vertica Analytics
 
 +++
 
