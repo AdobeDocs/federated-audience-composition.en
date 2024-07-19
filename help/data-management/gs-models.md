@@ -52,3 +52,5 @@ You will access to the window where you can add the schemas, the audiences and t
 
 ![](assets/datamodel_schemas.png){zoomable="yes"}
 
+### Create links {#data-model-links}
+
