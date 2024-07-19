@@ -17,7 +17,7 @@ breadcrumb-title: Federated Audience Composition
         + [Configure your data models](data-management/gs-models.md)
         + [Create and configure schemas](customer/schemas.md)
     + [Work with audiences](customer/audiences.md)
-    + [Import your audiences into AEP](connections/destinations.md)
+    + [Send audiences to Adobe Federated Audience Composition](connections/destinations.md)
 + Compositions {#compositions}
     + [Get started with compositions](compositions/gs-compositions.md)
     + Create and run your first composition {#create-composition}
