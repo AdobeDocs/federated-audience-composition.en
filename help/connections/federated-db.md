@@ -25,11 +25,11 @@ Create, Configure, Test and Save the connection to an external database.
 
 Supported External Databases:
 
-* Snowflake
-* Google Big Query
-* Azure Synapse
-* Vertica Analytics
 * Amazon Redshift
+* Azure Synapse
+* Google Big Query
+* Snowflake
+* Vertica Analytics
 
 ## Snowflake {#snowflake}
 
