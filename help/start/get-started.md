@@ -8,7 +8,9 @@ badge: label="Limited availability" type="Informative"
 
 Federated Audience Composition is a Adobe Real-Time Customer Data Platform and Adobe Journey Optimizer Add-on that allows Customer to build and enrich audiences from the third-party data warehouses and import the audiences to Adobe Experience Platform. 
 
-Adobe Experience Platform Federated Audience Composition brings an easy and powerful solution to connect your enterprise data warehouse directly within Adobe Real-Time Customer Data Platform and/or Adobe Journey Optimizer, and perform queries on the tables of your data warehouse. Adobe Federated Audience Composition helps Adobe Experience Platform apps users to access their customer data which stored into their data warehouses and cloud storage platforms (such as Amazon Redshift, Azure Synapse Analytics, Google BigQuery, Snowflake). Customer data can live in multiple data warehouses and are now accessible instantly, without replication.
+Adobe Experience Platform Federated Audience Composition brings an easy and powerful solution to connect your enterprise data warehouse directly within Adobe Real-Time Customer Data Platform and/or Adobe Journey Optimizer, and perform queries on the tables of your data warehouse. 
+
+Adobe Federated Audience Composition helps Adobe Experience Platform apps users to access their customer data which stored into their data warehouses and cloud storage platforms such as Amazon Redshift, Azure Synapse Analytics, and more. Customer data can live in multiple data warehouses and are now accessible instantly, without replication. Supported platforms are listed in [this page](../connections/federated-db.md#supported-db).
 
 
 ## Use cases {#rn-uc}

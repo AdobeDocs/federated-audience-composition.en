@@ -21,11 +21,13 @@ badge: label="Limited availability" type="Informative"
 >title="Federated Database details"
 >abstract="Enter the settings to connect to the new Federated Database. Use the **[!UICONTROL Test connection]** button to validate your configuration."
 
-Create, Configure, Test and Save the connection to an external database.
+Federated Audience Composition allows Customer to build and enrich audiences from the third-party data warehouses and import the audiences to Adobe Experience Platform.
 
+Learn how to ceate, configure, test and save the connection to your external database in this page.
 
+## Supported databases {#supported-db}
 
-Supported External Databases:
+With Federated Audience Composition, you can connect to the following databases:
 
 * Amazon Redshift
 * Azure Synapse
