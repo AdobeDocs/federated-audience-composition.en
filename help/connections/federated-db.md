@@ -23,6 +23,8 @@ badge: label="Limited availability" type="Informative"
 
 Create, Configure, Test and Save the connection to an external database.
 
+
+
 Supported External Databases:
 
 * Amazon Redshift

@@ -11,13 +11,13 @@ breadcrumb-title: Federated Audience Composition
     + [Get started](start/get-started.md)
     + [Release notes](start/release-notes.md)
 + Configuration steps {#config}
-    + [Connect AEP with Federated Audience Composition](connections/destinations.md)
     + [Configure your federated databases](connections/federated-db.md)
     + [Create and manage connections](connections/connections.md)
     + Data models and schemas{#datamodel}
         + [Configure your data models](data-management/gs-models.md)
         + [Create and configure schemas](customer/schemas.md)
     + [Work with audiences](customer/audiences.md)
+    + [Import your audiences into AEP](connections/destinations.md)
 + Compositions {#compositions}
     + [Get started with compositions](compositions/gs-compositions.md)
     + Create and run your first composition {#create-composition}
