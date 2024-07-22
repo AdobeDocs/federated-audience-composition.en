@@ -29,22 +29,14 @@ Adobe Federated Audience Composition lets you create and update Adobe Experience
 
 Key steps:
 
-* **Configuration**
+1. **Data Integration**: Bring together data from various sources, and merge them into a unified dataset. Learn how to connect Adobe Experience Platform apps and your enterprise data warehouse, supported databases, and how to configure them are detailed in [this section](../connections/federated-db.md).
 
-    1. Connect Adobe Experience Platform and your enterprise data warehouse. 
-        The following databases are supported: Snowflake, Google Big Query, Azure Synapse, Redshift.
-        Learn more in [this page](../connections/federated-db.md)
-    1. Create schemas to select which data should be accessible from the user interface.
-        Learn more in [this page](../customer/schemas.md)
-    1. Create links for your datamodel.
-        Learn more in [this page](../data-management/gs-models.md)
+2. **Data Modeling**: Design and create data models and schemas that define the structure, relationships, and constraints of the data. Learn more about schemas in [this page](../customer/schemas.md). Learn how to create links for your datamodel in [this page](../data-management/gs-models.md).
 
-* **Compose audiences**
+3. **Data Transformation**: Apply data manipulation techniques to modify the format, structure, or values of data elements to make them compatible or suitable for specific analysis or applications.
 
-    1. Design and execute compositions to create audiences. 
-        Learn more in [this page](../compositions/gs-compositions.md)
-    1. Update or reuse existing audiences through Adobe Experience Platform Audience portal and Destinations. 
-        Learn more in [this page](../connections/destinations.md)
+4. **Data Usage**: Create, orchestrate and build audiences. Learn how to compose audiences in [this page](../compositions/gs-compositions.md). You can also update or reuse existing audiences through Adobe Experience Platform Audience portal and Destinations. Learn more in [this page](../connections/destinations.md)
+
 
 ## Frequently Asked Questions {#faq}
 
