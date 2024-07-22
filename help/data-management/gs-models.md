@@ -33,7 +33,7 @@ badge: label="Limited availability" type="Informative"
 
 A data model is a set of schemas, audiences, and the links between them.
 
-Learn more about [schemas](../customer/schemas.md).
+Learn more about [schemas](../customer/schemas.md#schema-start).
 
 Learn more about [audiences](../customer/audiences.md).
 
@@ -55,3 +55,16 @@ You will access to the window where you can add the schemas, the audiences and t
 
 ### Create links {#data-model-links}
 
+Creating links between tables of your datamodel can be done with 2 ways : 
+- Click directly on **[!UICONTROL Create link]** menu of one of the table
+- Click on **[!UICONTROL Create links]** button, and choose the 2 tables
+
+![](assets/datamodel_createlinks.png){zoomable="yes"}
+
+Fill in the given form to define the link :
+
+![](assets/datamodel_link.png){zoomable="yes"}
+
+All the links defined for your datamodel will be listed as below : 
+
+![](assets/datamodel_alllinks.png){zoomable="yes"}
