@@ -39,7 +39,7 @@ badge: label="Limited availability" type="Informative"
 A schema is an object within the application that defines how the data are tied to database tables. 
 A schema references a table. 
 
-## How to create a schema? {#schema-create}
+## Create a schema {#schema-create}
 
 In **[!UICONTROL FEDERATED DATA]** section, go in the **[!UICONTROL Models]** link. You will find there the **[!UICONTROL Schema]** tab.
 Click on **[!UICONTROL Create schema]** button.
@@ -56,14 +56,14 @@ By adding the tables, you will have access to their fields, and can manage to ke
 
 ![](assets/schema_fields.png){zoomable="yes"}
 
-## How to edit a schema? {#schema-edit}
+## Edit a schema {#schema-edit}
 
 To edit a schema, click on the name of your schema in the schemas folder. You will have access to the page below.
 Click on **[!UICONTROL Edit]** button.
 
 ![](assets/schema_edit.png){zoomable="yes"}
 
-## How to preview data in a schema? {#schema-preview}
+## Preview data in a schema {#schema-preview}
 
 To preview the data in the table represented by your schema, go to the **[!UICONTROL Data]** tab as below.
 
@@ -73,7 +73,7 @@ You can change the Data overview by clicking on the **[!UICONTROL Configure colu
 
 ![](assets/schema_columns.png){zoomable="yes"}
 
-## How to delete a schema? {#schema-delete}
+## Delete a schema {#schema-delete}
 
 To delete a schema, click on **[!UICONTROL More]** button, then **[!UICONTROL Delete]**.
 
