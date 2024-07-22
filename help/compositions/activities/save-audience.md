@@ -43,6 +43,10 @@ Follow these steps to configure the **Save audience** activity:
 
 1. Specify the label of the audience to create.
 
+    >[!IMPORTANT]
+    >
+    >The audience label must be unique within the current sandbox. It cannot be the same label as any existing audience. 
+
 1. Click **Add Audience Mapping** then choose the source and target audience fields:
 
     * **Source Audience Field**: 
