@@ -27,13 +27,133 @@ Learn how to ceate, configure, test and save the connection to your external dat
 
 ## Supported databases {#supported-db}
 
-With Federated Audience Composition, you can connect to the following databases:
+With Federated Audience Composition, you can connect to the following databases. Configuration for each database is detailed below.
 
-* Amazon Redshift
-* Azure Synapse
-* Google Big Query
-* Snowflake
-* Vertica Analytics
+* [Amazon Redshift](#amazon-redshift)
+* [Azure Synapse](azure-synapse-redshift)
+* [Google Big Query](#google-big-query)
+* [Snowflake](#snowflake)
+* [Vertica Analytics](#vertica-analytics)
+
+## Amazon Redshift {#amazon-redshift}
+
+Use Federated Databases to process information stored in an external database. Follow the steps below to configure access to Amazon Redshift.
+
+1. Under the **[!UICONTROL Federated data]** menu, select **[!UICONTROL Federated databases]**.
+
+1. Click **[!UICONTROL Add federated database]**.
+
+    ![](assets/federated_database_1.png)
+
+1. Enter a **[!UICONTROL Name]** to your Federate database.
+
+1. From the **[!UICONTROL Type]** drop-down, select Amazon Redshift.
+
+    ![](assets/federated_database_6.png)
+
+1. Configure the Amazon Redshift authentication settings:
+
+    * **[!UICONTROL Server]**: Add the name of the DNS.
+
+    * **[!UICONTROL Account]**: Add the username.
+
+    * **[!UICONTROL Password]**: Add the account password.
+
+    * **[!UICONTROL Database]**: Name of your database if not specified in DSN. It can be left empty if specified in the DSN
+
+    * **[!UICONTROL Working schema]**: Name of your working schema. [Learn more](https://docs.aws.amazon.com/redshift/latest/dg/r_Schemas_and_tables.html)
+
+1. Select the **[!UICONTROL Test the connection]** option to verify your configuration.
+
+1. Click **[!UICONTROL Deploy functions]** button to create the functions.
+
+1. Once your configuration is done, click **[!UICONTROL Add]** to create your Federate database.
+
+## Azure Synapse Redshift {#azure-synapse-redshift}
+
+Use Federated Databases to process information stored in an external database. Follow the steps below to configure access to Azure Synapse Redshift.
+
+1. Under the **[!UICONTROL Federated data]** menu, select **[!UICONTROL Federated databases]**.
+
+1. Click **[!UICONTROL Add federated database]**.
+
+    ![](assets/federated_database_1.png)
+
+1. Enter a **[!UICONTROL Name]** to your Federate database.
+
+1. From the **[!UICONTROL Type]** drop-down, select Azure Synapse Redshift.
+
+    ![](assets/federated_database_4.png)
+
+1. Configure the Azure Synapse Redshift authentication settings:
+
+    * **[!UICONTROL Server]**: Enter the URL of the Azure Synapse server.
+
+    * **[!UICONTROL Account]**: Enter the Username.
+
+    * **[!UICONTROL Password]**: Enter the account password.
+
+    * **[!UICONTROL Database]** (optional): Enter the name of your database if not specified in the DSN.
+
+    * **[!UICONTROL Options]**: The connector supports the options detailed in the table below.
+
+1. Select the **[!UICONTROL Test the connection]** option to verify your configuration.
+
+1. Click **[!UICONTROL Deploy functions]** button to create the functions.
+
+1. Once your configuration is done, click **[!UICONTROL Add]** to create your Federate database.
+
+| Option   |  Description |
+|:-:|:-:|
+| Authentication | Type of authentication supported by the connector. Current supported value: ActiveDirectoryMSI. For more information, refer to [SQL doc](https://learn.microsoft.com/en-us/sql/connect/odbc/using-azure-active-directory?view=sql-server-ver15#example-connection-strings) (Example connection strings n°8) |
+
+
+## Google Big Query {#google-big-query}
+
+Use Federated Databases to process information stored in an external database. Follow the steps below to configure access to Google Big Query.
+
+1. Under the **[!UICONTROL Federated data]** menu, select **[!UICONTROL Federated databases]**.
+
+1. Click **[!UICONTROL Add federated database]**.
+
+    ![](assets/federated_database_1.png)
+
+1. Enter a **[!UICONTROL Name]** to your Federate database.
+
+1. From the **[!UICONTROL Type]** drop-down, select Google Big Query.
+
+    ![](assets/federated_database_3.png)
+
+1. Configure the Google Big Query authentication settings:
+
+    * **[!UICONTROL Service account]**: Enter the email of your **[!UICONTROL Service account]**. For more information on this, refer to [Google Cloud documentation](https://cloud.google.com/iam/docs/creating-managing-service-accounts).
+
+    * **[!UICONTROL Project]**: Enter the name of your **[!UICONTROL Project]**. For more information on this, refer to [Google Cloud documentation](https://cloud.google.com/resource-manager/docs/creating-managing-projects).
+
+    * **[!UICONTROL Dataset]**: Enter the name of your **[!UICONTROL Dataset]**. For more information on this, refer to [Google Cloud documentation](https://cloud.google.com/bigquery/docs/datasets-intro).
+
+    * **[!UICONTROL Key file Path]**: Upload your key file to the server. Only .json files are accepted.
+
+    * **[!UICONTROL Options]**: The connector supports the options detailed in the table below.
+
+1. Select the **[!UICONTROL Test the connection]** option to verify your configuration.
+
+1. Click **[!UICONTROL Deploy functions]** button to create the functions.
+
+1. Once your configuration is done, click **[!UICONTROL Add]** to create your Federate database.
+
+| Option   |  Description |
+|:-:|:-:|
+|  ProxyType | Type of proxy used to connect to BigQuery through ODBC and SDK connectors. </br>HTTP (default), http_no_tunnel, socks4 and socks5 are currently supported. |
+|  ProxyHost | Hostname or IP address where the proxy can be reached. |
+| ProxyPort | Port number the proxy is running on, e.g. 8080 |
+| ProxyUid | Username used for the authenticated proxy |
+| ProxyPwd | ProxyUid password |
+| bqpath | Note that this is applicable for bulk-load tool only (Cloud SDK). </br> To avoid using PATH variable or if the google-cloud-sdk directory has to be moved to another location, you can specify with this option the exact path to the cloud sdk bin directory on the server. |
+| GCloudConfigName | Note that this is applicable starting release 7.3.4 release and  for bulk-load tool only (Cloud SDK).</br> The Google Cloud SDK uses configurations to load data into BigQuery tables. The configuration named `accfda` stores the parameters for loading the data. However, this option allows users to specify a different name for the configuration. |
+| GCloudDefaultConfigName | Note that this is applicable starting release 7.3.4 release and for bulk-load tool only (Cloud SDK).</br> The active Google Cloud SDK configuration cannot be deleted without first transferring the active tag to a new configuration. This temporary configuration is necessary to recreate the main configuration for loading data. The default name for the temporary configuration is `default`, this can be changed if needed.|
+| GCloudRecreateConfig | Note that this is applicable starting release 7.3.4 release and for bulk-load tool only (Cloud SDK).</br> When set to `false`, the bulk loading mechanism refrains from attempting to recreate, delete, or modify the Google Cloud SDK configurations. Instead, it proceeds with data loading using the existing configuration on the machine. This feature is valuable when other operations depend on Google Cloud SDK configurations. </br> If the user enables this engine option without a proper configuration, the bulk loading mechanism will issue a warning message: `No active configuration found. Please either create it manually or remove the GCloudRecreateConfig option`. To prevent further errors, it will then revert to using the default ODBC Array Insert bulk loading mechanism. |
+
 
 ## Snowflake {#snowflake}
 
@@ -86,89 +206,6 @@ The connector supports the following options:
 |  chunkSize | Determines the file size of the bulk-loader chunk. By default set to 128MB. Can be modified for a more optimal performance, when used with bulkThreads. More concurrently active threads mean better performance. <br>For more on this, refer to [Snowflake documentation](https://docs.snowflake.net/manuals/sql-reference/sql/put.html).|
 | StageName | Name of the pre-provisioned internal stage. It will be used in bulk load instead of creating a new temporary stage.|
 
-## Google Big Query {#google-big-query}
-
-Use Federated Databases to process information stored in an external database. Follow the steps below to configure access to Google Big Query.
-
-1. Under the **[!UICONTROL Federated data]** menu, select **[!UICONTROL Federated databases]**.
-
-1. Click **[!UICONTROL Add federated database]**.
-
-    ![](assets/federated_database_1.png)
-
-1. Enter a **[!UICONTROL Name]** to your Federate database.
-
-1. From the **[!UICONTROL Type]** drop-down, select Google Big Query.
-
-    ![](assets/federated_database_3.png)
-
-1. Configure the Google Big Query authentication settings:
-
-    * **[!UICONTROL Service account]**: Enter the email of your **[!UICONTROL Service account]**. For more information on this, refer to [Google Cloud documentation](https://cloud.google.com/iam/docs/creating-managing-service-accounts).
-
-    * **[!UICONTROL Project]**: Enter the name of your **[!UICONTROL Project]**. For more information on this, refer to [Google Cloud documentation](https://cloud.google.com/resource-manager/docs/creating-managing-projects).
-
-    * **[!UICONTROL Dataset]**: Enter the name of your **[!UICONTROL Dataset]**. For more information on this, refer to [Google Cloud documentation](https://cloud.google.com/bigquery/docs/datasets-intro).
-
-    * **[!UICONTROL Key file Path]**: Upload your key file to the server. Only .json files are accepted.
-
-    * **[!UICONTROL Options]**: The connector supports the options detailed in the table below.
-
-1. Select the **[!UICONTROL Test the connection]** option to verify your configuration.
-
-1. Click **[!UICONTROL Deploy functions]** button to create the functions.
-
-1. Once your configuration is done, click **[!UICONTROL Add]** to create your Federate database.
-
-| Option   |  Description |
-|:-:|:-:|
-|  ProxyType | Type of proxy used to connect to BigQuery through ODBC and SDK connectors. </br>HTTP (default), http_no_tunnel, socks4 and socks5 are currently supported. |
-|  ProxyHost | Hostname or IP address where the proxy can be reached. |
-| ProxyPort | Port number the proxy is running on, e.g. 8080 |
-| ProxyUid | Username used for the authenticated proxy |
-| ProxyPwd | ProxyUid password |
-| bqpath | Note that this is applicable for bulk-load tool only (Cloud SDK). </br> To avoid using PATH variable or if the google-cloud-sdk directory has to be moved to another location, you can specify with this option the exact path to the cloud sdk bin directory on the server. |
-| GCloudConfigName | Note that this is applicable starting release 7.3.4 release and  for bulk-load tool only (Cloud SDK).</br> The Google Cloud SDK uses configurations to load data into BigQuery tables. The configuration named `accfda` stores the parameters for loading the data. However, this option allows users to specify a different name for the configuration. |
-| GCloudDefaultConfigName | Note that this is applicable starting release 7.3.4 release and for bulk-load tool only (Cloud SDK).</br> The active Google Cloud SDK configuration cannot be deleted without first transferring the active tag to a new configuration. This temporary configuration is necessary to recreate the main configuration for loading data. The default name for the temporary configuration is `default`, this can be changed if needed.|
-| GCloudRecreateConfig | Note that this is applicable starting release 7.3.4 release and for bulk-load tool only (Cloud SDK).</br> When set to `false`, the bulk loading mechanism refrains from attempting to recreate, delete, or modify the Google Cloud SDK configurations. Instead, it proceeds with data loading using the existing configuration on the machine. This feature is valuable when other operations depend on Google Cloud SDK configurations. </br> If the user enables this engine option without a proper configuration, the bulk loading mechanism will issue a warning message: `No active configuration found. Please either create it manually or remove the GCloudRecreateConfig option`. To prevent further errors, it will then revert to using the default ODBC Array Insert bulk loading mechanism. |
-
-## Azure Synapse Redshift {#azure-synapse-redshift}
-
-Use Federated Databases to process information stored in an external database. Follow the steps below to configure access to Azure Synapse Redshift.
-
-1. Under the **[!UICONTROL Federated data]** menu, select **[!UICONTROL Federated databases]**.
-
-1. Click **[!UICONTROL Add federated database]**.
-
-    ![](assets/federated_database_1.png)
-
-1. Enter a **[!UICONTROL Name]** to your Federate database.
-
-1. From the **[!UICONTROL Type]** drop-down, select Azure Synapse Redshift.
-
-    ![](assets/federated_database_4.png)
-
-1. Configure the Azure Synapse Redshift authentication settings:
-
-    * **[!UICONTROL Server]**: Enter the URL of the Azure Synapse server.
-
-    * **[!UICONTROL Account]**: Enter the Username.
-
-    * **[!UICONTROL Password]**: Enter the account password.
-
-    * **[!UICONTROL Database]** (optional): Enter the name of your database if not specified in the DSN.
-
-    * **[!UICONTROL Options]**: The connector supports the options detailed in the table below.
-
-1. Select the **[!UICONTROL Test the connection]** option to verify your configuration.
-
-1. Click **[!UICONTROL Deploy functions]** button to create the functions.
-
-1. Once your configuration is done, click **[!UICONTROL Add]** to create your Federate database.
-
-| Option   |  Description |
-|:-:|:-:|
-| Authentication | Type of authentication supported by the connector. Current supported value: ActiveDirectoryMSI. For more information, refer to [SQL doc](https://learn.microsoft.com/en-us/sql/connect/odbc/using-azure-active-directory?view=sql-server-ver15#example-connection-strings) (Example connection strings n°8) |
 
 ## Vertica Analytics {#vertica-analytics}
 
@@ -212,36 +249,3 @@ The connector supports the following options:
 |---|---|
 |  TimeZoneName |  By default empty, which means that the system time zone of the Campaign Classic app server is used. The option can be used to force the TIMEZONE session parameter. |
 
-## Amazon Redshift {#amazon-redshift}
-
-Use Federated Databases to process information stored in an external database. Follow the steps below to configure access to Amazon Redshift.
-
-1. Under the **[!UICONTROL Federated data]** menu, select **[!UICONTROL Federated databases]**.
-
-1. Click **[!UICONTROL Add federated database]**.
-
-    ![](assets/federated_database_1.png)
-
-1. Enter a **[!UICONTROL Name]** to your Federate database.
-
-1. From the **[!UICONTROL Type]** drop-down, select Amazon Redshift.
-
-    ![](assets/federated_database_6.png)
-
-1. Configure the Amazon Redshift authentication settings:
-
-    * **[!UICONTROL Server]**: Add the name of the DNS.
-
-    * **[!UICONTROL Account]**: Add the username.
-
-    * **[!UICONTROL Password]**: Add the account password.
-
-    * **[!UICONTROL Database]**: Name of your database if not specified in DSN. It can be left empty if specified in the DSN
-
-    * **[!UICONTROL Working schema]**: Name of your working schema. [Learn more](https://docs.aws.amazon.com/redshift/latest/dg/r_Schemas_and_tables.html)
-
-1. Select the **[!UICONTROL Test the connection]** option to verify your configuration.
-
-1. Click **[!UICONTROL Deploy functions]** button to create the functions.
-
-1. Once your configuration is done, click **[!UICONTROL Add]** to create your Federate database.
