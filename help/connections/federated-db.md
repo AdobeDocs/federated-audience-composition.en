@@ -30,7 +30,7 @@ Learn how to ceate, configure, test and save the connection to your external dat
 With Federated Audience Composition, you can connect to the following databases. Configuration for each database is detailed below.
 
 * [Amazon Redshift](#amazon-redshift)
-* [Azure Synapse](azure-synapse-redshift)
+* [Azure Synapse](#azure-synapse-redshift)
 * [Google Big Query](#google-big-query)
 * [Snowflake](#snowflake)
 * [Vertica Analytics](#vertica-analytics)
