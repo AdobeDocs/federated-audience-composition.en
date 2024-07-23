@@ -8,7 +8,7 @@ badge: label="Limited availability" type="Informative"
 
 ## What is a composition ? {#what}
 
-Adobe Data Composition allows you to create compositions, where you can leverage various activities (split, exclude…) into a visual canvas to create audiences. Once done, the resulting audiences are saved into Adobe Experience Platform along with existing audiences and can be leveraged in destinations such as Journey Optimizer to target customers.
+Adobe Data Composition allows you to create compositions, where you can leverage various activities (split, exclude…) into a visual canvas to create audiences. Once done, the resulting audiences are saved into Adobe Experience Platform along with existing audiences and can be leveraged in Adobe Experience Platform destinations such as Journey Optimizer to target customers. [Learn how to work with audiences](../start/audiences.md)
 
 ![](assets/composition-example.png)
 
@@ -37,7 +37,7 @@ Compositions can have multiple statuses:
 
 * **[!UICONTROL Draft]**: The composition has been created and saved.
 * **[!UICONTROL In progress]**: The composition has been executed and is currently running.
-* **[!UICONTROL Stopped]**: The composition execution has stopped.
+* **[!UICONTROL Stopped]**: The composition execution is complete and has stopped.
 * **[!UICONTROL Paused]**: The composition execution has been paused.
 * **[!UICONTROL Erroneous]**: The composition execution has encountered an error. Open the composition and access the logs and tasks to identify the error and resolve it.
 

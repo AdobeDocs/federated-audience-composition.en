@@ -11,9 +11,9 @@ badge: label="Limited availability" type="Informative"
 >title="Create a destination"
 >abstract="Enter the settings to connect to the new Federated Database. Use the **[!UICONTROL Connect to destination]** button to validate your configuration."
 
-Adobe Experience Platform allows seamless integration of audiences from the Audience Portal to your external databases using the Adobe Federated Audience Composition destination. By doing so, you can leverage existing audiences into compositions and enrich or refine them using data from your external databases to create new audiences or update existing ones.
+Adobe Experience Platform allows seamless integration of audiences from the Audience Portal to your external databases using the **Adobe Federated Audience Composition** destination. By doing so, you can leverage existing audiences into compositions and enrich or refine them using data from your external databases to create new audiences.
 
-To do so, you need to setup a new connection in Adobe Experience Platform to the Adobe Federated Audience Composition destination. You can use a scheduler to send a given audience at regular frequencies, select specific attributes to include, such as IDs for data reconciliation. If you have applied governance and privacy policies to your audience,  they will be kept and sent back to the audience portal once the audience has been updated.
+To do so, you need to setup a new connection in Adobe Experience Platform to the Adobe Federated Audience Composition destination. You can use a scheduler to send a given audience at regular frequencies, select specific attributes to include, such as IDs for data reconciliation. If you have applied governance and privacy policies to your audience, they will be kept and sent back to the audience portal once the audience has been updated.
 
 For instance, if you store customer credit scores in your data warehouse and have an Adobe Experience Platform audience targeting customers interested in a specific product within the last two months, you can refine this audience based on credit scores using the Federated Audience Composition destination. This process allows you to filter the audience to include only profiles with high credit scores without transferring sensitive credit score data from your data warehouse.
 

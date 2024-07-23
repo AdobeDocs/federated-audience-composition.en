@@ -10,7 +10,7 @@ badge: label="Limited availability" type="Informative"
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_save_audience"
 >title="Save an audience"
->abstract="Use this activity to update an existing audience or create a new audience from the population computed upstream in the composition. The audiences created are added to the list of audiences, and available via the **Audiences** menu."
+>abstract="Use this activity to create a new audience from the population computed upstream in the composition. The audiences created are added to the list of audiences, and available via the **Audiences** menu."
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_saveaudience_outbound"
@@ -29,7 +29,7 @@ badge: label="Limited availability" type="Informative"
 >abstract="Select the namespace to use for profiles."
 >additional-url="https://experienceleague.adobe.com/en/docs/experience-platform/identity/features/namespaces" text="Learn more in Experience Platform documentation"
 
-The **Save audience** activity allows you to update an existing audience or create a new audience from the population computed upstream in a composition. The audiences created are added to the list of application audiences, and are made available via the **Audiences** menu.
+The **Save audience** activity allows you to create a new audience from the population computed upstream in a composition. The audiences created are added to the list of Adobe Experience Platform audiences, and are made available via the **Audiences** menu. [Learn how to work with audiences](../../start/audiences.md)
 
 This activity is essentially used to keep population groups computed in the same composition, by converting them into reusable audiences. Connect it to other targeting activities such as a **Build audience** or a **Combine** activity. 
 
@@ -47,10 +47,7 @@ Follow these steps to configure the **Save audience** activity:
     >
     >The audience label must be unique within the current sandbox. It cannot be the same label as any existing audience. 
 
-1. Click **Add Audience Mapping** then choose the source and target audience fields:
-
-    * **Source Audience Field**: 
-    * **Target Audience Field**: 
+1. Use the Audience Mappings section to select the fields you want to bring over with the newly created audience. To do this, click **Add Audience Mapping** then choose the source and target audience fields.
 
     Repeat the operation to add as many audience mappings as needed.
 
@@ -59,7 +56,7 @@ Follow these steps to configure the **Save audience** activity:
     * **Primary identity field**: Select the field to use to identify the profiles. For example, its email address or phone number.
     * **Identity namespace**: Select the namespace to use to identity the profiles, i.e. the type of data to use as identification key. For example, if the email address has been selected as primary identity field, the identity namespace **Email** should be selected. If the unique identifier is the phone number, then the identity namespace **Phone** should be selected.
 
-After executing the composition, the resulting audience is saved in Adobe Experience Platform <!-- to check-->, and made accessible in the **Audiences** menu.
+After executing the composition, the resulting audience is saved in Adobe Experience Platform, and made accessible in the **Audiences** menu. The created audience includes all the fields selected in the Audience Mappings section. You can activate the audience to any destination supported by Adobe Experience Platform.
 
 <!--
 
