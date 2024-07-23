@@ -38,7 +38,8 @@ badge: label="Limited availability" type="Informative"
 
 A schema is a representation of a table of your database. It is an object within the application that defines how the data are tied to database tables. 
 
-By creating a schema, you will have the possibility to manipulate your table in FAC : 
+By creating a schema, you will have the possibility to manipulate a representation of your table in FAC : 
+
 - Give it a friendly name and description to simplify the comprehension for the user
 - Decide the visibility of each fields, according to their real use 
 - Select its primary key, in order to link schemas between them, as needed in the [data model](../data-management/gs-models.md#data-model-start)
@@ -64,6 +65,7 @@ By adding the tables, for which you want to create the schema, you will have acc
 ![](assets/schema_fields.png){zoomable="yes"}
 
 For each table, you can :
+
 - rename the schema label given
 - add a description
 - rename all the fields, and decide their visibility.
@@ -85,6 +87,7 @@ Click on **[!UICONTROL Edit]** button.
 ![](assets/schema_edit.png){zoomable="yes"}
 
 You will have access to the same possibility as when creating the schema :
+
 - rename the schema label given
 - add a description
 - rename all the fields, and decide their visibility.

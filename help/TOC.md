@@ -10,7 +10,7 @@ breadcrumb-title: Federated Audience Composition
 + Get started with Federated Audience Composition {#start}
     + [Get started](start/get-started.md)
     + [Release notes](start/release-notes.md)
-     + [Work with audiences](start/audiences.md)
+    + [Work with audiences](start/audiences.md)
 + Configuration steps {#config}
     + [Create and manage connections](connections/connections.md)
     + [Configure your federated databases](connections/federated-db.md)
