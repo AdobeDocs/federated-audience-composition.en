@@ -35,7 +35,7 @@ A data model is a set of schemas, audiences, and the links between them.
 
 Learn more about [schemas](../customer/schemas.md#schema-start).
 
-Learn more about [audiences](../customer/audiences.md).
+Learn more about [audiences](../start/audiences.md).
 
 ## Create a data model {#data-model-create}
 
