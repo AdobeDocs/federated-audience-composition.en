@@ -2,8 +2,8 @@
 title: Get Started with Federated Audience Composition
 description: Learn what is Adobe Federated Audience Composition and how to use it in Adobe Experience Platform
 badge: label="Limited availability" type="Informative"
+exl-id: 43464aea-9c1d-4f1f-859f-82f209f350b7
 ---
-
 # Get Started with Federated Audience Composition {#gs-fac}
 
 Federated Audience Composition is an add-on for Adobe Real-Time Customer Data Platform and Adobe Journey Optimizer that allows you to build and enrich audiences from your third-party data warehouses and import the audiences into Adobe Experience Platform. Federated Audience Composition brings an easy and powerful solution to connect your enterprise data warehouse directly within Adobe Real-Time Customer Data Platform and/or Adobe Journey Optimizer, and perform queries on the tables of your data warehouse. 

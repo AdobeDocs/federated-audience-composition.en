@@ -3,8 +3,8 @@ audience: end-user
 title: Work with activities
 description: Learn how to work with activities
 badge: label="Limited availability" type="Informative"
+exl-id: 1e4e5f53-636f-4f1c-bf2f-cc3b5d6d6dda
 ---
-
 # Work with activities {#activities}
 
 In Federated Audience Composition, you can create compositions using two types of activites:

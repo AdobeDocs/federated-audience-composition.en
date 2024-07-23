@@ -2,8 +2,8 @@
 title: Adobe Experience Platform - Federated Audience Composition Documentation Home Page
 description: This is the article overview.
 badge: label="Limited availability" type="Informative"
+exl-id: 5cb18794-ae38-4ed7-9ce2-112bc6ae8dce
 ---
-
 # Federated Audience Composition Documentation  {#fac-home}
 
 Welcome to Adobe Experience Platform Federated Audience Composition Documentation.
@@ -67,6 +67,4 @@ Add and configure activities (Split, Enrichment, Query, etc.) to build compositi
 
 ## Additional resources  {#additional-resources}
 
-[Real-Time Customer Data Platform Documentation](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/home){target="_blank"} - [Adobe Audience Portal documentation](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-dashboard){target="_blank"} - [Tutorials](https://experienceleague.adobe.com/en/docs/platform-learn/tutorials/audiences/introduction-to-audience-portal-and-composition){target="_blank"} 
-
-
+[Real-Time Customer Data Platform Documentation](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/home){target="_blank"} - [Adobe Audience Portal documentation](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-dashboard){target="_blank"} - [Tutorials](https://experienceleague.adobe.com/en/docs/platform-learn/tutorials/audiences/introduction-to-audience-portal-and-composition){target="_blank"}

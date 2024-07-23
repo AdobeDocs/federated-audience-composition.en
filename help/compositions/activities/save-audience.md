@@ -3,8 +3,8 @@ audience: end-user
 title: Use the Save audience activity
 description: Learn how to use the Save audience activity
 badge: label="Limited availability" type="Informative"
+exl-id: fa67b1ee-8de6-4a71-b597-ade3f5587a38
 ---
-
 # Save audience {#save-audience}
 
 >[!CONTEXTUALHELP]

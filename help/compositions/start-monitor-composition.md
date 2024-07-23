@@ -3,8 +3,8 @@ audience: end-user
 title: Create compositions
 description: Learn how to create compositions
 badge: label="Limited availability" type="Informative"
+exl-id: 1f288312-dd6a-4a62-8ee6-fa2417954d5c
 ---
-
 # Start and monitor your composition {#start-monitor}
 
 Once that you have created your composition and designed the tasks to perform in the canvas, you can launch it and monitor how it is being executed. 

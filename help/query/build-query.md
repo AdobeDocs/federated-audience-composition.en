@@ -3,6 +3,7 @@ audience: end-user
 title: Build your first query using the query modeler
 description: Learn how to build your first query in the query modeler
 badge: label="Limited availability" type="Informative"
+exl-id: bfaf1057-8770-4c3d-945d-4a9d37e5675f
 ---
 # Build your first query {#build-query}
 

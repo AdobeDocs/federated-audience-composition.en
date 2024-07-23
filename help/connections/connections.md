@@ -3,6 +3,7 @@ audience: end-user
 title: Create and manage connections with Federated Databases
 description: Learn how to create and manage connections with Federated Databases
 badge: label="Limited availability" type="Informative"
+exl-id: ab65cd8a-dfa0-4f09-8e9b-5730564050a1
 ---
 # Create connections {#connections-fdb}
 

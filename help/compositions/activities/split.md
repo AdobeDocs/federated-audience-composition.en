@@ -3,8 +3,8 @@ audience: end-user
 title: Use the Split activity
 description: Learn how to use the Split activity
 badge: label="Limited availability" type="Informative"
+exl-id: 6346eef6-b164-40cf-9402-b5ff208af97f
 ---
-
 # Split {#split}
 
 >[!CONTEXTUALHELP]

@@ -3,6 +3,7 @@ audience: end-user
 title: Get started with Federated Databases
 description: Learn how to create and manage your Federated Databases
 badge: label="Limited availability" type="Informative"
+exl-id: b8c0589d-4150-40da-ac79-d53cced236e8
 ---
 # Get started with Federated Databases {#federated-db}
 
@@ -248,4 +249,3 @@ The connector supports the following options:
 | Option   |  Description |
 |---|---|
 |  TimeZoneName |  By default empty, which means that the system time zone of the Campaign Classic app server is used. The option can be used to force the TIMEZONE session parameter. |
-

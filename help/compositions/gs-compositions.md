@@ -3,6 +3,7 @@ audience: end-user
 title: Get started with compositions
 description: Learn how to start with compositions
 badge: label="Limited availability" type="Informative"
+exl-id: 92142d16-3483-4f6e-afde-9f88d5d7d1c4
 ---
 # Get started with compositions {#compositions}
 

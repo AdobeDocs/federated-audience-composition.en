@@ -3,6 +3,7 @@ audience: end-user
 title: Get started with schemas
 description: Learn how to start with schemas
 badge: label="Limited availability" type="Informative"
+exl-id: 2c939185-f1c1-4f2b-ae1b-e2539e121eff
 ---
 # Get started with schemas {#schemas}
 

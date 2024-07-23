@@ -2,8 +2,8 @@
 audience: end-user
 title: Use the Scheduler activity
 description: Learn how to use the Scheduler activity
+exl-id: 3e8be2a2-2227-42f4-a512-b9e686ba0f66
 ---
-
 # Scheduler {#scheduler}
 
 >[!CONTEXTUALHELP]
@@ -62,4 +62,3 @@ Follow these steps to configure the **Scheduler** activity:
 <!--## Example{#scheduler-example}
 
 In the following example, the activity is configured so that the composition runs several times a day at 9 and 12 AM, every day of the week from October 1st, 2023 to January 1st, 2024.-->
-

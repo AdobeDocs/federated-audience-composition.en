@@ -3,8 +3,8 @@ audience: end-user
 title: Use the Combine activity
 description: Learn how to use the Combine activity
 badge: label="Limited availability" type="Informative"
+exl-id: 395e96d1-0af2-4e59-b599-f57a083b68ca
 ---
-
 # Combine {#combine}
 
 >[!CONTEXTUALHELP]

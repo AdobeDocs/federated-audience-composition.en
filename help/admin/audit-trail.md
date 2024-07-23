@@ -3,6 +3,7 @@ audience: end-user
 title: Get started with Audit Trail
 description: Learn how to monitor your databases with the audit trail
 badge: label="Limited availability" type="Informative"
+exl-id: 97142f54-53ce-4c2a-9d89-fdcb2a47b159
 ---
 # Get started with Audit Trail {#audit-trail}
 

@@ -3,6 +3,7 @@ audience: end-user
 title: Work with the query modeler
 description: Learn how to work with the query modeler
 badge: label="Limited availability" type="Informative"
+exl-id: b77b9d1c-61d5-4d6d-9d82-3c72bc9c932a
 ---
 # Work with the query modeler {#segment-builder}
 

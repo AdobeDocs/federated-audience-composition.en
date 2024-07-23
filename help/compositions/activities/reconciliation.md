@@ -3,8 +3,8 @@ audience: end-user
 title: Use the Reconciliation activity
 description: Learn how to use the Reconciliation activity
 badge: label="Limited availability" type="Informative"
+exl-id: 933c3cba-9120-4a93-a668-866fb65ee197
 ---
-
 # Reconciliation {#reconciliation}
  
 >[!CONTEXTUALHELP]

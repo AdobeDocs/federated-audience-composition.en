@@ -3,8 +3,8 @@ audience: end-user
 title: Create compositions
 description: Learn how to create compositions
 badge: label="Limited availability" type="Informative"
+exl-id: 7b9acfc0-99b6-4f83-b774-3652c811868c
 ---
-
 # Orchestrate composition activities {#activities}
 
 Once that you have created a composition, you can start orchestrating the differents tasks it will perform. To do this, a visual canvas is provided, allowing you to construct your audience composition diagram. Within this diagram, you can add various activities and connect them in a sequential order.

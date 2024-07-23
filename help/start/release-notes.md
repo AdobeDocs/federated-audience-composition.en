@@ -2,8 +2,8 @@
 title: What's new in Federated Audience Composition
 description: Latest updates and release notes
 badge: label="Limited availability" type="Informative"
+exl-id: d4dcaf31-93cd-4a4e-888a-cf1bbdc4ca03
 ---
-
 # Release Notes {#rn-new}
 
 ## Federated Audience Composition (LA) {#fac-la}

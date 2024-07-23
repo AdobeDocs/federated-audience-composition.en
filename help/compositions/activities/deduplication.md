@@ -3,8 +3,8 @@ audience: end-user
 title: Use the Deduplication activity
 description: Learn how to use the Deduplication activity
 badge: label="Limited availability" type="Informative"
+exl-id: 55db2461-fcfb-4284-9ab7-7cb01071ed1c
 ---
-
 # Deduplication {#deduplication}
  
 >[!CONTEXTUALHELP]

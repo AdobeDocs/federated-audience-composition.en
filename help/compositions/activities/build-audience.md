@@ -3,8 +3,8 @@ audience: end-user
 title: Use the Build audience activity
 description: Learn how to use the Build audience activity
 badge: label="Limited availability" type="Informative"
+exl-id: 6fad3e49-e654-4f68-a125-50056c4ae980
 ---
-
 # Build audience {#build-audience}
 
 >[!CONTEXTUALHELP]

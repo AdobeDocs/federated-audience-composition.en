@@ -3,8 +3,8 @@ audience: end-user
 title: Create compositions
 description: Learn how to create compositions
 badge: label="Limited availability" type="Informative"
+exl-id: 4f510805-b700-444d-89bb-832eaa1e3242
 ---
-
 # Create & configure the composition {#create}
 
 The first step to create a composition is to define its label and configure additional settings if needed.

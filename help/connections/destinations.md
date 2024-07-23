@@ -3,6 +3,7 @@ audience: end-user
 title: Enrich Adobe Experience Platform audiences with external data
 description: Learn how to refine and enrich Adobe Experience Platform audiences with data from your federated databases using the Federated audience composition destination.
 badge: label="Limited availability" type="Informative"
+exl-id: 03c2f813-21c9-4570-a3ff-3011f164a55e
 ---
 # Enrich Adobe Experience Platform audiences with external data {#connect-aep-fac}
 

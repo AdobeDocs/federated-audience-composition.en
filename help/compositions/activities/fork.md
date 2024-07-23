@@ -3,8 +3,8 @@ audience: end-user
 title: Use the Fork activity
 description: Learn how to use the Fork activity
 badge: label="Limited availability" type="Informative"
+exl-id: f73f27ca-e00d-446d-8f1c-a751f1809bac
 ---
-
 # Fork {#fork}
 
 >[!CONTEXTUALHELP]
