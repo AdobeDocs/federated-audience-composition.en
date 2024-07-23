@@ -39,8 +39,11 @@ To create your own audience, follow these steps:
 
 1. Select **Create audience**.
 1. Choose the **Schema**, also known as targeting dimension. The schema lets you define the population targeted by the operation: recipients, contract beneficiaries, operator, subscribers, etc. By default, the schema is selected from the recipients.
+
+    ![](../assets/build-audience-create.png)
+
 1. Click **Continue**.
-1. Use the query modeler to define your query. [Learn how to work with the query modeler](../../query/query-modeler-overview.md)
+1. Use the query modeler to define your query then confirm. [Learn how to work with the query modeler](../../query/query-modeler-overview.md)
 
 >[!TAB Read audience]
 
@@ -48,9 +51,16 @@ To select an existing audience, follow these steps:
 
 1. Select **Read audience**.
 1. Click **Continue**.
+
+    ![](../assets/build-audience-read.png)
+
 1. Select your audience.
 
 >[!ENDTABS]
+
+>[!NOTE]
+>
+>The **Generate an outbound transition** option allows you to add an outbound transition that will be activated at the end of the execution of the activity if the audience population is empty. 
 
 <!--
 ## Examples{#build-audience-examples}
