@@ -11,11 +11,11 @@ breadcrumb-title: Federated Audience Composition
     + [Get started](start/get-started.md)
     + [Release notes](start/release-notes.md)
 + Configuration steps {#config}
-    + [Configure your federated databases](connections/federated-db.md)
     + [Create and manage connections](connections/connections.md)
+    + [Configure your federated databases](connections/federated-db.md)
     + Data models and schemas{#datamodel}
-        + [Configure your data models](data-management/gs-models.md)
         + [Create and configure schemas](customer/schemas.md)
+        + [Configure your data models](data-management/gs-models.md)
     + [Work with audiences](customer/audiences.md)
     + [Send audiences to Adobe Federated Audience Composition](connections/destinations.md)
 + Compositions {#compositions}

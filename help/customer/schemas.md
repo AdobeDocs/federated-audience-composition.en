@@ -36,25 +36,46 @@ badge: label="Limited availability" type="Informative"
 
 ## What is a schema? {#schema-start}
 
-A schema is an object within the application that defines how the data are tied to database tables. 
-A schema references a table. 
+A schema is a representation of a table of your database. It is an object within the application that defines how the data are tied to database tables. 
+
+By creating a schema, you will have the possibility to manipulate your table in FAC : 
+- Give it a friendly name and description to simplify the comprehension for the user
+- Decide the visibility of each fields, according to their real use 
+- Select its primary key, in order to link schemas between them, as needed in the [data model](../data-management/gs-models.md#data-model-start)
 
 ## Create a schema {#schema-create}
 
+To create schemas in FAC, follow the steps below :
 In **[!UICONTROL FEDERATED DATA]** section, go in the **[!UICONTROL Models]** link. You will find there the **[!UICONTROL Schema]** tab.
 Click on **[!UICONTROL Create schema]** button.
 
 ![](assets/schema_create.png){zoomable="yes"}
 
-Select your source database in the drop-down list, and click on **[!UICONTROL Add tables]** tab
+You will have access to a new interface with a drop-down list where you will find 
+all the databases connected to your application. Learn more on [database connection](../connections/connections.md#connections-fdb).
+Select your source database in the list and click on **[!UICONTROL Add tables]** tab
 
 ![](assets/schema_tables.png){zoomable="yes"}
 
-You will have access to all the tables in the database, and for which you can create a schema.
+You will have access to the list of all the tables in the database.
 
-By adding the tables, you will have access to their fields, and can manage to keep what you really need.
+By adding the tables, for which you want to create the schema, you will have access to their fields as below.
 
 ![](assets/schema_fields.png){zoomable="yes"}
+
+For each table, you can :
+- rename the schema label given
+- add a description
+- rename all the fields, and decide their visibility.
+- select the schema primary key
+
+For example, here is a table imported, just after the add : 
+
+![](assets/schema_lumaorder.png){zoomable="yes"}
+
+The schema can be defined like this : 
+
+![](assets/schema_lumaorders.png){zoomable="yes"}
 
 ## Edit a schema {#schema-edit}
 
@@ -63,9 +84,18 @@ Click on **[!UICONTROL Edit]** button.
 
 ![](assets/schema_edit.png){zoomable="yes"}
 
+You will have access to the same possibility as when creating the schema :
+- rename the schema label given
+- add a description
+- rename all the fields, and decide their visibility.
+- select the schema primary key
+
+![](assets/schema_edit_orders.png){zoomable="yes"}
+
 ## Preview data in a schema {#schema-preview}
 
 To preview the data in the table represented by your schema, go to the **[!UICONTROL Data]** tab as below.
+You can have the total number of recordings by clicking on the **[!UICONTROL Calculate]** link.
 
 ![](assets/schema_data.png){zoomable="yes"}
 
