@@ -13,11 +13,11 @@ badge: label="Limited availability" type="Informative"
 
 The Audit trail capability provides a detailed and chronological record of all actions and events that have been made to your environment in real-time
 
-**[!UICONTROL Audit trail]** feature constantly records a detailed log of actions and events taking place within the Adobe Data Composition instance in real-time. It offers a convenient method to access a chronological record of data, addressing queries such as: the status of workflows, the latest individuals to modify them, or the activities performed by users within the instance.
+**[!UICONTROL Audit trail]** feature constantly records a detailed log of actions and events taking place within the Adobe Federated Composition instance in real-time. It offers a convenient method to access a chronological record of data, addressing queries such as: the status of workflows, the latest individuals to modify them, or the activities performed by users within the instance.
 
 +++ Learn more on Audit Trail available entities
 
-* **Source Schema audit trail** allows you to monitor activities and recent modifications made to your schemas within the Adobe Data Composition instance. 
+* **Source Schema audit trail** allows you to monitor activities and recent modifications made to your schemas within the Adobe Federated Audience Composition instance. 
 
   For detailed information on schemas, refer to this [page](../customer/schemas.md).
 
@@ -34,7 +34,7 @@ The Audit trail capability provides a detailed and chronological record of all a
 
   For more information on workflows, refer to this [page](../compositions/gs-compositions.md).
 
-* **External Account** allows you to check modifications made to external accounts in Adobe Data Composition instance.
+* **External Account** allows you to check modifications made to external accounts in Adobe Audience Composition instance.
 
   For more information on external account, refer to this [page](../connections/federated-db.md).
 

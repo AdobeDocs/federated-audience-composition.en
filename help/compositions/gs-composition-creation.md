@@ -14,7 +14,7 @@ badge: label="Limited availability" type="Informative"
 
 ## What's inside a composition? {#gs-composition-inside}
 
-Federated Data Composition provides a visual canvas that allows you to create audiences by leveraging various activities (split, enrich, etc.).
+Federated Audience Composition provides a visual canvas that allows you to create audiences by leveraging various activities (split, enrich, etc.).
 
 The composition diagram is a representation of what is supposed to happen. It describes the various tasks to be performed and how they are linked together. 
 
