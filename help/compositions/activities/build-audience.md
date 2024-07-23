@@ -12,15 +12,10 @@ badge: label="Limited availability" type="Informative"
 >title="Build audience activity"
 >abstract="The **Build audience** activity allows you to define the audience that will enter the composition."
 
-The **Build audience** activity allows you to define the audience that will enter the composition.
-
-To define the audience population, you can:
+The **Build audience** activity allows you to define the audience that will enter the composition. To define the audience population, you can:
  
-<!--* Select an existing audience, created as a list in the client console.-->
-* Select an Adobe Experience Platform audience. 
-* Build a new audience with the query modeler builder by defining and combining filtering criteria.
-
-The **Build audience** activity can be placed at the beginning of the composition or after any other activity. Any activity can be placed after the **Build audience**.
+* Select an existing Adobe Experience Platform audience. 
+* Create a new audience with the query modeler by defining and combining filtering criteria.
 
 ## Configure the Build audience activity {#build-audience-configuration}
 

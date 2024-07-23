@@ -41,9 +41,7 @@ The first step to create a composition is to define its label and configure addi
 >title="Error management settings"
 >abstract="In this section, you can define how to manage errors during the execution. You can choose to pause the process, ignore a certain number of errors, or stop the composition execution."
 
-When accessing a composition, you can access advanced settings that allow you, for example, to define how the composition should behave in case of error.
-
-To access additiona options for your composition, click the **[!UICONTROL Settings]** button located in the upper section of the composition creation screen.
+When accessing a composition, you can access advanced settings that allow you, for example, to define how the composition should behave in case of error. To access these additional options, click the **[!UICONTROL Settings]** button located in the upper section of the composition creation screen.
 
 ![](assets/composition-create-settings.png)
 
