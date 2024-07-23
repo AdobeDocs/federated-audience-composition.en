@@ -56,6 +56,7 @@ You will access to the window where you can add the schemas, the audiences and t
 ### Create links {#data-model-links}
 
 Creating links between tables of your datamodel can be done with 2 ways : 
+
 - Click directly on **[!UICONTROL Create link]** menu of one of the table
 - Click on **[!UICONTROL Create links]** button, and choose the 2 tables
 

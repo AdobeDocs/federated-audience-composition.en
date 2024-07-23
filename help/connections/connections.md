@@ -21,6 +21,7 @@ Selecting its type will give you access to other properties to fill in. [Learn m
 ![](assets/connections_details.png){zoomable="yes"}
 
 According to the type of your database, learn in the links below the information you need to setup the connection : 
+
 * [Amazon Redshift](federated-db.md#amazon-redshift)
 * [Azure Synapse](federated-db.md#azure-synapse-redshift)
 * [Google Big Query](federated-db.md#google-big-query)
