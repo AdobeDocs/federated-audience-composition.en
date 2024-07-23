@@ -6,9 +6,9 @@ badge: label="Limited availability" type="Informative"
 ---
 # Get started with compositions {#compositions}
 
-## What is a composition ? {#what}
+## What is a composition {#what}
 
-Adobe Data Composition allows you to create compositions, where you can leverage various activities (split, exclude…) into a visual canvas to create audiences. Once done, the resulting audiences are saved into Adobe Experience Platform along with existing audiences and can be leveraged in Adobe Experience Platform destinations such as Journey Optimizer to target customers. [Learn how to work with audiences](../start/audiences.md)
+Adobe Audience Composition allows you to create compositions, where you can leverage various activities (split, exclude…) into a visual canvas to create audiences. Once done, the resulting audiences are saved into Adobe Experience Platform along with existing audiences and can be leveraged in destinations such as Journey Optimizer to target customers. [Learn how to work with audiences](../start/audiences.md)
 
 ![](assets/composition-example.png)
 

@@ -6,7 +6,7 @@ badge: label="Limited availability" type="Informative"
 ---
 # Work with audiences {#gs-audiences}
 
-Audience created using Adobe Federated Data Composition are stored in Audience Portal alongside all Adobe Experience Platform audiences. You can activate these audiences to any destination supported by Adobe Experience Platform.
+Adobe Federated Audience Composition allows you to [create compositions](../compositions/gs-compositions.md), where you can leverage various activities into a visual canvas to create audiences. Audience created using Adobe Federated Data Composition are stored in Audience Portal alongside all Adobe Experience Platform audiences. You can activate these audiences to any destination supported by Adobe Experience Platform.
 
 Audience Portal is accessible from the **Audiences** menu. The **[!UICONTROL Browse]** tab lists all existing audiences stored into Adobe Experience Platform. You can identify Federated Audience Composition audiences in the list using the **[!UICONTROL Origin]** column or the filters available in the left hand pane.
 

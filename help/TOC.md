@@ -7,9 +7,9 @@ breadcrumb-title: Federated Audience Composition
 # Federated Audience Composition documentation {#using}
 
 + [Federated Audience Composition documentation](home.md)
++ [Release notes](start/release-notes.md)
 + Get started with Federated Audience Composition {#start}
-    + [Get started](start/get-started.md)
-    + [Release notes](start/release-notes.md)
+    + [What is Federated Audience Composition](start/get-started.md)
     + [Work with audiences](start/audiences.md)
 + Configuration steps {#config}
     + [Create and manage connections](connections/connections.md)
@@ -18,7 +18,7 @@ breadcrumb-title: Federated Audience Composition
         + [Create and configure schemas](customer/schemas.md)
         + [Configure your data models](data-management/gs-models.md)
     + [Enrich Adobe Experience Platform audiences with external data](connections/destinations.md)
-+ Compositions {#compositions}
++ Compose audiences {#compositions}
     + [Get started with compositions](compositions/gs-compositions.md)
     + Create and run your first composition {#create-composition}
         + [Key principles of composition creation](compositions/gs-composition-creation.md)
@@ -45,4 +45,3 @@ breadcrumb-title: Federated Audience Composition
     + [Edit expressions](query/expression-editor.md)
 + Audit Trail {#audit-trail}
     + [Monitor your databases](admin/audit-trail.md)
-+ [< Back to Adobe Experience Platform documentation](https://experienceleague.adobe.com/en/docs/experience-platform/landing/home)
