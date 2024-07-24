@@ -90,9 +90,7 @@ Follow these steps to configure the **Split** activity:
 
 1. Once that you have configured all the subsets, you can select the remaining population that did not match any of the subsets and include them into an additional outbound transition. To do this, toggle on the **[!UICONTROL Generate complement]** option.
 
-    >[!NOTE]
-    >
-    >The **[!UICONTROL Generate all subsets in the same table]** option allows you to group all the subsets into a single output transition.
+1. The **[!UICONTROL Generate all subsets in the same table]** option allows you to group all the subsets into a single output transition.
 
 1. The **[!UICONTROL Enable overlapping of output populations]** option lets you manage populations belonging to several subsets:
 

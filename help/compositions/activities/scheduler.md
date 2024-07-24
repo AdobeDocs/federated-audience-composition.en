@@ -13,6 +13,10 @@ exl-id: 3e8be2a2-2227-42f4-a512-b9e686ba0f66
 
 The **Scheduler** activity is a **Flow control** activity. It allows you to schedule when the composition gets started. This activity should be considered as a scheduled start. It can only be used as the first activity of the composition. 
 
+If you have configured a connection to the Federated Data Composition destination, you can use this activity to send over Adobe Experience Platform audiences at regular frequencies. [Learn how to enrich Adobe Experience Platform audiences with external data](../../connections/destinations.md)
+
+![](../assets/scheduler.png)
+
 ## Configure the Scheduler activity {#scheduler-configuration}
 
 >[!CONTEXTUALHELP]
@@ -32,9 +36,7 @@ Follow these steps to configure the **Scheduler** activity:
 1. Configure the **Execution frequency**:
 
    * **Once**: the composition is executed a single time.
-
    * **Daily**: the composition is executed at a specific time, once a day.
-
    * **Several times a day:** the composition is regularly executed several times a day. You can set up executions at specific times or periodically.
 
         >[!NOTE]
@@ -42,7 +44,6 @@ Follow these steps to configure the **Scheduler** activity:
         >Do not schedule a composition to run more than every 15 minutes as it may impede overall system performance and create blocks in the database.
 
    * **Weekly**: the composition is executed at a specified moment, once or several times a week.
-
    * **Monthly**: the composition is executed at a specified moment, once or several times a month. You can select months, when you need the composition to be executed. You can also set up executions on specified week days of the month, such as the second Tuesday of the month.
 
 1. Define the execution details according to the frequency selected. The detail fields may vary depending on the frequency used (time, repetition frequency, specified days, etc.).

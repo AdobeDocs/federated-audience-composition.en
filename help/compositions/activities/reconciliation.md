@@ -31,7 +31,7 @@ The **Reconciliation** activity allows you to define the link between the data i
 
 <!--For example, the **Reconciliation** activity can be placed after a **Load file** activity to import non-standard data into the database. In this case, the **Reconciliation** activity lets you define the link between the data in the Adobe Campaign database and the data in the work table.-->
 
-The **Reconciliation** activity allows you to link unidentified data to existing resources. Reconciliation operation implies that the data you are joining are already in the database. For example, if you want to reconciliate purchases information showing which product was purchased, at what time, by which client, etc., the product as well as the client must already exist in the database.
+It allows you to link unidentified data to existing resources. Reconciliation operation implies that the data you are joining are already in the database. For example, if you want to reconciliate purchases information showing which product was purchased, at what time, by which client, etc., the product as well as the client must already exist in the database.
 
 ## Configure the Reconciliation activity {#reconciliation-configuration}
 
