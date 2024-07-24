@@ -2,8 +2,8 @@
 title: Frequently Asked Questions
 description: Frequently Asked Questions
 badge: label="Limited availability" type="Informative"
+exl-id: 68cc0ae5-5c41-425f-8b10-ab3515294006
 ---
-
 # Frequently asked questions {#faq}
 
 The following is a list of frequently asked questions regarding Federated Audience Composition. A global FAQ is also available for Adobe Experience Platform Segmentation Service in [this page](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/faq){target="_blank"}.
