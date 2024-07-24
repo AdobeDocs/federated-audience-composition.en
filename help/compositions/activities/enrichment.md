@@ -32,7 +32,9 @@ exl-id: 6bf12c25-fbef-4588-89d0-28215cbcbf58
 >title="Enrichment data"
 >abstract="Select the data to use to enrich your composition. You can select two types of enrichment data: a single enrichment attribute from the schema, also known as targeting dimension, or a collection link, which is a link with a 1-N cardinality between tables."
 
-The **Enrichment** activity allows you to enhance the targeted data with additional information from the federated database. It is commonly used in a compositions after segmentation activities.
+The **Enrichment** activity allows you to enhance the targeted data with additional information from the federated database. It is commonly used in a composition after segmentation activities.
+
+If you have configured a connection to the Federated Data Composition destination, you can use the Enrichment activity to enrich data coming Adobe Experience Platform with attributes from your external database. [Learn how to enrich Adobe Experience Platform audiences with external data](../../connections/destinations.md)
 
 Enrichment data can come either:
 
