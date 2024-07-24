@@ -74,6 +74,7 @@ Follow these steps to configure the **Enrichment** activity:
     * [Single enrichment attribute](#single-attribute)
     * [Collection lnk](#collection-link)-->
 
+<!--
 ## Examples {#example}
 
 ### Single enrichment attribute {#single-attribute}
@@ -83,7 +84,7 @@ Here, we are just adding a single enrichment attribute, for example, the date of
 1. Click inside the **Attribute** field.
 1. Select a simple field from the schema, also known as targeting dimension, the date of birth in our example. 
 1. Click **Confirm**.
-
+-->
 <!--### Collection link {#collection-link}
 
 In this more complex use case, we will select a collection link which is a link with a 1-N cardinality between tables. Let's retrieve the three latest purchases that are less than 100$. For this you need to define:
