@@ -12,7 +12,7 @@ exl-id: 03c2f813-21c9-4570-a3ff-3011f164a55e
 >title="Create a destination"
 >abstract="Enter the settings to connect to the new Federated Database. Use the **[!UICONTROL Connect to destination]** button to validate your configuration."
 
-Adobe Experience Platform allows seamless integration of audiences from the Audience Portal to your external databases using the **Adobe Federated Audience Composition** destination. By doing so, you can leverage existing audiences into compositions and enrich or refine them using data from your external databases to create new audiences.
+Adobe Experience Platform allows seamless integration of audiences from the Audience Portal with your external databases using the **Adobe Federated Audience Composition destination**. With this integration, you can leverage existing audiences into compositions and enrich or refine them using data from your external databases to create new audiences.
 
 To do so, you need to setup a new connection in Adobe Experience Platform to the Adobe Federated Audience Composition destination. You can use a scheduler to send a given audience at regular frequencies, select specific attributes to include, such as IDs for data reconciliation. If you have applied governance and privacy policies to your audience, they will be kept and sent back to the audience portal once the audience has been updated.
 
