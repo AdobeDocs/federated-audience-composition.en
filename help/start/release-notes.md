@@ -24,6 +24,8 @@ Learn more about Federated Audience Composition capabilities in [this page](get-
 
 ## Access to Federated Audience Composition {#fac-access}
 
+Federated Audience Composition requires Adobe Real-Time Customer Data Platform and Adobe Journey Optimizer Prime or Ultimate packages.
+
 There are no specific permissions for Federated Audience Composition. The only prerequisite to access this capability is to have purchased the Federated Audience Composition add-on.
 
 >[!AVAILABILITY]
