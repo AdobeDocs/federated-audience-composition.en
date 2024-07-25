@@ -62,6 +62,8 @@ After executing the composition, the resulting audience is saved in Adobe Experi
 
 The created audience includes all the fields selected in the Audience Mappings section. You can activate the audience to any destination supported by Adobe Experience Platform.
 
+[Learn more](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-portal){target="_blank"} 
+
 <!--
 
 ## Example{#save-audience-example}
