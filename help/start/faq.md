@@ -65,7 +65,7 @@ Federated Audience Composition does not maintain a physical copy of the data. Fr
 
 For example:
 
-* In the case of an Audience Segmentation, the audience is created in your warehouse, and you can use Federated Audience Composition for additional composition tasks and data manipulation before publishing the resulting audience and associated attributes via Adobe Experience Platform Audience Portal. The audience definition and associated attributes come over to Adobe Experience Platform.
+* In the case of an Audience Creation, the audience is created in your warehouse, and you can use Federated Audience Composition for additional composition tasks and data manipulation before publishing the resulting audience and associated attributes via Adobe Experience Platform Audience Portal. The audience definition and associated attributes come over to Adobe Experience Platform.
     Note that the current data expiration for externally generated audiences is 30 days. This data expiration reduces the amount of excess data stored within an organization. After the data expiration period passes, the associated dataset is still visible within the dataset inventory, but you cannot activate the audience and the profile count will show as zero. Learn more in [Adobe Experience Platform documentation](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/faq#how-long-do-externally-generated-audiences-last-for){target="_blank"}.
 
 * In the case of an Audience Enrichment, the starting point is an existing Adobe Experience Platform audience. One can look at two scenarios here:
@@ -73,7 +73,7 @@ For example:
     1. Refine the existing Adobe Experience Platform audience based on additional attributes that exist in your data warehouse. For example, you have an audience of customers who have shown interest in a particular product on the website for the last two months. You now want to take this audience and further segment it using Federated Audience Composition to only include customers who have a high credit score. The credit score is deemed sensitive and individual credit score data points are not copied over from the data warehouse.
 +++
 
-+++If the data for Audience Segmentation and Audience Enrichment use cases patterns is not being persisted, how is it being temporarily stored?
++++If the data for Audience Creation and Audience Enrichment use cases patterns is not being persisted, how is it being temporarily stored?
 
 The resulting Audience data do not persist indefinitely in Adobe Experience Platform or in Federated Audience Composition. It will not be retained any longer than required by your use case. The audience attributes brought as a part of the audience payload will persist only as a part of the audience definition. The duration of persistence is based on TTL for any audience, default is 30 days.
 
