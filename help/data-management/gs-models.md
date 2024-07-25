@@ -70,3 +70,7 @@ Fill in the given form to define the link :
 All the links defined for your datamodel will be listed as below : 
 
 ![](assets/datamodel_alllinks.png){zoomable="yes"}
+
+## Creation of a data model in video {#data-model-video}
+
+>[!VIDEO](https://video.tv.adobe.com/v/3432020)
