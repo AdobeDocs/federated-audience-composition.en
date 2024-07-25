@@ -9,10 +9,6 @@ exl-id: abff07ef-2bc0-4e00-8957-4d59fc3bc938
 
 Editing an expression involves manually entering conditions to form a rule. This mode allows you to use advanced functions, which let you manipulate the values used to carry out specific queries such as manipulating dates, strings, numerical fields, sorting, etc.
 
->[!IMPORTANT]
->
->The section below provides information on how to work with the expression editor to build rules. Keep in mind that the syntax used to build rules differ from the one used to add personalization.
-
 ## Work with the expression editor {#edit}
 
 The expression editor is available from the query modeler **[!UICONTROL Edit expression]** button, available for the **[!UICONTROL Attribute]** and **[!UICONTROL Value]** fields when configuring a custom condition. 
