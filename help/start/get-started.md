@@ -14,7 +14,7 @@ Adobe Federated Audience Composition helps Adobe Experience Platform apps users 
 
 Through a marketing-friendly UI, create segment rules that query your data warehouse for a list of users that qualify for a specific segment needed for marketing campaigns, access existing audiences in the warehouse for activation, or enrich Adobe Experience Platform audiences with additional datapoints that exist in the warehouse. 
 
-In this version, two use cases are available: Audience Creation and Audience Enrichment. Profile enrichment will be available in a future release.
+In this version, two use cases are available: Audience Creation and Audience Enrichment. 
 
 ![diagram](assets/fac-use-cases.png){zoomable="yes"}
 
