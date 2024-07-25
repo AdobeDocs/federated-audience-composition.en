@@ -6,7 +6,7 @@ breadcrumb-title: Experience Platform Federated Audience Composition
 
 # Experience Platform Federated Audience Composition documentation {#using}
 
-+ [Federated Audience Composition documentation](home.md)
++ [Experience Platform Federated Audience Composition documentation](home.md)
 + [Release notes](start/release-notes.md)
 + Get started with Federated Audience Composition {#start}
     + [What is Federated Audience Composition](start/get-started.md)
