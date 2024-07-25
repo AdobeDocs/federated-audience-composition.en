@@ -22,7 +22,7 @@ exl-id: b8c0589d-4150-40da-ac79-d53cced236e8
 >title="Federated Database details"
 >abstract="Enter the settings to connect to the new Federated Database. Use the **[!UICONTROL Test connection]** button to validate your configuration."
 
-Federated Audience Composition allows Customer to build and enrich audiences from the third-party data warehouses and import the audiences to Adobe Experience Platform.
+Experience Platform Federated Audience Composition allows Customer to build and enrich audiences from the third-party data warehouses and import the audiences to Adobe Experience Platform.
 
 Learn how to ceate, configure, test and save the connection to your external database in this page.
 

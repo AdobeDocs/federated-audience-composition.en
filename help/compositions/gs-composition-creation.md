@@ -14,7 +14,7 @@ exl-id: 861440ab-ce14-46aa-a215-b86fc9ffeef0
 
 ## What's inside a composition? {#gs-composition-inside}
 
-Federated Audience Composition provides a visual canvas that allows you to create audiences by leveraging various activities (split, enrich, etc.).
+Experience Platform Federated Audience Composition provides a visual canvas that allows you to create audiences by leveraging various activities (split, enrich, etc.).
 
 The composition diagram is a representation of what is supposed to happen. It describes the various tasks to be performed and how they are linked together. 
 
