@@ -11,7 +11,7 @@ The following is a list of frequently asked questions regarding Federated Audien
 
 +++What are the permissions required to access Federated Audience Composition?
 
-There are no specific permissions for Federated Audience Composition. The only prerequisite to access this capability is to have purchased the Federated Audience Composition add-on.
+Federated Audience Composition requires Adobe Real-Time Customer Data Platform and Adobe Journey Optimizer Prime or Ultimate packages. There are no specific permissions for Federated Audience Composition. The only prerequisite to access this capability is to have purchased the Federated Audience Composition add-on.
 
 +++
 
@@ -55,7 +55,7 @@ Yes, once connected, Federated Audience Composition can be used to discover all 
 
 +++Is there any temporary storage in Federated Audience Composition?
 
-No, Federated Audience Composition only stores metadata (schema descriptions). No customer data is transiting. The Audience export flow is done directly from Adobe Experience Platform Audience Portal (via [Destination](../connections/destinations.md)) to the customer database. The creation and update flow is done directly from your data warehouse database to Adobe Experience Platform Audience Portal.
+No, Federated Audience Composition only stores metadata (schema descriptions). No customer data is transiting. <!--The Audience export flow is done directly from Adobe Experience Platform Audience Portal (via [Destination](../connections/destinations.md)) to the customer database. The creation and update flow is done directly from your data warehouse database to Adobe Experience Platform Audience Portal.-->
 
 +++
 
@@ -70,7 +70,7 @@ For example:
 
 * In the case of an Audience Enrichment, the starting point is an existing Adobe Experience Platform audience. One can look at two scenarios here:
     1. Bring additional audience payload attributes from the federated data warehouse: in this case, the additional attributes that get added will come over as a part of this audience definition. Data expiration for externally generated audiences is the same as described above, 30 days.
-    1. Refine the existing Adobe Experience Platform audience based on additional attributes that exist in your data warehouse. For example, you have an audience of customers who have shown interest in a particular product on the website for the last two months. You now want to take this audience and further segment it using Federated Audience Composition to only include customers who have a high credit score. The credit score is deemed sensitive and individual credit score data points are not copied over from the data warehouse.
+    1. Refine the existing Adobe Experience Platform audience based on additional attributes that exist in your data warehouse. <!--For example, you have an audience of customers who have shown interest in a particular product on the website for the last two months. You now want to take this audience and further segment it using Federated Audience Composition to only include customers who have a high credit score. The credit score is deemed sensitive and individual credit score data points are not copied over from the data warehouse.-->
 +++
 
 +++If the data for Audience Creation and Audience Enrichment use cases patterns is not being persisted, how is it being temporarily stored?
