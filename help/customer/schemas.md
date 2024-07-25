@@ -39,76 +39,75 @@ exl-id: 2c939185-f1c1-4f2b-ae1b-e2539e121eff
 
 A schema is a representation of a table of your database. It is an object within the application that defines how the data are tied to database tables. 
 
-By creating a schema, you will have the possibility to manipulate a representation of your table in FAC : 
+By creating a schema, you can define a representation of your table in Experience Platform Federated Audience Composition: 
 
-- Give it a friendly name and description to simplify the comprehension for the user
-- Decide the visibility of each fields, according to their real use 
-- Select its primary key, in order to link schemas between them, as needed in the [data model](../data-management/gs-models.md#data-model-start)
+* Give it a friendly name and description to simplify the comprehension for the user
+* Decide the visibility of each field, according to their real use 
+* Select its primary key, in order to link schemas between them, as needed in the [data model](../data-management/gs-models.md#data-model-start)
 
 ## Create a schema {#schema-create}
 
-To create schemas in FAC, follow the steps below :
-In **[!UICONTROL FEDERATED DATA]** section, go in the **[!UICONTROL Models]** link. You will find there the **[!UICONTROL Schema]** tab.
-Click on **[!UICONTROL Create schema]** button.
+To create schemas in Federated Audience Composition, follow the steps below:
 
-![](assets/schema_create.png){zoomable="yes"}
+1. In **[!UICONTROL FEDERATED DATA]** section, go in the **[!UICONTROL Models]** link. Browse to the **[!UICONTROL Schema]** tab and click on the **[!UICONTROL Create schema]** button.
 
-You will have access to a new interface with a drop-down list where you will find 
-all the databases connected to your application. Learn more on [database connection](../connections/connections.md#connections-fdb).
-Select your source database in the list and click on **[!UICONTROL Add tables]** tab
+    ![](assets/schema_create.png){zoomable="yes"}
 
-![](assets/schema_tables.png){zoomable="yes"}
+    This step lets you access to a new screen with a drop-down list where you can find the database(s) connected to your environment. Learn more about database connection in [this section](../connections/connections.md#connections-fdb).
 
-You will have access to the list of all the tables in the database.
+1. Select your source database in the list, and click on the **[!UICONTROL Add tables]** tab.
 
-By adding the tables, for which you want to create the schema, you will have access to their fields as below.
+    ![](assets/schema_tables.png){zoomable="yes"}
 
-![](assets/schema_fields.png){zoomable="yes"}
+    You can then see the list of all the tables in the database.
 
-For each table, you can :
+1. By adding the tables, for which you want to create the schema, you have access to their fields as below:
 
-- rename the schema label given
-- add a description
-- rename all the fields, and decide their visibility.
-- select the schema primary key
+    ![](assets/schema_fields.png){zoomable="yes"}
 
-For example, here is a table imported, just after the add : 
+    For each table, you can:
 
-![](assets/schema_lumaorder.png){zoomable="yes"}
+    * change the label of the schema
+    * add a description
+    * rename all the fields, and set their visibility
+    * select the schema primary key
 
-The schema can be defined like this : 
+    For example, for the following table imported:
 
-![](assets/schema_lumaorders.png){zoomable="yes"}
+    ![](assets/schema_lumaorder.png){zoomable="yes"}
+
+    The schema can be defined like this: 
+
+    ![](assets/schema_lumaorders.png){zoomable="yes"}
 
 ## Edit a schema {#schema-edit}
 
-To edit a schema, click on the name of your schema in the schemas folder. You will have access to the page below.
-Click on **[!UICONTROL Edit]** button.
+To edit a schema:
 
-![](assets/schema_edit.png){zoomable="yes"}
+1. Click on the name of your schema in the schemas folder. 
 
-You will have access to the same possibility as when creating the schema :
+1. Click on **[!UICONTROL Edit]** button.
 
-- rename the schema label given
-- add a description
-- rename all the fields, and decide their visibility.
-- select the schema primary key
+    ![](assets/schema_edit.png){zoomable="yes"}
 
-![](assets/schema_edit_orders.png){zoomable="yes"}
+    You can access the same options as when [creating a schema](#schema-create).
+
+    ![](assets/schema_edit_orders.png){zoomable="yes"}
 
 ## Preview data in a schema {#schema-preview}
 
-To preview the data in the table represented by your schema, go to the **[!UICONTROL Data]** tab as below.
-You can have the total number of recordings by clicking on the **[!UICONTROL Calculate]** link.
+To preview the data in the table represented by your schema, browse to the **[!UICONTROL Data]** tab as below.
+
+Click on the **[!UICONTROL Calculate]** link to preview the total number of recordings.
 
 ![](assets/schema_data.png){zoomable="yes"}
 
-You can change the Data overview by clicking on the **[!UICONTROL Configure columns]** button.
+Click on the **[!UICONTROL Configure columns]** button to change the data display.
 
 ![](assets/schema_columns.png){zoomable="yes"}
 
 ## Delete a schema {#schema-delete}
 
-To delete a schema, click on **[!UICONTROL More]** button, then **[!UICONTROL Delete]**.
+To delete a schema, click on **[!UICONTROL More]** button, then choose **[!UICONTROL Delete]**.
 
 ![](assets/schema_delete.png){zoomable="yes"}

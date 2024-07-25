@@ -7,7 +7,6 @@ exl-id: 8f9e9895-dcd7-4718-8922-4f7fefe9ed94
 ---
 # Get started with data models {#data-model}
 
-
 >[!CONTEXTUALHELP]
 >id="dc_model_menu"
 >title="Work with models"
@@ -40,37 +39,38 @@ Learn more about [audiences](../start/audiences.md).
 
 ## Create a data model {#data-model-create}
 
-In **[!UICONTROL FEDERATED DATA]** section, go in the **[!UICONTROL Models]** link. You will find there the **[!UICONTROL Data model]** tab.
+To create a data model, follow these steps:
 
-![](assets/datamodel_create.png){zoomable="yes"}
+1. In the **[!UICONTROL FEDERATED DATA]** section, go in the **[!UICONTROL Models]** link, and browse to the **[!UICONTROL Data model]** tab.
 
-By clicking on the **[!UICONTROL Create data model]** button, you will have the possibility to name your data model and click on the **[!UICONTROL Create]** button.
+    ![](assets/datamodel_create.png){zoomable="yes"}
 
-![](assets/datamodel_name.png){zoomable="yes"}
+1. Click on the **[!UICONTROL Create data model]** button, to define the name your data model, and click on the **[!UICONTROL Create]** button.
 
-You will access to the window where you can add the schemas, the audiences and the links of your data model.
+    ![](assets/datamodel_name.png){zoomable="yes"}
 
-![](assets/datamodel_created.png){zoomable="yes"}
+1. Then add the schemas, the audiences and the links of your data model.
 
-![](assets/datamodel_schemas.png){zoomable="yes"}
+    ![](assets/datamodel_schemas.png){zoomable="yes"}
 
 ### Create links {#data-model-links}
 
-Creating links between tables of your datamodel can be done with 2 ways : 
+To create links between tables of your datamodel, follow these steps: 
 
-- Click directly on **[!UICONTROL Create link]** menu of one of the table
-- Click on **[!UICONTROL Create links]** button, and choose the 2 tables
+1. Click  on **[!UICONTROL Create link]** menu of one of the table, or click on **[!UICONTROL Create links]** button, and choose the 2 tables:
 
-![](assets/datamodel_createlinks.png){zoomable="yes"}
+    ![](assets/datamodel_createlinks.png){zoomable="yes"}
 
-Fill in the given form to define the link :
+1. Fill in the given form to define the link.
 
-![](assets/datamodel_link.png){zoomable="yes"}
+    ![](assets/datamodel_link.png){zoomable="yes"}
 
-All the links defined for your datamodel will be listed as below : 
+    All the links defined for your datamodel are listed as below:
 
-![](assets/datamodel_alllinks.png){zoomable="yes"}
+    ![](assets/datamodel_alllinks.png){zoomable="yes"}
 
-## Creation of a data model in video {#data-model-video}
+## How to video {#data-model-video}
+
+Learn how to create a data model in this video:
 
 >[!VIDEO](https://video.tv.adobe.com/v/3432020)
