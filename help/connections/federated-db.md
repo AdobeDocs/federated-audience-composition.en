@@ -105,7 +105,7 @@ Use Federated Databases to process information stored in an external database. F
 1. Once your configuration is done, click **[!UICONTROL Add]** to create your Federate database.
 
 | Option   |  Description |
-|:-:|:-:|
+|---|---|
 | Authentication | Type of authentication supported by the connector. Current supported value: ActiveDirectoryMSI. For more information, refer to [SQL doc](https://learn.microsoft.com/en-us/sql/connect/odbc/using-azure-active-directory?view=sql-server-ver15#example-connection-strings) (Example connection strings n°8) |
 
 
@@ -144,7 +144,7 @@ Use Federated Databases to process information stored in an external database. F
 1. Once your configuration is done, click **[!UICONTROL Add]** to create your Federate database.
 
 | Option   |  Description |
-|:-:|:-:|
+|---|---|
 |  ProxyType | Type of proxy used to connect to BigQuery through ODBC and SDK connectors. </br>HTTP (default), http_no_tunnel, socks4 and socks5 are currently supported. |
 |  ProxyHost | Hostname or IP address where the proxy can be reached. |
 | ProxyPort | Port number the proxy is running on, e.g. 8080 |
