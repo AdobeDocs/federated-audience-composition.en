@@ -4,7 +4,7 @@ description: This is the article overview.
 badge: label="Limited availability" type="Informative"
 exl-id: 5cb18794-ae38-4ed7-9ce2-112bc6ae8dce
 ---
-# Federated Audience Composition Documentation  {#fac-home}
+# Federated Audience Composition documentation  {#fac-home}
 
 Welcome to Adobe Experience Platform Federated Audience Composition Documentation.
 
