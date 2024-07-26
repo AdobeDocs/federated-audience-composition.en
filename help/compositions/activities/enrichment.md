@@ -34,7 +34,7 @@ exl-id: 6bf12c25-fbef-4588-89d0-28215cbcbf58
 
 The **Enrichment** activity allows you to enhance the targeted data with additional information from the federated database. It is commonly used in a composition after segmentation activities.
 
-If you have configured a connection to the Federated Data Composition destination, you can use the Enrichment activity to enrich data coming Adobe Experience Platform with attributes from your external database. [Learn how to enrich Adobe Experience Platform audiences with external data](../../connections/destinations.md)
+If you have configured a connection to the Federated Audience Composition destination, you can use the Enrichment activity to enrich data coming Adobe Experience Platform with attributes from your external database. [Learn how to enrich Adobe Experience Platform audiences with external data](../../connections/destinations.md)
 
 Enrichment data can come either:
 

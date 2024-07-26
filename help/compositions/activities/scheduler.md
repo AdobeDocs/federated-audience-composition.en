@@ -13,7 +13,7 @@ exl-id: 3e8be2a2-2227-42f4-a512-b9e686ba0f66
 
 The **Scheduler** activity is a **Flow control** activity. It allows you to schedule when the composition gets started. This activity should be considered as a scheduled start. It can only be used as the first activity of the composition. 
 
-If you have configured a connection to the Federated Data Composition destination, you can use this activity to send over Adobe Experience Platform audiences at regular frequencies. [Learn how to enrich Adobe Experience Platform audiences with external data](../../connections/destinations.md)
+If you have configured a connection to the Federated Audience Composition destination, you can use this activity to send over Adobe Experience Platform audiences at regular frequencies. [Learn how to enrich Adobe Experience Platform audiences with external data](../../connections/destinations.md)
 
 ![](../assets/scheduler.png)
 
