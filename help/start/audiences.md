@@ -11,11 +11,11 @@ Experience Platform Federated Audience Composition allows you to [create composi
 
 You can then activate these audiences to any destination supported by Adobe Experience Platform.
 
-### Audience creation using compositions {#creation}
+## Audience creation using compositions {#creation}
 
 To create audiences using Federated Audience composition, you need to create a composition including a **[!UICONTROL Save audience]** activity. This activity allows you to save the audience into Audience Portal, and to select fields from your external databases to include in the audience. [Learn how to configure a Save audience activity](../compositions/activities/save-audience.md)
 
-Audience created using Adobe Federated Data Composition include all the fields selected in the **{!UICONTROL Save audience}** activity, and are stored in Audience Portal alongside all Adobe Experience Platform audiences. 
+Audience created using Adobe Federated Data Composition include all the fields selected in the **[!UICONTROL Save audience]** activity, and are stored in Audience Portal alongside all Adobe Experience Platform audiences. 
 
 After executing the composition, the resulting audience is saved in Adobe Experience Platform as an external audience, and available into Adobe Real-Time Customer Data Platorm and/or Adobe Journey Optimizer. 
 
