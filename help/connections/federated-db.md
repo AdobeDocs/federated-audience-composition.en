@@ -62,7 +62,11 @@ Use Federated Databases to process information stored in an external database. F
 
     * **[!UICONTROL Database]**: Name of your database if not specified in DSN. It can be left empty if specified in the DSN
 
-    * **[!UICONTROL Working schema]**: Name of your working schema. [Learn more](https://docs.aws.amazon.com/redshift/latest/dg/r_Schemas_and_tables.html)
+    * **[!UICONTROL Working schema]**: Name of the database schema to use for work tables. [Learn more](https://docs.aws.amazon.com/redshift/latest/dg/r_Schemas_and_tables.html)
+
+        >[!NOTE]
+        >
+        >You can use any schema from the database, including schemas used for temporary data processing, as long as you have the required permission to connect to this schema.
 
 1. Select the **[!UICONTROL Test the connection]** option to verify your configuration.
 
@@ -182,7 +186,11 @@ Use Federated Databases to process information stored in an external database. F
 
     * **[!UICONTROL Database]** (optional): Enter the name of your database if not specified in the DSN.
 
-    * **[!UICONTROL Working schema]** (optional): Enter the name of your working schema.
+    * **[!UICONTROL Working schema]** (optional): Enter the name of the database schema to use for work tables.
+
+        >[!NOTE]
+        >
+        >You can use any schema from the database, including schemas used for temporary data processing, as long as you have the required permission to connect to this schema.
 
     * **[!UICONTROL Private key]**: Click the **[!UICONTROL Private key]** field to select your .pem files from your locale folder.
 
@@ -234,7 +242,11 @@ Use Federated Databases to process information stored in an external database. F
 
     * **[!UICONTROL Database]** (optional): Enter the name of your database if not specified in the DSN.
 
-    * **[!UICONTROL Working schema]** (optional): Enter the name of your working schema.
+    * **[!UICONTROL Working schema]** (optional): Enter the name of the database schema to use for work tables.
+
+        >[!NOTE]
+        >
+        >You can use any schema from the database, including schemas used for temporary data processing, as long as you have the required permission to connect to this schema.
 
     * **[!UICONTROL Options]**: The connector supports the options detailed in the table below.
 
