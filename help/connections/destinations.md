@@ -16,7 +16,10 @@ Adobe Experience Platform allows seamless integration of audiences from the Audi
 
 To do so, you need to setup a new connection in Adobe Experience Platform to the Adobe Federated Audience Composition destination. You can use a scheduler to send a given audience at regular frequencies, select specific attributes to include, such as IDs for data reconciliation. If you have applied governance and privacy policies to your audience, they will be kept and sent back to the audience portal once the audience has been updated.
 
-For instance, if you store customer credit scores in your data warehouse and have an Adobe Experience Platform audience targeting customers interested in a specific product within the last two months, you can refine this audience based on credit scores using the Federated Audience Composition destination. This process allows you to filter the audience to include only profiles with high credit scores without transferring sensitive credit score data from your data warehouse.
+For instance, let's say you are storing purchase information in your data warehouse and have an Adobe Experience Platform audience targeting customers interested in a specific product within the last two months. Using the Federated Audience Composition destination, you can:
+
+* Refine the audience based on purchase information. For example, you can filter the audience to target customers who have made a purchase of more than 150$ only.
+* Enrich the audience with fields related to purchases such as the product name and the quantity purchased.
 
 The main steps to send Adobe Experience Platform audiences to Adobe Federated Audience Composition are as follows:
 
