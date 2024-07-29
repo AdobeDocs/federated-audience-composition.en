@@ -1,8 +1,7 @@
 ---
-title: Get Started with Experience Platform Federated Audience Composition
-description: Learn what is Adobe Federated Audience Composition and how to use it in Adobe Experience Platform
+title: Access Federated Audience Composition
+description: Learn how to access Federated Audience Composition.
 badge: label="Limited availability" type="Informative"
-exl-id: 43464aea-9c1d-4f1f-859f-82f209f350b7
 ---
 # Access Federated Audience Composition {#fac-access}
 
