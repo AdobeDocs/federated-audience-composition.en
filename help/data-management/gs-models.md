@@ -73,9 +73,17 @@ To create links between tables of your datamodel, follow these steps:
 
     ![](assets/datamodel_link.png){zoomable="yes"}
 
-    All the links defined for your datamodel are listed as below:
+    **Cardinality**
 
-    ![](assets/datamodel_alllinks.png){zoomable="yes"}
+     * 1-N: one occurrence of the source table can have several corresponding occurrences of the target table, but one occurrence of the target table can have at most one corresponding occurrence of the source table.
+
+     * N-1: one occurrence of the target table can have several corresponding occurrences of the source table, but one occurrence of the source table can have at most one corresponding occurrence of the target table.
+     
+     * 1-1: one occurrence of the source table can have at most one corresponding occurrence of the target table.
+
+All the links defined for your datamodel are listed as below:
+
+![](assets/datamodel_alllinks.png){zoomable="yes"}
 
 ## How to video {#data-model-video}
 
