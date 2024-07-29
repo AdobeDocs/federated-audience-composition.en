@@ -11,7 +11,9 @@ The following is a list of frequently asked questions regarding Adobe Experience
 
 +++What are the permissions required to access Federated Audience Composition?
 
-Federated Audience Composition requires Adobe Real-Time Customer Data Platform and Adobe Journey Optimizer Prime or Ultimate packages. There are no specific permissions for Federated Audience Composition. The only prerequisite to access this capability is to have purchased the Federated Audience Composition add-on.
+Federated Audience Composition requires Adobe Real-Time Customer Data Platform and Adobe Journey Optimizer Prime or Ultimate packages. You also need to have purchased the Federated Audience Composition add-on.
+
+In order to use Federated Audience Audience Composition, each user must be added to a specific profile created for each sandbox. For more information, refer to the [Access Federated Audience Composition](access-prerequisites.md) page.
 
 +++
 

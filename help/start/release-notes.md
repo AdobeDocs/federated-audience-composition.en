@@ -17,23 +17,7 @@ Federated Audience Composition is an add-on capability that equips businesses w
 
 Federated Audience Composition addresses growing market demands for enterprises who need the flexibility to compose audiences with warehouse datasets. This allows businesses to reduce data movement while making critical audience data available to marketing teams to meet use case requirements and power personalized experiences. 
 
-Learn more about Federated Audience Composition capabilities in [this page](get-started.md), and in the [Frequently Asked Questions](get-started.md#faq).
+Learn more about Federated Audience Composition capabilities in [this page](get-started.md) and in the [Frequently Asked Questions](get-started.md#faq).
 
-## Access to Federated Audience Composition {#fac-access}
+Detailed information on the prerequisites to access Federated Audience Compositions and the current guardrails, refer to the [this page](access-prerequisites.md).
 
-Federated Audience Composition requires Adobe Real-Time Customer Data Platform and Adobe Journey Optimizer Prime or Ultimate packages.
-
-There are no specific permissions for Federated Audience Composition. The only prerequisite to access this capability is to have purchased the Federated Audience Composition add-on.
-
->[!AVAILABILITY]
->
->After your received the welcome email notification from Adobe, it might take a few more hours for the interface to be updated and features available to you.
->
-
-## Prerequisites and guardrails {#fac-guardrails}
-
-* Federated Audience Composition is compatible with Privacy & Security Shield and can be used in all verticals except for healthcare industries. Currently, Federated Audience Composition cannot be licensed to customers looking to ingest health data. [Learn more](https://experienceleague.adobe.com/en/docs/events/customer-data-management-voices-recordings/governance/healthcare-shield){target="_blank"}
-
-* Your IP addresses must be added to the allow list to enable access to your data warehouse and use Federated Audience Composition. To add your IP addresses to the allow list, contact your Adobe representative.
-
-* Entitlements, product limitations and performance guardrails listed in the [Adobe Real-Time Customer Data Platform documentation](https://experienceleague.adobe.com/en/docs/experience-platform/profile/guardrails){target="_blank"} apply to this add-on.

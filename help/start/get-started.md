@@ -50,13 +50,9 @@ Key steps:
 
 4. **Data Usage**: Create, orchestrate and build audiences. Learn how to compose audiences in [this page](../compositions/gs-compositions.md). You can also update or reuse existing audiences through Adobe Experience Platform Audience portal and Destinations. Learn more in [this page](../connections/destinations.md)
 
-
 >[!NOTE]
 >
 >After executing the composition, the resulting audience is saved in Adobe Experience Platform as an external audience, and available into Adobe Real-Time Customer Data Platorm and/or Adobe Journey Optimizer. It is made accessible in the **Audiences** menu. [Learn more](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-portal){target="_blank"} 
->
-
-
 
 ## Learn more {#learn}
 
@@ -68,9 +64,6 @@ See Frequently Asked Questions in [this page](faq.md).
 >id="dc_workflow_settings_execution"
 >title="Execution settings"
 >abstract="In this section, you can configure settings related to the execution of the worklow, such the number of days the composition history is kept."
-
-
-
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_query_enrichment_noneditable"
