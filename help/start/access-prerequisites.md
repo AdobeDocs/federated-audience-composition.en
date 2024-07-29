@@ -21,7 +21,9 @@ For example, if a new sandbox named "fac-test" is activated, a corresponding pro
 
 ## IP allow-listing {#ip}
 
-Your IP addresses must be added to the allow list to enable access to your data warehouse and use Federated Audience Composition. To add your IP addresses to the allow list, contact your Adobe representative.
+To securely enable Federated Audience Composition to access your databases, contact your Adobe representative to get the IP addresses of the Federated Audience Composition servers that will access them.
+
+Add these IP addresses to your allow list to grant access for Federated Audience Composition."
 
 ## Guardrails & limitations {#fac-guardrails}
 
