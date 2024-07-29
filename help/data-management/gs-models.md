@@ -29,7 +29,7 @@ exl-id: 8f9e9895-dcd7-4718-8922-4f7fefe9ed94
 >abstract="Enter the label of the data model."
 
 
-## What is a data model? {#data-model-start}
+## What is a data model {#data-model-start}
 
 A data model is a set of schemas, audiences, and the links between them. It is used to federate audiences with databases data.
 

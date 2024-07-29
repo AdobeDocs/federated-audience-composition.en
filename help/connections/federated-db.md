@@ -1,11 +1,11 @@
 ---
 audience: end-user
-title: Get started with Federated databases
-description: Learn how to create and manage your Federated databases
+title: Configure your Federated databases
+description: Learn how to configure your Federated databases
 badge: label="Limited availability" type="Informative"
 exl-id: b8c0589d-4150-40da-ac79-d53cced236e8
 ---
-# Get started with Federated databases {#federated-db}
+# Configure your Federated databases {#federated-db}
 
 >[!CONTEXTUALHELP]
 >id="dc_connection_federated_database_menu"
@@ -24,7 +24,7 @@ exl-id: b8c0589d-4150-40da-ac79-d53cced236e8
 
 Experience Platform Federated Audience Composition allows Customer to build and enrich audiences from the third-party data warehouses and import the audiences to Adobe Experience Platform.
 
-Learn how to ceate, configure, test and save the connection to your external database in this page.
+Learn how to ceate, configure, test and save the connection to your external database in [this page](connections.md). You can find below the list of supported databases and the detailed settings to configure for each of them.
 
 ## Supported databases {#supported-db}
 
@@ -62,7 +62,7 @@ Use Federated databases to process information stored in an external database. F
 
     * **[!UICONTROL Database]**: Name of your database if not specified in DSN. It can be left empty if specified in the DSN
 
-    * **[!UICONTROL Working schema]**: Name of the database schema to use for work tables. [Learn more](https://docs.aws.amazon.com/redshift/latest/dg/r_Schemas_and_tables.html)
+    * **[!UICONTROL Working schema]**: Name of the database schema to use for work tables. Learn more in [Amazon documentation](https://docs.aws.amazon.com/redshift/latest/dg/r_Schemas_and_tables.html){target="_blank"} 
 
         >[!NOTE]
         >
@@ -110,7 +110,7 @@ Use Federated databases to process information stored in an external database. F
 
 | Option   |  Description |
 |---|---|
-| Authentication | Type of authentication supported by the connector. Current supported value: ActiveDirectoryMSI. For more information, refer to [SQL doc](https://learn.microsoft.com/en-us/sql/connect/odbc/using-azure-active-directory?view=sql-server-ver15#example-connection-strings) (Example connection strings n°8) |
+| Authentication | Type of authentication supported by the connector. Current supported value: ActiveDirectoryMSI. For more information, refer to [Microsoft SQL documentation](https://learn.microsoft.com/en-us/sql/connect/odbc/using-azure-active-directory?view=sql-server-ver15#example-connection-strings){target="_blank"}  (Example connection strings n°8) |
 
 
 ## Google Big Query {#google-big-query}
@@ -131,11 +131,11 @@ Use Federated databases to process information stored in an external database. F
 
 1. Configure the Google Big Query authentication settings:
 
-    * **[!UICONTROL Service account]**: Enter the email of your **[!UICONTROL Service account]**. For more information on this, refer to [Google Cloud documentation](https://cloud.google.com/iam/docs/creating-managing-service-accounts).
+    * **[!UICONTROL Service account]**: Enter the email of your **[!UICONTROL Service account]**. For more information on this, refer to [Google Cloud documentation](https://cloud.google.com/iam/docs/creating-managing-service-accounts){target="_blank"}.
 
-    * **[!UICONTROL Project]**: Enter the name of your **[!UICONTROL Project]**. For more information on this, refer to [Google Cloud documentation](https://cloud.google.com/resource-manager/docs/creating-managing-projects).
+    * **[!UICONTROL Project]**: Enter the name of your **[!UICONTROL Project]**. For more information on this, refer to [Google Cloud documentation](https://cloud.google.com/resource-manager/docs/creating-managing-projects){target="_blank"}.
 
-    * **[!UICONTROL Dataset]**: Enter the name of your **[!UICONTROL Dataset]**. For more information on this, refer to [Google Cloud documentation](https://cloud.google.com/bigquery/docs/datasets-intro).
+    * **[!UICONTROL Dataset]**: Enter the name of your **[!UICONTROL Dataset]**. For more information on this, refer to [Google Cloud documentation](https://cloud.google.com/bigquery/docs/datasets-intro){target="_blank"}.
 
     * **[!UICONTROL Key file Path]**: Upload your key file to the server. Only .json files are accepted.
 
@@ -208,11 +208,11 @@ The connector supports the following options:
 |---|---|
 |  workschema | Database schema to use for work tables |
 |  warehouse | Name of the default warehouse to use. It will override the user's default. |
-|  TimeZoneName |  By default empty, which means that the system time zone app server is used. The option can be used to force the TIMEZONE session parameter. <br>For more on this, refer to [this page](https://docs.snowflake.net/manuals/sql-reference/parameters.html#timezone). |
-|  WeekStart |  WEEK_START session parameter. By default set to 0. <br>For more on this, refer to [this page](https://docs.snowflake.com/en/sql-reference/parameters.html#week-start). |
-|  UseCachedResult | USE_CACHED_RESULTS session parameter. By default set to TRUE. This option can be used to disable Snowflake cached results. <br>For more on this, refer to [this page](https://docs.snowflake.net/manuals/user-guide/querying-persisted-results.html). |
+|  TimeZoneName |  By default empty, which means that the system time zone app server is used. The option can be used to force the TIMEZONE session parameter. <br>For more on this, refer to [this page](https://docs.snowflake.net/manuals/sql-reference/parameters.html#timezone){target="_blank"}. |
+|  WeekStart |  WEEK_START session parameter. By default set to 0. <br>For more on this, refer to [this page](https://docs.snowflake.com/en/sql-reference/parameters.html#week-start){target="_blank"}. |
+|  UseCachedResult | USE_CACHED_RESULTS session parameter. By default set to TRUE. This option can be used to disable Snowflake cached results. <br>For more on this, refer to [this page](https://docs.snowflake.net/manuals/user-guide/querying-persisted-results.html){target="_blank"}. |
 |  bulkThreads | Number of threads to use for Snowflake bulk-loader, more threads mean a better performance for bigger bulk-loads. By default set to 1. The number can be adjusted, depending on the machine thread count. |
-|  chunkSize | Determines the file size of the bulk-loader chunk. By default set to 128MB. Can be modified for a more optimal performance, when used with bulkThreads. More concurrently active threads mean better performance. <br>For more on this, refer to [Snowflake documentation](https://docs.snowflake.net/manuals/sql-reference/sql/put.html).|
+|  chunkSize | Determines the file size of the bulk-loader chunk. By default set to 128MB. Can be modified for a more optimal performance, when used with bulkThreads. More concurrently active threads mean better performance. <br>For more on this, refer to [Snowflake documentation](https://docs.snowflake.net/manuals/sql-reference/sql/put.html){target="_blank"}. |
 | StageName | Name of the pre-provisioned internal stage. It will be used in bulk load instead of creating a new temporary stage.|
 
 

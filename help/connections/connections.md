@@ -7,33 +7,40 @@ exl-id: ab65cd8a-dfa0-4f09-8e9b-5730564050a1
 ---
 # Create connections {#connections-fdb}
 
-Working with a Federated database directly in AEP implies to establish a connection with it.
+Experience Platform Federated Audience Composition allows Customer to build and enrich audiences from the third-party data warehouses and import the audiences to Adobe Experience Platform.
 
-To setup a connection with your database, go to **[!UICONTROL FEDERATED DATA]** section, and in the **[!UICONTROL Federated Databases]** link, click on **[!UICONTROL Add federated database]** button.
+To work with your federated database and Adobe Experience Platform, you must first establish a connection. This connection is set up in a dedicated user interface available in the Adobe Experience Platform user interface, as detailed in this page.
 
-![](assets/connections_list.png){zoomable="yes"}
+To setup a connection with your database, follow these steps:
 
-You will access the window for the connection **[!UICONTROL Properties]**, with the name and the type of your database. 
+1. Browse to **[!UICONTROL FEDERATED DATA]** section on the left rail.
 
-![](assets/connections_name.png){zoomable="yes"}
+1. In the **[!UICONTROL Federated Databases]** link, click on **[!UICONTROL Add federated database]** button.
 
-Selecting its type will give you access to other properties to fill in. [Learn more here about the supported databases](federated-db.md).
+    ![](assets/connections_list.png){zoomable="yes"}
 
-![](assets/connections_details.png){zoomable="yes"}
+1. Set the connection **[!UICONTROL Properties]**, with the name and the type of your database. 
 
-According to the type of your database, learn in the links below the information you need to setup the connection : 
+    ![](assets/connections_name.png){zoomable="yes"}
 
-* [Amazon Redshift](federated-db.md#amazon-redshift)
-* [Azure Synapse](federated-db.md#azure-synapse-redshift)
-* [Google Big Query](federated-db.md#google-big-query)
-* [Snowflake](federated-db.md#snowflake)
-* [Vertica Analytics](federated-db.md#vertica-analytics)
+    Selecting its type gives you access to other properties to fill in. Learn more here about the supported databases in [this page](federated-db.md).
 
-After fill in the details, click on **[!UICONTROL Test connection]** button, and on **[!UICONTROL Deploy functions]** button.
-Finish the creation of your connection by clicking on the **[!UICONTROL Save]** button.
+    ![](assets/connections_details.png){zoomable="yes"}
 
-![](assets/connections_testdeploy.png){zoomable="yes"}
+    Configuration settings depend on the type of your database. Browse links below to access details you need to setup the connection: 
 
-You will have an overview of your Federated dabase connection like this : 
+    * [Amazon Redshift](federated-db.md#amazon-redshift)
+    * [Azure Synapse](federated-db.md#azure-synapse-redshift)
+    * [Google Big Query](federated-db.md#google-big-query)
+    * [Snowflake](federated-db.md#snowflake)
+    * [Vertica Analytics](federated-db.md#vertica-analytics)
 
-![](assets/connections_overview.png){zoomable="yes"}
+1. After fill in the details, click on **[!UICONTROL Test connection]** button, and on **[!UICONTROL Deploy functions]** button.
+
+1. Finish the creation of your connection by clicking on the **[!UICONTROL Save]** button.
+
+    ![](assets/connections_testdeploy.png){zoomable="yes"}
+
+    An overview of your Federated Database connection is available, as shown below: 
+
+    ![](assets/connections_overview.png){zoomable="yes"}

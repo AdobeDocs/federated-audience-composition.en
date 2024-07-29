@@ -58,7 +58,11 @@ Key steps:
 
 <!-- Workflow + Workflow activities-->
 
-See Frequently Asked Questions in [this page](faq.md).
+
+Learn how to access Federated Audience Composition, guardrails and limitations in [this page](access-prerequisites.md).
+
+See also frequently asked questions in [this page](faq.md).
+
 
 >[!CONTEXTUALHELP]
 >id="dc_workflow_settings_execution"

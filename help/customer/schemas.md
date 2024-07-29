@@ -35,7 +35,7 @@ exl-id: 2c939185-f1c1-4f2b-ae1b-e2539e121eff
 >abstract="You can filter the schemas based on their source. Select one or several Federated Databases to displays their schemas."
 
 
-## What is a schema? {#schema-start}
+## What is a schema {#schema-start}
 
 A schema is a representation of a table of your database. It is an object within the application that defines how the data are tied to database tables. 
 

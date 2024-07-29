@@ -39,6 +39,3 @@ In this example, we want to send an SMS delivery to all the profiles who have ma
 We then use a **[!UICONTROL Change dimension]** activity to switch the workflow targeting dimension to "Recipients". This allows us to be able to target the recipients who match the query.
 -->
 
-
-
-<!-- on parle de dimension, mais dans UI "schema", va rester comme ça ?-->

@@ -47,7 +47,7 @@ To access your instance's **[!UICONTROL Audit trail]**:
 
 1. Under the **[!UICONTROL Federated data]** menu, select **[!UICONTROL Audit trail]**.
 
-1. The **[!UICONTROL Audit trail]** window opens with the list of your entities. Adobe Campaign Web User Interface audits the create, edit and delete actions for workflows, options, deliveries and schemas.
+1. The **[!UICONTROL Audit trail]** window opens with the list of your entities. Federated Audience Composition audits the create, edit and delete actions for workflows, options, deliveries and schemas.
 
     ![](assets/audit_trail.png)
 

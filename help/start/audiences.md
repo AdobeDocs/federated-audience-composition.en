@@ -19,7 +19,7 @@ Audience created using Adobe Federated Data Composition include all the fields s
 
 After executing the composition, the resulting audience is saved in Adobe Experience Platform as an external audience, and available into Adobe Real-Time Customer Data Platorm and/or Adobe Journey Optimizer. 
 
-You can activate these audiences to any destination supported by Adobe Experience Platform. [Learn how to work with destinations](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/home)
+You can activate these audiences to any destination supported by Adobe Experience Platform. Learn how to work with destinations in [Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/home){target="_blank"} 
 
 >[!NOTE]
 >
@@ -33,6 +33,6 @@ The **[!UICONTROL Browse]** tab lists all existing audiences stored into Adobe E
 
 ![](assets/audiences-list.png)
 
-For more information on how to work with audiences in Adobe Experience Platform, refer to [Audience Portal documentation](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-portal)
+For more information on how to work with audiences in Adobe Experience Platform, refer to [Audience Portal documentation](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-portal){target="_blank"} 
 
 <!-- add link to this donc once published: https://jira.corp.adobe.com/browse/PLAT-198674-->

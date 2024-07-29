@@ -1,13 +1,11 @@
 ---
-title: Access Federated Audience Composition
-description: Learn how to access Federated Audience Composition.
+title: Prerequisites and guardrails for Federated Audience Composition
+description: Learn prerequisites, permissions, and guardrails for Federated Audience Composition
 badge: label="Limited availability" type="Informative"
 ---
-# Access Federated Audience Composition {#fac-access}
+# Prerequisites and guardrails {#fac-access}
 
-## Packages and add-on {#package}
-
-Federated Audience Composition requires Adobe Real-Time Customer Data Platform and Adobe Journey Optimizer Prime or Ultimate packages. To access this capability, you mus have purchased the Federated Audience Composition add-on.
+Federated Audience Composition requires Adobe Real-Time Customer Data Platform and/or Adobe Journey Optimizer **Prime** or **Ultimate** packages. To access this capability, you must have purchased the Federated Audience Composition add-on.
 
 >[!AVAILABILITY]
 >

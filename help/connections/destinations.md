@@ -33,7 +33,7 @@ The main steps to send Adobe Experience Platform audiences to Adobe Federated Au
 
     ![](assets/destination-configure.png)
 
-    The **[!UICONTROL Alerts]** section allows you to enable alerts to receive notifications on the status of the dataflow to your destination. For more information on alerts, see the guide on [subscribing to destinations alerts using the UI](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/alerts).
+    The **[!UICONTROL Alerts]** section allows you to enable alerts to receive notifications on the status of the dataflow to your destination. For more information on alerts, see the Adobe Experience Platform documentation about [subscribing to destinations alerts using the UI](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/alerts){target="_blank"}
 
 1. The **[!UICONTROL Governance policy & enforcement actions]** step, you can define your data governance policies and ensure that the data used is compliant when audiences are sent and active.
 
@@ -51,11 +51,12 @@ The main steps to send Adobe Experience Platform audiences to Adobe Federated Au
 
     >[!NOTE]
     >
-    >Detailed information on how to configure schedule and filenames is available in Adobe Experience Platform documentation:
-    >* [Schedule audience export](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/activate-batch-profile-destinations#scheduling)
-    >* [Configure file names](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/activate-batch-profile-destinations#configure-file-names)
+    >Detailed information on how to configure schedule and filenames is available in the followins sections of Adobe Experience Platform documentation:
+    >
+    >* [Schedule audience export](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/activate-batch-profile-destinations#scheduling){target="_blank"} 
+    >* [Configure file names](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/activate-batch-profile-destinations#configure-file-names){target="_blank"} 
 
-1. In the **[!UICONTROL Mapping]** step, select which attribute and identity fields to export for your audience(s). For more information, view the [mapping step](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/activate-batch-profile-destinations#mapping) in the Adobe Experience Platform documentation.
+1. In the **[!UICONTROL Mapping]** step, select which attribute and identity fields to export for your audience(s). For more information, view the [mapping step](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/activate-batch-profile-destinations#mapping){target="_blank"} in the Adobe Experience Platform documentation.
 
     ![](assets/destination-attributes.png)
 

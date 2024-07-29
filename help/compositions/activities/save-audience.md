@@ -62,7 +62,7 @@ After executing the composition, the resulting audience is saved in Adobe Experi
 
 The created audience includes all the fields selected in the Audience Mappings section. You can target this audience in Journey Optimizer or activate it to any destination supported by Adobe Experience Platform.
 
-[Learn more](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-portal){target="_blank"} 
+[Learn more in Adobe Experience Platform documentation](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-portal){target="_blank"} 
 
 <!--
 
