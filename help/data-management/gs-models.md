@@ -31,11 +31,19 @@ exl-id: 8f9e9895-dcd7-4718-8922-4f7fefe9ed94
 
 ## What is a data model? {#data-model-start}
 
-A data model is a set of schemas, audiences, and the links between them.
+A data model is a set of schemas, audiences, and the links between them. It is used to federate audiences with databases data.
 
 Learn more about [schemas](../customer/schemas.md#schema-start).
 
 Learn more about [audiences](../start/audiences.md).
+
+For example, you can see below a representation of a data model : the tables with their name and the links between them.
+
+![](assets/datamodel.png){zoomable="yes"}
+
+In Federated Audience Composition, it is possible to create many data models.
+
+Their creation will be based on the use case : you choose the necessary tables, and you link them according to your needs.
 
 ## Create a data model {#data-model-create}
 
