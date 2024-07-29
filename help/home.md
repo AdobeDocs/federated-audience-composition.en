@@ -1,6 +1,6 @@
 ---
 title: Adobe Experience Platform Federated Audience Composition Documentation Home Page
-description: This is the article overview.
+description: Federated Audience Composition add-on documentation
 badge: label="Limited availability" type="Informative"
 exl-id: 5cb18794-ae38-4ed7-9ce2-112bc6ae8dce
 ---

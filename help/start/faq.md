@@ -81,7 +81,7 @@ The resulting Audience data do not persist indefinitely in Adobe Experience Plat
 
 +++Can I delete a custom uploaded audience?
 
-You can delete audiences that are not used in downstream activation directly in Audience Portal by simply selecting delete from the actions menu. Learn more in [Adobe Experience Platform documentation](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/faq#how-do-i-put-an-audience-in-the-deleted-state){target="_blank"}.
+No, in the current version you cannot delete custom uploaded audiences. <!--that are not used in downstream activation directly in Audience Portal by simply selecting delete from the actions menu. Learn more in [Adobe Experience Platform documentation](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/faq#how-do-i-put-an-audience-in-the-deleted-state){target="_blank"}.-->
 
 +++
 
