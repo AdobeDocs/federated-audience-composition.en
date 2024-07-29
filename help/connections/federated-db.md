@@ -1,16 +1,16 @@
 ---
 audience: end-user
-title: Get started with Federated Databases
-description: Learn how to create and manage your Federated Databases
+title: Get started with Federated databases
+description: Learn how to create and manage your Federated databases
 badge: label="Limited availability" type="Informative"
 exl-id: b8c0589d-4150-40da-ac79-d53cced236e8
 ---
-# Get started with Federated Databases {#federated-db}
+# Get started with Federated databases {#federated-db}
 
 >[!CONTEXTUALHELP]
 >id="dc_connection_federated_database_menu"
->title="Federated Databases"
->abstract="Existing connections to Federated Databases are listed in this screen. To create a new connection, click the **[!UICONTROL Add federated database]** button."
+>title="Federated databases"
+>abstract="Existing connections to Federated databases are listed in this screen. To create a new connection, click the **[!UICONTROL Add federated database]** button."
 
 >[!CONTEXTUALHELP]
 >id="dc_connection_federated_database_properties"
@@ -38,7 +38,7 @@ With Federated Audience Composition, you can connect to the following databases.
 
 ## Amazon Redshift {#amazon-redshift}
 
-Use Federated Databases to process information stored in an external database. Follow the steps below to configure access to Amazon Redshift.
+Use Federated databases to process information stored in an external database. Follow the steps below to configure access to Amazon Redshift.
 
 1. Under the **[!UICONTROL Federated data]** menu, select **[!UICONTROL Federated databases]**.
 
@@ -76,7 +76,7 @@ Use Federated Databases to process information stored in an external database. F
 
 ## Azure Synapse Redshift {#azure-synapse-redshift}
 
-Use Federated Databases to process information stored in an external database. Follow the steps below to configure access to Azure Synapse Redshift.
+Use Federated databases to process information stored in an external database. Follow the steps below to configure access to Azure Synapse Redshift.
 
 1. Under the **[!UICONTROL Federated data]** menu, select **[!UICONTROL Federated databases]**.
 
@@ -115,7 +115,7 @@ Use Federated Databases to process information stored in an external database. F
 
 ## Google Big Query {#google-big-query}
 
-Use Federated Databases to process information stored in an external database. Follow the steps below to configure access to Google Big Query.
+Use Federated databases to process information stored in an external database. Follow the steps below to configure access to Google Big Query.
 
 1. Under the **[!UICONTROL Federated data]** menu, select **[!UICONTROL Federated databases]**.
 
@@ -162,7 +162,7 @@ Use Federated Databases to process information stored in an external database. F
 
 ## Snowflake {#snowflake}
 
-Use Federated Databases to process information stored in an external database. Follow the steps below to configure access to Snowflake.
+Use Federated databases to process information stored in an external database. Follow the steps below to configure access to Snowflake.
 
 1. Under the **[!UICONTROL Federated data]** menu, select **[!UICONTROL Federated databases]**.
 
@@ -208,7 +208,7 @@ The connector supports the following options:
 |---|---|
 |  workschema | Database schema to use for work tables |
 |  warehouse | Name of the default warehouse to use. It will override the user's default. |
-|  TimeZoneName |  By default empty, which means that the system time zone of the Campaign Classic app server is used. The option can be used to force the TIMEZONE session parameter. <br>For more on this, refer to [this page](https://docs.snowflake.net/manuals/sql-reference/parameters.html#timezone). |
+|  TimeZoneName |  By default empty, which means that the system time zone app server is used. The option can be used to force the TIMEZONE session parameter. <br>For more on this, refer to [this page](https://docs.snowflake.net/manuals/sql-reference/parameters.html#timezone). |
 |  WeekStart |  WEEK_START session parameter. By default set to 0. <br>For more on this, refer to [this page](https://docs.snowflake.com/en/sql-reference/parameters.html#week-start). |
 |  UseCachedResult | USE_CACHED_RESULTS session parameter. By default set to TRUE. This option can be used to disable Snowflake cached results. <br>For more on this, refer to [this page](https://docs.snowflake.net/manuals/user-guide/querying-persisted-results.html). |
 |  bulkThreads | Number of threads to use for Snowflake bulk-loader, more threads mean a better performance for bigger bulk-loads. By default set to 1. The number can be adjusted, depending on the machine thread count. |
@@ -218,7 +218,7 @@ The connector supports the following options:
 
 ## Vertica Analytics {#vertica-analytics}
 
-Use Federated Databases to process information stored in an external database. Follow the steps below to configure access to Vertica Analytics.
+Use Federated databases to process information stored in an external database. Follow the steps below to configure access to Vertica Analytics.
 
 1. Under the **[!UICONTROL Federated data]** menu, select **[!UICONTROL Federated databases]**.
 
@@ -260,4 +260,4 @@ The connector supports the following options:
 
 | Option   |  Description |
 |---|---|
-|  TimeZoneName |  By default empty, which means that the system time zone of the Campaign Classic app server is used. The option can be used to force the TIMEZONE session parameter. |
+|  TimeZoneName |  By default empty, which means that the system time zone of the app server is used. The option can be used to force the TIMEZONE session parameter. |
