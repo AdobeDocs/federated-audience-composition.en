@@ -7,7 +7,6 @@ exl-id: 2c939185-f1c1-4f2b-ae1b-e2539e121eff
 ---
 # Get started with schemas {#schemas}
 
-
 >[!CONTEXTUALHELP]
 >id="dc_schema_create_select_tables"
 >title="Select tables"
@@ -34,7 +33,6 @@ exl-id: 2c939185-f1c1-4f2b-ae1b-e2539e121eff
 >title="Select the source database to filter"
 >abstract="You can filter the schemas based on their source. Select one or several Federated Databases to displays their schemas."
 
-
 ## What is a schema {#schema-start}
 
 A schema is a representation of a table of your database. It is an object within the application that defines how the data are tied to database tables. 
@@ -44,6 +42,10 @@ By creating a schema, you can define a representation of your table in Experienc
 * Give it a friendly name and description to simplify the comprehension for the user
 * Decide the visibility of each field, according to their real use 
 * Select its primary key, in order to link schemas between them, as needed in the [data model](../data-management/gs-models.md#data-model-start)
+
+>[!IMPORTANT]
+>
+>It is recommended to use distinct federated database schemas for each sandbox.
 
 ## Create a schema {#schema-create}
 
