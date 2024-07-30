@@ -67,6 +67,8 @@ Use Federated databases to process information stored in an external database. F
         >[!NOTE]
         >
         >You can use any schema from the database, including schemas used for temporary data processing, as long as you have the required permission to connect to this schema.
+        >
+        >**Distinct working schemas** must be used when connecting multiple sandboxes with the same database.
 
 1. Select the **[!UICONTROL Test the connection]** option to verify your configuration.
 
@@ -191,6 +193,8 @@ Use Federated databases to process information stored in an external database. F
         >[!NOTE]
         >
         >You can use any schema from the database, including schemas used for temporary data processing, as long as you have the required permission to connect to this schema.
+        >
+        >**Distinct working schemas** must be used when connecting multiple sandboxes with the same database.
 
     * **[!UICONTROL Private key]**: Click the **[!UICONTROL Private key]** field to select your .pem files from your locale folder.
 
@@ -247,6 +251,8 @@ Use Federated databases to process information stored in an external database. F
         >[!NOTE]
         >
         >You can use any schema from the database, including schemas used for temporary data processing, as long as you have the required permission to connect to this schema.
+        >
+        >**Distinct working schemas** must be used when connecting multiple sandboxes with the same database.
 
     * **[!UICONTROL Options]**: The connector supports the options detailed in the table below.
 

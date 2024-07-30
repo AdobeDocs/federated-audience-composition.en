@@ -43,10 +43,6 @@ By creating a schema, you can define a representation of your table in Experienc
 * Decide the visibility of each field, according to their real use 
 * Select its primary key, in order to link schemas between them, as needed in the [data model](../data-management/gs-models.md#data-model-start)
 
->[!IMPORTANT]
->
->It is recommended to use distinct federated database schemas for each sandbox.
-
 ## Create a schema {#schema-create}
 
 To create schemas in Federated Audience Composition, follow the steps below:
