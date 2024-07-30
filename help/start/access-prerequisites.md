@@ -21,7 +21,7 @@ For example, if a new sandbox named "fac-test" is activated, a corresponding pro
 
 To securely enable Federated Audience Composition to access your databases, contact your Adobe representative to get the IP addresses of the Federated Audience Composition servers that will access them.
 
-Add these IP addresses to your allow list to grant access for Federated Audience Composition."
+Add these IP addresses to your allow list to grant access for Federated Audience Composition.
 
 ## Guardrails & limitations {#fac-guardrails}
 
