@@ -64,7 +64,6 @@ Add and configure activities (Split, Enrichment, Query, etc.) to build compositi
     </tr>
 </table>
 
-
 ## Additional resources  {#additional-resources}
 
 [Real-Time Customer Data Platform Documentation](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/home){target="_blank"} - [Adobe Audience Portal documentation](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-dashboard){target="_blank"} - [Tutorials](https://experienceleague.adobe.com/en/docs/platform-learn/tutorials/audiences/introduction-to-audience-portal-and-composition){target="_blank"}
