@@ -31,7 +31,7 @@ The **Reconciliation** activity allows you to define the link between the data i
 
 <!--For example, the **Reconciliation** activity can be placed after a **Load file** activity to import non-standard data into the database. In this case, the **Reconciliation** activity lets you define the link between the data in the Adobe Campaign database and the data in the work table.-->
 
-It allows you to link unidentified data to existing resources. Reconciliation operation implies that the data you are joining are already in the database. For example, if you want to reconciliate purchases information showing which product was purchased, at what time, by which client, etc., the product as well as the client must already exist in the database.
+It allows you to link unidentified data to existing resources. Reconciliation operation implies that the data you are joining are already in the database. For example, if you want to reconcile purchases information showing which product was purchased, at what time, by which client, etc., the product as well as the client must already exist in the database.
 
 ## Configure the Reconciliation activity {#reconciliation-configuration}
 
@@ -58,7 +58,7 @@ It allows you to link unidentified data to existing resources. Reconciliation op
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_reconciliation_attribute"
 >title="Reconciliation attribute"
->abstract="Select the attribute to use to reconciliate data, and confirm." 
+>abstract="Select the attribute to use to reconcile data, and confirm." 
 
 Follow these steps to configure the **Reconciliation** activity:
 
@@ -81,7 +81,7 @@ Follow these steps to configure the **Reconciliation** activity:
 
         ![](../assets/reconciliation-advanced.png)
 
-1. You can filter data to reconciliate using the **Create filter** button. This lets you create a custom condition using the query modeler.
+1. You can filter data to reconcile using the **Create filter** button. This lets you create a custom condition using the query modeler.
 
 By default, non reconcilied data are kept in the outbound transition and available in the worktable for future use. To remove unreconciled data, desactivate the **Keep unreconciled data** option.
 

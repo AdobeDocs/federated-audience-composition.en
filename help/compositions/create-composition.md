@@ -17,7 +17,7 @@ The first step to create a composition is to define its label and configure addi
 
     ![](assets/composition-create.png)
 
-1. In the **[!UICONTROL Properties]** section, specify a label for your compositon and click **[!UICONTROL Create]**.
+1. In the **[!UICONTROL Properties]** section, specify a label for your composition and click **[!UICONTROL Create]**.
 
 1. The composition canvas displays. You can now configure your composition by adding as many activities as needed to suit your needs before executing it:
 
@@ -57,6 +57,6 @@ Available settings are as follows:
     
     * **[!UICONTROL Suspend the process]**: The composition is automatically paused and its status changes to **[!UICONTROL Failed]**. Once the issue is solved, resume the composition using the **[!UICONTROL Resume]** buttons.
     * **[!UICONTROL Ignore]**: The status of the task that triggered the error changes to **[!UICONTROL Failed]**, but the composition keeps the **[!UICONTROL Started]** status.
-    * **[!UICONTROL Abord the process]**: The composition is automically stopped and its status changes to **[!UICONTROL Failed]**. Once the issue is solved, restart the composition using the **[!UICONTROL Start]** button.
+    * **[!UICONTROL Abort the process]**: The composition is automatically stopped and its status changes to **[!UICONTROL Failed]**. Once the issue is solved, restart the composition using the **[!UICONTROL Start]** button.
 
 * **[!UICONTROL Consecutive errors]**: Specify the number of errors that can be ignored before the process is stopped. Once this number is reached, the composition status changes to **[!UICONTROL Failed]**. If the value of this field is 0, the composition will never be stopped regardless of the number of errors.
