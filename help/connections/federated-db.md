@@ -135,7 +135,7 @@ Use Federated databases to process information stored in an external database. F
 
     * **[!UICONTROL Service account]**: Enter the email of your **[!UICONTROL Service account]**. For more information on this, refer to [Google Cloud documentation](https://cloud.google.com/iam/docs/creating-managing-service-accounts){target="_blank"}.
 
-    * **[!UICONTROL Project]**: Enter the name of your **[!UICONTROL Project]**. For more information on this, refer to [Google Cloud documentation](https://cloud.google.com/resource-manager/docs/creating-managing-projects){target="_blank"}.
+    * **[!UICONTROL Project]**: Enter the ID of your **[!UICONTROL Project]**. For more information on this, refer to [Google Cloud documentation](https://cloud.google.com/resource-manager/docs/creating-managing-projects){target="_blank"}.
 
     * **[!UICONTROL Dataset]**: Enter the name of your **[!UICONTROL Dataset]**. For more information on this, refer to [Google Cloud documentation](https://cloud.google.com/bigquery/docs/datasets-intro){target="_blank"}.
 
