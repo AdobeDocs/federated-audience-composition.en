@@ -32,7 +32,7 @@ In this version, two use cases are available:
 
 1. Audience Enrichment: Enrich existing audiences in Adobe Experience Platform by utilizing composed audience data that has been federated from the enterprise data warehouse. This data will not be persisted in Adobe Experience Platform customer profiles.
 
-![diagram](assets/fac-use-cases-1.png){zoomable="yes"}{width="75%" align="center"}
+![diagram](assets/fac-use-cases.png){zoomable="yes"}{width="75%" align="center"}
 
 ## Key steps {#gs-steps}
 
