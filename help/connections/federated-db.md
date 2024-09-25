@@ -31,7 +31,7 @@ Learn how to ceate, configure, test and save the connection to your external dat
 With Federated Audience Composition, you can connect to the following databases. Configuration for each database is detailed below.
 
 * [Amazon Redshift](#amazon-redshift)
-* [Azure Synapse](#azure-synapse-redshift)
+* [Azure Synapse Analytics](#azure-synapse)
 * [Google Big Query](#google-big-query)
 * [Snowflake](#snowflake)
 * [Vertica Analytics](#vertica-analytics)
@@ -76,9 +76,9 @@ Use Federated databases to process information stored in an external database. F
 
 1. Once your configuration is done, click **[!UICONTROL Add]** to create your Federate database.
 
-## Azure Synapse Redshift {#azure-synapse-redshift}
+## Azure Synapse Analytics {#azure-synapse}
 
-Use Federated databases to process information stored in an external database. Follow the steps below to configure access to Azure Synapse Redshift.
+Use Federated databases to process information stored in an external database. Follow the steps below to configure access to Azure Synapse Analytics.
 
 1. Under the **[!UICONTROL Federated data]** menu, select **[!UICONTROL Federated databases]**.
 
@@ -88,11 +88,11 @@ Use Federated databases to process information stored in an external database. F
 
 1. Enter a **[!UICONTROL Name]** to your Federate database.
 
-1. From the **[!UICONTROL Type]** drop-down, select Azure Synapse Redshift.
+1. From the **[!UICONTROL Type]** drop-down, select Azure Synapse Analytics.
 
     ![](assets/federated_database_4.png)
 
-1. Configure the Azure Synapse Redshift authentication settings:
+1. Configure the Azure Synapse Analytics authentication settings:
 
     * **[!UICONTROL Server]**: Enter the URL of the Azure Synapse server.
 
