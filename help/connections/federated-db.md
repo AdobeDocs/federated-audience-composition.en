@@ -162,8 +162,11 @@ Use Federated databases to process information stored in an external database. F
 | GCloudDefaultConfigName | Note that this is applicable starting release 7.3.4 release and for bulk-load tool only (Cloud SDK).</br> The active Google Cloud SDK configuration cannot be deleted without first transferring the active tag to a new configuration. This temporary configuration is necessary to recreate the main configuration for loading data. The default name for the temporary configuration is `default`, this can be changed if needed.|
 | GCloudRecreateConfig | Note that this is applicable starting release 7.3.4 release and for bulk-load tool only (Cloud SDK).</br> When set to `false`, the bulk loading mechanism refrains from attempting to recreate, delete, or modify the Google Cloud SDK configurations. Instead, it proceeds with data loading using the existing configuration on the machine. This feature is valuable when other operations depend on Google Cloud SDK configurations. </br> If the user enables this engine option without a proper configuration, the bulk loading mechanism will issue a warning message: `No active configuration found. Please either create it manually or remove the GCloudRecreateConfig option`. To prevent further errors, it will then revert to using the default ODBC Array Insert bulk loading mechanism. |
 
-
 ## Snowflake {#snowflake}
+
+>[!NOTE]
+>
+> Private link is supported, but your Snowflake account must be hosted on AWS and located in the same AWS region as the campaign. Please contact your Adobe representative for assistance in setting up your Snowflake account.
 
 Use Federated databases to process information stored in an external database. Follow the steps below to configure access to Snowflake.
 
