@@ -10,7 +10,7 @@ exl-id: 03c2f813-21c9-4570-a3ff-3011f164a55e
 >[!CONTEXTUALHELP]
 >id="dc_new_destination"
 >title="Create a destination"
->abstract="Enter the settings to connect to the new Federated Database. Use the **[!UICONTROL Connect to destination]** button to validate your configuration."
+>abstract="Enter the settings to connect to the new Federated database. Use the **[!UICONTROL Connect to destination]** button to validate your configuration."
 
 Adobe Experience Platform allows seamless integration of audiences from the Audience Portal with your external databases using the **Adobe Federated Audience Composition destination**. With this integration, you can leverage existing audiences into compositions and enrich or refine them using data from your external databases to create new audiences.
 
