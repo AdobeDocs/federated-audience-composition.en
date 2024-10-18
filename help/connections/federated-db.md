@@ -35,6 +35,7 @@ With Federated Audience Composition, you can connect to the following databases.
 * [Google Big Query](#google-big-query)
 * [Snowflake](#snowflake)
 * [Vertica Analytics](#vertica-analytics)
+* [Databricks](#databricks)
 
 ## Amazon Redshift {#amazon-redshift}
 
@@ -247,6 +248,54 @@ Use Federated databases to process information stored in an external database. F
     * **[!UICONTROL Database]** (optional): Enter the name of your database if not specified in the DSN.
 
     * **[!UICONTROL Working schema]** (optional): Enter the name of the database schema to use for work tables.
+
+        >[!NOTE]
+        >
+        >You can use any schema from the database, including schemas used for temporary data processing, as long as you have the required permission to connect to this schema.
+        >
+        >**Distinct working schemas** must be used when connecting multiple sandboxes with the same database.
+
+    * **[!UICONTROL Options]**: The connector supports the options detailed in the table below.
+
+1. Select the **[!UICONTROL Test the connection]** option to verify your configuration.
+
+1. Click **[!UICONTROL Deploy functions]** button to create the functions.
+
+1. Once your configuration is done, click **[!UICONTROL Add]** to create your Federate database.
+
+The connector supports the following option:
+
+| Option   |  Description |
+|---|---|
+|  TimeZoneName |  By default empty, which means that the system time zone of the app server is used. The option can be used to force the TIMEZONE session parameter. |
+
+## Databricks {#databricks}
+
+Use Federated databases to process information stored in an external database. Follow the steps below to configure access to Databricks.
+
+1. Under the **[!UICONTROL Federated data]** menu, select **[!UICONTROL Federated databases]**.
+
+1. Click **[!UICONTROL Add federated database]**.
+
+    ![](assets/federated_database_1.png)
+
+1. Enter a **[!UICONTROL Name]** to your Federate database.
+
+1. From the **[!UICONTROL Type]** drop-down, select Databricks.
+
+    ![](assets/databricks-config.png)
+
+1. Configure the Databricks authentication settings:
+
+    * **[!UICONTROL Server]**: Add the name of your Databricks server.
+
+    * **[!UICONTROL HTTP path]**: Add the path to your Cluster or Warehouse. [Learn more](https://docs.databricks.com/en/integrations/compute-details.html){target="_blank"}
+
+    * **[!UICONTROL Password]**: Add the account access token. [Learn more](https://docs.databricks.com/en/dev-tools/auth/pat.html){target="_blank"}
+
+    * **[!UICONTROL Catalog]**: Add the field for the Databricks Catalog.
+
+    * **[!UICONTROL Working schema]**: Name of the database schema to use for work tables.
 
         >[!NOTE]
         >
