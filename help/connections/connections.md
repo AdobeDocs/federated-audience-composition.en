@@ -1,7 +1,7 @@
 ---
 audience: end-user
-title: Create and manage connections with Federated Databases
-description: Learn how to create and manage connections with Federated Databases
+title: Create and manage connections with Federated databases
+description: Learn how to create and manage connections with Federated databases
 badge: label="Limited availability" type="Informative"
 exl-id: ab65cd8a-dfa0-4f09-8e9b-5730564050a1
 ---
@@ -15,7 +15,7 @@ To setup a connection with your database, follow these steps:
 
 1. Browse to **[!UICONTROL FEDERATED DATA]** section on the left rail.
 
-1. In the **[!UICONTROL Federated Databases]** link, click on **[!UICONTROL Add federated database]** button.
+1. In the **[!UICONTROL Federated databases]** link, click on **[!UICONTROL Add federated database]** button.
 
     ![](assets/connections_list.png){zoomable="yes"}
 
@@ -42,6 +42,6 @@ To setup a connection with your database, follow these steps:
 
 1. Finish the creation of your connection by clicking on the **[!UICONTROL Save]** button.
 
-    An overview of your Federated Database connection is available, as shown below: 
+    An overview of your Federated database connection is available, as shown below: 
 
     ![](assets/connections_overview.png){zoomable="yes"}

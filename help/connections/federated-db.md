@@ -14,13 +14,13 @@ exl-id: b8c0589d-4150-40da-ac79-d53cced236e8
 
 >[!CONTEXTUALHELP]
 >id="dc_connection_federated_database_properties"
->title="Federated Database properties"
->abstract="Enter the name of the new Federated Database, and select its type."
+>title="Federated database properties"
+>abstract="Enter the name of the new Federated database, and select its type."
 
 >[!CONTEXTUALHELP]
 >id="dc_connection_federated_database_details"
->title="Federated Database details"
->abstract="Enter the settings to connect to the new Federated Database. Use the **[!UICONTROL Test connection]** button to validate your configuration."
+>title="Federated database details"
+>abstract="Enter the settings to connect to the new Federated database. Use the **[!UICONTROL Test connection]** button to validate your configuration."
 
 Experience Platform Federated Audience Composition allows Customer to build and enrich audiences from the third-party data warehouses and import the audiences to Adobe Experience Platform.
 

@@ -31,7 +31,7 @@ exl-id: 2c939185-f1c1-4f2b-ae1b-e2539e121eff
 >[!CONTEXTUALHELP]
 >id="dc_schema_filter_sources"
 >title="Select the source database to filter"
->abstract="You can filter the schemas based on their source. Select one or several Federated Databases to displays their schemas."
+>abstract="You can filter the schemas based on their source. Select one or several Federated databases to displays their schemas."
 
 ## What is a schema {#schema-start}
 
