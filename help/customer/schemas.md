@@ -97,6 +97,12 @@ To edit a schema:
 
     ![](assets/schema_edit_orders.png){zoomable="yes"}
 
+## Refresh a schema {#schema-refresh}
+
+When a column is created, modified or deleted in a federated database, you can detect and apply the changes by clicking on the **[!UICONTROL Refresh schema]** button in the corresponding schema.
+
+![](assets/schema_refresh.png){zoomable="yes"}
+
 ## Preview data in a schema {#schema-preview}
 
 To preview the data in the table represented by your schema, browse to the **[!UICONTROL Data]** tab as below.
