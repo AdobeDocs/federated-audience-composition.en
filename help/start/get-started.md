@@ -113,3 +113,31 @@ See also frequently asked questions in [this page](faq.md).
 >id="dc_orchestration_build_audience_dimension"
 >title="Select the targeting dimension"
 >abstract="The targeting dimension lets you define the population targeted by the operation: recipients, contract beneficiaries, operator, subscribers, etc. By default, for emails and SMS, the target is selected from the Recipients built-in table. For Push notifications, the default target dimension is Subscriber applications."
+
+
+<!-- save profile IDs-->
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_saveprofile"
+>title="Save Profile"
+>abstract="Save Profile"
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_saveprofile_selectaepschema"
+>title="Save Profile Select AEP Schema"
+>abstract="Save Profile Select AEP Schema"
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_saveprofile_aepschemalist"
+>title="Save Profile AEP Schema List"
+>abstract="Save Profile AEP Schema List"
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_saveprofile_selectaepattribute"
+>title="Save Profile AEP Schema Attribute"
+>abstract="Save Profile AEP Schema Attribute"
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_saveprofile_selectprimaryfield"
+>title="Save Profile Select Primary identify field"
+>abstract="Save Profile Select Primary identify field"
