@@ -7,20 +7,7 @@ hidefromtoc: yes
 ---
 # Incremental query {#incremental-query}
 
->[!CONTEXTUALHELP]
->id="dc_orchestration_incrementalquery"
->title="Incremental query"
->abstract="The **Incremental query** activity allows you to query the database using the Query modeler. Each time this activity is executed, the results from the previous executions are excluded. This allows you to target only new elements."
-
->[!CONTEXTUALHELP]
->id="dc_orchestration_incrementalquery_history"
->title="Incremental query history"
->abstract="Incremental query history"
-
->[!CONTEXTUALHELP]
->id="dc_orchestration_incrementalquery_processeddata"
->title="Incremental query Processed data"
->abstract="Incremental query Processed data"
+<!-- Warning : contextual help IDs are declared in /start/get-started.md-->
 
 The **Incremental query** activity allows you to query the database on a scheduled basis. Each time this activity is executed, the results from the previous executions are excluded. This allows you to target only new elements.
 
