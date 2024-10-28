@@ -18,11 +18,11 @@ With this new release, Federated Audience Composition is now compatible with the
 
 **Databricks support**
 
-You can now establish connections to Databricks databases through Federated Audience Composition.
+You can now establish connections to Databricks databases through Federated Audience Composition. [Learn more](../connections/federated-db.md#databricks)
 
 **Snowflake private link support**
 
-Private link is now supported. Note that your Snowflake account must be hosted on Amazon Web Services (AWS) and located in the same AWS region as the campaign. Please contact your Adobe representative for assistance in setting up your Snowflake account.
+Private link is now supported. Note that your Snowflake account must be hosted on Amazon Web Services (AWS) and located in the same AWS region as the campaign. Please contact your Adobe representative for assistance in setting up your Snowflake account. [Learn more](../connections/federated-db.md#snowflake)
 
 **Amazon Redshift Serverless support**
 
@@ -34,14 +34,13 @@ This release comes with the improvements listed below.
 
 **Refresh existing schemas**
 
-When a column is created, modified or deleted in a federated database, you can now detect and apply the changes by clicking on the **[!UICONTROL Refresh schema]** button in the corresponding schema.
+When a column is created, modified or deleted in a federated database, you can now detect and apply the changes by clicking on the **[!UICONTROL Refresh schema]** button in the corresponding schema. [Learn more](../customer/schemas.md#schema-refresh)
 
 **Associate a data model with a new composition**
 
-When creating a composition, you can now select the data model to associate to it. With this new option, activity configuration is easier as only tables of the associated data model are available.
+When creating a composition, you can now select the data model to associate to it. With this new option, the configuration of your activities is easier as only tables of the associated data model are available. [Learn more](../compositions/create-composition.md)
 
-
-## Federated Audience Composition (LA) {#fac-la}
+## July release - Federated Audience Composition (LA) {#fac-la}
 
 >[!AVAILABILITY]
 >
