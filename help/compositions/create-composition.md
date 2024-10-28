@@ -17,9 +17,9 @@ The first step to create a composition is to define its label and configure addi
 
     ![](assets/composition-create.png)
 
-1. In the **[!UICONTROL Properties]** section, specify a label for your composition and click **[!UICONTROL Create]**.
+1. In the **[!UICONTROL Properties]** section, specify a label for your composition and select a data model. Only the schemas associated to this data model will be available in your composition's activities.
 
-1. The composition canvas displays. You can now configure your composition by adding as many activities as needed to suit your needs before executing it:
+1. Click **[!UICONTROL Create]**. The composition canvas displays. You can now configure your composition by adding as many activities as needed to suit your needs before executing it:
 
     * [Learn how to orchestrate activities](#action-activities)
     * [Learn how to start and monitor a composition](#save) 
