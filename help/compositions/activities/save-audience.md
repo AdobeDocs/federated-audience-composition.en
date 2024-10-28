@@ -33,6 +33,10 @@ The **Save audience** activity allows you to create a new audience from the popu
 
 This activity is essentially used to keep population groups computed in the same composition, by converting them into reusable audiences. Connect it to other targeting activities such as a **Build audience** or a **Combine** activity. 
 
+>[!IMPORTANT]
+>
+>The **Save Audience** activity requires a Profile-enabled schema and dataset. [Learn more](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/user-guide#enable-profile){target="_blank"}.
+
 ## Configure the Save audience activity {#save-audience-configuration}
 
 Follow these steps to configure the **Save audience** activity:
@@ -62,7 +66,7 @@ After executing the composition, the resulting audience is saved in Adobe Experi
 
 The created audience includes all the fields selected in the Audience Mappings section. You can target this audience in Journey Optimizer or activate it to any destination supported by Adobe Experience Platform.
 
-[Learn more in Adobe Experience Platform documentation](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-portal){target="_blank"} 
+[Learn more in Adobe Experience Platform documentation](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-portal){target="_blank"}
 
 <!--
 
