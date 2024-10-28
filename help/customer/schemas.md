@@ -113,7 +113,7 @@ Click on the **[!UICONTROL Configure columns]** button to change the data displa
 
 ## Refresh a schema {#schema-refresh}
 
-Tables in the external database can be updated, added or removed. In such cases, you must refresh the schema in Adobe Experience Platform to align with the latest changes. To perform this, click the three dots next to the name of the schema to update and select **Refresh schema**. 
+Tables in a federated database can be updated, added or removed. In such cases, you must refresh the schema in Adobe Experience Platform to align with the latest changes. To perform this, click the three dots next to the name of the schema to update and select **Refresh schema**. 
 
 You can also update the schema definition when editing it.
 
