@@ -165,7 +165,7 @@ Use Federated databases to process information stored in an external database. F
 
 >[!NOTE]
 >
-> Private link is supported, but your Snowflake account must be hosted on AWS and located in the same AWS region as the campaign. Please contact your Adobe representative for assistance in setting up your Snowflake account.
+> Private link is supported, but your Snowflake account must be hosted on AWS and located in the same AWS region as your Adobe Experience Platform environment. Please contact your Adobe representative for assistance in setting up your Snowflake account.
 
 Use Federated databases to process information stored in an external database. Follow the steps below to configure access to Snowflake.
 

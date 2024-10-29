@@ -22,7 +22,7 @@ With this new release, Federated Audience Composition is now compatible with the
 
 * **Snowflake private link support**
 
-    Private link is now supported. Note that your Snowflake account must be hosted on Amazon Web Services (AWS) and located in the same AWS region as the campaign. Please contact your Adobe representative for assistance in setting up your Snowflake account. [Learn more](../connections/federated-db.md#snowflake)
+    Private link is now supported. Note that your Snowflake account must be hosted on Amazon Web Services (AWS) and located in the same region as your Adobe Experience Platform environment. Please contact your Adobe representative for assistance in setting up your Snowflake account. [Learn more](../connections/federated-db.md#snowflake)
 
 * **Amazon Redshift Serverless support**
 
