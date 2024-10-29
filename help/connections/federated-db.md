@@ -35,6 +35,7 @@ With Federated Audience Composition, you can connect to the following databases.
 * [Google Big Query](#google-big-query)
 * [Snowflake](#snowflake)
 * [Vertica Analytics](#vertica-analytics)
+* [Databricks](#databricks)
 
 ## Amazon Redshift {#amazon-redshift}
 
@@ -114,7 +115,6 @@ Use Federated databases to process information stored in an external database. F
 |---|---|
 | Authentication | Type of authentication supported by the connector. Current supported value: ActiveDirectoryMSI. For more information, refer to [Microsoft SQL documentation](https://learn.microsoft.com/en-us/sql/connect/odbc/using-azure-active-directory?view=sql-server-ver15#example-connection-strings){target="_blank"}  (Example connection strings n°8) |
 
-
 ## Google Big Query {#google-big-query}
 
 Use Federated databases to process information stored in an external database. Follow the steps below to configure access to Google Big Query.
@@ -161,8 +161,12 @@ Use Federated databases to process information stored in an external database. F
 | GCloudDefaultConfigName | Note that this is applicable starting release 7.3.4 release and for bulk-load tool only (Cloud SDK).</br> The active Google Cloud SDK configuration cannot be deleted without first transferring the active tag to a new configuration. This temporary configuration is necessary to recreate the main configuration for loading data. The default name for the temporary configuration is `default`, this can be changed if needed.|
 | GCloudRecreateConfig | Note that this is applicable starting release 7.3.4 release and for bulk-load tool only (Cloud SDK).</br> When set to `false`, the bulk loading mechanism refrains from attempting to recreate, delete, or modify the Google Cloud SDK configurations. Instead, it proceeds with data loading using the existing configuration on the machine. This feature is valuable when other operations depend on Google Cloud SDK configurations. </br> If the user enables this engine option without a proper configuration, the bulk loading mechanism will issue a warning message: `No active configuration found. Please either create it manually or remove the GCloudRecreateConfig option`. To prevent further errors, it will then revert to using the default ODBC Array Insert bulk loading mechanism. |
 
-
 ## Snowflake {#snowflake}
+
+>[!NOTE]
+>
+>Secure access to your external Snowflake data warehouse through private link is supported. Note that your Snowflake account must be hosted on Amazon Web Services (AWS) and located in the same region as your Federated Audience Composition environment. Please contact your Adobe representative for assistance in setting up secure access to your Snowflake account.
+>
 
 Use Federated databases to process information stored in an external database. Follow the steps below to configure access to Snowflake.
 
@@ -219,7 +223,6 @@ The connector supports the following options:
 |  chunkSize | Determines the file size of the bulk-loader chunk. By default set to 128MB. Can be modified for a more optimal performance, when used with bulkThreads. More concurrently active threads mean better performance. <br>For more on this, refer to [Snowflake documentation](https://docs.snowflake.net/manuals/sql-reference/sql/put.html){target="_blank"}. |
 | StageName | Name of the pre-provisioned internal stage. It will be used in bulk load instead of creating a new temporary stage.|
 
-
 ## Vertica Analytics {#vertica-analytics}
 
 Use Federated databases to process information stored in an external database. Follow the steps below to configure access to Vertica Analytics.
@@ -262,8 +265,99 @@ Use Federated databases to process information stored in an external database. F
 
 1. Once your configuration is done, click **[!UICONTROL Add]** to create your Federate database.
 
+The connector supports the following option:
+
+| Option   |  Description |
+|---|---|
+|  TimeZoneName |  By default empty, which means that the system time zone of the app server is used. The option can be used to force the TIMEZONE session parameter. |
+
+## Databricks {#databricks}
+
+Use Federated databases to process information stored in an external database. Follow the steps below to configure access to Databricks.
+
+1. Under the **[!UICONTROL Federated data]** menu, select **[!UICONTROL Federated databases]**.
+
+1. Click **[!UICONTROL Add federated database]**.
+
+    ![](assets/federated_database_1.png)
+
+1. Enter a **[!UICONTROL Name]** to your Federate database.
+
+1. From the **[!UICONTROL Type]** drop-down, select Databricks.
+
+    ![](assets/databricks-config.png)
+
+1. Configure the Databricks authentication settings:
+
+    * **[!UICONTROL Server]**: Add the name of your Databricks server.
+
+    * **[!UICONTROL HTTP path]**: Add the path to your Cluster or Warehouse. [Learn more](https://docs.databricks.com/en/integrations/compute-details.html){target="_blank"}
+
+    * **[!UICONTROL Password]**: Add the account access token. [Learn more](https://docs.databricks.com/en/dev-tools/auth/pat.html){target="_blank"}
+
+    * **[!UICONTROL Catalog]**: Add the field for the Databricks Catalog.
+
+    * **[!UICONTROL Working schema]**: Name of the database schema to use for work tables.
+
+        >[!NOTE]
+        >
+        >You can use any schema from the database, including schemas used for temporary data processing, as long as you have the required permission to connect to this schema.
+        >
+        >**Distinct working schemas** must be used when connecting multiple sandboxes with the same database.
+
+    * **[!UICONTROL Options]**: The connector supports the options detailed in the table below.
+
+1. Select the **[!UICONTROL Test the connection]** option to verify your configuration.
+
+1. Click **[!UICONTROL Deploy functions]** button to create the functions.
+
+1. Once your configuration is done, click **[!UICONTROL Add]** to create your Federate database.
+
 The connector supports the following options:
 
 | Option   |  Description |
 |---|---|
 |  TimeZoneName |  By default empty, which means that the system time zone of the app server is used. The option can be used to force the TIMEZONE session parameter. |
+
+<!--Not for October release
+
+## Microsoft Fabric (LA){#microsoft-fabric}
+
+>[!AVAILABILITY]
+>
+>Microsoft Fabric is currently only available for a set of organizations (Limited Availability).
+
+Use Federated databases to process information stored in an external database. Follow the steps below to configure access to Microsoft Fabric.
+
+1. Under the **[!UICONTROL Federated data]** menu, select **[!UICONTROL Federated databases]**.
+
+1. Click **[!UICONTROL Add federated database]**.
+
+    ![](assets/federated_database_1.png)
+
+1. Enter a **[!UICONTROL Name]** to your Federate database.
+
+1. From the **[!UICONTROL Type]** drop-down, select Microsoft Fabric.
+
+    ![](assets/microsoft-config.png)
+
+1. Configure the Microsoft Fabric authentication settings:
+
+    * **[!UICONTROL Server]**: Enter the URL of the Microsoft Fabric server.
+
+    * **[!UICONTROL Application ID]**: Enter your Microsoft Fabric Application ID.
+
+    * **[!UICONTROL Client secret]**: Enter your Client secret.
+
+    * **[!UICONTROL Options]**: The connector supports the options detailed in the table below.
+
+1. Select the **[!UICONTROL Test the connection]** option to verify your configuration.
+
+1. Click **[!UICONTROL Deploy functions]** button to create the functions.
+
+1. Once your configuration is done, click **[!UICONTROL Add]** to create your Federate database.
+
+| Option   |  Description |
+|---|---|
+| Authentication | Type of authentication supported by the connector. Current supported value: ActiveDirectoryMSI. For more information, refer to [Microsoft SQL documentation](https://learn.microsoft.com/en-us/sql/connect/odbc/using-azure-active-directory?view=sql-server-ver15#example-connection-strings){target="_blank"}  (Example connection strings n°8) |
+-->
