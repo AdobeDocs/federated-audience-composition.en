@@ -20,9 +20,11 @@ With this new release, Federated Audience Composition is now compatible with the
 
     You can now establish connections to Databricks databases through Federated Audience Composition. [Learn more](../connections/federated-db.md#databricks)
 
-* **Snowflake private link support**
+* **Support for secure access to Snowflake through AWS PrivateLink**
+    
+    Secure access to your external Snowflake data warehouse through private link is now supported. Note that your Snowflake account must be hosted on Amazon Web Services (AWS) and located in the same region as your Federated Audience Composition environment. Please contact your Adobe representative for assistance in setting up secure access to your Snowflake account. [Learn more](../connections/federated-db.md#snowflake)
 
-    Private link is now supported. Note that your Snowflake account must be hosted on Amazon Web Services (AWS) and located in the same region as your Adobe Experience Platform environment. Please contact your Adobe representative for assistance in setting up your Snowflake account. [Learn more](../connections/federated-db.md#snowflake)
+    
 
 * **Amazon Redshift Serverless support**
 
