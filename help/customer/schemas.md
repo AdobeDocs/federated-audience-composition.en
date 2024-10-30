@@ -85,9 +85,9 @@ To create schemas in Federated Audience Composition, follow the steps below:
 
 ## Edit a schema {#schema-edit}
 
-To edit a schema:
+To edit a schema, follow these steps:
 
-1. Click on the name of your schema in the schemas folder. 
+1. Click on the name of your schema in the list. 
 
 1. Click on **[!UICONTROL Edit]** button.
 
@@ -97,11 +97,6 @@ To edit a schema:
 
     ![](assets/schema_edit_orders.png){zoomable="yes"}
 
-## Refresh a schema {#schema-refresh}
-
-When a column is created, modified or deleted in a federated database, you can detect and apply the changes by clicking on the **[!UICONTROL Refresh schema]** button in the corresponding schema.
-
-![](assets/schema_refresh.png){zoomable="yes"}
 
 ## Preview data in a schema {#schema-preview}
 
@@ -114,6 +109,16 @@ Click on the **[!UICONTROL Calculate]** link to preview the total number of reco
 Click on the **[!UICONTROL Configure columns]** button to change the data display.
 
 ![](assets/schema_columns.png){zoomable="yes"}
+
+
+## Refresh a schema {#schema-refresh}
+
+Tables in a federated database can be updated, added or removed. In such cases, you must refresh the schema in Adobe Experience Platform to align with the latest changes. To perform this, click the three dots next to the name of the schema to update and select **Refresh schema**. 
+
+You can also update the schema definition when editing it.
+
+![](assets/schema_refresh.png){zoomable="yes"}
+
 
 ## Delete a schema {#schema-delete}
 

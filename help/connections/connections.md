@@ -34,12 +34,13 @@ To setup a connection with your database, follow these steps:
     * [Google Big Query](federated-db.md#google-big-query)
     * [Snowflake](federated-db.md#snowflake)
     * [Vertica Analytics](federated-db.md#vertica-analytics)
+    * [Databricks](federated-db.md#databricks)
 
 1. After fill in the details, click on **[!UICONTROL Test connection]** button, and on **[!UICONTROL Deploy functions]** button.
 
-1. Finish the creation of your connection by clicking on the **[!UICONTROL Save]** button.
-
     ![](assets/connections_testdeploy.png){zoomable="yes"}
+
+1. Finish the creation of your connection by clicking on the **[!UICONTROL Save]** button.
 
     An overview of your Federated database connection is available, as shown below: 
 
