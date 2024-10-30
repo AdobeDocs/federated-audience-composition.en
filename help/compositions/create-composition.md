@@ -23,8 +23,8 @@ The first step to create a composition is to define its label and configure addi
 
 1. Click **[!UICONTROL Create]**. The composition canvas displays. You can now configure your composition by adding as many activities as needed to suit your needs before executing it:
 
-    * [Learn how to orchestrate activities](#action-activities)
-    * [Learn how to start and monitor a composition](#save) 
+    * [Learn how to orchestrate activities](orchestrate-activities.md)
+    * [Learn how to start and monitor a composition](start-monitor-composition.md) 
 
 ## Configure the composition's settings {#settings}
 
