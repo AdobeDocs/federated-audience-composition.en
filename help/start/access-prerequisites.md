@@ -12,6 +12,19 @@ Federated Audience Composition requires Adobe Real-Time Customer Data Platform a
 >
 >After your received the welcome email notification from Adobe, it might take a few more hours for the interface to be updated and features available to you.
 
+## Supported systems {#supported-systems}
+
+Federated Audience Composition supports the following cloud warehouses:
+
+* Amazon Redshift
+* Azure Synapse
+* Databricks
+* Google Big Query
+* Snowflake
+* Vertica Analytics
+
+Learn how to create a connection with these systems in [this page](../connections/connections.md).
+
 ## Permissions {#permissions}
 
 When you purchase the Federated Audience Composition add-on, a product profile is created for each active sandbox at that time. This product profile is created in the Admin Console under the **Adobe Experience Platform** product card and follows this naming convention: `ACP_FAC - <<SandboxName>> - admin.` To access the Federated Audience Composition for a specific sandbox, users must be added to the product profile created for that sandbox.

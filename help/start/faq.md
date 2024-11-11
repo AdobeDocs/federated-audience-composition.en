@@ -19,13 +19,7 @@ In order to use Federated Audience Audience Composition, each user must be added
 
 +++What cloud warehouses are supported?
 
-For this release, Federated Audience Composition is compatible with:
-
-* Amazon Redshift
-* Azure Synapse
-* Google Big Query
-* Snowflake
-* Vertica Analytics
+The list of systems supported with Federated Audience Composition is available in [this page](../start/access-prerequisites.md#supported-systems).
 
 +++
 
@@ -41,8 +35,6 @@ Yes, multiple warehouses can be queried in the same composition, and can combine
 No, it is up to you to configure access to a dedicated or shared database/schema. We recommend you to create a dedicated schema for Federated Audience Composition, and copy/share business case datasets only. 
 +++
 
-
-
 +++Do I have access to all tables in the dedicated schema?
 
 Yes, once connected, Federated Audience Composition can be used to discover all tables based on initial rights defined, then you can use the visual schema editor to:
@@ -53,7 +45,6 @@ Yes, once connected, Federated Audience Composition can be used to discover all 
 * Hide unnecessary columns
 * Save those tables description
 +++
-
 
 +++Is there any temporary storage in Federated Audience Composition?
 
@@ -83,7 +74,7 @@ The resulting Audience data do not persist indefinitely in Adobe Experience Plat
 
 +++Can I delete a custom uploaded audience?
 
-No, in the current version you cannot delete custom uploaded audiences. <!--that are not used in downstream activation directly in Audience Portal by simply selecting delete from the actions menu. Learn more in [Adobe Experience Platform documentation](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/faq#how-do-i-put-an-audience-in-the-deleted-state){target="_blank"}.-->
+No, in the current version you cannot delete custom uploaded audiences.-->
 
 +++
 
@@ -92,11 +83,3 @@ No, in the current version you cannot delete custom uploaded audiences. <!--that
 No, Identity Service is not being leveraged during a composition. The data between the various sources used in the composition is joined through user-defined logic (as expressed in the underlying model), e.g. CRM ID, User Account number, etc. You must to select the identity that is used as the identifier in the audience for selection in your data warehouse. On a resulting audience from Federated Audience Composition, you need to identify the identity namespace for the identity in the resulting dataset.
 
 +++
-
-<!--
-+++If I want to combine federated data with datasets that live in Adobe Experience Platform, how is this done?
-
-Likewise, the Identity Service is not being leveraged in this scenario either. The data model underpinning a composition needs to express how the data warehouse data and the audience to be enriched are related. e.g. assume an existing audience in Adobe Experience Platform contains several attributes, among which is the CRM ID. Assume transactional data is in the data warehouse containing purchases with various attributes, including the CRM ID of the purchaser. The end-user would have to specify that the CRM ID for both objects is used to stitch the two objects together.
-
-+++
--->

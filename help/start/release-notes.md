@@ -8,6 +8,13 @@ exl-id: d4dcaf31-93cd-4a4e-888a-cf1bbdc4ca03
 
 [!DNL Federated Audience Composition] continuously delivers new features, enhancements to existing features, and bug fixes. All changes are consolidated in these release notes. [!DNL Federated Audience Composition] is built natively on [!DNL Adobe Experience Platform] and inherits from its latest innovations and improvements. Learn more about these changes in [Adobe Experience Platform Release Notes](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html){target="_blank"}.
 
+
+>[!AVAILABILITY]
+>
+>Adobe Experience Platform Federated Audience Composition is currently only available for a set of organizations (Limited Availability).
+>
+
+
 ## October '24 release {#fac-24-10}
 
 ### Compatibility {#fac-24-10-compat}
@@ -40,10 +47,6 @@ This release comes with the improvements listed below.
 
 ## July '24 release - Federated Audience Composition (LA) {#fac-la}
 
->[!AVAILABILITY]
->
->Adobe Experience Platform Federated Audience Composition is currently only available for a set of organizations (Limited Availability).
->
 
 Federated Audience Composition is an add-on capability that equips businesses with flexible and expanded access to enterprise data warehouses to compose audiences using critical enterprise datasets and power brand-initiated and in-the-moment experiences. With this new approach, as an [Adobe Real-Time Customer Data Platform](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/home){target="_blank"} and/or [Adobe Journey Optimizer](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/ajo-home){target="_blank"} user, you can federate audience data directly from your existing data warehouse to enrich Adobe Experience Platform audiences in one system.
 
