@@ -31,10 +31,10 @@ To setup a connection with your database, follow these steps:
 
     * [Amazon Redshift](federated-db.md#amazon-redshift)
     * [Azure Synapse](federated-db.md#azure-synapse-redshift)
+    * [Databricks](federated-db.md#databricks)
     * [Google Big Query](federated-db.md#google-big-query)
     * [Snowflake](federated-db.md#snowflake)
     * [Vertica Analytics](federated-db.md#vertica-analytics)
-    * [Databricks](federated-db.md#databricks)
 
 1. After fill in the details, click on **[!UICONTROL Test connection]** button, and on **[!UICONTROL Deploy functions]** button.
 
