@@ -1,7 +1,6 @@
 ---
 title: Prerequisites and guardrails for Federated Audience Composition
 description: Learn prerequisites, permissions, and guardrails for Federated Audience Composition
-badge: label="Limited availability" type="Informative"
 exl-id: 661a838f-146e-4d68-bb2d-319827caee3a
 ---
 # Prerequisites and guardrails {#fac-access}

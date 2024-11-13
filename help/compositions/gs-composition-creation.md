@@ -2,7 +2,6 @@
 audience: end-user
 title: Create compositions
 description: Learn how to create compositions
-badge: label="Limited availability" type="Informative"
 exl-id: 861440ab-ce14-46aa-a215-b86fc9ffeef0
 ---
 # Key principles of composition creation {#gs-composition-creation}

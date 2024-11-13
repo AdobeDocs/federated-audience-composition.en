@@ -2,7 +2,6 @@
 audience: end-user
 title: Use the Change dimension activity
 description: Learn how to use the Change dimension activity
-badge: label="Limited availability" type="Informative"
 exl-id: e71017bd-6d2f-4ace-b2d9-cbfbb537d127
 ---
 # Change dimension {#change-dimension}

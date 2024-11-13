@@ -2,7 +2,6 @@
 audience: end-user
 title: Get started with data models
 description: Learn how to start with data models
-badge: label="Limited availability" type="Informative"
 exl-id: 8f9e9895-dcd7-4718-8922-4f7fefe9ed94
 ---
 # Get started with data models {#data-model}

@@ -1,21 +1,18 @@
 ---
 title: What's new in Experience Platform Federated Audience Composition
 description: Latest updates and release notes
-badge: label="Limited availability" type="Informative"
 exl-id: d4dcaf31-93cd-4a4e-888a-cf1bbdc4ca03
 ---
 # Release Notes {#rn-new}
 
 [!DNL Federated Audience Composition] continuously delivers new features, enhancements to existing features, and bug fixes. All changes are consolidated in these release notes. [!DNL Federated Audience Composition] is built natively on [!DNL Adobe Experience Platform] and inherits from its latest innovations and improvements. Learn more about these changes in [Adobe Experience Platform Release Notes](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html){target="_blank"}.
 
+## October '24 release {#fac-24-10}
 
 >[!AVAILABILITY]
 >
->Adobe Experience Platform Federated Audience Composition is currently only available for a set of organizations (Limited Availability).
+>Previously available for a set of organizations (LA), Adobe Experience Platform Federated Audience Composition is now available to all users (GA). This add-on is activated based on your offering, and only visible with the associated permissions. [Learn more](access-prerequisites.md)
 >
-
-
-## October '24 release {#fac-24-10}
 
 ### Compatibility {#fac-24-10-compat}
 
@@ -46,7 +43,6 @@ This release comes with the improvements listed below.
     When creating a composition, you can now select the data model to associate to it. With this new option, the configuration of your activities is easier as only tables of the associated data model are available. [Learn more](../compositions/create-composition.md)
 
 ## July '24 release - Federated Audience Composition (LA) {#fac-la}
-
 
 Federated Audience Composition is an add-on capability that equips businesses with flexible and expanded access to enterprise data warehouses to compose audiences using critical enterprise datasets and power brand-initiated and in-the-moment experiences. With this new approach, as an [Adobe Real-Time Customer Data Platform](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/home){target="_blank"} and/or [Adobe Journey Optimizer](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/ajo-home){target="_blank"} user, you can federate audience data directly from your existing data warehouse to enrich Adobe Experience Platform audiences in one system.
 

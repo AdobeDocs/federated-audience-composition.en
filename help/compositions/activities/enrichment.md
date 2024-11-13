@@ -2,7 +2,6 @@
 audience: end-user
 title: Use the Enrichment activity
 description: Learn how to use the Enrichment activity
-badge: label="Limited availability" type="Informative"
 exl-id: 6bf12c25-fbef-4588-89d0-28215cbcbf58
 ---
 # Enrichment {#enrichment}

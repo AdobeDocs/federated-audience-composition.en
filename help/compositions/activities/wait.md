@@ -2,7 +2,6 @@
 audience: end-user
 title: Use the Wait activity
 description: Learn how to use the Wait activity
-badge: label="Limited availability" type="Informative"
 exl-id: 59857bd2-2a0b-4c97-ba4e-048dfd9af8f2
 ---
 # Wait {#wait}

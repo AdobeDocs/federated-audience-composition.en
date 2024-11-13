@@ -2,7 +2,6 @@
 audience: end-user
 title: Configure your Federated databases
 description: Learn how to configure your Federated databases
-badge: label="Limited availability" type="Informative"
 exl-id: b8c0589d-4150-40da-ac79-d53cced236e8
 ---
 # Configure your Federated databases {#federated-db}

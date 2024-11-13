@@ -1,7 +1,6 @@
 ---
 title: Frequently Asked Questions
 description: Frequently Asked Questions about Adobe Experience Platform Federated Audience Composition
-badge: label="Limited availability" type="Informative"
 exl-id: 68cc0ae5-5c41-425f-8b10-ab3515294006
 ---
 # Frequently asked questions {#faq}

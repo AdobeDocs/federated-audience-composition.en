@@ -2,7 +2,6 @@
 audience: end-user
 title: Audit Trail
 description: Learn how actions and events are logged and accessible in the audit trail
-badge: label="Limited availability" type="Informative"
 exl-id: 97142f54-53ce-4c2a-9d89-fdcb2a47b159
 ---
 # Audit Trail {#audit-trail}

@@ -2,7 +2,6 @@
 audience: end-user
 title: Use the AND-join activity
 description: Learn how to use the AND-join activity
-badge: label="Limited availability" type="Informative"
 exl-id: 9648f17b-e54c-4bc2-8dff-d35c438eeb8b
 ---
 # AND-join {#join}

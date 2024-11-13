@@ -2,7 +2,6 @@
 audience: end-user
 title: Work with audiences
 description: Learn how to work with audiences
-badge: label="Limited availability" type="Informative"
 exl-id: c6507624-1dc9-43f9-a3ad-c3dc9689f8c7
 ---
 # Work with audiences {#gs-audiences}

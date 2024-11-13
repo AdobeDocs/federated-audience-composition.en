@@ -2,7 +2,6 @@
 audience: end-user
 title: Create compositions
 description: Learn how to create compositions
-badge: label="Limited availability" type="Informative"
 exl-id: 7b9acfc0-99b6-4f83-b774-3652c811868c
 ---
 # Orchestrate composition activities {#activities}
