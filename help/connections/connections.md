@@ -35,11 +35,11 @@ To setup a connection with your database, follow these steps:
     * [Snowflake](federated-db.md#snowflake)
     * [Vertica Analytics](federated-db.md#vertica-analytics)
 
-1. For each supported database, you can click the **[!UICONTROL Server IP]** button. The list of all IPs associated with your Federated Audience Composition instances display.
+1. For each supported database, select the **[!UICONTROL Server IP]** button. The list of all IPs associated with your Federated Audience Composition instances display.
 
     ![](assets/connections_server_IPs.png){zoomable="yes"}
 
-    Click an IP from the list to copy it and authorize the connection to your database.
+    Click an IP from the list to copy it into your system and authorize this IP to connect to your database.
 
 1. After fill in the details, click on **[!UICONTROL Test connection]** button, and on **[!UICONTROL Deploy functions]** button.
 
