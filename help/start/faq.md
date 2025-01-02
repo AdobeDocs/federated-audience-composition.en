@@ -82,7 +82,7 @@ No, in the current version you cannot delete custom uploaded audiences.
 No, Identity Service is not being leveraged during a composition. The data between the various sources used in the composition is joined through user-defined logic (as expressed in the underlying model), e.g. CRM ID, User Account number, etc. You must to select the identity that is used as the identifier in the audience for selection in your data warehouse. On a resulting audience from Federated Audience Composition, you need to identify the identity namespace for the identity in the resulting dataset.
 
 +++
-
+<!--
 +++How are customer consent preferences honored for externally generated audiences that are imported into Federated Audience Composition?
 
 As customer data is captured from multiple channels, identity stitching and merge policies allow this data to be consolidated in a single Real-Time Customer Profile. Information on the customers' consent preferences are stored and evaluated at the profile level.
@@ -96,3 +96,4 @@ When an external audience is ingested into Federated Audience Composition, it is
 >Since the payload variables are not stored in the profile but in the data lake, you should not include consent information in externally generated audiences. Instead, use other Adobe Experience Platform ingestion channels where profile data is imported.
 
 +++
+-->
