@@ -51,19 +51,21 @@ By creating a schema, you can define a representation of your table in Experienc
 
 To create schemas in Federated Audience Composition, follow the steps below:
 
-1. In **[!UICONTROL FEDERATED DATA]** section, go in the **[!UICONTROL Models]** link. Browse to the **[!UICONTROL Schema]** tab and click on the **[!UICONTROL Create schema]** button.
+1. In **[!UICONTROL Federated Data]** section, access the **[!UICONTROL Models]** menu. Browse to the **[!UICONTROL Schema]** tab and click **[!UICONTROL Create schema]**.
 
     ![](assets/schema_create.png){zoomable="yes"}
 
     This step lets you access to a new screen with a drop-down list where you can find the database(s) connected to your environment. Learn more about database connection in [this section](../connections/connections.md#connections-fdb).
 
-1. Select your source database in the list, and click on the **[!UICONTROL Add tables]** tab.
+1. Select your source database in the list, and click **[!UICONTROL Next]**.
 
     ![](assets/schema_tables.png){zoomable="yes"}
 
     You can then see the list of all the tables in the database.
 
-1. By adding the tables, for which you want to create the schema, you have access to their fields as below:
+1. Select the tables for which you want to create the schema.
+
+1. Each selected table generates a schema with the chosen columns. Configure the schema and its columns as needed.
 
     ![](assets/schema_fields.png){zoomable="yes"}
 
@@ -74,28 +76,21 @@ To create schemas in Federated Audience Composition, follow the steps below:
     * rename all the fields, and set their visibility
     * select the schema primary key
 
-    For example, for the following table imported:
-
-    ![](assets/schema_lumaorder.png){zoomable="yes"}
-
-    The schema can be defined like this: 
-
-    ![](assets/schema_lumaorders.png){zoomable="yes"}
+1. After completing your configuration, click **[!UICONTROL Done]**. 
 
 ## Edit a schema {#schema-edit}
 
 To edit a schema, follow these steps:
 
-1. Click on the name of your schema in the list. 
+1. Access your previously created schema.
 
 1. Click on **[!UICONTROL Edit]** button.
 
     ![](assets/schema_edit.png){zoomable="yes"}
 
-    You can access the same options as when [creating a schema](#schema-create).
+1. From the **[!UICONTROL Edit schema]** window, you can access and configure the same options as when [creating a schema](#schema-create).
 
     ![](assets/schema_edit_orders.png){zoomable="yes"}
-
 
 ## Preview data in a schema {#schema-preview}
 
@@ -108,7 +103,6 @@ Click on the **[!UICONTROL Calculate]** link to preview the total number of reco
 Click on the **[!UICONTROL Configure columns]** button to change the data display.
 
 ![](assets/schema_columns.png){zoomable="yes"}
-
 
 ## Refresh a schema {#schema-refresh}
 
