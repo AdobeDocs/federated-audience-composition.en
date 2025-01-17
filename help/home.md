@@ -1,6 +1,8 @@
 ---
 title: Adobe Experience Platform Federated Audience Composition Documentation Home Page
 description: Federated Audience Composition add-on documentation
+solution: Federated Audience Composition
+product: Federated Audience Composition
 exl-id: 5cb18794-ae38-4ed7-9ce2-112bc6ae8dce
 ---
 # Federated Audience Composition documentation  {#fac-home}
