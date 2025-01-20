@@ -28,11 +28,22 @@ The main steps to send Adobe Experience Platform audiences to Adobe Federated Au
 
     ![](assets/destination-new.png)
 
-1. Provide a name for the new connection and choose the **[!UICONTROL Connection type]** to use and the **[!UICONTROL Federated database]** you want to connect to and click **[!UICONTROL Next]**.
+1. Enter a name for the new connection and select the **[!UICONTROL Connection Type]** from the following options:
+
+    * Amazon Redshift
+    * Azure Synapse Analytics
+    * Google Big Query
+    * Snowflake
+    * Vertica Analytics
+    * Databricks
+
+1. Select the **[!UICONTROL Federated database]** you want to connect to and click **[!UICONTROL Next]**.
 
     ![](assets/destination-configure.png)
 
-    The **[!UICONTROL Alerts]** section allows you to enable alerts to receive notifications on the status of the dataflow to your destination. For more information on alerts, see the Adobe Experience Platform documentation about [subscribing to destinations alerts using the UI](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/alerts){target="_blank"}
+1. In the **[!UICONTROL Alerts]** section, you can enable alerts to receive notifications on the status of the dataflow to your destination. 
+
+    For more information on alerts, see the Adobe Experience Platform documentation about [subscribing to destinations alerts using the UI](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/alerts){target="_blank"}
 
 1. The **[!UICONTROL Governance policy & enforcement actions]** step, you can define your data governance policies and ensure that the data used is compliant when audiences are sent and active.
 
