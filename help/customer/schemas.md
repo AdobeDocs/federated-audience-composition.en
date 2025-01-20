@@ -73,8 +73,12 @@ To create schemas in Federated Audience Composition, follow the steps below:
 
     * change the label of the schema
     * add a description
-    * rename all the fields, and set their visibility
+    * rename all the field labels, and set their visibility
     * select the schema primary key
+
+    The schema can be defined as follows:
+
+    ![](assets/schema_example.png)
 
 1. After completing your configuration, click **[!UICONTROL Done]**. 
 
