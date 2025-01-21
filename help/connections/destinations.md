@@ -28,7 +28,7 @@ The main steps to send Adobe Experience Platform audiences to Adobe Federated Au
 
     ![](assets/destination-new.png)
 
-1. Enter a name for the new connection and select the **[!UICONTROL Connection Type]** from the following options:
+1. Enter a name for the new connection and select the **[!UICONTROL Connection Type]** from the following available connections:
 
     * Amazon Redshift
     * Azure Synapse Analytics
