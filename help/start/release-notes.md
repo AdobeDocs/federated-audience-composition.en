@@ -7,6 +7,23 @@ exl-id: d4dcaf31-93cd-4a4e-888a-cf1bbdc4ca03
 
 [!DNL Federated Audience Composition] continuously delivers new features, enhancements to existing features, and bug fixes. All changes are consolidated in these release notes. [!DNL Federated Audience Composition] is built natively on [!DNL Adobe Experience Platform] and inherits from its latest innovations and improvements. Learn more about these changes in [Adobe Experience Platform Release Notes](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html){target="_blank"}.
 
+## February '25 release {#fac-25-2}
+
+
+* **Enhanced Schema Creation Experience**
+
+    The process of creating schemas has been improved through an updated user interface, designed to be more intuitive and easier to navigate. These enhancements offer data practitioners a smoother and more efficient way to develop data models. [Learn more](../customer/schemas.md)
+
+* **Read Audience support for Databricks**
+
+    You can now use Databricks in the Read Audience flow, enabling activity for Databricks databases and allowing it to be set up as a new destination. [Learn more](../connections/destinations.md)
+
+* **Federated Audience Composition permissions**
+
+    Starting February release, [!DNL Federated Audience Composition] is accessible only to users who have been granted the **Manage Federated Data** permission.
+    
+    To learn how to assign this permission, refer to the [detailed documentation](feature-access.md).
+
 ## November '24 release {#fac-24-11}
 
 ### Improvements {#fac-24-11-improvements}
