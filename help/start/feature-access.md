@@ -1,6 +1,7 @@
 ---
 title: Access Federated Audience Composition
 description: Learn about required permissions for Federated Audience Composition
+exl-id: 84138456-218b-4beb-ae7b-146213b03cc2
 ---
 # Access Federated Audience Composition {#feature-access}
 
@@ -47,5 +48,3 @@ To assign this role to new users:
 1. Enter the user's name or email address, or select from the available list. Once done, click **[!UICONTROL Save]**.
 
 The user will then receive an email with instructions to access your instance. If the user was not previously created, refer to the [this documentation](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/permissions-ui/users).
-
-
