@@ -4,11 +4,21 @@ description: Learn about required permissions for Federated Audience Composition
 ---
 # Access Federated Audience Composition {#feature-access}
 
+## Manage access to sandboxes {#access-sandboxes}
+
 When you purchase the Federated Audience Composition add-on, a product profile is created for each active sandbox at that time. This product profile is created in the Admin Console under the **Adobe Experience Platform** product card and follows this naming convention: `ACP_FAC - <<SandboxName>> - admin.` To access the Federated Audience Composition for a specific sandbox, users must be added to the product profile created for that sandbox.
 
 For example, if a new sandbox named "fac-test" is activated, a corresponding product profile "ACP_FAC - fac-test - admin" is created. In order to access Federated Audience Composition with this sandbox, users need to be added to this product profile.
 
+## Manage access to Federated Audience Composition
+
+>[!AVAILABILITY]
+>
+>Permissions are available as part of the February release.
+
 To access **Federated Audience Composition**, you must first ensure that the **Manage Federated Data** permission is assigned to the appropriate roles. These roles must then be assigned to users who need acccess to **Federated Audience Composition**.
+
+Note that only administrators have the ability to assign permissions.
 
 1. Navigate to the **[!UICONTROL Permissions]** menu.
 
