@@ -41,7 +41,7 @@ With Federated Audience Composition, you can connect to the following databases.
 
 >[!AVAILABILITY]
 >
->Only Amazon Redshift and Amazon Redshift Serverless are supported.
+>Only Amazon Redshift AWS, Amazon Redshift Spectrum and Amazon Redshift Serverless are supported.
 
 Use Federated databases to process information stored in an external database. Follow the steps below to configure access to Amazon Redshift.
 
