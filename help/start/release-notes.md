@@ -9,6 +9,13 @@ exl-id: d4dcaf31-93cd-4a4e-888a-cf1bbdc4ca03
 
 ## February '25 release {#fac-25-2}
 
+* **Microsoft Fabrics support**
+
+    You can now establish connections to Microsoft Fabric databases through Federated Audience Composition. [Learn more](../connections/federated-db.md)
+
+* **Amazon Redshift Spectrum support**
+
+    Amazon Redshift Spectrum is now supported for Amazon Redshift Database connections. [Learn more](../connections/federated-db.md#)
 
 * **Enhanced Schema Creation Experience**
 
@@ -20,9 +27,12 @@ exl-id: d4dcaf31-93cd-4a4e-888a-cf1bbdc4ca03
 
 * **Federated Audience Composition permissions**
 
-    Starting February release, [!DNL Federated Audience Composition] is accessible only to users who have been granted the **Manage Federated Data** permission.
-    
+    Starting February release, [!DNL Federated Audience Composition] will start enforcing the access of **Federated data management** and **Federated Compositions** interfaces to user who have been granted the **Manage Federated Data** permission. 
+
+    We recommend users to contact the administrators to have this permission added to their role in order to continue accessing the [!DNL Federated Audience Composition] user interface.
+
     To learn how to assign this permission, refer to the [detailed documentation](feature-access.md).
+
 
 ## November '24 release {#fac-24-11}
 

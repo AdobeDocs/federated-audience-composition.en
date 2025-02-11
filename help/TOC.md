@@ -11,6 +11,7 @@ breadcrumb-title: Experience Platform Federated Audience Composition
 + Get started with Federated Audience Composition {#start}
     + [What is Federated Audience Composition](start/get-started.md)
     + [Prerequisites and guardrails](start/access-prerequisites.md)
+    + [Access Federated Audience Composition](start/feature-access.md)
     + [Work with audiences](start/audiences.md)
     + [Frequently asked questions](start/faq.md)
 + Configuration steps {#config}
