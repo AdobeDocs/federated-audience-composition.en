@@ -15,7 +15,7 @@ exl-id: d4dcaf31-93cd-4a4e-888a-cf1bbdc4ca03
 
 * **Amazon Redshift Spectrum support**
 
-    Amazon Redshift Spectrum is now supported for Amazon Redshift Database connections. [Learn more](../connections/federated-db.md#)
+    Amazon Redshift Spectrum is now supported for Amazon Redshift Database connections. [Learn more](../connections/federated-db.md#amazon-redshift)
 
 * **Enhanced Schema Creation Experience**
 
@@ -32,7 +32,6 @@ exl-id: d4dcaf31-93cd-4a4e-888a-cf1bbdc4ca03
     We recommend users to contact the administrators to have this permission added to their role in order to continue accessing the [!DNL Federated Audience Composition] user interface.
 
     To learn how to assign this permission, refer to the [detailed documentation](feature-access.md).
-
 
 ## November '24 release {#fac-24-11}
 
