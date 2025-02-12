@@ -2,6 +2,8 @@
 title: Access Federated Audience Composition
 description: Learn about required permissions for Federated Audience Composition
 exl-id: 84138456-218b-4beb-ae7b-146213b03cc2
+hide: yes
+hidefromtoc: yes
 ---
 # Access Federated Audience Composition {#feature-access}
 
