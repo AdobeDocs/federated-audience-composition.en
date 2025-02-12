@@ -10,7 +10,7 @@ exl-id: d4dcaf31-93cd-4a4e-888a-cf1bbdc4ca03
 
 ## February '25 update {#fac-25-01}
 
-Starting February release, [!DNL Federated Audience Composition] will start enforcing the access of **Federated data management** and **Federated Compositions** interfaces to user who have been granted the **Manage Federated Data** permission. 
+Starting March release, [!DNL Federated Audience Composition] will start enforcing the access of **Federated data management** and **Federated Compositions** interfaces to user who have been granted the **Manage Federated Data** permission. 
 
 We recommend users to contact the administrators to have this permission added to their role in order to continue accessing the [!DNL Federated Audience Composition] user interface.
 
