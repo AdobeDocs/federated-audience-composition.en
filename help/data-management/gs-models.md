@@ -46,7 +46,9 @@ Their creation will be based on the use case : you choose the necessary tables, 
 
 To create a data model, follow these steps:
 
-1. In the **[!UICONTROL FEDERATED DATA]** section, go in the **[!UICONTROL Models]** link, and browse to the **[!UICONTROL Data model]** tab. Click on the **[!UICONTROL Create data model]** button.
+1. In the **[!UICONTROL Federated Data]** section, access the **[!UICONTROL Models]** menu, and browse to the **[!UICONTROL Data model]** tab. 
+
+    Click on the **[!UICONTROL Create data model]** button.
 
     ![](assets/datamodel_create.png){zoomable="yes"}
 
@@ -80,11 +82,11 @@ To create links between tables of your datamodel from the Table view tab, follow
 
     **Cardinality**
 
-     * 1-N: one occurrence of the source table can have several corresponding occurrences of the target table, but one occurrence of the target table can have at most one corresponding occurrence of the source table.
+     * **1-N**: one occurrence of the source table can have several corresponding occurrences of the target table, but one occurrence of the target table can have at most one corresponding occurrence of the source table.
 
-     * N-1: one occurrence of the target table can have several corresponding occurrences of the source table, but one occurrence of the source table can have at most one corresponding occurrence of the target table.
+     * **N-1**: one occurrence of the target table can have several corresponding occurrences of the source table, but one occurrence of the source table can have at most one corresponding occurrence of the target table.
      
-     * 1-1: one occurrence of the source table can have at most one corresponding occurrence of the target table.
+     * **1-1**: one occurrence of the source table can have at most one corresponding occurrence of the target table.
 
 All the links defined for your datamodel are listed as below:
 
@@ -106,16 +108,26 @@ To create links between tables of your datamodel from the Canvas view tab, follo
 
     **Cardinality**
 
-     * 1-N: one occurrence of the source table can have several corresponding occurrences of the target table, but one occurrence of the target table can have at most one corresponding occurrence of the source table.
+     * **1-N**: one occurrence of the source table can have several corresponding occurrences of the target table, but one occurrence of the target table can have at most one corresponding occurrence of the source table.
 
-     * N-1: one occurrence of the target table can have several corresponding occurrences of the source table, but one occurrence of the source table can have at most one corresponding occurrence of the target table.
+     * **N-1**: one occurrence of the target table can have several corresponding occurrences of the source table, but one occurrence of the source table can have at most one corresponding occurrence of the target table.
      
-     * 1-1: one occurrence of the source table can have at most one corresponding occurrence of the target table.
+     * **1-1**: one occurrence of the source table can have at most one corresponding occurrence of the target table.
 
 1. All links defined in your data model are represented as arrows in the canvas view. Click on an arrow between two tables to view details, make edits, or remove the link as needed.
 
     ![](assets/datamodel-canvas-2.png){zoomable="yes"}
 
+1. Use the toolbar to customize and adjust your canvas.
+
+    ![](assets/datamodel-canvas-3.png)
+
+    * **[!UICONTROL Zoom in]**: Magnify the canvas to see details of your data model more clearly.
+    * **[!UICONTROL Zoom out]**: Reduce the canvas size for a broader view of your data model.
+    * **[!UICONTROL Fit view]**: Adjust the zoom to fit all schemas and/or audiences within the visible area.
+    * **[!UICONTROL Toggle interactivity]**: Enable or disable user interaction with the canvas.
+    * **[!UICONTROL Filter]**: Choose which schema to display within the canvas.
+    * **[!UICONTROL Force auto layout]**: Automatically arrange schemas and/or audiences for better organization.
 
 >[!ENDTABS]
 
