@@ -2,6 +2,8 @@
 title: Access Federated Audience Composition
 description: Learn about required permissions for Federated Audience Composition
 exl-id: 84138456-218b-4beb-ae7b-146213b03cc2
+hide: yes
+hidefromtoc: yes
 ---
 # Access Federated Audience Composition {#feature-access}
 
@@ -15,7 +17,7 @@ For example, if a new sandbox named "fac-test" is activated, a corresponding pro
 
 >[!AVAILABILITY]
 >
->Permissions are available as part of the February release.
+>Permissions are available as part of the March release.
 
 To access **Federated Audience Composition**, you must first ensure that the **Manage Federated Data** permission is assigned to the appropriate roles. These roles must then be assigned to users who need acccess to **Federated Audience Composition**.
 

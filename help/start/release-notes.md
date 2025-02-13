@@ -7,15 +7,6 @@ exl-id: d4dcaf31-93cd-4a4e-888a-cf1bbdc4ca03
 
 [!DNL Federated Audience Composition] continuously delivers new features, enhancements to existing features, and bug fixes. All changes are consolidated in these release notes. [!DNL Federated Audience Composition] is built natively on [!DNL Adobe Experience Platform] and inherits from its latest innovations and improvements. Learn more about these changes in [Adobe Experience Platform Release Notes](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html){target="_blank"}.
 
-
-## February '25 update {#fac-25-01}
-
-Starting February release, [!DNL Federated Audience Composition] will start enforcing the access of **Federated data management** and **Federated Compositions** interfaces to user who have been granted the **Manage Federated Data** permission. 
-
-We recommend users to contact the administrators to have this permission added to their role in order to continue accessing the [!DNL Federated Audience Composition] user interface.
-
-To learn how to assign this permission, refer to the [detailed documentation](feature-access.md).
-
 ## November '24 release {#fac-24-11}
 
 ### Improvements {#fac-24-11-improvements}
