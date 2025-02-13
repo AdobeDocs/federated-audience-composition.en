@@ -11,6 +11,7 @@ breadcrumb-title: Experience Platform Federated Audience Composition
 + Get started with Federated Audience Composition {#start}
     + [What is Federated Audience Composition](start/get-started.md)
     + [Prerequisites and guardrails](start/access-prerequisites.md)
+    + [Access Federated Audience Composition](start/feature-access.md)
     + [Work with audiences](start/audiences.md)
     + [Frequently asked questions](start/faq.md)
 + Configuration steps {#config}
@@ -18,6 +19,7 @@ breadcrumb-title: Experience Platform Federated Audience Composition
     + [Configure your federated databases](connections/federated-db.md)
     + Data models and schemas{#datamodel}
         + [Create and configure schemas](customer/schemas.md)
+        + [Configure your data models (beta)](data-management/gs-models-beta.md)
         + [Configure your data models](data-management/gs-models.md)
     + [Enrich Adobe Experience Platform audiences with external data](connections/destinations.md)
 + Compose audiences {#compositions}

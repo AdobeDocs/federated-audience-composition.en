@@ -71,9 +71,9 @@ The resulting Audience data do not persist indefinitely in Adobe Experience Plat
 
 +++
 
-+++Can I delete a custom uploaded audience?
++++Can I delete an audience?
 
-No, in the current version you cannot delete custom uploaded audiences.
+No, in the current version you cannot delete Federated Audience Composition audiences.
 
 +++
 
