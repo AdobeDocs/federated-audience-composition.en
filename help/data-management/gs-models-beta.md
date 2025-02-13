@@ -4,6 +4,7 @@ title: Get started with data models
 description: Learn how to start with data models
 hide: yes
 hidefromtoc: yes
+exl-id: 7e1f74c4-b89a-480c-8e12-0257a71e629d
 ---
 # Get started with data models {#data-model-beta}
 
