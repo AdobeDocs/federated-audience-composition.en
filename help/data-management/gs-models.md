@@ -66,7 +66,7 @@ To create a data model, follow these steps:
 
 1. After completing the configuration, click **[!UICONTROL Save]** to apply your changes.
 
-### Create links {#data-model-links}
+## Create links {#data-model-links}
 
 To create links between tables of your datamodel, follow these steps: 
 
@@ -80,11 +80,11 @@ To create links between tables of your datamodel, follow these steps:
 
     **Cardinality**
 
-     * 1-N: one occurrence of the source table can have several corresponding occurrences of the target table, but one occurrence of the target table can have at most one corresponding occurrence of the source table.
+     * **1-N**: one occurrence of the source table can have several corresponding occurrences of the target table, but one occurrence of the target table can have at most one corresponding occurrence of the source table.
 
-     * N-1: one occurrence of the target table can have several corresponding occurrences of the source table, but one occurrence of the source table can have at most one corresponding occurrence of the target table.
+     * **N-1**: one occurrence of the target table can have several corresponding occurrences of the source table, but one occurrence of the source table can have at most one corresponding occurrence of the target table.
      
-     * 1-1: one occurrence of the source table can have at most one corresponding occurrence of the target table.
+     * **1-1**: one occurrence of the source table can have at most one corresponding occurrence of the target table.
 
 All the links defined for your datamodel are listed as below:
 
