@@ -19,6 +19,7 @@ breadcrumb-title: Experience Platform Federated Audience Composition
     + [Configure your federated databases](connections/federated-db.md)
     + Data models and schemas{#datamodel}
         + [Create and configure schemas](customer/schemas.md)
+        + [Configure your data models (beta)](data-management/gs-models-beta.md)
         + [Configure your data models](data-management/gs-models.md)
     + [Enrich Adobe Experience Platform audiences with external data](connections/destinations.md)
 + Compose audiences {#compositions}
