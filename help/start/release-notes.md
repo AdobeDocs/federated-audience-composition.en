@@ -34,6 +34,7 @@ exl-id: d4dcaf31-93cd-4a4e-888a-cf1bbdc4ca03
 
     To learn how to assign this permission, refer to the [detailed documentation](feature-access.md).
 -->
+
 ## November '24 release {#fac-24-11}
 
 ### Improvements {#fac-24-11-improvements}
