@@ -325,9 +325,6 @@ The connector supports the following options:
 
 ## Microsoft Fabric {#microsoft-fabric}
 
->[!AVAILABILITY]
->
->Microsoft Fabric is currently only available for a set of organizations (Limited Availability).
 
 Use Federated databases to process information stored in an external database. Follow the steps below to configure access to Microsoft Fabric.
 

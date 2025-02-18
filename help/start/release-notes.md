@@ -11,7 +11,7 @@ exl-id: d4dcaf31-93cd-4a4e-888a-cf1bbdc4ca03
 
 This release comes with the changes listed below.
 
-* **Microsoft Fabrics support**
+* **Microsoft Fabric support**
 
     You can now establish connections to Microsoft Fabric databases through Federated Audience Composition. [Learn more](../connections/federated-db.md)
 
