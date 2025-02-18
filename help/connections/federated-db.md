@@ -35,12 +35,13 @@ With Federated Audience Composition, you can connect to the following databases.
 * [Snowflake](#snowflake)
 * [Vertica Analytics](#vertica-analytics)
 * [Databricks](#databricks)
+* [Microsoft Fabric](#microsoft-fabric)
 
 ## Amazon Redshift {#amazon-redshift}
 
 >[!AVAILABILITY]
 >
->Only Amazon Redshift and Amazon Redshift Serverless are supported.
+>Only Amazon Redshift AWS, Amazon Redshift Spectrum and Amazon Redshift Serverless are supported.
 
 Use Federated databases to process information stored in an external database. Follow the steps below to configure access to Amazon Redshift.
 
@@ -322,9 +323,7 @@ The connector supports the following options:
 |---|---|
 |  TimeZoneName |  By default empty, which means that the system time zone of the app server is used. The option can be used to force the TIMEZONE session parameter. |
 
-<!--Not for October release
-
-## Microsoft Fabric (LA){#microsoft-fabric}
+## Microsoft Fabric {#microsoft-fabric}
 
 >[!AVAILABILITY]
 >
@@ -354,6 +353,8 @@ Use Federated databases to process information stored in an external database. F
 
     * **[!UICONTROL Options]**: The connector supports the options detailed in the table below.
 
+1. Click **[!UICONTROL Server IPs]** to select the Server IPs you want to authorize.
+
 1. Select the **[!UICONTROL Test the connection]** option to verify your configuration.
 
 1. Click **[!UICONTROL Deploy functions]** button to create the functions.
@@ -363,4 +364,4 @@ Use Federated databases to process information stored in an external database. F
 | Option   |  Description |
 |---|---|
 | Authentication | Type of authentication supported by the connector. Current supported value: ActiveDirectoryMSI. For more information, refer to [Microsoft SQL documentation](https://learn.microsoft.com/en-us/sql/connect/odbc/using-azure-active-directory?view=sql-server-ver15#example-connection-strings){target="_blank"}  (Example connection strings n°8) |
--->
+
