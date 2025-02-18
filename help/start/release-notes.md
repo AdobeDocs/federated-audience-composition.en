@@ -9,6 +9,8 @@ exl-id: d4dcaf31-93cd-4a4e-888a-cf1bbdc4ca03
 
 ## February '25 release {#fac-25-2}
 
+This release comes with the changes listed below.
+
 * **Microsoft Fabrics support**
 
     You can now establish connections to Microsoft Fabric databases through Federated Audience Composition. [Learn more](../connections/federated-db.md)
@@ -21,7 +23,7 @@ exl-id: d4dcaf31-93cd-4a4e-888a-cf1bbdc4ca03
 
     The process of creating schemas has been improved through an updated user interface, designed to be more intuitive and easier to navigate. These enhancements offer data practitioners a smoother and more efficient way to develop data models. [Learn more](../customer/schemas.md)
 
-* **Audience Enrichment Support for Databricks**
+* **Audience Enrichment Support for Databricks**
 
     You can now use Databricks in the Read Audience flow, enabling activity for Databricks databases and allowing it to be set up as a new destination. [Learn more](../connections/destinations.md)
 
