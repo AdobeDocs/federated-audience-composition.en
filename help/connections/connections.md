@@ -34,6 +34,7 @@ To setup a connection with your database, follow these steps:
     * [Google Big Query](federated-db.md#google-big-query)
     * [Snowflake](federated-db.md#snowflake)
     * [Vertica Analytics](federated-db.md#vertica-analytics)
+    * [Microsoft Fabric](federated-db.md#microsoft-fabric)
 
 1. For each supported database, select the **[!UICONTROL Server IP]** button. The list of all IPs associated with your Federated Audience Composition instances display.
 
