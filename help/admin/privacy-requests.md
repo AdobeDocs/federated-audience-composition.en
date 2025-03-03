@@ -16,7 +16,7 @@ Privacy requests can be created and managed from the **[!UICONTROL Requests]** m
 
 ![](assets/requests.png)<!--replace with screenshot specific to FAC if any)-->
 
-For more information on the Privacy Service and how to create and manage privacy requests, refer to the [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html){target="_blank"}.
+For more information on Privacy Service and how to create and manage privacy requests, refer to the [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html){target="_blank"}.
 
 <!--* [Managing privacy jobs in the Privacy Service UI](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html){target="_blank"}
 * [Privacy Service API Guide](https://experienceleague.adobe.com/en/docs/experience-platform/privacy/api/overview){target="_blank"}-->
@@ -29,7 +29,7 @@ You can submit individual requests to access and delete consumer data from Adobe
 * Through the **Privacy Service API**. [Learn more](https://experienceleague.adobe.com/en/docs/experience-platform/privacy/api/overview){target="_blank"}
 <!--More information [here](https://developer.adobe.com/experience-platform-apis/references/privacy-service/#_blank) and API information [here](https://developer.adobe.com/experience-platform-apis/#_blank).-->
 
-The Privacy Service supports two types of requests: **data access** and **data deletion**.
+Privacy Service supports two types of requests: **data access** and **data deletion**.
 
 >[!NOTE]
 >
