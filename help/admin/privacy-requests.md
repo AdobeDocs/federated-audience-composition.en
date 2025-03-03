@@ -2,7 +2,7 @@
 audience: end-user
 title: Privacy requests
 description: Learn how to manage privacy requests through Privacy Service
-exl-id: 92142d16-3483-4f6e-afde-9f88d5d7d1c4
+
 ---
 # Privacy requests {#track-changes}
 
