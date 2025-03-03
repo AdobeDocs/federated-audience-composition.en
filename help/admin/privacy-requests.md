@@ -1,51 +1,49 @@
 ---
 audience: end-user
-title: Get started with compositions
-description: Learn how to start with compositions
+title: Privacy requests
+description: Learn how to manage privacy requests through Privacy Service
 exl-id: 92142d16-3483-4f6e-afde-9f88d5d7d1c4
 ---
 # Privacy requests {#track-changes}
 
 <!--TO UPDATE WITH ANSWERS FROM DOCAC-12036-->
 
-Once you created a composition, the resulting audiences are saved into Adobe Experience Platform. You can then make privacy requests to access and/or delete profile data corresponding to these audiences through Adobe Experience Platform **Privacy Service**, which provides a RESTful API and user interface to help you manage customer data requests.
+Once you created a composition, the resulting audiences are saved into Adobe Experience Platform. You can then make privacy requests to access and/or delete profile data corresponding to these audiences through Adobe Experience Platform **Privacy Service**, which provides a user interface and RESTful API to help you manage customer data requests.
 
 With Privacy Service, you can submit requests to access and delete personal customer data from Adobe Experience Cloud applications, facilitating automated compliance with legal and organizational privacy regulations.
 
-Privacy requests can be created and managed from the **[!UICONTROL Requests]** menu.<!--TBC in FAC-->
+Privacy requests can be created and managed from the **[!UICONTROL Requests]** menu.
 
 ![](assets/requests.png)<!--replace with screenshot specific to FAC if any)-->
 
-For more information on the Privacy Service and how to create and manage privacy requests, refer to Adobe Experience Platform documentation:
+For more information on the Privacy Service and how to create and manage privacy requests, refer to the [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html){target="_blank"}.
 
-* [Privacy Service overview](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html){target="_blank"}
-* [Managing privacy jobs in the Privacy Service UI](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html){target="_blank"}
-* [Privacy Service API Guide](https://experienceleague.adobe.com/en/docs/experience-platform/privacy/api/overview){target="_blank"}
+<!--* [Managing privacy jobs in the Privacy Service UI](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html){target="_blank"}
+* [Privacy Service API Guide](https://experienceleague.adobe.com/en/docs/experience-platform/privacy/api/overview){target="_blank"}-->
 
-## Managing individual data privacy requests that you can send to Adobe Adobe Federated Audience Composition {#data-privacy-requests}
+## Manage individual data privacy requests {#data-privacy-requests}
 
-You can submit individual requests to access and delete consumer data from Adobe Adobe Federated Audience Composition in two ways:
+You can submit individual requests to access and delete consumer data from Adobe Federated Audience Composition in two ways:
 
-* Through the **Privacy Service UI**. See the documentation [here](https://experienceleague.adobe.com/en/docs/experience-platform/privacy/ui/user-guide#_blank).
-* Through the **Privacy Service API**. See the documentation [here](https://developer.adobe.com/experience-platform-apis/references/privacy-service/#_blank) and API information [here](https://developer.adobe.com/experience-platform-apis/#_blank).
+* Through the **Privacy Service UI**. [Learn more](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html){target="_blank"}
+* Through the **Privacy Service API**. [Learn more](https://experienceleague.adobe.com/en/docs/experience-platform/privacy/api/overview){target="_blank"}
+<!--More information [here](https://developer.adobe.com/experience-platform-apis/references/privacy-service/#_blank) and API information [here](https://developer.adobe.com/experience-platform-apis/#_blank).-->
 
 The Privacy Service supports two types of requests: **data access** and **data deletion**.
 
 >[!NOTE]
 >
->To make privacy requests for Adobe Journey Optimizer, refer to this [guide]. If you also plan to make privacy requests for the Platform data lake, refer to this [guide](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/privacy){target="_blank"} in addition to this tutorial. For Real time customer profile, please refer to this [guide](https://experienceleague.adobe.com/en/docs/experience-platform/profile/privacy){target="_blank"} and for Identity service, please refer to this [guide](https://experienceleague.adobe.com/en/docs/experience-platform/identity/privacy){target="_blank"}. For delete and access requests you need to call these individual systems to make sure the requests are handled by each of them. Making a privacy request to Adobe Journey Optimizer will not remove data from all these systems.
+>To make privacy requests for Adobe Journey Optimizer, refer to this [guide](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/privacy/requests){target="_blank"}.
 
-For **access requests**, specify "Adobe Federated Audience Composition"?? from the UI (or "FAC" as a product code in the API).
+<!--If you also plan to make privacy requests for the Platform data lake, refer to this [guide](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/privacy){target="_blank"} in addition to this tutorial. For Real time customer profile, please refer to this [guide](https://experienceleague.adobe.com/en/docs/experience-platform/profile/privacy){target="_blank"} and for Identity service, please refer to this [guide](https://experienceleague.adobe.com/en/docs/experience-platform/identity/privacy){target="_blank"}. For delete and access requests you need to call these individual systems to make sure the requests are handled by each of them. Making a privacy request to Adobe Journey Optimizer will not remove data from all these systems.-->
 
-For **delete requests**, in addition to the "Adobe Federated Audience Composition" request, you must also submit delete requests to three upstream services to prevent Federated Audience Composition from reinjecting the deleted data. If these upstream services are not specified, the "Adobe Federated Audience Composition" request will remain in the "processing" state until delete requests for the upstream services are created.
+For **access requests** and **delete requests**, specify the three following services from the UI:
 
-The three upstream services are:
+* Profile (product code: "profileService" in the API)
+* AEP Data Lake (product code: "AdobeCloudPlatform" in the API)
+* Identity (product code: "identity" in the API)
 
-* Profile (product code: "profileService")
-* AEP Data Lake (product code: "AdobeCloudPlatform")
-* Identity (product code: "identity")
-
-## How to Create Access and Delete Requests
+## Create Access and Delete requests
 
 ### Prerequisites
 
@@ -54,7 +52,7 @@ To make requests to Access and Delete data for Adobe Federated Audience Composit
 * an Adobe organization ID
 * an Identity identifier of the person you want to act on and the corresponding namespace(s). For more information about identity namespaces Experience Platform, see the [identity namespace overview](https://experienceleague.adobe.com/en/docs/experience-platform/identity/features/namespaces).
 
-### Required field values in Adobe Adobe Federated Audience Composition for API requests
+### Required field values for API requests
 
 ```json
 "companyContexts":
@@ -70,7 +68,6 @@ To make requests to Access and Delete data for Adobe Federated Audience Composit
         "value": <Data Subject's Identity Identifier>
 
 "include":
-    FAC (which is the Adobe product code for Adobe Federated Audience Composition)
     profileService (product code for Profile)
     AdobeCloudPlatform (product code for AEP Data Lake)
     identity (product code for Identity)
@@ -80,7 +77,7 @@ To make requests to Access and Delete data for Adobe Federated Audience Composit
 ```
 
 
-### GDPR Access Request example:
+### GDPR Access request example
 
 From the UI:
 
@@ -118,7 +115,7 @@ Through the API:
       }
    ],
    "include":[
-      "CJM"
+    "profileService", "AdobeCloudPlatform", "identity"
    ],
    "regulation":"gdpr"
 }
@@ -161,7 +158,7 @@ Through the API:
 }
 ```
 
-### GDPR Delete Request example:
+### GDPR Delete request example
 
 From the UI:
 
@@ -199,7 +196,7 @@ Through the API:
     }
   ],
   "include": [
-    "CJM", "profileService", "AdobeCloudPlatform", "identity"
+    "profileService", "AdobeCloudPlatform", "identity"
   ],
   "regulation": "gdpr"
 }
