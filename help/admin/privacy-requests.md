@@ -6,20 +6,15 @@ description: Learn how to manage privacy requests through Privacy Service
 ---
 # Privacy requests {#track-changes}
 
-<!--TO UPDATE WITH ANSWERS FROM DOCAC-12036-->
-
 Once you created a composition, the resulting audiences are saved into Adobe Experience Platform. You can then make privacy requests to access and/or delete profile data corresponding to these audiences through Adobe Experience Platform **Privacy Service**, which provides a user interface and RESTful API to help you manage customer data requests.
 
 With Privacy Service, you can submit requests to access and delete personal customer data from Adobe Experience Cloud applications, facilitating automated compliance with legal and organizational privacy regulations.
 
 Privacy requests can be created and managed from the **[!UICONTROL Requests]** menu.
 
-![](assets/requests.png)<!--replace with screenshot specific to FAC if any)-->
+![](assets/requests.png)
 
 For more information on Privacy Service and how to create and manage privacy requests, refer to the [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html){target="_blank"}.
-
-<!--* [Managing privacy jobs in the Privacy Service UI](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html){target="_blank"}
-* [Privacy Service API Guide](https://experienceleague.adobe.com/en/docs/experience-platform/privacy/api/overview){target="_blank"}-->
 
 ## Manage individual data privacy requests {#data-privacy-requests}
 
@@ -27,20 +22,14 @@ You can submit individual requests to access and delete consumer data from Adobe
 
 * Through the **Privacy Service UI**. [Learn more](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html){target="_blank"}
 * Through the **Privacy Service API**. [Learn more](https://experienceleague.adobe.com/en/docs/experience-platform/privacy/api/overview){target="_blank"}
-<!--More information [here](https://developer.adobe.com/experience-platform-apis/references/privacy-service/#_blank) and API information [here](https://developer.adobe.com/experience-platform-apis/#_blank).-->
+<!--More specific information on Privacy Service API [here](https://developer.adobe.com/experience-platform-apis/references/privacy-service/#_blank).-->
 
 Privacy Service supports two types of requests: **data access** and **data deletion**.
-
->[!NOTE]
->
->To make privacy requests for Adobe Journey Optimizer, refer to this [guide](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/privacy/requests){target="_blank"}.
-
-<!--If you also plan to make privacy requests for the Platform data lake, refer to this [guide](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/privacy){target="_blank"} in addition to this tutorial. For Real time customer profile, please refer to this [guide](https://experienceleague.adobe.com/en/docs/experience-platform/profile/privacy){target="_blank"} and for Identity service, please refer to this [guide](https://experienceleague.adobe.com/en/docs/experience-platform/identity/privacy){target="_blank"}. For delete and access requests you need to call these individual systems to make sure the requests are handled by each of them. Making a privacy request to Adobe Journey Optimizer will not remove data from all these systems.-->
 
 For **access requests** and **delete requests**, specify the three following services from the UI:
 
 * Profile (product code: "profileService" in the API)
-* AEP Data Lake (product code: "AdobeCloudPlatform" in the API)
+* AEP Data Lake (product code: "aepDataLake" in the API)
 * Identity (product code: "identity" in the API)
 
 ## Create Access and Delete requests
@@ -69,7 +58,7 @@ To make requests to Access and Delete data for Adobe Federated Audience Composit
 
 "include":
     profileService (product code for Profile)
-    AdobeCloudPlatform (product code for AEP Data Lake)
+    aepDataLake (product code for AEP Data Lake)
     identity (product code for Identity)
 
 "regulation":
@@ -115,7 +104,7 @@ Through the API:
       }
    ],
    "include":[
-    "profileService", "AdobeCloudPlatform", "identity"
+    "profileService", "aepDataLake", "identity"
    ],
    "regulation":"gdpr"
 }
@@ -196,7 +185,7 @@ Through the API:
     }
   ],
   "include": [
-    "profileService", "AdobeCloudPlatform", "identity"
+    "profileService", "aepDataLake", "identity"
   ],
   "regulation": "gdpr"
 }
