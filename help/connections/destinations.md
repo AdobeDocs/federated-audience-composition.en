@@ -36,6 +36,7 @@ The main steps to send Adobe Experience Platform audiences to Adobe Federated Au
     * Snowflake
     * Vertica Analytics
     * Databricks
+    * Microsoft Fabric
 
 1. Select the **[!UICONTROL Federated database]** you want to connect to and click **[!UICONTROL Next]**.
 
