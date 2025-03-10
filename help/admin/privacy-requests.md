@@ -6,23 +6,30 @@ description: Learn how to manage privacy requests through Privacy Service
 ---
 # Privacy requests {#track-changes}
 
-Once you created a composition, the resulting audiences are saved into Adobe Experience Platform. You can then make privacy requests to access and/or delete profile data corresponding to these audiences through Adobe Experience Platform **Privacy Service**, which provides a user interface and RESTful API to help you manage customer data requests.
+Once you created a composition, the resulting audiences are saved into Adobe Experience Platform.
 
-With Privacy Service, you can submit requests to access and delete personal customer data from Adobe Experience Cloud applications, facilitating automated compliance with legal and organizational privacy regulations.
+You can then make privacy requests to access and/or delete profile data corresponding to these audiences through Adobe Experience Platform **Privacy Service**, which provides a [user interface](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html){target="_blank"} and [RESTful API](https://experienceleague.adobe.com/en/docs/experience-platform/privacy/api/overview){target="_blank"} to help you manage customer data requests.
+
+<!--With Privacy Service, you can submit requests to access and delete personal customer data from Adobe Experience Cloud applications, facilitating automated compliance with legal and organizational privacy regulations.
 
 Privacy requests can be created and managed from the **[!UICONTROL Requests]** menu.
 
-![](assets/requests.png)
+![](assets/requests.png)-->
 
-For more information on Privacy Service and how to create and manage privacy requests, refer to the [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html){target="_blank"}.
+>[!NOTE]
+>
+>For more information on Privacy Service, refer to the [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html){target="_blank"}.
 
-## Manage individual data privacy requests {#data-privacy-requests}
+You can create and manage individual requests to access and delete customer data from Adobe Federated Audience Composition. The steps to submit **access requests** and **delete requests** are detailed in the [Real-Time Customer Profile documentation](https://experienceleague.adobe.com/en/docs/experience-platform/profile/privacy){target="_blank"}.
+
+<!--## Manage individual data privacy requests {#data-privacy-requests}
 
 You can submit individual requests to access and delete consumer data from Adobe Federated Audience Composition in two ways:
 
 * Through the **Privacy Service UI**. [Learn more](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html){target="_blank"}
 * Through the **Privacy Service API**. [Learn more](https://experienceleague.adobe.com/en/docs/experience-platform/privacy/api/overview){target="_blank"}
-<!--More specific information on Privacy Service API [here](https://developer.adobe.com/experience-platform-apis/references/privacy-service/#_blank).-->
+
+///More specific information on Privacy Service API [here](https://developer.adobe.com/experience-platform-apis/references/privacy-service/#_blank).
 
 Privacy Service supports two types of requests: **data access** and **data deletion**.
 
@@ -71,7 +78,6 @@ To make requests to Access and Delete data for Adobe Federated Audience Composit
 From the UI:
 
 ![](assets/accessrequest.png){width="60%" align="center"}
-<!--replace with screenshot specific to FAC if any)-->
 
 Through the API:
 
@@ -152,7 +158,6 @@ Through the API:
 From the UI:
 
 ![](assets/deleterequest.png){width="60%" align="center"}
-<!--replace with screenshot specific to FAC if any)-->
 
 Through the API:
 
@@ -227,3 +232,4 @@ Through the API:
     ]
 }
 ```
+-->
