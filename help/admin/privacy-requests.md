@@ -4,7 +4,7 @@ title: Privacy requests
 description: Learn how to manage privacy requests through Privacy Service
 
 ---
-# Privacy requests {#track-changes}
+# Privacy requests {#privacy-requests}
 
 Once you created a composition, the resulting audiences are saved into Adobe Experience Platform.
 

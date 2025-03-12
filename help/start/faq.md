@@ -82,6 +82,18 @@ No, in the current version you cannot delete Federated Audience Composition audi
 No, Identity Service is not being leveraged during a composition. The data between the various sources used in the composition is joined through user-defined logic (as expressed in the underlying model), e.g. CRM ID, User Account number, etc. You must to select the identity that is used as the identifier in the audience for selection in your data warehouse. On a resulting audience from Federated Audience Composition, you need to identify the identity namespace for the identity in the resulting dataset.
 
 +++
+
++++How to create and manage privacy requests with Federated Audience Composition?
+
+You can submit individual requests to access and delete customer data from Adobe Federated Audience Composition in two ways:
+
+* Through the Adobe Experience Platform **Privacy Service UI**. [Learn more](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html){target="_blank"}
+* Through the Adobe Experience Platform **Privacy Service API**. [Learn more](https://experienceleague.adobe.com/en/docs/experience-platform/privacy/api/overview){target="_blank"}
+
+All the steps to create and manage **access requests** and **delete requests** are detailed in the [Real-Time Customer Profile documentation](https://experienceleague.adobe.com/en/docs/experience-platform/profile/privacy){target="_blank"}.
+
++++
+
 <!--
 +++How are customer consent preferences honored for externally generated audiences that are imported into Federated Audience Composition?
 

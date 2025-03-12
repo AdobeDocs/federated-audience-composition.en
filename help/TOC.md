@@ -47,6 +47,5 @@ breadcrumb-title: Experience Platform Federated Audience Composition
     + [Work with the query modeler](query/query-modeler-overview.md)
     + [Build your first query](query/build-query.md)
     + [Edit expressions](query/expression-editor.md)
-+ Governance, privacy and security {#governance-privacy-security}
-    + [Audit Trail](admin/audit-trail.md)
-    + [Privacy requests](admin/privacy-requests.md)
++ [Audit Trail](admin/audit-trail.md)
+
