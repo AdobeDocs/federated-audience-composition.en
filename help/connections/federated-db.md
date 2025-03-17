@@ -277,6 +277,11 @@ The connector supports the following option:
 
 ## Databricks {#databricks}
 
+>[!NOTE]
+>
+>Secure access to your external Snowflake data warehouse through private link is supported. Note that your Snowflake account must be hosted on Amazon Web Services (AWS) and located in the same region as your Federated Audience Composition environment. Please contact your Adobe representative for assistance in setting up secure access to your Snowflake account.
+>
+
 Use Federated databases to process information stored in an external database. Follow the steps below to configure access to Databricks.
 
 1. Under the **[!UICONTROL Federated data]** menu, select **[!UICONTROL Federated databases]**.

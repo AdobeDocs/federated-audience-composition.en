@@ -7,6 +7,39 @@ exl-id: d4dcaf31-93cd-4a4e-888a-cf1bbdc4ca03
 
 [!DNL Federated Audience Composition] continuously delivers new features, enhancements to existing features, and bug fixes. All changes are consolidated in these release notes. [!DNL Federated Audience Composition] is built natively on [!DNL Adobe Experience Platform] and inherits from its latest innovations and improvements. Learn more about these changes in [Adobe Experience Platform Release Notes](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html){target="_blank"}.
 
+## March '25 release {#fac-25-3}
+
+This release comes with the improvement below.
+
+* **Federated Audience Composition permissions**
+
+    Starting March release, [!DNL Federated Audience Composition] will start enforcing the access of **Federated data management** and **Federated Compositions** interfaces to user who have been granted the **Manage Federated Data** permission. 
+
+    We recommend users to contact the administrators to have this permission added to their role in order to continue accessing the [!DNL Federated Audience Composition] user interface.
+
+    To learn how to assign this permission, refer to the [detailed documentation](feature-access.md).
+
+
+* **Enhanced Data model Experience**
+
+    The process of creating data models has been improved through an updated user interface, designed to be more intuitive and easier to navigate. [Learn more](../data-management/gs-models.md)
+
+### Compatibility {#fac-25.3-compat}
+
+* **Databricks connection**
+
+    With this new release, Federated Audience Composition now supports private link connectivity for Databricks database connections. 
+    It also enables secure connections to Databricks databases hosted on Azure. [Learn more](../connections/federated-db.md#databricks)
+
+* **Support for B2B CDP Customers**
+
+    Federated Audience Composition is now available to Business-to-Business (B2B) Customer Data Platform (CDP) customers for people-based audience use cases.
+
+* **Snowflake secure connection**
+    
+    With this new release, Federated Audience Composition supports secure private link connections to Snowflake databases hosted on Azure.
+
+
 ## February '25 release {#fac-25-2}
 
 This release comes with the changes listed below.
@@ -26,16 +59,6 @@ This release comes with the changes listed below.
 * **Audience Enrichment Support for Databricks**
 
     You can now use Databricks in the Read Audience flow, enabling activity for Databricks databases and allowing it to be set up as a new destination. [Learn more](../connections/destinations.md)
-
-<!--
-* **Federated Audience Composition permissions**
-
-    Starting March release, [!DNL Federated Audience Composition] will start enforcing the access of **Federated data management** and **Federated Compositions** interfaces to user who have been granted the **Manage Federated Data** permission. 
-
-    We recommend users to contact the administrators to have this permission added to their role in order to continue accessing the [!DNL Federated Audience Composition] user interface.
-
-    To learn how to assign this permission, refer to the [detailed documentation](feature-access.md).
--->
 
 ## November '24 release {#fac-24-11}
 
