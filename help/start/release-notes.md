@@ -19,10 +19,9 @@ This release comes with the improvement below.
 
     To learn how to assign this permission, refer to the [detailed documentation](feature-access.md).
 
+* **Data model Canvas view**
 
-* **Enhanced Data model Experience**
-
-    The process of creating data models has been improved through an updated user interface, designed to be more intuitive and easier to navigate. [Learn more](../data-management/gs-models.md)
+    The Canvas view for the Data Models section improves the experience by enabling the visualization of data models and their links in a canvas layout, alongside the existing tabular view. [Learn more](../data-management/gs-models.md)
 
 ### Compatibility {#fac-25.3-compat}
 
@@ -38,7 +37,6 @@ This release comes with the improvement below.
 * **Snowflake secure connection**
     
     With this new release, Federated Audience Composition supports secure private link connections to Snowflake databases hosted on Azure.
-
 
 ## February '25 release {#fac-25-2}
 
