@@ -28,6 +28,18 @@ Learn how to create a connection with these systems in [this page](../connection
 
 When purchasing Federated Audience Composition, you are entitled to two sandboxes. For any additional sandbox provisioning requests, contact your Adobe representative.
 
+To view the list of your active Federated Audience Composition sandboxes, follow the steps below:
+
+1. From Federated Audience Composition, access the **[!UICONTROL License usage]** menu under **[!UICONTROL Administration]**.
+
+1. Click the ![](assets/do-not-localize/Smock_InfoOutline_18_N.svg) icon to access your sandbox properties.
+
+    ![](assets/sandbox_1.png)
+
+1. Information about your sandbox is shown in the Properties popover.
+
+    ![](assets/sandbox_2.png)
+
 ## Permissions {#permissions}
 
 To access Federated Audience Composition, users must be added to the sandbox-specific product profile created upon purchase and assigned the **[!UICONTROL Manage Federated Data]** permission. [Learn more](feature-access.md)
