@@ -28,7 +28,7 @@ This release comes with the improvement below.
 * **Databricks connection**
 
     With this new release, Federated Audience Composition now supports private link connectivity for Databricks database connections. 
-    It also enables secure connections to Databricks databases hosted on Azure. [Learn more](../connections/federated-db.md#databricks)
+    It also enables secure connections to Databricks databases hosted on Amazon Web Services (AWS) and Azure. [Learn more](../connections/federated-db.md#databricks)
 
 * **Support for B2B CDP Customers**
 
@@ -36,7 +36,7 @@ This release comes with the improvement below.
 
 * **Snowflake secure connection**
     
-    With this new release, Federated Audience Composition supports secure private link connections to Snowflake databases hosted on Azure.
+    With this new release, Federated Audience Composition supports secure private link connections to Snowflake databases hosted on Azure. [Learn more](../connections/federated-db.md#snowflake)
 
 ## February '25 release {#fac-25-2}
 
