@@ -3,6 +3,7 @@ title: What's new in Experience Platform Federated Audience Composition
 description: Latest updates and release notes
 hide: yes
 hidefromtoc: yes
+exl-id: 23ea1a5d-a0e4-4f47-b0f8-56009bbc0a4a
 ---
 # Release Notes {#rn-new}
 
@@ -123,5 +124,3 @@ Federated Audience Composition addresses growing market demands for enterprises 
 Learn more about Federated Audience Composition capabilities in [this page](get-started.md) and in the [Frequently Asked Questions](faq.md).
 
 Detailed information on the prerequisites to access Federated Audience Compositions and the current guardrails, refer to the [this page](access-prerequisites.md).
-
-
