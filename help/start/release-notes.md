@@ -23,6 +23,10 @@ This release comes with the improvement below.
 
     The Canvas view for the Data Models section improves the experience by enabling the visualization of data models and their links in a canvas layout, alongside the existing tabular view. [Learn more](../data-management/gs-models.md)
 
+* **Audience export**
+
+    Federated Audience Composition now supports the export of large audiences, handling file sizes up to 20 GB.
+
 ### Compatibility {#fac-25.3-compat}
 
 * **Databricks connection**
