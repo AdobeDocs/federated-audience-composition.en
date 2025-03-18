@@ -30,6 +30,10 @@ This release comes with the improvements below.
 
     Federated Audience Composition now supports the export of large audiences, handling file sizes up to 20 GB.
 
+* **AI Assistant**
+
+    The AI Assistant is a user interface feature designed to help you navigate and understand Adobe concepts and get operational insights for your specific environment. It is available in several products across Adobe Experience Cloud, including Federated Audience Composition.
+
 ### Compatibility {#fac-25-3-compat}
 
 * **Databricks connection**
