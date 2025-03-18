@@ -9,7 +9,9 @@ exl-id: d4dcaf31-93cd-4a4e-888a-cf1bbdc4ca03
 
 ## March '25 release {#fac-25-3}
 
-This release comes with the improvement below.
+### Improvements {#fac-25-3-improvements}
+
+This release comes with the improvements below.
 
 * **Federated Audience Composition permissions**
 
@@ -27,7 +29,11 @@ This release comes with the improvement below.
 
     Federated Audience Composition now supports the export of large audiences, handling file sizes up to 20 GB.
 
-### Compatibility {#fac-25.3-compat}
+* **AI Assistant**
+
+    The AI Assistant is a user interface feature designed to help you navigate and understand Adobe concepts and get operational insights for your specific environment. It is available in several products across Adobe Experience Cloud, including Federated Audience Composition.
+
+### Compatibility {#fac-25-3-compat}
 
 * **Databricks connection**
 
@@ -109,11 +115,12 @@ This release comes with the improvements listed below.
 
 ## July '24 release - Federated Audience Composition (LA) {#fac-la}
 
-Federated Audience Composition equips businesses with flexible and expanded access to enterprise data warehouses to compose audiences using critical enterprise datasets and power brand-initiated and in-the-moment experiences. With this new approach, as an [Adobe Real-Time Customer Data Platform](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/home){target="_blank"} and/or [Adobe Journey Optimizer](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/ajo-home){target="_blank"} user, you can federate audience data directly from your existing data warehouse to enrich Adobe Experience Platform audiences in one system.
+Federated Audience Composition equips businesses with flexible and expanded access to enterprise data warehouses to compose audiences using critical enterprise datasets and power brand-initiated and in-the-moment experiences. With this new approach, as an [Adobe Real-Time Customer Data Platform](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/home){target="_blank"} and/or [Adobe Journey Optimizer](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/ajo-home){target="_blank"} user, you can federate audience data directly from your existing data warehouse to enrich Adobe Experience Platform audiences in one system.
 
-Federated Audience Composition addresses growing market demands for enterprises who need the flexibility to compose audiences with warehouse datasets. This allows businesses to reduce data movement while making critical audience data available to marketing teams to meet use case requirements and power personalized experiences. 
+Federated Audience Composition addresses growing market demands for enterprises who need the flexibility to compose audiences with warehouse datasets. This allows businesses to reduce data movement while making critical audience data available to marketing teams to meet use case requirements and power personalized experiences. 
 
 Learn more about Federated Audience Composition capabilities in [this page](get-started.md) and in the [Frequently Asked Questions](faq.md).
 
 Detailed information on the prerequisites to access Federated Audience Compositions and the current guardrails, refer to the [this page](access-prerequisites.md).
+
 
