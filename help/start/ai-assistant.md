@@ -15,24 +15,22 @@ To access the AI Assistant click the icon on the top bar. The AI Assistant displ
 >
 >You must agree the Adobe Experience Cloud Generative AI User Guidelines before you can use the AI Assistant. Learn more about the agreement in [this page](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/home){target="_blank"}.
 
-In Federated Audience Composition, you have access to the following use case:
+In Federated Audience Composition, you can access product knowledge questions regarding Adobe concepts related to various aspects of the process. Examples of such questions include:
 
-* **Product knowledge**
+* What are the required configuration settings to establish a federated connection between Snowflake and Adobe Experience Platform?
+* How do I set up a composition in Federated Audience Composition?
+* How can I use a predefined filter in the Query Modeler to refine my audience selection?
 
-    Product knowledge questions are about Adobe concepts related to aspects of Federated Audience Composition. Some examples of product knowledge questions include:
+To ask a question:
 
-    * How many live activities can I have in one Federated Audience Composition sandbox?
-    * How do I set up a campaign in Federated Audience Composition?
-    * How do I create a custom action to use in Federated Audience Composition journeys?
+1. Enter it in the field at the bottom of the screen and press enter.
 
-To ask a question, enter it in the field at the bottom of the screen and press enter.
+    ![](assets/do-not-localize/ai-assistant-ask.png)
 
-![](assets/do-not-localize/ai-assistant-ask.png){width="30%" align="left"}
+1. Check the answer and use the **Show sources** button to get direct links to the product doucumentation and learn more.
 
-Check the answer and use the **Show sources** button to get direct links to the product doucumentation and learn more.
+    ![](assets/do-not-localize/ai-assistant-answer.png)
 
-![](assets/do-not-localize/ai-assistant-answer.png){width="30%" align="left"}
-
-Use the thumb up or thumb down to rate the answer.
+1. Use the thumb up or thumb down to rate the answer.
 
 To learn how to use AI Assistant, see example objectives you can accomplish with the AI Assistant, and learn how the AI Assistant works, refer to [Adobe Experience Platform documentation](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/home){target="_blank"}.
