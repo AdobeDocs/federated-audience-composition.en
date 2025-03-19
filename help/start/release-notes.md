@@ -21,13 +21,11 @@ This release comes with the improvements below.
 
     To learn how to assign this permission, refer to the [detailed documentation](feature-access.md).
 
+<!--
 * **Data model Canvas view**
 
     The Canvas view for the Data Models section improves the experience by enabling the visualization of data models and their links in a canvas layout, alongside the existing tabular view. [Learn more](../data-management/gs-models.md)
-
-* **Audience export**
-
-    Federated Audience Composition now supports the export of large audiences, handling file sizes up to 20 GB.
+-->
 
 * **AI Assistant**
 
@@ -38,7 +36,7 @@ This release comes with the improvements below.
 * **Databricks connection**
 
     With this new release, Federated Audience Composition now supports private link connectivity for Databricks database connections. 
-    It also enables secure connections to Databricks databases hosted on Amazon Web Services (AWS) and Azure. [Learn more](../connections/federated-db.md#databricks)
+    It also enables secure connections to Databricks databases hosted on Amazon Web Services (AWS) and Microsoft Azure. [Learn more](../connections/federated-db.md#databricks)
 
 * **Support for B2B CDP Customers**
 
@@ -46,7 +44,7 @@ This release comes with the improvements below.
 
 * **Snowflake secure connection**
     
-    With this new release, Federated Audience Composition supports secure private link connections to Snowflake databases hosted on Azure. [Learn more](../connections/federated-db.md#snowflake)
+    With this new release, Federated Audience Composition supports secure private link connections to Snowflake databases hosted on Microsoft Azure. [Learn more](../connections/federated-db.md#snowflake)
 
 ## February '25 release {#fac-25-2}
 
@@ -122,5 +120,3 @@ Federated Audience Composition addresses growing market demands for enterprises 
 Learn more about Federated Audience Composition capabilities in [this page](get-started.md) and in the [Frequently Asked Questions](faq.md).
 
 Detailed information on the prerequisites to access Federated Audience Compositions and the current guardrails, refer to the [this page](access-prerequisites.md).
-
-
