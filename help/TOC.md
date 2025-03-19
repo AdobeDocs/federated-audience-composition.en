@@ -13,6 +13,7 @@ breadcrumb-title: Experience Platform Federated Audience Composition
     + [Prerequisites and guardrails](start/access-prerequisites.md)
     + [Access Federated Audience Composition](start/feature-access.md)
     + [Work with audiences](start/audiences.md)
+    + [Work with the AI Assistant](start/ai-assistant.md)
     + [Frequently asked questions](start/faq.md)
 + Configuration steps {#config}
     + [Create and manage connections](connections/connections.md)
