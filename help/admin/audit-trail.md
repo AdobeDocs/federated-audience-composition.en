@@ -11,8 +11,6 @@ exl-id: 97142f54-53ce-4c2a-9d89-fdcb2a47b159
 >title="Audit trail"
 >abstract="The Audit trail capability provides a detailed and chronological record of all actions and events that have been made to your Adobe Experience Platform Federated Audience Composition environment in real-time."
 
-The Audit trail capability provides a detailed and chronological record of all actions and events that have been made to your environment in real-time
-
 The **[!UICONTROL Audit trail]** feature constantly records a detailed log of actions and events taking place within the Adobe Federated Composition instance in real-time. It offers a convenient method to access a chronological record of data, addressing queries such as: the status of workflows, the latest individuals to modify them, or the activities performed by users within the instance.
 
 +++ Learn more on Audit Trail available entities

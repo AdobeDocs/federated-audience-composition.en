@@ -55,7 +55,25 @@ Key steps:
 
 >[!NOTE]
 >
->After executing the composition, the resulting audience is saved in Adobe Experience Platform as an external audience, and available into Adobe Real-Time Customer Data Platorm and/or Adobe Journey Optimizer. It is made accessible in the **Audiences** menu. [Learn more](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-portal){target="_blank"} 
+>After executing the composition, the resulting audience is saved in Adobe Experience Platform as an external audience, and available into Adobe Real-Time Customer Data Platorm and/or Adobe Journey Optimizer. It is made accessible in the **Audiences** menu. [Learn more](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-portal){target="_blank"}
+
+## Governance, privacy and security {#governance-privacy-security}
+
+### Privacy requests {#gov-privacy-requests}
+
+Once you created a composition, the resulting audiences are saved into Adobe Experience Platform.
+
+You can then make privacy requests to access and/or delete profile data corresponding to these audiences through Adobe Experience Platform **Privacy Service**, which provides a [user interface](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html){target="_blank"} and [RESTful API](https://experienceleague.adobe.com/en/docs/experience-platform/privacy/api/overview){target="_blank"} to help you manage customer data requests.
+
+>[!NOTE]
+>
+>For more information on Privacy Service, refer to the [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html){target="_blank"}.
+
+You can create and manage individual requests to access and delete customer data from Adobe Federated Audience Composition. The steps to submit **access requests** and **delete requests** are detailed in the [Real-Time Customer Profile documentation](https://experienceleague.adobe.com/en/docs/experience-platform/profile/privacy){target="_blank"}.
+
+### Audit Trail {#gov-audit-trail}
+
+The Audit trail capability provides a detailed and chronological record of all actions and events that have been made to your environment in real-time. [Learn more](../admin/audit-trail.md)
 
 ## Learn more {#learn}
 
