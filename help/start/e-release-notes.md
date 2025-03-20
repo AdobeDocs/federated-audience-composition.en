@@ -1,11 +1,52 @@
 ---
 title: What's new in Experience Platform Federated Audience Composition
 description: Latest updates and release notes
-exl-id: d4dcaf31-93cd-4a4e-888a-cf1bbdc4ca03
+hide: yes
+hidefromtoc: yes
+exl-id: 23ea1a5d-a0e4-4f47-b0f8-56009bbc0a4a
 ---
 # Release Notes {#rn-new}
 
 [!DNL Federated Audience Composition] continuously delivers new features, enhancements to existing features, and bug fixes. All changes are consolidated in these release notes. [!DNL Federated Audience Composition] is built natively on [!DNL Adobe Experience Platform] and inherits from its latest innovations and improvements. Learn more about these changes in [Adobe Experience Platform Release Notes](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html){target="_blank"}.
+
+## March '25 release {#fac-25-3}
+
+### Improvements {#fac-25-3-improvements}
+
+This release comes with the improvements below.
+
+* **Federated Audience Composition permissions**
+
+    Starting March release, [!DNL Federated Audience Composition] will start enforcing the access of **Federated data management** and **Federated Compositions** interfaces to user who have been granted the **Manage Federated Data** permission. 
+
+    We recommend users to contact the administrators to have this permission added to their role in order to continue accessing the [!DNL Federated Audience Composition] user interface.
+
+    To learn how to assign this permission, refer to the [detailed documentation](feature-access.md).
+
+<!--
+* **Data model Canvas view**
+
+    The Canvas view for the Data Models section improves the experience by enabling the visualization of data models and their links in a canvas layout, alongside the existing tabular view. [Learn more](../data-management/gs-models.md)
+-->
+
+* **AI Assistant**
+
+    The AI Assistant is a user interface feature designed to help you navigate and understand Adobe concepts and get operational insights for your specific environment. It is available in several products across Adobe Experience Cloud, including Federated Audience Composition.
+
+### Compatibility {#fac-25-3-compat}
+
+* **Databricks connection**
+
+    With this new release, Federated Audience Composition now supports private link connectivity for Databricks database connections. 
+    It also enables secure connections to Databricks databases hosted on Amazon Web Services (AWS) and Microsoft Azure. [Learn more](../connections/federated-db.md#databricks)
+
+* **Support for B2B CDP Customers**
+
+    Federated Audience Composition is now available to Business-to-Business (B2B) Customer Data Platform (CDP) customers for people-based audience use cases.
+
+* **Snowflake secure connection**
+    
+    With this new release, Federated Audience Composition supports secure private link connections to Snowflake databases hosted on Microsoft Azure. [Learn more](../connections/federated-db.md#snowflake)
 
 ## February '25 release {#fac-25-2}
 
@@ -26,16 +67,6 @@ This release comes with the changes listed below.
 * **Audience Enrichment Support for Databricks**
 
     You can now use Databricks in the Read Audience flow, enabling activity for Databricks databases and allowing it to be set up as a new destination. [Learn more](../connections/destinations.md)
-
-<!--
-* **Federated Audience Composition permissions**
-
-    Starting March release, [!DNL Federated Audience Composition] will start enforcing the access of **Federated data management** and **Federated Compositions** interfaces to user who have been granted the **Manage Federated Data** permission. 
-
-    We recommend users to contact the administrators to have this permission added to their role in order to continue accessing the [!DNL Federated Audience Composition] user interface.
-
-    To learn how to assign this permission, refer to the [detailed documentation](feature-access.md).
--->
 
 ## November '24 release {#fac-24-11}
 
@@ -84,11 +115,10 @@ This release comes with the improvements listed below.
 
 ## July '24 release - Federated Audience Composition (LA) {#fac-la}
 
-Federated Audience Composition equips businesses with flexible and expanded access to enterprise data warehouses to compose audiences using critical enterprise datasets and power brand-initiated and in-the-moment experiences. With this new approach, as an [Adobe Real-Time Customer Data Platform](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/home){target="_blank"} and/or [Adobe Journey Optimizer](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/ajo-home){target="_blank"} user, you can federate audience data directly from your existing data warehouse to enrich Adobe Experience Platform audiences in one system.
+Federated Audience Composition equips businesses with flexible and expanded access to enterprise data warehouses to compose audiences using critical enterprise datasets and power brand-initiated and in-the-moment experiences. With this new approach, as an [Adobe Real-Time Customer Data Platform](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/home){target="_blank"} and/or [Adobe Journey Optimizer](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/ajo-home){target="_blank"} user, you can federate audience data directly from your existing data warehouse to enrich Adobe Experience Platform audiences in one system.
 
-Federated Audience Composition addresses growing market demands for enterprises who need the flexibility to compose audiences with warehouse datasets. This allows businesses to reduce data movement while making critical audience data available to marketing teams to meet use case requirements and power personalized experiences. 
+Federated Audience Composition addresses growing market demands for enterprises who need the flexibility to compose audiences with warehouse datasets. This allows businesses to reduce data movement while making critical audience data available to marketing teams to meet use case requirements and power personalized experiences. 
 
 Learn more about Federated Audience Composition capabilities in [this page](get-started.md) and in the [Frequently Asked Questions](faq.md).
 
 Detailed information on the prerequisites to access Federated Audience Compositions and the current guardrails, refer to the [this page](access-prerequisites.md).
-
