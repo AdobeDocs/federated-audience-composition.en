@@ -126,11 +126,6 @@ See also frequently asked questions in [this page](faq.md).
 >abstract="Save Profile"
 
 >[!CONTEXTUALHELP]
->id="dc_orchestration_saveprofile_selectaepschema"
->title="Save Profile Select AEP Schema"
->abstract="Save Profile Select AEP Schema"
-
->[!CONTEXTUALHELP]
 >id="dc_orchestration_saveprofile_aepschemalist"
 >title="Save Profile AEP Schema List"
 >abstract="Save Profile AEP Schema List"
@@ -141,6 +136,16 @@ See also frequently asked questions in [this page](faq.md).
 >abstract="Save Profile AEP Schema Attribute"
 
 >[!CONTEXTUALHELP]
->id="dc_orchestration_saveprofile_selectprimaryfield"
->title="Save Profile Select Primary identify field"
->abstract="Save Profile Select Primary identify field"
+>id="dc_orchestration_saveprofile_primaryidentitynamespace"
+>title="Select Primary identify field"
+>abstract="Primary identify field to use for profiles."
+
+>[!CONTEXTUALHELP]
+>id="ddc_orchestration_saveprofile_selectdataset"
+>title="AEP dataset"
+>abstract="Select the AEP dataset to use for profiles."
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_saveprofile_selectaepschema"
+>title="Save Profile Select AEP Schema"
+>abstract="Select the AEP schema to use for profiles."
