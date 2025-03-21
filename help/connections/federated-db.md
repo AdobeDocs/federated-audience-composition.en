@@ -279,7 +279,7 @@ The connector supports the following option:
 
 >[!NOTE]
 >
->Secure access to your external Databricks data warehouse through private link is supported. This includes private link connectivity for Databricks accounts hosted on Amazon Web Services (AWS) and Microsoft Azure. Please contact your Adobe representative for assistance in setting up secure access.
+>Secure access to your external Databricks data warehouse through private link is supported. This includes private link connectivity for Databricks accounts hosted on Amazon Web Services (AWS). Please contact your Adobe representative for assistance in setting up secure access.
 
 Use Federated databases to process information stored in an external database. Follow the steps below to configure access to Databricks.
 

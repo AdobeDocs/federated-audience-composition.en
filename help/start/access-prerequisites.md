@@ -32,7 +32,7 @@ To view the list of your active Federated Audience Composition sandboxes, follow
 
 1. From Federated Audience Composition, access the **[!UICONTROL License usage]** menu under **[!UICONTROL Administration]**.
 
-1. Click the ![](assets/do-not-localize/Smock_InfoOutline_18_N.svg) icon to access your sandbox properties.
+1. Click the ![](assets/do-not-localize/Smock_InfoOutline_18_N.svg) icon from **[!UICONTROL Total volume of data egress]** to access your sandbox properties.
 
     ![](assets/sandbox_1.png)
 
@@ -59,5 +59,5 @@ Add these IP addresses to your allow list to grant access for Federated Audience
 
 * Entitlements, product limitations and performance guardrails listed in the [Adobe Real-Time Customer Data Platform documentation](https://experienceleague.adobe.com/en/docs/experience-platform/profile/guardrails){target="_blank"} apply to Federated Audience Composition.
 
-* Federated Audience Composition supports the export of large audiences, handling file sizes up to 20 GB.
+* Federated Audience Composition supports the export of large audiences, with file sizes greater than 1 GB. For optimal performance, the maximum recommended file size is up to 20 GB.
 
