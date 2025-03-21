@@ -60,10 +60,9 @@ The main steps to send Adobe Experience Platform audiences to Adobe Federated Au
 
     ![](assets/destination-schedule.png)
 
-1. to activate audiences faster use the "after segment evaluation" option and attach a screenshot there so that the user do not have to read the entire scheduling process provided in the Note.
+1. Define your export file options. To activate the audiences faster, select the **[!UICONTROL After segment evaluation]** option to trigger the activation job immediately after the daily Platform batch segmentation job finishes.
 
-1. Configure the filename and an export schedule for the selected audience(s). 
-
+    ![](assets/destination-schedule-2.png)
 
     >[!NOTE]
     >
