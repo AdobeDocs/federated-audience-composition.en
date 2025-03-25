@@ -25,7 +25,7 @@ Federated Audience Composition extends the value of Real-Time CDP and Journey Op
 
 * Utilize a single system for experience-driven workflows: Curate ingested and federated audiences in Adobe Experience Platform and coordinate outbound experiences across all channels.
 
-* All audience types are supported for B2C use cases. Note that for B2B CDP customer use cases, only creation and enrichment of people-based audiences are supported.
+* All audience types are supported for B2C use cases, while B2B CDP customer use cases are limited to creating and enriching people-based audiences.
 
 ## Use cases {#rn-uc}
 
