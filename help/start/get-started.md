@@ -25,6 +25,8 @@ Federated Audience Composition extends the value of Real-Time CDP and Journey Op
 
 * Utilize a single system for experience-driven workflows: Curate ingested and federated audiences in Adobe Experience Platform and coordinate outbound experiences across all channels.
 
+* The creation and enrichment of people-based audiences are supported for B2B CDP customer use cases.
+
 ## Use cases {#rn-uc}
 
 Through a marketing-friendly UI, create segment rules that query your data warehouse for a list of users that qualify for a specific segment needed for marketing campaigns, access existing audiences in the warehouse for activation, or enrich Adobe Experience Platform audiences with additional datapoints that exist in the warehouse. 
@@ -34,8 +36,6 @@ In this version, two use cases are available:
 1. Audience Creation:  Build new audiences from enterprise datasets without copying underlying data and activate those audiences with prebuilt destinations.
 
 1. Audience Enrichment: Enrich existing audiences in Adobe Experience Platform by utilizing composed audience data that has been federated from the enterprise data warehouse. This data will not be persisted in Adobe Experience Platform customer profiles.
-
-Note that the creation and enrichment of people-based audiences are supported for B2B CDP customer use cases.
 
 ![diagram](assets/fac-use-cases.png){zoomable="yes"}{width="75%" align="center"}
 
