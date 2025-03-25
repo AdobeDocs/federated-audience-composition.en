@@ -8,6 +8,7 @@ breadcrumb-title: Experience Platform Federated Audience Composition
 
 + [Experience Platform Federated Audience Composition documentation](home.md)
 + [Release notes](start/release-notes.md)
++ [Release notes](start/e-release-notes.md)
 + Get started with Federated Audience Composition {#start}
     + [What is Federated Audience Composition](start/get-started.md)
     + [Prerequisites and guardrails](start/access-prerequisites.md)
@@ -48,3 +49,4 @@ breadcrumb-title: Experience Platform Federated Audience Composition
     + [Build your first query](query/build-query.md)
     + [Edit expressions](query/expression-editor.md)
 + [Audit Trail](admin/audit-trail.md)
+
