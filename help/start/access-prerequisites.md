@@ -21,6 +21,7 @@ Federated Audience Composition supports the following cloud warehouses:
 * Google Big Query
 * Snowflake
 * Vertica Analytics
+* Microsoft Fabric
 
 Learn how to create a connection with these systems in [this page](../connections/connections.md).
 
