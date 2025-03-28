@@ -54,11 +54,15 @@ The main steps to send Adobe Experience Platform audiences to Adobe Federated Au
 
     ![](assets/destination-activate.png)
 
-1. Select the desired audiences that you want to send and click **[!UICONTROL Next]**.
+1. Select the desired audiences that you want to send.
 
-1. Configure the filename and an export schedule for the selected audience(s). 
+1. Select the ![](assets/do-not-localize/Smock_Edit_18_N.svg) icon to edit your export schedule.
 
     ![](assets/destination-schedule.png)
+
+1. Define your export file options. To activate the audiences faster, select the **[!UICONTROL After segment evaluation]** option to trigger the activation job immediately after the daily Platform batch segmentation job finishes.
+
+    ![](assets/destination-schedule-2.png)
 
     >[!NOTE]
     >

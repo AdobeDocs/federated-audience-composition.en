@@ -21,12 +21,25 @@ Federated Audience Composition supports the following cloud warehouses:
 * Google Big Query
 * Snowflake
 * Vertica Analytics
+* Microsoft Fabric
 
 Learn how to create a connection with these systems in [this page](../connections/connections.md).
 
 ## Sandboxes
 
 When purchasing Federated Audience Composition, you are entitled to two sandboxes. For any additional sandbox provisioning requests, contact your Adobe representative.
+
+To view the list of your active Federated Audience Composition sandboxes, follow the steps below:
+
+1. From Federated Audience Composition, access the **[!UICONTROL License usage]** menu under **[!UICONTROL Administration]**.
+
+1. Click the ![](assets/do-not-localize/Smock_InfoOutline_18_N.svg) icon from **[!UICONTROL Total volume of data egress]** to access your sandbox properties.
+
+    ![](assets/sandbox_1.png)
+
+1. Information about your sandbox is shown in the Properties popover.
+
+    ![](assets/sandbox_2.png)
 
 ## Permissions {#permissions}
 
@@ -46,3 +59,7 @@ Add these IP addresses to your allow list to grant access for Federated Audience
 * Federated Audience Composition is compatible with Privacy & Security Shield and can be used in all verticals except for healthcare industries. Currently, Federated Audience Composition cannot be licensed to customers looking to ingest health data. [Learn more](https://experienceleague.adobe.com/en/docs/events/customer-data-management-voices-recordings/governance/healthcare-shield){target="_blank"}-->
 
 * Entitlements, product limitations and performance guardrails listed in the [Adobe Real-Time Customer Data Platform documentation](https://experienceleague.adobe.com/en/docs/experience-platform/profile/guardrails){target="_blank"} apply to Federated Audience Composition.
+
+<!--* Federated Audience Composition supports the export of large audiences, with file sizes greater than 1 GB. For optimal performance, the maximum recommended file size is up to 20 GB.
+-->
+

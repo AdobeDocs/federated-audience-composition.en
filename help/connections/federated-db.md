@@ -169,7 +169,7 @@ Use Federated databases to process information stored in an external database. F
 
 >[!NOTE]
 >
->Secure access to your external Snowflake data warehouse through private link is supported. Note that your Snowflake account must be hosted on Amazon Web Services (AWS) and located in the same region as your Federated Audience Composition environment. Please contact your Adobe representative for assistance in setting up secure access to your Snowflake account.
+>Secure access to your external Snowflake data warehouse through private link is supported. Note that your Snowflake account must be hosted on Amazon Web Services (AWS) or Azure and located in the same region as your Federated Audience Composition environment. Please contact your Adobe representative for assistance in setting up secure access to your Snowflake account.
 >
 
 Use Federated databases to process information stored in an external database. Follow the steps below to configure access to Snowflake.
@@ -276,6 +276,10 @@ The connector supports the following option:
 |  TimeZoneName |  By default empty, which means that the system time zone of the app server is used. The option can be used to force the TIMEZONE session parameter. |
 
 ## Databricks {#databricks}
+
+>[!NOTE]
+>
+>Secure access to your external Databricks data warehouse through private link is supported. This includes secure connections to Databricks databases hosted on Amazon Web Services (AWS) via private link and Databricks databases hosted on Microsoft Azure via VPN. Please contact your Adobe representative for assistance in setting up secure access.
 
 Use Federated databases to process information stored in an external database. Follow the steps below to configure access to Databricks.
 

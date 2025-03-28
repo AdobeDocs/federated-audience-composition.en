@@ -2,8 +2,6 @@
 title: Access Federated Audience Composition
 description: Learn about required permissions for Federated Audience Composition
 exl-id: 84138456-218b-4beb-ae7b-146213b03cc2
-hide: yes
-hidefromtoc: yes
 ---
 # Access Federated Audience Composition {#feature-access}
 
@@ -14,10 +12,6 @@ When you purchase Adobe Experience Platform Federated Audience Composition, a pr
 For example, if a new sandbox named "fac-test" is activated, a corresponding product profile "ACP_FAC - fac-test - admin" is created. In order to access Federated Audience Composition with this sandbox, users need to be added to this product profile.
 
 ## Manage access to Federated Audience Composition
-
->[!AVAILABILITY]
->
->Permissions are available as part of the March release.
 
 To access **Federated Audience Composition**, you must first ensure that the **Manage Federated Data** permission is assigned to the appropriate roles. These roles must then be assigned to users who need acccess to **Federated Audience Composition**.
 
