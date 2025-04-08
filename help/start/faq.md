@@ -5,7 +5,7 @@ exl-id: 68cc0ae5-5c41-425f-8b10-ab3515294006
 ---
 # Frequently asked questions {#faq}
 
-The following is a list of frequently asked questions regarding Adobe Experience Platform Federated Audience Composition. A global FAQ is also available for Adobe Experience Platform Segmentation Service in [this page](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/faq){target="_blank"}.
+The following is a list of frequently asked questions regarding Adobe Experience Platform Federated Audience Composition. A global FAQ is also available for Adobe Experience Platform Segmentation Service on [this page](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/faq){target="_blank"}.
 
 
 +++What are the permissions required to access Federated Audience Composition?
@@ -18,7 +18,7 @@ In order to use Federated Audience Audience Composition, each user must be added
 
 +++What cloud warehouses are supported?
 
-The list of systems supported with Federated Audience Composition is available in [this page](../start/access-prerequisites.md#supported-systems).
+The list of systems supported with Federated Audience Composition is available on [this page](../start/access-prerequisites.md#supported-systems).
 
 +++
 

@@ -23,7 +23,7 @@ Federated Audience Composition supports the following cloud warehouses:
 * Vertica Analytics
 * Microsoft Fabric
 
-Learn how to create a connection with these systems in [this page](../connections/connections.md).
+Learn how to create a connection with these systems on [this page](../connections/connections.md).
 
 ## Sandboxes
 

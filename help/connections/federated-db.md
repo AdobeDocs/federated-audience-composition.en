@@ -23,7 +23,7 @@ exl-id: b8c0589d-4150-40da-ac79-d53cced236e8
 
 Experience Platform Federated Audience Composition allows Customer to build and enrich audiences from the third-party data warehouses and import the audiences to Adobe Experience Platform.
 
-Learn how to ceate, configure, test and save the connection to your external database in [this page](connections.md). You can find below the list of supported databases and the detailed settings to configure for each of them.
+Learn how to ceate, configure, test and save the connection to your external database on [this page](connections.md). You can find below the list of supported databases and the detailed settings to configure for each of them.
 
 ## Supported databases {#supported-db}
 
@@ -220,11 +220,11 @@ The connector supports the following options:
 |---|---|
 |  workschema | Database schema to use for work tables |
 |  warehouse | Name of the default warehouse to use. It will override the user's default. |
-|  TimeZoneName |  By default empty, which means that the system time zone app server is used. The option can be used to force the TIMEZONE session parameter. <br>For more on this, refer to [this page](https://docs.snowflake.net/manuals/sql-reference/parameters.html#timezone){target="_blank"}. |
-|  WeekStart |  WEEK_START session parameter. By default set to 0. <br>For more on this, refer to [this page](https://docs.snowflake.com/en/sql-reference/parameters.html#week-start){target="_blank"}. |
-|  UseCachedResult | USE_CACHED_RESULTS session parameter. By default set to TRUE. This option can be used to disable Snowflake cached results. <br>For more on this, refer to [this page](https://docs.snowflake.net/manuals/user-guide/querying-persisted-results.html){target="_blank"}. |
+|  TimeZoneName |  By default empty, which means that the system time zone app server is used. The option can be used to force the TIMEZONE session parameter. <br>For more about this, refer to [this page](https://docs.snowflake.net/manuals/sql-reference/parameters.html#timezone){target="_blank"}. |
+|  WeekStart |  WEEK_START session parameter. By default set to 0. <br>For more about this, refer to [this page](https://docs.snowflake.com/en/sql-reference/parameters.html#week-start){target="_blank"}. |
+|  UseCachedResult | USE_CACHED_RESULTS session parameter. By default set to TRUE. This option can be used to disable Snowflake cached results. <br>For more about this, refer to [this page](https://docs.snowflake.net/manuals/user-guide/querying-persisted-results.html){target="_blank"}. |
 |  bulkThreads | Number of threads to use for Snowflake bulk-loader, more threads mean a better performance for bigger bulk-loads. By default set to 1. The number can be adjusted, depending on the machine thread count. |
-|  chunkSize | Determines the file size of the bulk-loader chunk. By default set to 128MB. Can be modified for a more optimal performance, when used with bulkThreads. More concurrently active threads mean better performance. <br>For more on this, refer to [Snowflake documentation](https://docs.snowflake.net/manuals/sql-reference/sql/put.html){target="_blank"}. |
+|  chunkSize | Determines the file size of the bulk-loader chunk. By default set to 128MB. Can be modified for a more optimal performance, when used with bulkThreads. More concurrently active threads mean better performance. <br>For more about this, refer to [Snowflake documentation](https://docs.snowflake.net/manuals/sql-reference/sql/put.html){target="_blank"}. |
 | StageName | Name of the pre-provisioned internal stage. It will be used in bulk load instead of creating a new temporary stage.|
 
 ## Vertica Analytics {#vertica-analytics}

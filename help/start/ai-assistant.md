@@ -13,7 +13,7 @@ To access the AI Assistant click the icon on the top bar. The AI Assistant displ
 
 >[!CAUTION]
 >
->You must agree the Adobe Experience Cloud Generative AI User Guidelines before you can use the AI Assistant. Learn more about the agreement in [this page](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/home){target="_blank"}.
+>You must agree the Adobe Experience Cloud Generative AI User Guidelines before you can use the AI Assistant. Learn more about the agreement on [this page](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/home){target="_blank"}.
 
 In Federated Audience Composition, you can access product knowledge questions regarding Adobe concepts related to various aspects of the process. Examples of such questions include:
 

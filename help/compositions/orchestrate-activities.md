@@ -50,7 +50,7 @@ You can:
 * **[!UICONTROL Disable]/[!UICONTROL Enable]** the activity. When the composition is executed, disabled activities and the following activities on the same path are not executed and the composition is stopped.
 * **[!UICONTROL Pause]/[!UICONTROL Resume]** the activity. When the composition is executed, it pauses at the paused activity. The corresponding task as well as all those that follow it in the same path are not executed.
 * **[!UICONTROL Copy]** the activity to paste it at another location in the composition. To do this, click the **+** button on a transition and select **[!UICONTROL Paste X activity]**. <!-- cannot copy multiple activities ? cannot paste in another composition?-->
-* Configure **[!UICONTROL Execution options]** for the selected activity. Expand the section below to learn more on the available options.
+* Configure **[!UICONTROL Execution options]** for the selected activity. Expand the section below to learn more about the available options.
 
     +++Available execution options
 

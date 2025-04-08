@@ -8,7 +8,7 @@ exl-id: ab65cd8a-dfa0-4f09-8e9b-5730564050a1
 
 Experience Platform Federated Audience Composition allows Customer to build and enrich audiences from the third-party data warehouses and import the audiences to Adobe Experience Platform. Supported datawarehouses are listed in [this section](../start/access-prerequisites.md#supported-systems).
 
-To work with your federated database and Adobe Experience Platform, you must first establish a connection. This connection is set up in a dedicated user interface available in the Adobe Experience Platform user interface, as detailed in this page.
+To work with your federated database and Adobe Experience Platform, you must first establish a connection. This connection is set up in a dedicated user interface available in the Adobe Experience Platform user interface, as detailed on this page.
 
 To setup a connection with your database, follow these steps:
 
@@ -22,7 +22,7 @@ To setup a connection with your database, follow these steps:
 
     ![](assets/connections_name.png){zoomable="yes"}
 
-    Selecting its type gives you access to other properties to fill in. Learn more here about the supported databases in [this page](federated-db.md).
+    Selecting its type gives you access to other properties to fill in. Learn more here about the supported databases on [this page](federated-db.md).
 
     ![](assets/connections_details.png){zoomable="yes"}
 

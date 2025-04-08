@@ -7,7 +7,7 @@ exl-id: 43464aea-9c1d-4f1f-859f-82f209f350b7
 
 Federated Audience Composition is available for [Adobe Real-Time Customer Data Platform](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/home){target="_blank"} and [Adobe Journey Optimizer](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/ajo-home){target="_blank"} environments. It allows you to build and enrich audiences from your third-party data warehouses and import the audiences into Adobe Experience Platform. Federated Audience Composition brings an easy and powerful solution to connect your enterprise data warehouse directly within Adobe Real-Time Customer Data Platform and/or Adobe Journey Optimizer, and perform queries on the tables of your data warehouse. 
 
-Adobe Federated Audience Composition helps Adobe Experience Platform apps users to access their customer data which stored into their data warehouses and cloud storage platforms such as Amazon Redshift, Azure Synapse Analytics, and more. Customer data can live in multiple data warehouses and are now accessible instantly, without replication. Supported platforms are listed in [this page](../connections/federated-db.md#supported-db).
+Adobe Federated Audience Composition helps Adobe Experience Platform apps users to access their customer data which stored into their data warehouses and cloud storage platforms such as Amazon Redshift, Azure Synapse Analytics, and more. Customer data can live in multiple data warehouses and are now accessible instantly, without replication. Supported platforms are listed on [this page](../connections/federated-db.md#supported-db).
 
 >[!INFO]
 >
@@ -49,11 +49,11 @@ Key steps:
 
 1. **Data Integration**: Bring together data from various sources, and merge them into a unified dataset. Learn how to connect Adobe Experience Platform apps and your enterprise data warehouse, supported databases, and how to configure them are detailed in [this section](../connections/federated-db.md).
 
-1. **Data Modeling**: Design and create data models and schemas that define the structure, relationships, and constraints of the data. Learn more about schemas in [this page](../customer/schemas.md). Learn how to create links for your datamodel in [this page](../data-management/gs-models.md).
+1. **Data Modeling**: Design and create data models and schemas that define the structure, relationships, and constraints of the data. Learn more about schemas on [this page](../customer/schemas.md). Learn how to create links for your datamodel on [this page](../data-management/gs-models.md).
 
 1. **Data Transformation**: Apply data manipulation techniques to modify the format, structure, or values of data elements to make them compatible or suitable for specific analysis or applications.
 
-1. **Data Usage**: Create, orchestrate and build audiences. Learn how to compose audiences in [this page](../compositions/gs-compositions.md). You can also update or reuse existing audiences through Adobe Experience Platform Audience portal and Destinations. Learn more in [this page](../connections/destinations.md)
+1. **Data Usage**: Create, orchestrate and build audiences. Learn how to compose audiences on [this page](../compositions/gs-compositions.md). You can also update or reuse existing audiences through Adobe Experience Platform Audience portal and Destinations. Learn more on [this page](../connections/destinations.md)
 
 >[!NOTE]
 >
@@ -82,9 +82,9 @@ The Audit trail capability provides a detailed and chronological record of all a
 <!-- Workflow + Workflow activities-->
 
 
-Learn how to access Federated Audience Composition, guardrails and limitations in [this page](access-prerequisites.md).
+Learn how to access Federated Audience Composition, guardrails and limitations on [this page](access-prerequisites.md).
 
-See also frequently asked questions in [this page](faq.md).
+See also frequently asked questions on [this page](faq.md).
 
 
 >[!CONTEXTUALHELP]

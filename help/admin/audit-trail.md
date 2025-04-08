@@ -13,7 +13,7 @@ exl-id: 97142f54-53ce-4c2a-9d89-fdcb2a47b159
 
 The **[!UICONTROL Audit trail]** feature constantly records a detailed log of actions and events taking place within the Adobe Federated Composition instance in real-time. It offers a convenient method to access a chronological record of data, addressing queries such as: the status of workflows, the latest individuals to modify them, or the activities performed by users within the instance.
 
-+++ Learn more on Audit Trail available entities
++++ Learn more about Audit Trail available entities
 
 * **Source Schema audit trail** allows you to monitor activities and recent modifications made to your schemas within the Adobe Federated Audience Composition instance. 
 

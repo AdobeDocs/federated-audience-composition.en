@@ -20,7 +20,7 @@ The query modeler is available in every context where you need to define rules t
 |Usage|Example|
 |  ---  |  ---  |
 |**Define audiences**: Specify the population you want to target in your compositions, and effortlessly create new audiences tailored to your needs. |![](assets/access-audience.png){zoomable="yes"}{width="200" align="center" zoomable="yes"}|
-|**Customize activities**: apply rules within composition activities, such as **Split** and **Reconciliation**, to align with your specific requirements. [Learn more on composition activities](../compositions/activities/about-activities.md)|![](assets/access-composition.png){zoomable="yes"}{width="200" align="center" zoomable="yes"}|
+|**Customize activities**: apply rules within composition activities, such as **Split** and **Reconciliation**, to align with your specific requirements. [Learn more about composition activities](../compositions/activities/about-activities.md)|![](assets/access-composition.png){zoomable="yes"}{width="200" align="center" zoomable="yes"}|
 
 ## Query modeler interface {#interface}
 
