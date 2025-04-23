@@ -9,6 +9,34 @@ exl-id: 23ea1a5d-a0e4-4f47-b0f8-56009bbc0a4a
 
 [!DNL Federated Audience Composition] continuously delivers new features, enhancements to existing features, and bug fixes. All changes are consolidated in these release notes. [!DNL Federated Audience Composition] is built natively on [!DNL Adobe Experience Platform] and inherits from its latest innovations and improvements. Learn more about these changes in [Adobe Experience Platform Release Notes](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html){target="_blank"}.
 
+## April '25 release {#fac-25-4}
+
+### Improvements {#fac-25-4-improvements}
+
+This release comes with the improvements below.
+
+* **Data model Canvas view**
+
+    The Canvas view for the Data Models section improves the experience by enabling the visualization of data models and their links in a canvas layout, alongside the existing tabular view. [Learn more](../data-management/gs-models.md)
+
+* **AI Assistant**
+
+    AI Assistant is a user interface feature designed to help you navigate and understand Adobe concepts and get operational insights for your specific environment. It is available in several products across Adobe Experience Cloud, including Federated Audience Composition. [Learn more](../start/audiences.md)
+
+* **Data Model Name**
+
+    From the Audiences menu, the **Federated compositions** tab now displays the Data Model name instead of the ID, improving clarity and overall usability.
+
+* **Audience**
+
+    The Audience menu now displays the name or label of the selected data model when a user selects a data model with no associated audiences.
+
+### Compatibility {#fac-25-4-compat}
+
+* **Snowflake secure connection**
+    
+    With this new release, Federated Audience Composition supports secure private link connections to Amazon Redshift databases hosted on Microsoft Azure. [Learn more](../connections/federated-db.md#amazon-redshift)
+
 ## March '25 release {#fac-25-3}
 
 ### Improvements {#fac-25-3-improvements}
@@ -28,11 +56,11 @@ This release comes with the improvements below.
 
     The Canvas view for the Data Models section improves the experience by enabling the visualization of data models and their links in a canvas layout, alongside the existing tabular view. [Learn more](../data-management/gs-models.md)
 
-
 * **AI Assistant**
 
     AI Assistant is a user interface feature designed to help you navigate and understand Adobe concepts and get operational insights for your specific environment. It is available in several products across Adobe Experience Cloud, including Federated Audience Composition. [Learn more](ai-assistant.md)
 -->
+
 
 ### Compatibility {#fac-25-3-compat}
 
