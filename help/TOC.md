@@ -18,6 +18,7 @@ breadcrumb-title: Experience Platform Federated Audience Composition
 + Configuration steps {#config}
     + [Create and manage connections](connections/connections.md)
     + [Configure your federated databases](connections/federated-db.md)
+    + [FDA rights matrix](connections/fda-rights.md)
     + Data models and schemas{#datamodel}
         + [Create and configure schemas](customer/schemas.md)
         + [Configure your data models (beta)](data-management/gs-models-beta.md)
