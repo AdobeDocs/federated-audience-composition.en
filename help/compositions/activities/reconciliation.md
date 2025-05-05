@@ -68,7 +68,7 @@ Follow these steps to configure the **Reconciliation** activity:
 1. Select the field(s) to use for the reconciliation. You can use one or more reconciliation criteria.
 
     1. To use attributes to reconcile data, select the **Simple attributes** option then click the **Add rule** button.
-    1. Select the **Source** and **Destination** fields for the reconciliation. The **Source** field. The **Destination** field corresponds to the fields of the selected schema.
+    1. Select the **Source** and **Destination** fields for the reconciliation. The **Destination** field corresponds to the fields of the selected schema.
     
         Data are reconcilied when source and destination are equal. For example, select the **Email** fields to deduplicate profiles based on their email address. 
         

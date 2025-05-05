@@ -7,6 +7,94 @@ exl-id: d4dcaf31-93cd-4a4e-888a-cf1bbdc4ca03
 
 [!DNL Federated Audience Composition] continuously delivers new features, enhancements to existing features, and bug fixes. All changes are consolidated in these release notes. [!DNL Federated Audience Composition] is built natively on [!DNL Adobe Experience Platform] and inherits from its latest innovations and improvements. Learn more about these changes in [Adobe Experience Platform Release Notes](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html){target="_blank"}.
 
+## April '25 release {#fac-25-4}
+
+### New capabilities {#fac-25-04-feature}
+
+<table>
+<thead>
+<tr>
+<th><strong>Data model canvas view - Beta</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>The Canvas view for the Data Models section improves the experience by enabling the visualization of data models and their links in a canvas layout, alongside the existing tabular view. </p>
+<p>Data model with Canvas view is currently available as a beta to select users only.</p>
+<p>For more information, refer to the <a href="../data-management/gs-models.md">detailed documentation</a>.</p>
+</br>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>AI Assistant support for Product Knowledge</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>AI Assistant is a user interface feature designed to help you navigate and understand Adobe concepts and get operational insights for your specific environment. It is available in several products across Adobe Experience Cloud, including Federated Audience Composition.</p>
+<p>For more information, refer to the <a href="../start/ai-assistant.md">detailed documentation</a>.</p>
+</br>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Save Profiles activity</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p> Federated Audience Composition now supports the profile enrichment use case, allowing customers to enhance existing Experience Platform profiles with data from their external data warehouses.
+</p>
+<p>For more information, refer to the <a href="../compositions/activities/save-profiles.md">detailed documentation</a>.</p>
+</br>
+</td>
+</tr>
+</tbody>
+</table>
+
+### Improvements {#fac-25-4-improvements}
+
+This release comes with the improvements below.
+
+* **Data Model Name**
+
+    From the Audiences menu, the **Federated compositions** tab now displays the Data Model name instead of the ID, improving clarity and overall usability.
+
+* **Audience**
+
+    The Audience menu now displays the name or label of the selected data model when a user selects a data model with no associated audiences.
+
+* **Large audiences export**
+
+    Federated Audience Composition now supports the export of large audiences, with file sizes greater than 1 GB.
+
+* **Save audience activity**
+    
+    A note has been added to the **Save Audience** activity, reminding users to collaborate with a data administrator to apply governance labels to new schemas and datasets created during audience creation and enrichment.
+    [Learn more about data usage labels](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/labels/user-guide)
+
+### Compatibility {#fac-25-4-compat}
+
+* **Amazon Redshift secure connection**
+    
+    With this new release, Federated Audience Composition supports secure private link connections to Amazon Redshift databases. [Learn more](../connections/federated-db.md#amazon-redshift)
+
+* **Google Big Query**
+
+    With this new release, Federated Audience Composition supports secure VPN connections to Google Big Query Databases. [Learn more](../connections/federated-db.md#google-big-query)
+
 ## March '25 release {#fac-25-3}
 
 ### Improvements {#fac-25-3-improvements}

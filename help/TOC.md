@@ -14,6 +14,7 @@ breadcrumb-title: Experience Platform Federated Audience Composition
     + [Prerequisites and guardrails](start/access-prerequisites.md)
     + [Access Federated Audience Composition](start/feature-access.md)
     + [Work with audiences](start/audiences.md)
+    + [Work with the AI Assistant](start/ai-assistant.md)
     + [Frequently asked questions](start/faq.md)
 + Configuration steps {#config}
     + [Create and manage connections](connections/connections.md)
@@ -21,7 +22,6 @@ breadcrumb-title: Experience Platform Federated Audience Composition
     + [FDA rights matrix](connections/fda-rights.md)
     + Data models and schemas{#datamodel}
         + [Create and configure schemas](customer/schemas.md)
-        + [Configure your data models (beta)](data-management/gs-models-beta.md)
         + [Configure your data models](data-management/gs-models.md)
     + [Enrich Adobe Experience Platform audiences with external data](connections/destinations.md)
 + Compose audiences {#compositions}
@@ -42,6 +42,7 @@ breadcrumb-title: Experience Platform Federated Audience Composition
         + [Fork](compositions/activities/fork.md)
         + [Reconciliation](compositions/activities/reconciliation.md)
         + [Save audience](compositions/activities/save-audience.md)
+        + [Save profiles](compositions/activities/save-profiles.md)
         + [Scheduler](compositions/activities/scheduler.md)
         + [Split](compositions/activities/split.md)
         + [Wait](compositions/activities/wait.md)

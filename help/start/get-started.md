@@ -37,6 +37,8 @@ In this version, two use cases are available:
 
 1. Audience Enrichment: Enrich existing audiences in Adobe Experience Platform by utilizing composed audience data that has been federated from the enterprise data warehouse. This data will not be persisted in Adobe Experience Platform customer profiles.
 
+1. Profile Enrichment: Enrich Adobe Experience Platform profiles by federating data from external warehouses, allowing you to enhance customer profiles with additional attributes and insights.
+
 ![diagram](assets/fac-use-cases.png){zoomable="yes"}{width="75%" align="center"}
 
 ## Key steps {#gs-steps}
@@ -137,35 +139,3 @@ See also frequently asked questions on [this page](faq.md).
 >title="Select the targeting dimension"
 >abstract="The targeting dimension lets you define the population targeted by the operation: recipients, contract beneficiaries, operator, subscribers, etc. By default, for emails and SMS, the target is selected from the Recipients built-in table. For Push notifications, the default target dimension is Subscriber applications."
 
-
-<!-- save profile IDs-->
-
->[!CONTEXTUALHELP]
->id="dc_orchestration_saveprofile"
->title="Save Profile"
->abstract="Save Profile"
-
->[!CONTEXTUALHELP]
->id="dc_orchestration_saveprofile_aepschemalist"
->title="Save Profile AEP Schema List"
->abstract="Save Profile AEP Schema List"
-
->[!CONTEXTUALHELP]
->id="dc_orchestration_saveprofile_selectaepattribute"
->title="Save Profile AEP Schema Attribute"
->abstract="Save Profile AEP Schema Attribute"
-
->[!CONTEXTUALHELP]
->id="dc_orchestration_saveprofile_primaryidentitynamespace"
->title="Select Primary identify field"
->abstract="Primary identify field to use for profiles."
-
->[!CONTEXTUALHELP]
->id="ddc_orchestration_saveprofile_selectdataset"
->title="AEP dataset"
->abstract="Select the AEP dataset to use for profiles."
-
->[!CONTEXTUALHELP]
->id="dc_orchestration_saveprofile_selectaepschema"
->title="Save Profile Select AEP Schema"
->abstract="Select the AEP schema to use for profiles."
