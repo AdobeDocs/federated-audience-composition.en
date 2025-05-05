@@ -1,6 +1,7 @@
 ---
 title: Work with AI Assistant
 description: Learn how to leverage AI Assistant
+exl-id: f7493a57-e42d-43f9-b20a-1b9b90477a74
 ---
 # Work with AI Assistant {#ai-assistant}
 

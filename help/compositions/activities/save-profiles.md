@@ -2,6 +2,7 @@
 audience: end-user
 title: Use the Save Profiles activity
 description: Learn how to use the Save Profiles activity
+exl-id: 1c840838-32d5-4ceb-8430-835a235b7436
 ---
 # Save profiles {#save-profile}
 
