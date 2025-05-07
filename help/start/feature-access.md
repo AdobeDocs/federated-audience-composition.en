@@ -13,7 +13,7 @@ For example, if a new sandbox named "fac-test" is activated, a corresponding pro
 
 ## Manage access to Federated Audience Composition
 
-To access **Federated Audience Composition**, you must first ensure that the **Manage Federated Data** permission is assigned to the appropriate roles. These roles must then be assigned to users who need acccess to **Federated Audience Composition**.
+To access **Federated Audience Composition**, you must first ensure that you assign the required permissions to access different aspects of Federated Audience Composition. These roles must then be assigned to users who need access to **Federated Audience Composition**.
 
 Note that only administrators have the ability to assign permissions.
 
@@ -23,24 +23,37 @@ Note that only administrators have the ability to assign permissions.
 
     ![](assets/access_fda_1.png)
 
-1. Click **[!UICONTROL Edit]** to modify your role's permissions.
+1. Select **[!UICONTROL Edit]** to modify your role's permissions.
 
     ![](assets/access_fda_2.png)
 
-1. Add the **Federated Data** resource, then select **[!UICONTROL Manage Federated Data]** from the drop-down menu.
+1. Add the required permissions for the user. You can add the following permissions for access to Federated Audience Composition:
+
+    | Permission | Description |
+    | ---------- | ----------- |
+    | Manage Federated Database | Lets you create, view, update, and delete your connections to federated databases. |
+    | View Federated Database | Lets you view your connections to federated databases. |
+    | Manage Federated Schema | Lets you create, view, update, delete, and refresh schemas. |
+    | View Federated Data | Lets you view the federated data. |
+    | View Federated Schema | Lets you view the schema data. |
+    | Manage Federated Data Model | Lets you create, view, update, and delete data models. |
+    | View Federated Data Model | Lets you view the data models. |
+    | View Federation Audit Trail | Lets you view the audit trail for Federated Audience Composition.  |
+    | Manage Federated Compositions | Lets you create, view, update, and delete federated compositions. |
+    | View Federated Compositions | Lets you view federated compositions. |
 
     ![](assets/access_fda_3.png)
 
-1. Once you've made the necessary changes, click **[!UICONTROL Save]**.
+1. Once you've made the necessary changes, select **[!UICONTROL Save]**.
 
 Any users already assigned to this role will have their permissions automatically updated and access to Federated Audience Composition.
 
 To assign this role to new users:
 
-1. Navigate to the **[!UICONTROL Users]** tab within your Role dashboard and click **[!UICONTROL Add Users]**.
+1. Navigate to the **[!UICONTROL Users]** tab within your Role dashboard and select **[!UICONTROL Add Users]**.
 
     ![](assets/access_fda_4.png)
 
-1. Enter the user's name or email address, or select from the available list. Once done, click **[!UICONTROL Save]**.
+1. Enter the user's name or email address, or select from the available list. Once done, select **[!UICONTROL Save]**.
 
 The user will then receive an email with instructions to access your instance. If the user was not previously created, refer to the [this documentation](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/permissions-ui/users).
