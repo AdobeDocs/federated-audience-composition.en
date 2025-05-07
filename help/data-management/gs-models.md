@@ -9,6 +9,15 @@ exl-id: 7e1f74c4-b89a-480c-8e12-0257a71e629d
 
 >[!AVAILABILITY]
 >
+>To access data models, you'll need one of the following permissions:
+>
+>-**Manage Federated Data Model**
+>-**View Federated Data Model**
+>
+>For more information on the required permissions, please read the [Access Federated Audience Composition guide](/help/start/feature-access.md).
+
+>[!AVAILABILITY]
+>
 >Data model with Canvas view is currently available as a beta to select users only.
 
 ## What is a data model {#data-model-start}
