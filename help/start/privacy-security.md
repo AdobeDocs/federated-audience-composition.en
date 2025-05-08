@@ -30,3 +30,46 @@ For more information on applying consents, please read the [manage policies UI g
 ## Data Lifecycle {#data-lifecycle}
 
 Since Federated Audience Composition does **not** store any of the customer data from any of the data warehouses, you can use Adobe Experience Platform to handle the data lifecycle. With Advanced Data Lifecycle Management, you can manage your data lifecycle at both a dataset and record level.
+
+For example, after creating an audience by using the save activity block in the composition canvas, the resulting audience is stored in the data lake in Adobe Experience Platform as an external audience. Since this data is **not** stored in Federated Audience Composition, the audience data and the corresponding datasets will automatically be deleted when the audience is delete in Audience Portal.
+
+Alternatively, after creating a profile enrichment by using the save profile activity in the composition canvas, the resulting enrichment is stored in Adobe Experience Platform as a profile-enabled schema and profile-enabled dataset. As a result, you can Data Lifecycle to access and clean the profiles.
+
+For more information on using Data Lifecycle, please read the [Data Lifecycle overview](https://experienceleague.adobe.com/en/docs/experience-platform/data-lifecycle/home){target="_blank"}.
+
+## Data Governance {#data-governance}
+
+## Encryption {#encryption}
+
+Flexible Audience Composition provides encryption through data-at-rest encryption, data-in-transit encryption, and customer-managed keys.
+
+### Data-at-rest encryption {#data-at-rest}
+
+Data at rest refers to the customer data that is used within Federated Audience Composition.
+
+The data is encrypted by the cloud service provider, and is used in Federated Audience Composition in its encrypted form.
+
+For more information on how Adobe handles encryption, please read the guide on [data encryption in Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/landing/governance-privacy-security/encryption){target="_blank"}.
+
+### Data-in-transit encryption {#data-in-transit}
+
+Data in transit refer to the customer data as it moves from one component to another in Federated Audience Composition.
+
+The data is kept encrypted throughout Federated Audience Composition components using TLS 1.3 over HTTPS.
+
+For more information on how Adobe handles encryption, please read the guide on [data encryption in Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/landing/governance-privacy-security/encryption){target="_blank"}.
+
+### Customer managed keys {#customer-managed-keys}
+
+## Audit log {#audit-log}
+
+All create, read, update, and delete operations performed in Federated Audience Composition are logged in the audit trail.
+
+For more information, please read the [Audit Trail overview](/help/admin/audit-trail.md){target="_blank"}.
+
+## Access control {#access-control}
+
+## Data localization {#data-localization}
+
+## Next steps {#next-steps}
+
