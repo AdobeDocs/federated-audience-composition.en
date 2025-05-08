@@ -42,7 +42,7 @@ Note that only administrators have the ability to assign permissions.
     | Manage Federated Compositions | Lets you create, view, update, and delete federated compositions. |
     | View Federated Compositions | Lets you view federated compositions. |
 
-    ![](assets/access_fda_3.png)
+    ![](assets/permissions.png)
 
 1. Once you've made the necessary changes, select **[!UICONTROL Save]**.
 
