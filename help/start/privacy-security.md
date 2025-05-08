@@ -5,7 +5,7 @@ description: Learn how Federated Audience Composition deals with privacy and sec
 
 # Privacy and security in Federated Audience Composition
 
-Federated Audience Composition complies with 
+Federated Audience Composition complies with numerous security practices to ensure your data is kept as securely as possible.
 
 ## Privacy Service {#privacy}
 
@@ -37,7 +37,11 @@ Alternatively, after creating a profile enrichment by using the save profile act
 
 For more information on using Data Lifecycle, please read the [Data Lifecycle overview](https://experienceleague.adobe.com/en/docs/experience-platform/data-lifecycle/home){target="_blank"}.
 
-## Data Governance {#data-governance}
+## Data usage labels {#data-usage-labels}
+
+Data usage labels let you categorize datasets and fields based on the governance policies that apply to that data. After you've created an audience using compositions, you can apply the appropriate data labels on the resulting schema to ensure it abides to the required usage restrictions.
+
+For more information on using data labels, please read the [data usage labels overview](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/labels/overview){target="_blank"}.
 
 ## Encryption {#encryption}
 
@@ -61,6 +65,10 @@ For more information on how Adobe handles encryption, please read the guide on [
 
 ### Customer managed keys {#customer-managed-keys}
 
+Customer managed keys let you have control of your data, by letting you use your own encryption keys to encrypt your data. Since Federated Audience Composition does **not** store any of the customer data, you can use customer managed keys directly on the resulting audiences and enrichments, since they'll be stored in the data lake on Adobe Experience Platform.
+
+For more information on customer managed keys, please read the [customer managed keys guide](https://experienceleague.adobe.com/en/docs/experience-platform/landing/governance-privacy-security/customer-managed-keys/overview){target="_blank"}.
+
 ## Audit log {#audit-log}
 
 All create, read, update, and delete operations performed in Federated Audience Composition are logged in the audit trail.
@@ -69,7 +77,14 @@ For more information, please read the [Audit Trail overview](/help/admin/audit-t
 
 ## Access control {#access-control}
 
+You can control access to Federated Audience Composition at both a field and role based level.
+
+For more information on access control in Federated Audience Composition, please read the [Access Federated Audience Composition guide](/help/start/feature-access.md){target="_blank"}.
+
 ## Data localization {#data-localization}
+
+Federated Audience Composition does **not** store any customer data. As a result, you need to ensure that you **only** connect your external databases with the matching sandbox region to keep your data in the same region. If you connect a different region's database to a sandbox, Adobe is **not** responsible for data localization.
 
 ## Next steps {#next-steps}
 
+After reading this guide, you have a better understanding about privacy and security features in use for Federated Audience Composition.
