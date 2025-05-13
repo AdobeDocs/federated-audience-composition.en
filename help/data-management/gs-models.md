@@ -39,7 +39,9 @@ To create a data model, follow these steps:
 
     ![](assets/datamodel_schemas.png){zoomable="yes"}
 
-1. Click **[!UICONTROL Add Audiences]** to define your target groups.
+1. Additionally, you can add audiences to your data model. Select **[!UICONTROL Add Audiences]** to define your target groups.
+
+    ![](assets/datamodel-audiences.png){zoomable="yes"}
 
 1. Establish connections between tables in your data model to ensure accurate data relationships. [Learn more](#data-model-links)
 
