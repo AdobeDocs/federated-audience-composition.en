@@ -7,6 +7,40 @@ exl-id: d4dcaf31-93cd-4a4e-888a-cf1bbdc4ca03
 
 [!DNL Federated Audience Composition] continuously delivers new features, enhancements to existing features, and bug fixes. All changes are consolidated in these release notes. [!DNL Federated Audience Composition] is built natively on [!DNL Adobe Experience Platform] and inherits from its latest innovations and improvements. Learn more about these changes in [Adobe Experience Platform Release Notes](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html){target="_blank"}.
 
+## May '25 release {#fac-25-5}
+
+### New capabilities {#fac-25-05-feature}
+
+<table>
+<thead>
+<tr>
+<th><strong>Data model canvas view - General Availability</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Data model with Canvas view is now available for all customers!</p>
+<p>The Canvas view for the Data Models section improves the experience by enabling the visualization of data models and their links in a canvas layout, alongside the existing tabular view. </p>
+<p>For more information about canvas view, please read the <a href="../data-management/gs-models.md">data models overview</a>.</p>
+</br>
+</td>
+</tr>
+</tbody>
+</table>
+
+### Improvements {#fac-25-5-improvements}
+
+This release comes with the following improvements.
+
+* **Federated Audience Composition permissions**
+
+    Starting with the May release, [!DNL Federated Audience Composition] will start enforcing the access of **Federated data management** and **Federated Compositions** interfaces to users with a more granular set of permissions.
+
+    Please contact your administrators to add the required permissions to continue accessing the [!DNL Federated Audience Composition] user interface.
+
+    To learn more about the new permissions, please read the [Federated Audience Composition access guide](feature-access.md).
+
 ## April '25 release {#fac-25-4}
 
 ### New capabilities {#fac-25-04-feature}
