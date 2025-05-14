@@ -52,8 +52,14 @@ Follow these steps to configure the **Save profiles** activity:
 
 1. If you want to reconcile additional data attributes, click **Add attributes**.
 
-    Then, specify the **Source** field (external data) and the **Destination** field (schema field) for each attribute you want to map.
-
     ![](../assets/save-profile-3.png)
+
+1. From here, you can specify the **Source** field (external data) and the **Destination** field (schema field) for each attribute you want to map.
+
+    IMAGE    
+
+1. You can also specify the primary identity field to correspond the identity namespace with the composition's primary identity field.
+
+    IMAGE    
 
 1. Once configured, click **Start**.
