@@ -32,11 +32,11 @@ Note that only administrators have the ability to assign permissions.
     | Permission | Description |
     | ---------- | ----------- |
     | Manage Federated Data | Use this permission to manage all aspects of Federated Audience Composition. This permission subsumes Manage Federate Database, Manage Federated Schema, Manage Federated Data Model, and Manage Federated Compositions. |
-    | Manage Federated Database | Use this permission to create, view, update, and delete your connections to federated databases. |
+    | Manage Federated Database | Use this permission to add, view, update, and delete your connections to federated databases. |
     | View Federated Database | Use this permission to  view your connections to federated databases. |
     | Manage Federated Schema | Use this permission to create, view, update, delete, and refresh schemas. |
-    | View Federated Data | Use this permission to view the federated data. |
-    | View Federated Schema | Use this permission to view the schema data. |
+    | View Federated Schema Data | Use this permission to view the data tab within the schema section. |
+    | View Federated Schema | Use this permission to view the schema tables. |
     | Manage Federated Data Model | Use this permission to create, view, update, and delete data models. |
     | View Federated Data Model | Use this permission to view the data models. |
     | View Federation Audit Trail | Use this permission to view the audit trail for Federated Audience Composition.  |
@@ -57,7 +57,7 @@ To assign this role to new users:
 
 1. Enter the user's name or email address, or select from the available list. Once done, select **[!UICONTROL Save]**.
 
-Alternatively, you can assign one of the pre-existing roles to the users, depending on what permissions they need.
+Alternatively, you can assign one of the pre-existing roles to the users, depending on what permissions they need. For more information on assigning pre-existing roles to a user, please read the [guide on managing users for a product profile](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/ui/users).
 
 | Role name | Permissions |
 | --------- | ----------- |
