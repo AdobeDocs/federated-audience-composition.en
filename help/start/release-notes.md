@@ -33,11 +33,9 @@ exl-id: d4dcaf31-93cd-4a4e-888a-cf1bbdc4ca03
 
 This release comes with the following improvements.
 
-* **Federated Audience Composition permissions**
+* **Role Based Access Control**
 
-    Starting with the May release, [!DNL Federated Audience Composition] will start enforcing the access of **Federated data management** and **Federated Compositions** interfaces to users with a more granular set of permissions.
-
-    Please contact your administrators to add the required permissions to continue accessing the [!DNL Federated Audience Composition] user interface.
+    Starting with the May release, [!DNL Federated Audience Composition] supports new granular permissions for access control. Users can assign these permissions to user roles for more precise access to [!DNL Federated Audience Composition].
 
     To learn more about the new permissions, please read the [Federated Audience Composition access guide](feature-access.md).
 
