@@ -31,16 +31,17 @@ Note that only administrators have the ability to assign permissions.
 
     | Permission | Description |
     | ---------- | ----------- |
-    | Manage Federated Database | Lets you create, view, update, and delete your connections to federated databases. |
-    | View Federated Database | Lets you view your connections to federated databases. |
-    | Manage Federated Schema | Lets you create, view, update, delete, and refresh schemas. |
-    | View Federated Data | Lets you view the federated data. |
-    | View Federated Schema | Lets you view the schema data. |
-    | Manage Federated Data Model | Lets you create, view, update, and delete data models. |
-    | View Federated Data Model | Lets you view the data models. |
-    | View Federation Audit Trail | Lets you view the audit trail for Federated Audience Composition.  |
-    | Manage Federated Compositions | Lets you create, view, update, and delete federated compositions. |
-    | View Federated Compositions | Lets you view federated compositions. |
+    | Manage Federated Data | Use this permission to manage all aspects of Federated Audience Composition. This permission subsumes Manage Federate Database, Manage Federated Schema, Manage Federated Data Model, and Manage Federated Compositions. |
+    | Manage Federated Database | Use this permission to create, view, update, and delete your connections to federated databases. |
+    | View Federated Database | Use this permission to  view your connections to federated databases. |
+    | Manage Federated Schema | Use this permission to create, view, update, delete, and refresh schemas. |
+    | View Federated Data | Use this permission to view the federated data. |
+    | View Federated Schema | Use this permission to view the schema data. |
+    | Manage Federated Data Model | Use this permission to create, view, update, and delete data models. |
+    | View Federated Data Model | Use this permission to view the data models. |
+    | View Federation Audit Trail | Use this permission to view the audit trail for Federated Audience Composition.  |
+    | Manage Federated Compositions | Use this permission to create, view, update, and delete federated compositions. |
+    | View Federated Compositions | Use this permission to view federated compositions. |
 
     ![](assets/permissions.png)
 
@@ -55,5 +56,13 @@ To assign this role to new users:
     ![](assets/access_fda_4.png)
 
 1. Enter the user's name or email address, or select from the available list. Once done, select **[!UICONTROL Save]**.
+
+Alternatively, you can assign one of the pre-existing roles to the users, depending on what permissions they need.
+
+| Role name | Permissions |
+| --------- | ----------- |
+| FAC Data Managers | <ul><li>Manage Federated Compositions</li><li>View Federated Databases</li><li>View Federated Schemas</li><li>View Federated Schema Data</li><li>View Federated Data Models</li></ul> |
+| FAC Composition Managers | <ul><li>Manage Federated Compositions</li></ul> |
+| FAC Administrators | <ul><li>Manage Federated Data</li></ul> |
 
 The user will then receive an email with instructions to access your instance. If the user was not previously created, refer to the [this documentation](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/permissions-ui/users).
