@@ -6,6 +6,15 @@ exl-id: 92142d16-3483-4f6e-afde-9f88d5d7d1c4
 ---
 # Get started with compositions {#compositions}
 
+>[!AVAILABILITY]
+>
+>To access compositions, you'll need one of the following permissions:
+>
+>-**Manage Federated Compositions**
+>-**View Federated Compositions**
+>
+>For more information on the required permissions, please read the [Access Federated Audience Composition guide](/help/start/feature-access.md).
+
 ## What is a composition {#what}
 
 Adobe Audience Composition allows you to create compositions, where you can leverage various activities (split, exclude…) into a visual canvas to create audiences. Once done, the resulting audiences are saved into Adobe Experience Platform along with existing audiences and can be leveraged in Adobe Experience Platform destinations and Adobe Journey Optimizer to target customers. [Learn how to work with audiences](../start/audiences.md)
