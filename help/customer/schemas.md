@@ -6,6 +6,15 @@ exl-id: 2c939185-f1c1-4f2b-ae1b-e2539e121eff
 ---
 # Get started with schemas {#schemas}
 
+>[!AVAILABILITY]
+>
+>To access schemas, you'll need one of the following permissions:
+>
+>-**Manage Federated Schema**
+>-**View Federated Schema**
+>
+>For more information on the required permissions, please read the [Access Federated Audience Composition guide](/help/start/feature-access.md).
+
 >[!CONTEXTUALHELP]
 >id="dc_schema_create_select_tables"
 >title="Select tables"

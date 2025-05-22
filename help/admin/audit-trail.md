@@ -6,6 +6,14 @@ exl-id: 97142f54-53ce-4c2a-9d89-fdcb2a47b159
 ---
 # Audit Trail {#audit-trail}
 
+>[!AVAILABILITY]
+>
+>To access the audit trail, you'll need the following permission:
+>
+>-**View Audit Trail**
+>
+>For more information on the required permissions, please read the [Access Federated Audience Composition guide](/help/start/feature-access.md).
+
 >[!CONTEXTUALHELP]
 >id="dc_audit_trail"
 >title="Audit trail"
