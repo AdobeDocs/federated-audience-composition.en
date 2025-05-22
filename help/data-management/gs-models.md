@@ -16,8 +16,6 @@ exl-id: 7e1f74c4-b89a-480c-8e12-0257a71e629d
 >
 >For more information on the required permissions, please read the [Access Federated Audience Composition guide](/help/start/feature-access.md).
 
-# Get started with data models {#data-model}
-
 ## What is a data model {#data-model-start}
 
 A data model is a set of schemas, audiences, and the links between them. It is used to federate audiences with databases data.
