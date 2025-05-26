@@ -44,7 +44,7 @@ exl-id: 1c840838-32d5-4ceb-8430-835a235b7436
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_saveprofile_primaryidentityfield"
 >title="Primary identity field"
->abstract="The primary identity field indicates ."
+>abstract="The primary identity field indicates the source of truth when merging profiles together for the enrichment."
 
 The **Save profiles** activity allows you to enrich Adobe Experience Platform profiles with data federated from external warehouses.
 
