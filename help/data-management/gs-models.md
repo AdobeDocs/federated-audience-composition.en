@@ -2,9 +2,9 @@
 audience: end-user
 title: Get started with data models
 description: Learn how to start with data models
-badge: label="Beta" type="Informative"
 exl-id: 7e1f74c4-b89a-480c-8e12-0257a71e629d
 ---
+
 # Get started with data models {#data-model-beta}
 
 >[!AVAILABILITY]
@@ -15,10 +15,6 @@ exl-id: 7e1f74c4-b89a-480c-8e12-0257a71e629d
 >-**View Federated Data Model**
 >
 >For more information on the required permissions, please read the [Access Federated Audience Composition guide](/help/start/feature-access.md).
-
->[!AVAILABILITY]
->
->Data model with Canvas view is currently available as a beta to select users only.
 
 ## What is a data model {#data-model-start}
 
@@ -48,7 +44,9 @@ To create a data model, follow these steps:
 
     ![](assets/datamodel_schemas.png){zoomable="yes"}
 
-1. Click **[!UICONTROL Add Audiences]** to define your target groups.
+1. Additionally, you can add audiences to your data model. Select **[!UICONTROL Add Audiences]** to define your target groups.
+
+    ![](assets/datamodel-audiences.png){zoomable="yes"}
 
 1. Establish connections between tables in your data model to ensure accurate data relationships. [Learn more](#data-model-links)
 
