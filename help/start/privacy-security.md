@@ -77,4 +77,4 @@ Federated Audience Composition does **not** store any customer data. As a result
 
 ## Next steps {#next-steps}
 
-After reading this guide, you have a better understanding about privacy and security features in use for Federated Audience Composition.
+After reading this guide, you have a better understanding about privacy and security features in use for Federated Audience Composition, including data governance, privacy compliance, consent enforcement, data lifecycle management, and access control.
