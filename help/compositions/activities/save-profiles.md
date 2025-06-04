@@ -46,6 +46,26 @@ exl-id: 1c840838-32d5-4ceb-8430-835a235b7436
 >title="Primary identity field"
 >abstract="The primary identity field indicates the source of truth when merging profiles together for the enrichment."
 
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_saveprofile_schemacompatibility_criteria"
+>title="Schema compatibility criteria"
+>abstract=""
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_saveprofile_requiredfields_criteria"
+>title="Required fields criteria"
+>abstract=""
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_saveprofile_identityfields_criteria"
+>title="Identity fields criteria"
+>abstract=""
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_saveprofile_primaryidentityfield_criteria"
+>title="Primary identity field criteria"
+>abstract=""
+
 The **Save profiles** activity allows you to enrich Adobe Experience Platform profiles with data federated from external warehouses.
 
 This activity is typically used to enhance customer profiles by bringing in additional attributes and insights without physically moving or duplicating the data into the platform.
