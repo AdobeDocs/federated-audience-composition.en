@@ -18,7 +18,7 @@ Federated Audience Composition supports the following cloud warehouses:
 * Amazon Redshift
 * Azure Synapse
 * Databricks
-* Google Big Query
+* Google BigQuery
 * Snowflake
 * Vertica Analytics
 * Microsoft Fabric

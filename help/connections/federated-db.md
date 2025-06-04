@@ -31,7 +31,7 @@ With Federated Audience Composition, you can connect to the following databases.
 
 * [Amazon Redshift](#amazon-redshift)
 * [Azure Synapse Analytics](#azure-synapse)
-* [Google Big Query](#google-big-query)
+* [Google BigQuery](#google-bigquery)
 * [Snowflake](#snowflake)
 * [Vertica Analytics](#vertica-analytics)
 * [Databricks](#databricks)
@@ -121,9 +121,9 @@ Use Federated databases to process information stored in an external database. F
 |---|---|
 | Authentication | Type of authentication supported by the connector. Current supported value: ActiveDirectoryMSI. For more information, refer to [Microsoft SQL documentation](https://learn.microsoft.com/en-us/sql/connect/odbc/using-azure-active-directory?view=sql-server-ver15#example-connection-strings){target="_blank"}  (Example connection strings n°8) |
 
-## Google Big Query {#google-big-query}
+## Google BigQuery {#google-bigquery}
 
-Use Federated databases to process information stored in an external database. Follow the steps below to configure access to Google Big Query.
+Use Federated databases to process information stored in an external database. Follow the steps below to configure access to Google BigQuery.
 
 1. Under the **[!UICONTROL Federated data]** menu, select **[!UICONTROL Federated databases]**.
 
@@ -133,11 +133,11 @@ Use Federated databases to process information stored in an external database. F
 
 1. Enter a **[!UICONTROL Name]** to your Federate database.
 
-1. From the **[!UICONTROL Type]** drop-down, select Google Big Query.
+1. From the **[!UICONTROL Type]** drop-down, select Google BigQuery.
 
     ![](assets/federated_database_3.png)
 
-1. Configure the Google Big Query authentication settings:
+1. Configure the Google BigQuery authentication settings:
 
     * **[!UICONTROL Service account]**: Enter the email of your **[!UICONTROL Service account]**. For more information on this, refer to [Google Cloud documentation](https://cloud.google.com/iam/docs/creating-managing-service-accounts){target="_blank"}.
 

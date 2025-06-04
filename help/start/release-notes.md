@@ -123,9 +123,9 @@ This release comes with the improvements below.
     
     With this new release, Federated Audience Composition supports secure private link connections to Amazon Redshift databases. [Learn more](../connections/federated-db.md#amazon-redshift)
 
-* **Google Big Query**
+* **Google BigQuery**
 
-    With this new release, Federated Audience Composition supports secure VPN connections to Google Big Query Databases. [Learn more](../connections/federated-db.md#google-big-query)
+    With this new release, Federated Audience Composition supports secure VPN connections to Google BigQuery Databases. [Learn more](../connections/federated-db.md#google-bigquery)
 
 ## March '25 release {#fac-25-3}
 
