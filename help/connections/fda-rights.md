@@ -1,6 +1,6 @@
 ---
 title: Permissions for accessing an external database
-description: Learn about rights specific to each database engine
+description: Learn about which permissions you need to access and perform tasks on each database engine
 exl-id: 287fb4a4-5767-4337-96be-dceca55f756d
 ---
 # Federated Data Access (FDA) Rights matrix {#fda-rights}
