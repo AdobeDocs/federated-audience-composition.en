@@ -27,7 +27,7 @@ This release comes with the following improvements:
 
 * **Save profiles - Incremental updates**
 
-    The Save profiles activity now supports incremental updates. With incremental updates, only the subsequent changes to the composition are sent to the 
+    The Save profiles activity now supports incremental updates. With incremental updates, only the subsequent changes to the composition are sent to the profile enrichment.
 
 ## April '25 release {#fac-25-4}
 
