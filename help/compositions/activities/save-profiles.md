@@ -47,24 +47,14 @@ exl-id: 1c840838-32d5-4ceb-8430-835a235b7436
 >abstract="The primary identity field indicates the source of truth when merging profiles together for the enrichment."
 
 >[!CONTEXTUALHELP]
->id="dc_orchestration_saveprofile_schemacompatibility_criteria"
->title="Schema compatibility criteria"
->abstract=""
-
->[!CONTEXTUALHELP]
->id="dc_orchestration_saveprofile_requiredfields_criteria"
+>id="dc_orchestration_saveprofile_requiredfieldscheck"
 >title="Required fields criteria"
->abstract=""
+>abstract="A required field is an attribute that must be filled out for every profile or record when exporting data. If a required field is missing, the export will not be complete or valid."
 
 >[!CONTEXTUALHELP]
->id="dc_orchestration_saveprofile_identityfields_criteria"
->title="Identity fields criteria"
->abstract=""
-
->[!CONTEXTUALHELP]
->id="dc_orchestration_saveprofile_primaryidentityfield_criteria"
+>id="dc_orchestration_saveprofile_primaryidentitycheck"
 >title="Primary identity field criteria"
->abstract=""
+>abstract="The unique identifier for each profile or record. This ensures that every record can be distinctly recognized and matched, preventing the duplication of data."
 
 The **Save profiles** activity allows you to enrich Adobe Experience Platform profiles with data federated from external warehouses.
 
