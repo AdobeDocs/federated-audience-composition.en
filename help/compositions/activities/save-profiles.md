@@ -48,13 +48,17 @@ Follow these steps to configure the **Save profiles** activity:
 
     ![](../assets/save-profile-2.png)
 
+1. Select the dataset that you want to save the enrichment to.
+
+    IMAGE
+
 1. Choose the primary identity field that will be used to identify profiles in the database.
 
-1. If you want to reconcile additional data attributes, click **Add attributes**.
+1. Add the primary identity fields and the required identity fields.
 
-    ![](../assets/save-profile-3.png)
+    IMAGE
 
-1. From here, you can specify the **Source** field (external data) and the **Destination** field (schema field) for each attribute you want to map.
+    You can specify the **Source** field (external data) and the **Destination** field (schema field) for each attribute you want to map.
 
     IMAGE    
 
@@ -62,4 +66,4 @@ Follow these steps to configure the **Save profiles** activity:
 
     IMAGE    
 
-1. Once configured, click **Start**.
+2. Once configured, click **Start**.
