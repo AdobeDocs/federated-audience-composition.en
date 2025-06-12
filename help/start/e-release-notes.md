@@ -13,9 +13,9 @@ exl-id: 23ea1a5d-a0e4-4f47-b0f8-56009bbc0a4a
 
 This release comes with the following improvements:
 
-* **General Availability for Healthcare Customers**
+* **General Availability for Adobe Healthcare Shield Customers**
 
-    Federated Audience Composition will be available to Healthcare customers for audience creation, enrichment and profile enrichment use cases by the end of June.
+    Federated Audience Composition will be available to Adobe Healthcare Shield customers for audience creation, enrichment and profile enrichment use cases by the end of June.
 
 * **Object-level access control**
 
