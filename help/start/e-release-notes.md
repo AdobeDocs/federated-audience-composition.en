@@ -13,9 +13,9 @@ exl-id: 23ea1a5d-a0e4-4f47-b0f8-56009bbc0a4a
 
 This release comes with the following improvements:
 
-* **HIPAA compliancy**
+* **General Availability for Healthcare Customers**
 
-    Federated Audience Composition is now HIPAA compliant.
+    Federated Audience Composition will be available to Healthcare customers for audience creation, enrichment and profile enrichment use cases by the end of June.
 
 * **Object-level access control**
 
@@ -25,9 +25,9 @@ This release comes with the following improvements:
   
     You can now use one of the default roles to manage user permissions for Federated Audience Composition access.
 
-* **Save profiles - Incremental updates**
+* **Incremental Updates in profile enrichment use cases**
 
-    The Save profiles activity now supports incremental updates. With incremental updates, only the subsequent changes to the composition are sent to the profile enrichment.
+    The Save profiles activity now supports incremental updates. This enables marketers to query and update incremental data while enriching profiles with data from external data warehouses.
 
 ## April '25 release {#fac-25-4}
 
