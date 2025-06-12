@@ -27,7 +27,7 @@ This release comes with the following improvements:
 
 * **Incremental Updates in profile enrichment use cases**
 
-    The Save profiles activity now supports incremental updates. This enables marketers to query and update incremental data while enriching profiles with data from external data warehouses.
+    The Save profiles activity now supports incremental updates. With incremental updates, you can query and update incremental data while enriching profiles with data from external data warehouses.
 
 ## April '25 release {#fac-25-4}
 
