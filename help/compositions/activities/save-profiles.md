@@ -84,7 +84,7 @@ Follow these steps to configure the **Save profiles** activity:
 
 1. Choose the primary identity field that will be used to identify profiles in the database.
 
-1. Add the primary identity fields and the required identity fields.
+1. Select **[!UICONTROL Add Fields]** to add the primary and required identity fields.
 
     IMAGE
 
@@ -92,8 +92,13 @@ Follow these steps to configure the **Save profiles** activity:
 
     IMAGE    
 
-1. You can also specify the primary identity field to correspond the identity namespace with the composition's primary identity field.
+1. You can also specify the update mode for the enrichment.
 
-    IMAGE    
+    IMAGE
 
-2. Once configured, click **Start**.
+    | Update mode | Description |
+    | ----------- | ----------- |
+    | Full updates | The full set of profiles is updated for enrichment. |
+    | Incremental updates | Only the profiles that have been modified since the last enrichment ran are updated for the enrichment. |
+
+1. Once configured, select **Start**.
