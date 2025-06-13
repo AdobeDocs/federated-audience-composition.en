@@ -13,7 +13,7 @@ exl-id: 1c840838-32d5-4ceb-8430-835a235b7436
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_saveprofile_aepschemalist"
->title="Select AEP Schema"
+>title="Select Experience Platform Schema"
 >abstract="Choose the Experience Platform schema for the profiles."
 
 >[!CONTEXTUALHELP]
@@ -23,12 +23,42 @@ exl-id: 1c840838-32d5-4ceb-8430-835a235b7436
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_saveprofile_selectaepschema"
->title="Select AEP Schema"
+>title="Select Experience Platform Schema"
 >abstract="Choose the Experience Platform schema for the profiles."
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_saveprofile_updatemode"
+>title="Save Profile update mode"
+>abstract="The available update modes for the save profile activity include full update and incremental update."
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_saveprofile_updatemode_full"
+>title="Full update"
+>abstract="The full update mode updates the full set of profiles for enrichment."
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_saveprofile_updatemode_incremental"
+>title="Incremental update"
+>abstract="The incremental update mode updates the profiles that have been modified since the last enrichment ran."
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_saveprofile_primaryidentityfield"
+>title="Primary identity field"
+>abstract="The primary identity field indicates the source of truth when merging profiles together for the enrichment."
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_saveprofile_requiredfieldscheck"
+>title="Required fields criteria"
+>abstract="A required field is an attribute that must be filled out for every profile or record when exporting data. If a required field is missing, the export will not be complete or valid."
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_saveprofile_primaryidentitycheck"
+>title="Primary identity field criteria"
+>abstract="The unique identifier for each profile or record. This ensures that every record can be distinctly recognized and matched, preventing the duplication of data."
 
 The **Save profiles** activity allows you to enrich Adobe Experience Platform profiles with data federated from external warehouses.
 
-This activity is typically used to enhance customer profiles by bringing in additional attributes and insights without physically moving or duplicating the data into the platform
+This activity is typically used to enhance customer profiles by bringing in additional attributes and insights without physically moving or duplicating the data into the platform.
 
 ## Configure the Save profiles activity {#save-profile-configuration}
 

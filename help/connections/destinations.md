@@ -32,7 +32,7 @@ The main steps to send Adobe Experience Platform audiences to Adobe Federated Au
 
     * Amazon Redshift
     * Azure Synapse Analytics
-    * Google Big Query
+    * Google BigQuery
     * Snowflake
     * Vertica Analytics
     * Databricks
