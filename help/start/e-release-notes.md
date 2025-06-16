@@ -9,6 +9,26 @@ exl-id: 23ea1a5d-a0e4-4f47-b0f8-56009bbc0a4a
 
 [!DNL Federated Audience Composition] continuously delivers new features, enhancements to existing features, and bug fixes. All changes are consolidated in these release notes. [!DNL Federated Audience Composition] is built natively on [!DNL Adobe Experience Platform] and inherits from its latest innovations and improvements. Learn more about these changes in [Adobe Experience Platform Release Notes](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html){target="_blank"}.
 
+## June 2025 release {#fac-25-6}
+
+This release comes with the following improvements:
+
+* **General Availability for Adobe Healthcare Shield Customers**
+
+    Federated Audience Composition will be available to Adobe Healthcare Shield customers for audience creation, enrichment and profile enrichment use cases by the end of June.
+
+* **Object-level access control**
+
+    Federated Audience Composition now supports object-level access control to apply access labels to your specified compositions.
+
+* **Default roles**
+  
+    You can now use one of the default roles to manage user permissions for Federated Audience Composition access.
+
+* **Incremental Updates in profile enrichment use cases**
+
+    The Save profiles activity now supports incremental updates. With incremental updates, you can query and update incremental data while enriching profiles with data from external data warehouses.
+
 ## April '25 release {#fac-25-4}
 
 ### Improvements {#fac-25-4-improvements}
