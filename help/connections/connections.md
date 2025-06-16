@@ -40,7 +40,7 @@ To setup a connection with your database, follow these steps:
     * [Amazon Redshift](federated-db.md#amazon-redshift)
     * [Azure Synapse](federated-db.md#azure-synapse-redshift)
     * [Databricks](federated-db.md#databricks)
-    * [Google Big Query](federated-db.md#google-big-query)
+    * [Google BigQuery](federated-db.md#google-bigquery)
     * [Snowflake](federated-db.md#snowflake)
     * [Vertica Analytics](federated-db.md#vertica-analytics)
     * [Microsoft Fabric](federated-db.md#microsoft-fabric)
