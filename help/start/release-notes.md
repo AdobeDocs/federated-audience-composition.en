@@ -7,6 +7,36 @@ exl-id: d4dcaf31-93cd-4a4e-888a-cf1bbdc4ca03
 
 [!DNL Federated Audience Composition] continuously delivers new features, enhancements to existing features, and bug fixes. All changes are consolidated in these release notes. [!DNL Federated Audience Composition] is built natively on [!DNL Adobe Experience Platform] and inherits from its latest innovations and improvements. Learn more about these changes in [Adobe Experience Platform Release Notes](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html){target="_blank"}.
 
+## June '25 release {#fac-25-6}
+
+### Improvements {#fac-25-06-improvements}
+
+This release comes with the following improvements:
+
+* **General Availability for Adobe Healthcare Shield Customers**
+
+    Federated Audience Composition will be available to Adobe Healthcare Shield customers for audience creation, enrichment and profile enrichment use cases by the end of June.
+
+    More information about privacy and security in Federated Audience Composition can be found in the [Privacy and security guide](./privacy-security.md).
+
+<!-- * **Object-level access control**
+
+    Federated Audience Composition now supports object-level access control to apply access labels to your specified compositions.
+
+    More information about using object-level access labels can be found in the [compositions guide](/help/compositions/gs-compositions.md). -->
+
+* **Default roles**
+  
+    You can now use one of the default roles to manage user permissions for Federated Audience Composition access.
+
+    More information about the default roles can be found in the [access Federated Audience Composition guide](/help/start/feature-access.md).
+
+* **Incremental Updates in profile enrichment use cases**
+
+    The Save profiles activity now supports incremental updates. With incremental updates, you can query and update incremental data while enriching profiles with data from external data warehouses.
+
+    More information on using the save profiles activity can be found in the [save profile activity guide](/help/compositions/activities/save-profiles.md).
+
 ## May '25 release {#fac-25-5}
 
 ### New capabilities {#fac-25-05-feature}
