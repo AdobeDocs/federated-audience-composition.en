@@ -66,7 +66,7 @@ Follow these steps to configure the **[!UICONTROL Save Profiles]** activity:
 
 1. Add a **[!UICONTROL Save Profiles]** activity to your composition.
 
-    ![The Save Profiles button is highlighted within the activities.](../assets/save-profiles/save-profiles.png){zoomable="yes"}
+    ![The Save Profiles button is highlighted within the activities.](../assets/save-profiles/save-profiles.png){width="1500" zoomable="yes"}
 
 1. Specify the label of the profiles to create.
 
@@ -76,25 +76,25 @@ Follow these steps to configure the **[!UICONTROL Save Profiles]** activity:
 
 1. Select the Adobe Experience Platform schema you want to use.
 
-    ![The available schemas are displayed.](../assets/save-profiles/select-schema.png){zoomable="yes"}
+    ![The available schemas are displayed.](../assets/save-profiles/select-schema.png){width="1500" zoomable="yes"}
 
 1. Select the dataset that you want to save the enrichment to.
 
-    ![The dataset dropdown is highlighted.](../assets/save-profiles/select-dataset.png){zoomable="yes"}
+    ![The dataset dropdown is highlighted.](../assets/save-profiles/select-dataset.png){width="300" zoomable="yes"}
 
 1. Choose the primary identity field that will be used to identify profiles in the database.
 
 1. Select **[!UICONTROL Add Fields]** to add the primary and required identity fields.
 
-    ![The Add Fields button is highlighted.](../assets/save-profiles/add-fields.png){zoomable="yes"}
+    ![The Add Fields button is highlighted.](../assets/save-profiles/add-fields.png){width="300" zoomable="yes"}
 
     You can specify the **Source** field (external data) and the **Destination** field (schema field) for each attribute you want to map.
 
-    ![The Source and Destination fields are highlighted, showing where to create the mapping between the fields](../assets/save-profiles/specify-mapping.png){zoomable="yes"}
+    ![The Source and Destination fields are highlighted, showing where to create the mapping between the fields](../assets/save-profiles/specify-mapping.png){width="300" zoomable="yes"}
 
 1. You can also specify the update mode for the enrichment.
 
-    ![The update mode types are displayed.](../assets/save-profiles/select-update-mode.png){zoomable="yes"}
+    ![The update mode types are displayed.](../assets/save-profiles/select-update-mode.png){width="300" zoomable="yes"}
 
     | Update mode | Description |
     | ----------- | ----------- |
