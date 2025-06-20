@@ -7,6 +7,10 @@ exl-id: 677e26e7-1294-4f62-a5ce-17b65e84c65e
 
 Federated Audience Composition complies with numerous security practices to protect your data during processing.
 
+## HIPAA and Privacy Shield availability {#hipaa}
+
+Federated Audience Composition is fully HIPAA compliant and is available to use for Healthcare Shield as well as Privacy and Security Shield customers. 
+
 ## Privacy Service {#privacy}
 
 Federated Audience Composition provides the federated data for Adobe Experience Platform and Adobe Journey Optimizer to use. However, Federated Audience Composition does **not** store any of the customer data from any of the data warehouses. As a result, you can use Adobe Experience Platform Privacy Service to comply with data subject and data delete requests.

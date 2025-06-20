@@ -82,7 +82,7 @@ Follow these steps to configure the **[!UICONTROL Save Profiles]** activity:
 
     ![The dataset dropdown is highlighted.](../assets/save-profiles/select-dataset.png){width="300" zoomable="yes"}
 
-1. Choose the primary identity field that will be used to identify profiles in the database.
+1. After selecting the dataset, you can see the primary identity field that will be used to identify profiles in the database.
 
 1. Select **[!UICONTROL Add Fields]** to add the primary and required identity fields.
 
@@ -100,5 +100,7 @@ Follow these steps to configure the **[!UICONTROL Save Profiles]** activity:
     | ----------- | ----------- |
     | Full updates | The full set of profiles is updated for enrichment. |
     | Incremental updates | Only the profiles that have been modified since the last enrichment ran are updated for the enrichment. |
+
+    If you select [!UICONTROL Incremental updates], you also need to choose the last modified date to determine what data is sent.
 
 1. Once configured, select **Start**.
