@@ -1,9 +1,11 @@
 ---
-title: Data Governance in Federated Audience Composition
+title: Access Control in Federated Audience Composition
 description: Learn how to manage data access for users in Federated Audience Composition.
 exl-id: 84138456-218b-4beb-ae7b-146213b03cc2
 ---
-# Data Governance in Federated Audience Composition
+# Access Control in Federated Audience Composition
+
+Federated Audience Compositions offers a variety of 
 
 ## Manage access to sandboxes {#access-sandboxes}
 

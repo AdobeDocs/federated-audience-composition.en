@@ -29,7 +29,7 @@ This release comes with the following improvements:
   
     You can now use one of the default roles to manage user permissions for Federated Audience Composition access.
 
-    More information about the default roles can be found in the [access Federated Audience Composition guide](/help/start/feature-access.md).
+    More information about the default roles can be found in the [access Federated Audience Composition guide](/help/governance-privacy-security/access-control.md).
 
 * **Incremental Updates in profile enrichment use cases**
 
@@ -67,7 +67,7 @@ This release comes with the following improvements.
 
     Starting with the May release, [!DNL Federated Audience Composition] supports new granular permissions for access control. Users can assign these permissions to user roles for more precise access to [!DNL Federated Audience Composition].
 
-    To learn more about the new permissions, please read the [Federated Audience Composition access guide](feature-access.md).
+    To learn more about the new permissions, please read the [Federated Audience Composition access guide](access-control.md).
 
 ## April '25 release {#fac-25-4}
 
@@ -169,7 +169,7 @@ This release comes with the improvements below.
 
     We recommend users to contact the administrators to have this permission added to their role in order to continue accessing the [!DNL Federated Audience Composition] user interface.
 
-    To learn how to assign this permission, refer to the [detailed documentation](feature-access.md).
+    To learn how to assign this permission, refer to the [detailed documentation](access-control.md).
 
 <!--
 * **Data model Canvas view**

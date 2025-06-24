@@ -43,7 +43,7 @@ To view the list of your active Federated Audience Composition sandboxes, follow
 
 ## Permissions {#permissions}
 
-To access Federated Audience Composition, users must be added to the sandbox-specific product profile created upon purchase and assigned the **[!UICONTROL Manage Federated Data]** permission. [Learn more](feature-access.md)
+To access Federated Audience Composition, users must be added to the sandbox-specific product profile created upon purchase and assigned the **[!UICONTROL Manage Federated Data]** permission. [Learn more](access-control.md)
 
 ## IP allow-listing {#ip}
 

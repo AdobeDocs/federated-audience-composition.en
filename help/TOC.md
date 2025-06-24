@@ -12,11 +12,13 @@ breadcrumb-title: Experience Platform Federated Audience Composition
 + Get started with Federated Audience Composition {#start}
     + [What is Federated Audience Composition](start/get-started.md)
     + [Prerequisites and guardrails](start/access-prerequisites.md)
-    + [Data Governance in Federated Audience Composition](start/feature-access.md)
     + [Work with audiences](start/audiences.md)
     + [Work with the AI Assistant](start/ai-assistant.md)
-    + [Privacy and security](start/privacy-security.md)
     + [Frequently asked questions](start/faq.md)
++ Governance, Privacy, Security {#governance-privacy-security}
+    + [Overview](./governance-privacy-security/home.md)
+    + [Data Governance overview](governance-privacy-security/governance.md)
+    + [Privacy and security](governance-privacy-security/privacy-security.md)
 + Configuration steps {#config}
     + [Create and manage connections](connections/connections.md)
     + [Configure your federated databases](connections/federated-db.md)
