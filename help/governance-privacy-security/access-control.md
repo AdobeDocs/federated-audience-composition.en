@@ -5,7 +5,7 @@ exl-id: 84138456-218b-4beb-ae7b-146213b03cc2
 ---
 # Access Control in Federated Audience Composition
 
-Federated Audience Compositions offers a variety of 
+You can use access control to provide role-based access to sandboxes and Federated Audience Composition.
 
 ## Manage access to sandboxes {#access-sandboxes}
 
