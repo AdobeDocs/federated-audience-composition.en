@@ -28,15 +28,11 @@ exl-id: fa67b1ee-8de6-4a71-b597-ade3f5587a38
 >abstract="Select the namespace to use for profiles."
 >additional-url="https://experienceleague.adobe.com/en/docs/experience-platform/identity/features/namespaces" text="Learn more in Experience Platform documentation"
 
-The **Save audience** activity allows you to create a new audience from the population computed upstream in a composition. The audiences created are added to the list of Adobe Experience Platform audiences, and are made available via the **Audiences** menu. [Learn how to work with audiences](../../start/audiences.md)
+The **[!UICONTROL Save audience]** activity allows you to create a new audience from the population computed upstream in a composition. The audiences created are added to the list of Adobe Experience Platform audiences, and are made available via the **Audiences** menu. [Learn how to work with audiences](../../start/audiences.md)
 
 This activity is essentially used to keep population groups computed in the same composition, by converting them into reusable audiences. Connect it to other targeting activities such as a **Build audience** or a **Combine** activity. 
 
-The **[!UICONTROL Save Audience]** activity generates a new audience schema and dataset. After the audience is created, please coordinate with your administrator to assign the appropriate data governance labels. [Learn more about data usage labels](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/labels/user-guide)
-
->[!IMPORTANT]
->
->The **Save Audience** activity requires a Profile-enabled schema and dataset. [Learn more](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/user-guide#enable-profile){target="_blank"}.
+The **[!UICONTROL Save Audience]** activity generates a new audience schema and dataset. After the audience is created, you can coordinate with your administrator to assign the appropriate data governance labels, to ensure your audience is properly categorized. For more information about how to apply data usage labels, please read the [data usage labels user guide](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/labels/user-guide).
 
 ## Configure the Save audience activity {#save-audience-configuration}
 
@@ -63,7 +59,7 @@ Follow these steps to configure the **Save audience** activity:
 
 ## Access your audience in Adobe Experience Platform {#access-audience}
 
-After executing the composition, the resulting audience is saved in Adobe Experience Platform as an external audience, and available into Adobe Real-Time Customer Data Platorm and/or Adobe Journey Optimizer. It is made accessible in the **Audiences** menu. [Learn more](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-portal){target="_blank"} 
+After executing the composition, the resulting audience is saved in Adobe Experience Platform as an external audience, and available into Adobe Real-Time Customer Data Platform and/or Adobe Journey Optimizer. It is made accessible in the **Audiences** menu. [Learn more](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-portal){target="_blank"} 
 
 The created audience includes all the fields selected in the Audience Mappings section. You can target this audience in Journey Optimizer or activate it to any destination supported by Adobe Experience Platform.
 
