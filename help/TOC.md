@@ -17,8 +17,7 @@ breadcrumb-title: Experience Platform Federated Audience Composition
     + [Frequently asked questions](start/faq.md)
 + Governance, Privacy, Security {#governance-privacy-security}
     + [Overview](./governance-privacy-security/home.md)
-    + [Data Governance overview](governance-privacy-security/governance.md)
-    + [Privacy and security](governance-privacy-security/privacy-security.md)
+    + [Access Control](governance-privacy-security/access-control.md)
 + Configuration steps {#config}
     + [Create and manage connections](connections/connections.md)
     + [Configure your federated databases](connections/federated-db.md)
