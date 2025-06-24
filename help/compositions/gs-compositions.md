@@ -13,7 +13,7 @@ exl-id: 92142d16-3483-4f6e-afde-9f88d5d7d1c4
 >-**Manage Federated Compositions**
 >-**View Federated Compositions**
 >
->For more information on the required permissions, please read the [Access Federated Audience Composition guide](/help/start/feature-access.md).
+>For more information on the required permissions, please read the [access control guide](/help/governance-privacy-security/access-control.md).
 
 ## What is a composition {#what}
 

@@ -69,7 +69,7 @@ This release comes with the improvements below.
 
     We recommend users to contact the administrators to have this permission added to their role in order to continue accessing the [!DNL Federated Audience Composition] user interface.
 
-    To learn how to assign this permission, refer to the [detailed documentation](feature-access.md).
+    To learn how to assign this permission, refer to the [detailed documentation](/help/governance-privacy-security/access-control.md).
 
 <!--
 * **Data model Canvas view**

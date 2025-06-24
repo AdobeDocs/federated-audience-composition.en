@@ -14,7 +14,7 @@ exl-id: 7e1f74c4-b89a-480c-8e12-0257a71e629d
 >-**Manage Federated Data Model**
 >-**View Federated Data Model**
 >
->For more information on the required permissions, please read the [Access Federated Audience Composition guide](/help/start/feature-access.md).
+>For more information on the required permissions, please read the [access control guide](/help/governance-privacy-security/access-control.md).
 
 ## What is a data model {#data-model-start}
 
