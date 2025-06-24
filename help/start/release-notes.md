@@ -17,7 +17,7 @@ This release comes with the following improvements:
 
     Federated Audience Composition will be available to Adobe Healthcare Shield customers for audience creation, enrichment and profile enrichment use cases by the end of June.
 
-    More information about privacy and security in Federated Audience Composition can be found in the [Privacy and security guide](./privacy-security.md).
+    More information about privacy and security in Federated Audience Composition can be found in the [Data governance, privacy, and security guide](/help/governance-privacy-security/home.md).
 
 <!-- * **Object-level access control**
 
