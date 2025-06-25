@@ -62,6 +62,12 @@ This activity is typically used to enhance customer profiles by bringing in addi
 
 ## Configure the [!UICONTROL Save Profiles] activity {#save-profile-configuration}
 
+>[!IMPORTANT]
+>
+>The **Save Profiles** activity requires a Profile-enabled schema and dataset. To learn how to enable your dataset to be Profile-enabled, please read the [dataset user guide](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/user-guide#enable-profile){target="_blank"}.
+>
+>Additionally, if the selected dataset does **not** have upsert enabled, the data from the profiles will be **replaced**. To learn how to enable upsert for your datasets, please read the [enable upsert guide](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/enable-upsert).
+
 Follow these steps to configure the **[!UICONTROL Save Profiles]** activity:
 
 1. Add a **[!UICONTROL Save Profiles]** activity to your composition.
