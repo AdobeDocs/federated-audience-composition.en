@@ -32,7 +32,7 @@ The **[!UICONTROL Save audience]** activity allows you to create a new audience 
 
 This activity is essentially used to keep population groups computed in the same composition, by converting them into reusable audiences. Connect it to other targeting activities such as a **Build audience** or a **Combine** activity. 
 
-The **[!UICONTROL Save Audience]** activity generates a new audience schema and dataset. After the audience is created, you can coordinate with your administrator to assign the appropriate data governance labels, to ensure your audience is properly categorized. For more information about how to apply data usage labels, please read the [data usage labels user guide](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/labels/user-guide).
+The **[!UICONTROL Save Audience]** activity generates a new audience schema and associated dataset, which may contain personally identifiable information (PII) or protected health information (PHI). After the audience is created, please work with your administrator to ensure the appropriate data governance labels are applied in accordance to your organization's data policies. For more information about how to apply data usage labels, please read the [data usage labels user guide](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/labels/user-guide).
 
 ## Configure the Save audience activity {#save-audience-configuration}
 
