@@ -17,7 +17,7 @@ exl-id: 92142d16-3483-4f6e-afde-9f88d5d7d1c4
 
 Federated Audience Composition lets you create compositions, where you can leverage various activities into a visual canvas to create audiences. After creating your composition, the resulting audiences are saved into Adobe Experience Platform and can be leveraged in Experience Platform destinations and Adobe Journey Optimizer to target customers. 
 
-![](assets/composition-example.png)
+![](assets/gs-compositions/composition-example.png)
 
 ## Access and manage compositions {#access}
 
@@ -28,7 +28,7 @@ Federated Audience Composition lets you create compositions, where you can lever
 
 Compositions are accessible from the Adobe Experience Platform **[!UICONTROL Audiences]** menu, in the **[!UICONTROL Federated compositions]** tab within the **[!UICONTROL Customers]** section.
 
-From this screen, you can create new compositions and access existing ones. You can also duplicate or delete an existing composition by selecting the ellipsis button next to its name.
+From this screen, you can create new compositions and access existing ones. You can also duplicate or delete an existing composition by selecting the ![ellipses](/help/assets/icons/more.png) button next to its name.
 
 You can also view information about the compositions, including the name, status, creator, and last modified date.
 
@@ -42,21 +42,23 @@ You can also view information about the compositions, including the name, status
 
 You can learn how to start or stop a composition in the [start and monitor composition guide](./start-monitor-composition.md).
 
-![](assets/compositions-list.png)
+![](assets/gs-compositions/compositions-list.png)
 
 To refine the list and find the composition you are looking for, you can search the list, and filter compositions by their statuses or last processing dates.
 
 You can also customize the list by adding or removing columns. To do this, select the **[!UICONTROL Configure columns]** button and add or remove the desired output columns.
 
-![](assets/compositions-columns.png)
+![](assets/gs-compositions/compositions-columns.png)
 
 ### Apply access labels {#access-labels}
 
-To apply access labels to a specific composition, select the ![ellipses](/help/assets/icons/more.png), followed by **[!UICONTROL Manage access]**.
+To apply access labels to a specific composition, select the composition, followed by **[!UICONTROL Manage access]**.
 
-IMAGE
+![](assets/gs-compositions/select-manage-access.png)
 
-The **[!UICONTROL Apply access and data governance labels]** popover/screen appears. On this page, you can apply the applicable access and data governance labels to your composition.
+The **[!UICONTROL Manage access]** popover appears. On this page, you can apply the applicable access and data governance labels to your composition.
+
+![](assets/gs-compositions/manage-access.png)
 
 | Label type | Description |
 | ---------- | ----------- |
