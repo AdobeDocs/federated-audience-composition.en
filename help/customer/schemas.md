@@ -30,7 +30,6 @@ exl-id: 2c939185-f1c1-4f2b-ae1b-e2539e121eff
 >title="Name of the schema"
 >abstract="Enter the name of the schema."
 
-
 >[!CONTEXTUALHELP]
 >id="dc_schema_edit_description"
 >title="Schema description"
