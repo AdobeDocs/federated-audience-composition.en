@@ -27,7 +27,7 @@ Follow these steps to configure the **Build audience** activity:
 
 1. Add a **Build audience** activity. 
 1. Define a label.
-1. Specfiy if you want to create an audiance or select an existing one.
+1. Specify if you want to create an audience or select an existing one.
 1. Configure your audience by following the steps detailed in the tabs below.
 
 >[!BEGINTABS]

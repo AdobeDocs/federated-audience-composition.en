@@ -25,7 +25,7 @@ Data governance lets you manage and identify your customer's data, ensuring it's
 
 Data usage labels let you categorize datasets and fields based on the governance policies that apply to that data. After you create an audience using compositions, you can apply the appropriate data labels on the resulting schema to ensure it abides to the required usage restrictions.
 
-For more information on using data labels, please read the [data usage labels overview](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/labels/overview){target="_blank"}.
+For more information on using data labels in Federated Audience Composition, please read the [apply access labels section](../compositions/gs-compositions.md#access-labels){target="_blank"}.
 
 ## Privacy
 
