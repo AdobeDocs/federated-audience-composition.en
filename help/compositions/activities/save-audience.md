@@ -59,7 +59,7 @@ Follow these steps to configure the **Save audience** activity:
 
 ## Access your audience in Adobe Experience Platform {#access-audience}
 
-After executing the composition, the resulting audience is saved in Adobe Experience Platform as an external audience, and available into Adobe Real-Time Customer Data Platform and/or Adobe Journey Optimizer. It is made accessible in the **Audiences** menu. [Learn more](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-portal){target="_blank"} 
+After executing the composition, the resulting audience is saved in Adobe Experience Platform as an external audience, and available in Adobe Real-Time CDP and/or Adobe Journey Optimizer within Audience Portal. For more information on Audience Portal, please read the [Audience Portal overview](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-portal){target="_blank"}.
 
 The created audience includes all the fields selected in the Audience Mappings section. You can target this audience in Journey Optimizer or activate it to any destination supported by Adobe Experience Platform.
 
