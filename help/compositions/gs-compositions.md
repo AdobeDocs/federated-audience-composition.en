@@ -17,7 +17,7 @@ exl-id: 92142d16-3483-4f6e-afde-9f88d5d7d1c4
 
 Federated Audience Composition lets you create compositions, where you can leverage various activities into a visual canvas to create audiences. After creating your composition, the resulting audiences are saved into Adobe Experience Platform and can be leveraged in Experience Platform destinations and Adobe Journey Optimizer to target customers. 
 
-![](assets/gs-compositions/composition-example.png)
+![A sample composition workflow is displayed within Federated Audience Composition.](assets/gs-compositions/composition-example.png){zoomable="yes"}{width="70%"}
 
 ## Access and manage compositions {#access}
 
@@ -42,23 +42,23 @@ You can also view information about the compositions, including the name, status
 
 You can learn how to start or stop a composition in the [start and monitor composition guide](./start-monitor-composition.md).
 
-![](assets/gs-compositions/compositions-list.png)
+![A list of the available compositions is displayed.](assets/gs-compositions/compositions-list.png){zoomable="yes"}{width="70%"}{align="center"}
 
 To refine the list and find the composition you are looking for, you can search the list, and filter compositions by their statuses or last processing dates.
 
 You can also customize the list by adding or removing columns. To do this, select the **[!UICONTROL Configure columns]** button and add or remove the desired output columns.
 
-![](assets/gs-compositions/compositions-columns.png)
+![A list of the available columns you can add to the compositions browse page are displayed.](assets/gs-compositions/compositions-columns.png){zoomable="yes"}{width="70%"}{align="center"}
 
 ### Apply access labels {#access-labels}
 
 To apply access labels to a specific composition, select the composition, followed by **[!UICONTROL Manage access]**.
 
-![](assets/gs-compositions/select-manage-access.png)
+![The "Manage access" button is highlighted within the composition canvas.](assets/gs-compositions/select-manage-access.png){zoomable="yes"}{width="70%"}{align="center"}
 
 The **[!UICONTROL Manage access]** popover appears. On this page, you can apply the applicable access and data governance labels to your composition.
 
-![](assets/gs-compositions/manage-access.png)
+![The Manage access popover is displayed. This shows a list of all the available labels you can apply to the composition.](assets/gs-compositions/manage-access.png){zoomable="yes"}{width="70%"}{align="center"}
 
 | Label type | Description |
 | ---------- | ----------- |
