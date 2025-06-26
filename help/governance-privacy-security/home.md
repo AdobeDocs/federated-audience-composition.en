@@ -19,11 +19,11 @@ These services can be arranged into three categories:
 
 ## Data governance {#data-governance}
 
-Data governance lets you manage and identify your customer's data, ensuring it's properly labeled to abide restrictions defined by your organization or by legal regulations.
+You can use data governance to manage and identify your customer's data, ensuring it's properly labeled to abide restrictions defined by your organization or by legal regulations.
 
 ### Data usage labels {#data-usage-labels}
 
-Data usage labels let you categorize datasets and fields based on the governance policies that apply to that data. After you create an audience using compositions, you can apply the appropriate data labels on the resulting schema to ensure it abides to the required usage restrictions.
+You can use data usage labels to categorize datasets and fields based on the governance policies that apply to that data. After you create an audience using compositions, you can apply the appropriate data labels on the resulting schema to ensure it abides to the required usage restrictions.
 
 For more information on using data labels in Federated Audience Composition, please read the [apply access labels section](../compositions/gs-compositions.md#access-labels){target="_blank"}.
 
