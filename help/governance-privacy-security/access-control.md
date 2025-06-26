@@ -22,16 +22,15 @@ You can manage access by assigning the required permissions to access different 
 >Only administrators can assign permissions to other users.
 
 1. Navigate to the **[!UICONTROL Permissions]** menu.
-
-2. From the **[!UICONTROL Roles]** menu, select the **[!UICONTROL Role]** you wish to update.
+1. From the **[!UICONTROL Roles]** menu, select the **[!UICONTROL Role]** you wish to update.
 
     ![](assets/access_fda_1.png)
 
-3. Select **[!UICONTROL Edit]** to modify your role's permissions.
+1. Select **[!UICONTROL Edit]** to modify your role's permissions.
 
     ![](assets/access_fda_2.png)
 
-4. Add the required permissions for the user. You can add the following permissions for access to Federated Audience Composition:
+1. Add the required permissions for the user. You can add the following permissions for access to Federated Audience Composition:
 
     | Permission | Description |
     | ---------- | ----------- |
@@ -49,7 +48,7 @@ You can manage access by assigning the required permissions to access different 
 
     ![](assets/permissions.png)
 
-5. Once you've made the necessary changes, select **[!UICONTROL Save]**.
+1. Once you've made the necessary changes, select **[!UICONTROL Save]**.
 
 Any users already assigned to this role will have their permissions automatically updated and access to Federated Audience Composition.
 
