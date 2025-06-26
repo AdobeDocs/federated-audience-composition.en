@@ -19,11 +19,11 @@ This release comes with the following improvements:
 
     More information about privacy and security in Federated Audience Composition can be found in the [Data governance, privacy, and security guide](/help/governance-privacy-security/home.md).
 
-<!-- * **Object-level access control**
+* **Object-level access control**
 
     Federated Audience Composition now supports object-level access control to apply access labels to your specified compositions.
 
-    More information about using object-level access labels can be found in the [compositions guide](/help/compositions/gs-compositions.md). -->
+    More information about using object-level access labels can be found in the [compositions guide](/help/compositions/gs-compositions.md).
 
 * **Default roles**
   
