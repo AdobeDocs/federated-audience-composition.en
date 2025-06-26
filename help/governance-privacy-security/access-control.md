@@ -1,9 +1,11 @@
 ---
-title: Access Federated Audience Composition
-description: Learn about required permissions for Federated Audience Composition
+title: Access Control in Federated Audience Composition
+description: Learn how to manage data access for users in Federated Audience Composition.
 exl-id: 84138456-218b-4beb-ae7b-146213b03cc2
 ---
-# Access Federated Audience Composition {#feature-access}
+# Access Control in Federated Audience Composition
+
+You can use access control to provide role-based access to sandboxes and Federated Audience Composition.
 
 ## Manage access to sandboxes {#access-sandboxes}
 
@@ -13,12 +15,13 @@ For example, if a new sandbox named "fac-test" is activated, a corresponding pro
 
 ## Manage access to Federated Audience Composition
 
-To access **Federated Audience Composition**, you must first ensure that you assign the required permissions to access different aspects of Federated Audience Composition. These roles must then be assigned to users who need access to **Federated Audience Composition**.
+You can manage access by assigning the required permissions to access different aspects of Federated Audience Composition. These permissions are assigned through roles to users who need access to **Federated Audience Composition**.
 
-Note that only administrators have the ability to assign permissions.
+>[!NOTE]
+>
+>Only administrators can assign permissions to other users.
 
 1. Navigate to the **[!UICONTROL Permissions]** menu.
-
 1. From the **[!UICONTROL Roles]** menu, select the **[!UICONTROL Role]** you wish to update.
 
     ![](assets/access_fda_1.png)
@@ -57,12 +60,18 @@ To assign this role to new users:
 
 1. Enter the user's name or email address, or select from the available list. Once done, select **[!UICONTROL Save]**.
 
-<!-- Alternatively, you can assign one of the pre-existing roles to the users, depending on what permissions they need. For more information on assigning pre-existing roles to a user, please read the [guide on managing users for a product profile](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/ui/users).
+Alternatively, you can assign one of the pre-existing roles to the users, depending on what permissions they need. For more information on assigning pre-existing roles to a user, please read the [guide on managing users for a product profile](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/ui/users).
 
 | Role name | Permissions |
 | --------- | ----------- |
 | FAC Data Managers | <ul><li>Manage Federated Compositions</li><li>View Federated Databases</li><li>View Federated Schemas</li><li>View Federated Schema Data</li><li>View Federated Data Models</li></ul> |
 | FAC Composition Managers | <ul><li>Manage Federated Compositions</li></ul> |
-| FAC Administrators | <ul><li>Manage Federated Data</li></ul> | -->
+| FAC Administrators | <ul><li>Manage Federated Data</li></ul> |
 
 The user will then receive an email with instructions to access your instance. If the user was not previously created, refer to the [this documentation](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/permissions-ui/users).
+
+## Manage access to specific compositions
+
+You can manage access to a specific composition by applying access labels.
+
+For more information on applying access labels to a composition, please read the [apply access labels section](/help/compositions/gs-compositions.md#access-labels) of the compositions guide.
