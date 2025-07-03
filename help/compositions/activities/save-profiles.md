@@ -56,17 +56,23 @@ exl-id: 1c840838-32d5-4ceb-8430-835a235b7436
 >title="Primary identity field criteria"
 >abstract="The unique identifier for each profile or record. This ensures that every record can be distinctly recognized and matched, preventing the duplication of data."
 
-The **Save profiles** activity allows you to enrich Adobe Experience Platform profiles with data federated from external warehouses.
+The **[!UICONTROL Save Profiles]** activity allows you to enrich Adobe Experience Platform profiles with data federated from external warehouses.
 
 This activity is typically used to enhance customer profiles by bringing in additional attributes and insights without physically moving or duplicating the data into the platform.
 
-## Configure the Save profiles activity {#save-profile-configuration}
+## Configure the [!UICONTROL Save Profiles] activity {#save-profile-configuration}
 
-Follow these steps to configure the **Save profiles** activity:
+>[!IMPORTANT]
+>
+>The **Save Profiles** activity requires a Profile-enabled schema and dataset. To learn how to enable your dataset to be Profile-enabled, please read the [dataset user guide](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/user-guide#enable-profile){target="_blank"}.
+>
+>Additionally, if the selected dataset does **not** have upsert enabled, the data from the profiles will be **replaced**. To learn how to enable upsert for your datasets, please read the [enable upsert guide](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/enable-upsert).
 
-1. Add a **Save profiles** activity to your composition.
+Follow these steps to configure the **[!UICONTROL Save Profiles]** activity:
 
-    ![](../assets/save-profile.png)
+1. Add a **[!UICONTROL Save Profiles]** activity to your composition.
+
+    ![The Save Profiles button is highlighted within the activities.](../assets/save-profiles/save-profiles.png){width="1500" zoomable="yes"}
 
 1. Specify the label of the profiles to create.
 
@@ -76,14 +82,31 @@ Follow these steps to configure the **Save profiles** activity:
 
 1. Select the Adobe Experience Platform schema you want to use.
 
-    ![](../assets/save-profile-2.png)
+    ![The available schemas are displayed.](../assets/save-profiles/select-schema.png){width="1500" zoomable="yes"}
 
-1. Choose the primary identity field that will be used to identify profiles in the database.
+1. Select the dataset that you want to save the enrichment to.
 
-1. If you want to reconcile additional data attributes, click **Add attributes**.
+    ![The dataset dropdown is highlighted.](../assets/save-profiles/select-dataset.png){width="300" zoomable="yes"}
 
-    Then, specify the **Source** field (external data) and the **Destination** field (schema field) for each attribute you want to map.
+1. After selecting the dataset, you can see the primary identity field that will be used to identify profiles in the database.
 
-    ![](../assets/save-profile-3.png)
+1. Select **[!UICONTROL Add Fields]** to add the primary and required identity fields.
 
-1. Once configured, click **Start**.
+    ![The Add Fields button is highlighted.](../assets/save-profiles/add-fields.png){width="300" zoomable="yes"}
+
+    You can specify the **Source** field (external data) and the **Destination** field (schema field) for each attribute you want to map.
+
+    ![The Source and Destination fields are highlighted, showing where to create the mapping between the fields](../assets/save-profiles/specify-mapping.png){width="300" zoomable="yes"}
+
+1. You can also specify the update mode for the enrichment.
+
+    ![The update mode types are displayed.](../assets/save-profiles/select-update-mode.png){width="300" zoomable="yes"}
+
+    | Update mode | Description |
+    | ----------- | ----------- |
+    | Full updates | The full set of profiles is updated for enrichment. |
+    | Incremental updates | Only the profiles that have been modified since the last enrichment ran are updated for the enrichment. |
+
+    If you select [!UICONTROL Incremental updates], you also need to choose the last modified date to determine what data is sent.
+
+1. Once configured, select **Start**.

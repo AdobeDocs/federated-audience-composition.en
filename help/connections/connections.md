@@ -13,7 +13,7 @@ exl-id: ab65cd8a-dfa0-4f09-8e9b-5730564050a1
 >-**Manage Federated Database**
 >-**View Federated Database**
 >
->For more information on the required permissions, please read the [Access Federated Audience Composition guide](/help/start/feature-access.md).
+>For more information on the required permissions, please read the [access control guide](/help/governance-privacy-security/access-control.md).
 
 Experience Platform Federated Audience Composition allows Customer to build and enrich audiences from the third-party data warehouses and import the audiences to Adobe Experience Platform. Supported datawarehouses are listed in [this section](../start/access-prerequisites.md#supported-systems).
 

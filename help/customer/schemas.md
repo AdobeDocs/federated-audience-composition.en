@@ -13,7 +13,7 @@ exl-id: 2c939185-f1c1-4f2b-ae1b-e2539e121eff
 >-**Manage Federated Schema**
 >-**View Federated Schema**
 >
->For more information on the required permissions, please read the [Access Federated Audience Composition guide](/help/start/feature-access.md).
+>For more information on the required permissions, please read the [access control guide](/help/governance-privacy-security/access-control.md).
 
 >[!CONTEXTUALHELP]
 >id="dc_schema_create_select_tables"
@@ -29,7 +29,6 @@ exl-id: 2c939185-f1c1-4f2b-ae1b-e2539e121eff
 >id="dc_schema_create_schema_name"
 >title="Name of the schema"
 >abstract="Enter the name of the schema."
-
 
 >[!CONTEXTUALHELP]
 >id="dc_schema_edit_description"

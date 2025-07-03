@@ -12,7 +12,7 @@ exl-id: 97142f54-53ce-4c2a-9d89-fdcb2a47b159
 >
 >-**View Audit Trail**
 >
->For more information on the required permissions, please read the [Access Federated Audience Composition guide](/help/start/feature-access.md).
+>For more information on the required permissions, please read the [access control guide](/help/governance-privacy-security/access-control.md).
 
 >[!CONTEXTUALHELP]
 >id="dc_audit_trail"
