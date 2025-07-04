@@ -37,6 +37,7 @@ breadcrumb-title: Experience Platform Federated Audience Composition
         + [List of activities](compositions/activities/about-activities.md)
         + [AND-Join](compositions/activities/and-join.md)
         + [Build audience](compositions/activities/build-audience.md)
+        + [Change data source](compositions/activities/change-data-source.md)
         + [Change dimension](compositions/activities/change-dimension.md)
         + [Combine](compositions/activities/combine.md)
         + [Deduplication](compositions/activities/deduplication.md)
