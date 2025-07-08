@@ -27,19 +27,22 @@ Federated Audience Composition extends the value of Real-Time CDP and Journey Op
 
 * B2C and B2B CDP customers can now leverage Federated Audience Composition to build people-based audiences by integrating data from supported enterprise data warehouses. Additionally, they can enrich existing AEP people-based audiences by incorporating relevant attributes available in the enterprise data warehouse, enhancing their audience profiles for more personalized and targeted engagement. 
 
-## Use cases {#rn-uc}
+## Use cases {#use-cases}
 
-Through a marketing-friendly UI, create segment rules that query your data warehouse for a list of users that qualify for a specific segment needed for marketing campaigns, access existing audiences in the warehouse for activation, or enrich Adobe Experience Platform audiences with additional datapoints that exist in the warehouse. 
+Federated Audience Composition supports **three** categories of use cases: audience creation, audience enrichment, and customer profile enrichment. 
 
-In this version, two use cases are available: 
+* Audience creation: You can create audiences from a data warehouse and federate those audiences into Experience Platform for use in either Real-Time CDP or Journey Optimizer through a marketer friendly drag-and-drop user interface. As a result, you can query your data warehouses without copying sensitive underlying data or duplicating existing data.
+  * **Example:** Create an audience of high value past purchasers using historic transaction data in the warehouse, without copying those transactions into Adobe Experience Platform.
 
-1. Audience Creation:  Build new audiences from enterprise datasets without copying underlying data and activate those audiences with prebuilt destinations.
+* Audience enrichment: You can add more detail to your existing audiences in Experience Platform by using additional datasets from your data warehouses and overlaying your audiences with this information - all without copying the underlying data into Experience Platform. With audience enrichment, you can deliver improved personalization with the enriched audience.
+  * **Example:** Enrich an Experience Platform audience of cart abandoners with the Federated Audience Composition audience of high-value past purchasers to deliver a targeted offer.
 
-1. Audience Enrichment: Enrich existing audiences in Adobe Experience Platform by utilizing composed audience data that has been federated from the enterprise data warehouse. This data will not be persisted in Adobe Experience Platform customer profiles.
-
-1. Profile Enrichment: Enrich Adobe Experience Platform profiles by federating data from external warehouses, allowing you to enhance customer profiles with additional attributes and insights.
+* Profile enrichment: You can select individual customer attributes from your data warehouse to enhance Experience Platform profiles. With federated data added to these profiles, you can better power in-the-moment experiences that are triggered by inbound customer signals.
+  * **Example:** Enrich an Experience Platform profile with information from the federated audience. You can now market to a site visitor who belongs to the high-value past purchasers federated audience with a targeted offer that is triggered by their on-site behavior. 
 
 ![diagram](assets/fac-use-cases.png){zoomable="yes"}{width="75%" align="center"}
+
+For more information on Federated Audience Composition use cases, please read the [Federated Audience Composition whitepaper](https://business.adobe.com/resources/sdk/flexibly-access-enterprise-data-with-federated-audience-composition.html).
 
 ## Key steps {#gs-steps}
 
@@ -59,7 +62,7 @@ Key steps:
 
 >[!NOTE]
 >
->After executing the composition, the resulting audience is saved in Adobe Experience Platform as an external audience, and available into Adobe Real-Time Customer Data Platorm and/or Adobe Journey Optimizer. It is made accessible in the **Audiences** menu. [Learn more](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-portal){target="_blank"}
+>After executing the composition, the resulting audience is saved in Adobe Experience Platform as an external audience, and available into Adobe Real-Time Customer Data Platform and/or Adobe Journey Optimizer. It is made accessible in the **Audiences** menu. [Learn more](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-portal){target="_blank"}
 
 ## Governance, privacy and security {#governance-privacy-security}
 

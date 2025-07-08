@@ -47,18 +47,24 @@ Add and configure activities (Split, Enrichment, Query, etc.) to build compositi
     </td>
     <td>
     <a href="compositions/gs-compositions.md"><img src="assets/do-not-localize/start-journey.jpeg"></a>
-    <div><strong>Compose an audience</strong><br/>Add and configure activities (Split, Enrichment, Query, etc.) to build compositions and create your first federated audience.
+    <div><strong>Compose an audience</strong><br/>Add and configure activities (such as Split, Enrichment, or Query) to build compositions and create your first federated audience.
+    </div>
+    </td>
+    <td>
+    <a href="start/get-started.md#use-cases"><img src="assets/do-not-localize/start-use-cases.png"></a>
+    <div><strong>Use cases</strong><br/>Use Federated Audience Composition to create and enrich audiences as well as enrich profile data.
     </div>
     </td>
     <td>
     <a href="start/faq.md"><img src="assets/do-not-localize/start-faq.png"></a>
-    <div><strong>FAQ</strong><br/>Frequently Asked Questions about Federated Audience Composition.</div>
+    <div><strong>FAQ</strong><br/>Frequently asked questions about Federated Audience Composition.</div>
     </td>
   </tr>
   <tr style="border: 0;">
     <td><a href="start/get-started.md"><img src="assets/learn-more-button.svg"></a></td>
     <td><a href="data-management/gs-models.md"><img src="assets/learn-more-button.svg"></a></td>
     <td><a href="compositions/gs-compositions.md"><img src="assets/learn-more-button.svg"></a></td>
+    <td><a href="start/get-started.md#use-cases"><img src="assets/learn-more-button.svg"></a></td>
     <td><a href="start/faq.md"><img src="assets/learn-more-button.svg"></a></td>
     </tr>
 </table>
