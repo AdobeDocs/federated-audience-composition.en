@@ -78,6 +78,29 @@ After selecting Azure Synapse Analytics, you can add the following details:
 | Database | The name of the database. If this is specified in the server name, this field can be left blank. |
 | Options | Additional options for the connection. For Azure Synapse Analytics, you can specify the type of authentication supported by the connector. Currently, Federated Audience Composition supports `ActiveDirectoryMSI`. For more information about connection strings, please read the [example connection strings section within Microsoft's documentation](https://learn.microsoft.com/en-us/sql/connect/odbc/using-azure-active-directory?view=sql-server-ver15#example-connection-strings){target="_blank"} . |
 
+>[!TAB Databricks]
+
+>[!NOTE]
+>
+>Secure access to your external Databricks data warehouse through private link is supported. This includes secure connections to Databricks databases hosted on Amazon Web Services (AWS) via private link and Databricks databases hosted on Microsoft Azure via VPN. Please contact your Adobe representative for assistance in setting up secure access.
+
+After selecting Databricks, you can add the following details:
+
+| Field | Description |
+| ----- | ----------- |
+| Server | The name of the Databricks server. |
+| HTTP path | The path to your Cluster or Warehouse. For more information on the path, please read the [Databricks documentation on connection details](https://docs.databricks.com/aws/en/integrations/compute-details){target="_blank"}. |
+| Password | The access token for the Databricks server. For more information on this value, please read the [Databricks documentation on personal access tokens](https://docs.databricks.com/aws/en/dev-tools/auth/pat){target="_blank"}.  |
+| Catalog | The name of the Databricks Catalog. For more information on catalogs in Databricks, please read the [Databricks documentation on catalogs](https://docs.databricks.com/aws/en/catalogs/){target="_blank"} |
+| Working schema | The name of the database schema to use for the work tables. <br/><br/>**Note:** You can use **any** schema from the database, including schemas used for temporary data processing, as long as you have the required permissions to connect to this schema. However, you **must** use distinct working schemas when connecting multiple sandboxes with the same database. |
+| Options | Additional options for the connection. The available options are listed in the following table. |
+
+For Databricks, you can set the following additional options: 
+
+| Options | Description |
+| ------- | ----------- |
+| TimeZoneName | The name of the time zone to use. This value represents the `TIMEZONE` session parameter. For more information on time zones, please read the [Databricks documentation on timezones](https://docs.databricks.com/aws/en/sql/language-manual/parameters/timezone#:~:text=The%20system%20default%20is%20UTC%20.){target="_blank"}. |
+
 >[!TAB Google BigQuery]
 
 After selecting Google BigQuery, you can add the following details:
@@ -102,6 +125,33 @@ For Google BigQuery, you can set the following additional options:
 | GCloudConfigName | **Note:** This is only applicable for the **bulk-load tool** (Cloud SDK) above version 7.3.4. <br/><br/> The name of the configuration that stores the parameters for loading the data. By default, this value is `accfda`. |
 | GCloudDefaultConfigName | **Note:** This is only applicable for the **bulk-load tool** (Cloud SDK) above version 7.3.4. <br/><br/> The name of the temporary configuration to recreate the main configuration for loading data. By default, this value is `default`. |
 | GCloudRecreateConfig | **Note:** This is only applicable for the **bulk-load tool** (Cloud SDK) above version 7.3.4. <br/><br/> A boolean value that lets you decide if the bulk loading mechanism should automatically recreate, delete, or modify the Google Cloud SDK configurations. If this value is set to `false`, the bulk loading mechanism loads data using an existing configuration on the machine. If this value is set to `true`, ensure your configuration is properly set up - otherwise, the `No active configuration found. Please either create it manually or remove the GCloudRecreateConfig option` error will appear, and the loading mechanism will revert to the default loading mechanism. |
+
+>[!TAB Microsoft Fabric]
+
+After selecting Microsoft Fabric, you can add the following details:
+
+| Field | Description |
+| ----- | ----------- |
+| Server | The URL for the Microsoft Fabric server. |
+| Application ID | The application ID for Microsoft Fabric. For more information about the application ID, please read the [Microsoft Fabric documentation on application setup](https://learn.microsoft.com/en-us/fabric/workload-development-kit/create-entra-id-app){target="_blank"}. |
+| Client secret | The client secret for the application. For more information about the client secret, please read the [Microsoft Fabric documentation on application setup](https://learn.microsoft.com/en-us/fabric/workload-development-kit/create-entra-id-app#step-8-generate-a-secret-for-your-application){target="_blank"}. |
+| Options | Additional options for the connection. The available options are listed in the following table. |
+
+For Microsoft Fabric, you can set the following additional options:
+
+| Option | Description |
+| ------ | ----------- |
+| Authentication | The type of authentication used by the connector. Supported values include: `ActiveDirectoryMSI`. For more information, please read the [Microsoft documentation on warehouse connectivity](https://learn.microsoft.com/en-us/fabric/data-warehouse/connectivity){target="_blank"}. |
+
+>[!TAB Oracle]
+
+After selecting Oracle, you can add the following details:
+
+| Field | Description |
+| ----- | ----------- |
+| Server | The URL for the Oracle server. |
+| Account | The username of the account. |
+| Password | The password of the account. |
 
 >[!TAB Snowflake]
 
@@ -152,48 +202,13 @@ For Vertica Analytics, you can set the following additional options:
 | ------- | ----------- |
 | TimeZoneName | The name of the time zone to use. This value represents the `TIMEZONE` session parameter. For more information on timezones, please read the [Vertica Analytics documentation on timezones](https://docs.vertica.com/24.1.x/en/admin/configuring-db/config-procedure/using-time-zones-with/){target="_blank"} |
 
->[!TAB Databricks]
+>[!ENDTABS]
+
+After adding the connection's details, please note the following additional settings:
 
 >[!NOTE]
 >
->Secure access to your external Databricks data warehouse through private link is supported. This includes secure connections to Databricks databases hosted on Amazon Web Services (AWS) via private link and Databricks databases hosted on Microsoft Azure via VPN. Please contact your Adobe representative for assistance in setting up secure access.
-
-After selecting Databricks, you can add the following details:
-
-| Field | Description |
-| ----- | ----------- |
-| Server | The name of the Databricks server. |
-| HTTP path | The path to your Cluster or Warehouse. For more information on the path, please read the [Databricks documentation on connection details](https://docs.databricks.com/aws/en/integrations/compute-details){target="_blank"}. |
-| Password | The access token for the Databricks server. For more information on this value, please read the [Databricks documentation on personal access tokens](https://docs.databricks.com/aws/en/dev-tools/auth/pat){target="_blank"}.  |
-| Catalog | The name of the Databricks Catalog. For more information on catalogs in Databricks, please read the [Databricks documentation on catalogs](https://docs.databricks.com/aws/en/catalogs/){target="_blank"} |
-| Working schema | The name of the database schema to use for the work tables. <br/><br/>**Note:** You can use **any** schema from the database, including schemas used for temporary data processing, as long as you have the required permissions to connect to this schema. However, you **must** use distinct working schemas when connecting multiple sandboxes with the same database. |
-| Options | Additional options for the connection. The available options are listed in the following table. |
-
-For Databricks, you can set the following additional options: 
-
-| Options | Description |
-| ------- | ----------- |
-| TimeZoneName | The name of the time zone to use. This value represents the `TIMEZONE` session parameter. For more information on time zones, please read the [Databricks documentation on timezones](https://docs.databricks.com/aws/en/sql/language-manual/parameters/timezone#:~:text=The%20system%20default%20is%20UTC%20.){target="_blank"}. |
-
->[!TAB Microsoft Fabric]
-
-After selecting Microsoft Fabric, you can add the following details:
-
-| Field | Description |
-| ----- | ----------- |
-| Server | The URL for the Microsoft Fabric server. |
-| Application ID | The application ID for Microsoft Fabric. For more information about the application ID, please read the [Microsoft Fabric documentation on application setup](https://learn.microsoft.com/en-us/fabric/workload-development-kit/create-entra-id-app){target="_blank"}. |
-| Client secret | The client secret for the application. For more information about the client secret, please read the [Microsoft Fabric documentation on application setup](https://learn.microsoft.com/en-us/fabric/workload-development-kit/create-entra-id-app#step-8-generate-a-secret-for-your-application){target="_blank"}. |
-| Options | Additional options for the connection. The available options are listed in the following table. |
-
-For Microsoft Fabric, you can set the following additional options:
-
-| Option | Description |
-| ------ | ----------- |
-| Authentication | The type of authentication used by the connector. Supported values include: `ActiveDirectoryMSI`. For more information, please read the [Microsoft documentation on warehouse connectivity](https://learn.microsoft.com/en-us/fabric/data-warehouse/connectivity){target="_blank"}. |
-
->[!ENDTABS]
-After adding the connection's details, please note the following additional settings:
+>To use Federated Audience Composition for a given database, you must allow list **all** of the IP addresses associated with that database.
 
 | Settings | Details |
 | -------- | ------- |
@@ -203,24 +218,3 @@ After adding the connection's details, please note the following additional sett
 
 You can now select **[!UICONTROL Deploy functions]**, followed by **[!UICONTROL Add]** to finalize the connection between the federated database and Experience Platform.
 
-
-
-1. For each supported database, select the **[!UICONTROL Server IP]** button. The list of all IPs associated with your Federated Audience Composition instances display.
-
-    ![](assets/connections_server_IPs.png){zoomable="yes"}
-
-    Click an IP from the list to copy it into your system and authorize this IP to connect to your database.
-
-    >[!NOTE]
-    >
-    >To use Federated Audience Composition for a given database, you must allow list all of the IP addresses associated with that database.
-
-2. After fill in the details, click on **[!UICONTROL Test connection]** button, and on **[!UICONTROL Deploy functions]** button.
-
-    ![](assets/connections_testdeploy.png){zoomable="yes"}
-
-3. Finish the creation of your connection by clicking on the **[!UICONTROL Save]** button.
-
-    An overview of your Federated database connection is available, as shown below: 
-
-    ![](assets/connections_overview.png){zoomable="yes"}
