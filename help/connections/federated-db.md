@@ -21,9 +21,9 @@ exl-id: b8c0589d-4150-40da-ac79-d53cced236e8
 >title="Federated database details"
 >abstract="Enter the settings to connect to the new Federated database. Use the **[!UICONTROL Test connection]** button to validate your configuration."
 
-Experience Platform Federated Audience Composition allows Customer to build and enrich audiences from the third-party data warehouses and import the audiences to Adobe Experience Platform.
+Experience Platform Federated Audience Composition lets you build and enrich audiences from the third-party data warehouses and import the audiences to Adobe Experience Platform.
 
-Learn how to ceate, configure, test and save the connection to your external database on [this page](connections.md). You can find below the list of supported databases and the detailed settings to configure for each of them.
+Learn how to create, configure, test and save the connection to your external database on [this page](connections.md). You can find below the list of supported databases and the detailed settings to configure for each of them.
 
 ## Supported databases {#supported-db}
 
@@ -31,17 +31,17 @@ With Federated Audience Composition, you can connect to the following databases.
 
 * [Amazon Redshift](#amazon-redshift)
 * [Azure Synapse Analytics](#azure-synapse)
+* [Databricks](#databricks)
 * [Google BigQuery](#google-bigquery)
+* [Microsoft Fabric](#microsoft-fabric)
 * [Snowflake](#snowflake)
 * [Vertica Analytics](#vertica-analytics)
-* [Databricks](#databricks)
-* [Microsoft Fabric](#microsoft-fabric)
 
 ## Amazon Redshift {#amazon-redshift}
 
 >[!NOTE]
 >
->* Only Amazon Redshift AWS, Amazon Redshift Spectrum and Amazon Redshift Serverless are supported.
+>* Only Amazon Redshift AWS, Amazon Redshift Spectrum, and Amazon Redshift Serverless are supported.
 >
 >* Secure access to your external Amazon Redshift databases through private link is supported.
 
@@ -364,7 +364,7 @@ Use Federated databases to process information stored in an external database. F
 
 1. Once your configuration is done, click **[!UICONTROL Add]** to create your Federate database.
 
-| Option   |  Description |
-|---|---|
+| Option | Description |
+| ------ | ----------- |
 | Authentication | Type of authentication supported by the connector. Current supported value: ActiveDirectoryMSI. For more information, refer to [Microsoft SQL documentation](https://learn.microsoft.com/en-us/sql/connect/odbc/using-azure-active-directory?view=sql-server-ver15#example-connection-strings){target="_blank"}  (Example connection strings n°8) |
 
