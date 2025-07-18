@@ -6,6 +6,10 @@ description: Learn how you can use the change data source activity to change the
 
 # Change data source
 
+>[!IMPORTANT]
+>
+>The **[!UICONTROL Change dimension]** and **[!UICONTROL Change data source]** activities should **not** be added in one row. If you need to use both activities consecutively, include an **[!UICONTROL Enrichment]** activity in between them. This ensures proper execution and prevents potential conflicts or errors.
+
 The **[!UICONTROL Change data source]** activity lets you change the data source used by your composition.
 
 ## Configure {#configure}
