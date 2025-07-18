@@ -12,13 +12,12 @@ The **[!UICONTROL Change data source]** activity lets you change the data source
 
 After adding a **[!UICONTROL Change data source]** activity to the canvas, you can define the data source for the workflow.
 
-![The data source options are highlighted within the Federated Audience Composition workspace.](/help/compositions/assets/change-data-source/configure.png){zoomable="yes"}{width="70%"}{align="center"}
+![The data source option is highlighted within the Federated Audience Composition workspace.](/help/compositions/assets/change-data-source/configure.png){zoomable="yes"}{width="70%"}{align="center"}
 
 | Source | Description |
 | ------ | ----------- |
-| Default Campaign database (PostgreSQL) | The default Adobe Campaign local database. |
 | FDA external account | An external cloud database connected to Adobe Campaign through Federated Audience Composition. |
 
-If you select **[!UICONTROL FDA external account]**, you can choose which external account you want to connect with.
+After selecting **[!UICONTROL FDA external account]**, you can choose which external account you want to connect with.
 
 ![The popover displaying the external account options is displayed.](/help/compositions/assets/change-data-source/fda-external-account.png){zoomable="yes"}{width="70%"}{align="center"}
