@@ -1,9 +1,9 @@
 ---
 audience: end-user
 title: Change Data Source activity
-description: Learn how you can use the change data source activity to change the data source used by your composition, providing more flexibility in managing your data in a composition. 
+description: Learn how you can use the change data source activity to change the data source used by your composition, providing more flexibility in managing your data in a composition.
+exl-id: 8f8e627a-fef9-42b8-a42a-bfa1c421b202
 ---
-
 # Change data source
 
 >[!IMPORTANT]
