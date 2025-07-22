@@ -32,7 +32,7 @@ Federated Audience Composition extends the value of Real-Time CDP and Journey Op
 Federated Audience Composition supports **three** categories of use cases: audience creation, audience enrichment, and customer profile enrichment. 
 
 * Audience creation: You can create audiences from a data warehouse and federate those audiences into Experience Platform for use in either Real-Time CDP or Journey Optimizer through a marketer friendly drag-and-drop user interface. As a result, you can query your data warehouses without copying sensitive underlying data or duplicating existing data.
-  * **Example:** Create an audience of high value past purchasers using historic transaction data in the warehouse, without copying those transactions into Adobe Experience Platform.
+  * **Example:** Create an audience of high value past purchasers using historic transaction data in the warehouse, without copying those transactions into Experience Platform.
 
 * Audience enrichment: You can add more detail to your existing audiences in Experience Platform by using additional datasets from your data warehouses and overlaying your audiences with this information - all without copying the underlying data into Experience Platform. With audience enrichment, you can deliver improved personalization with the enriched audience.
   * **Example:** Enrich an Experience Platform audience of cart abandoners with the Federated Audience Composition audience of high-value past purchasers to deliver a targeted offer.
