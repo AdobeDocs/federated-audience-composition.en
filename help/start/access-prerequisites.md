@@ -53,7 +53,7 @@ Add these IP addresses to your allow list to grant access for Federated Audience
 
 ## Merge policies {#merge-policies}
 
-In order to use Federated Audience Composition to generate audiences, you **must** use a **timestamp ordered** merge policy. If your audience uses a **dataset precedence** merge policy, please contact Adobe Customer Care in order to proceed.
+If your audience uses a **dataset precedence** merge policy, please contact Adobe Customer Care to add the `Halos UPS` dataset to your merge policy.
 
 For more information on merge policies, please read the [merge policies overview](https://experienceleague.adobe.com/en/docs/experience-platform/profile/merge-policies/overview).
 

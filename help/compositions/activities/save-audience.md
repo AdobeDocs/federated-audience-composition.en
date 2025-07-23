@@ -30,7 +30,7 @@ exl-id: fa67b1ee-8de6-4a71-b597-ade3f5587a38
 
 >[!IMPORTANT]
 >
->To use the save audience activity, your audience must use a **timestamp ordered** merge policy. If your audience uses a **dataset precedence** merge policy, please contact Adobe Customer Care in order to proceed.
+>If your audience uses a **dataset precedence** merge policy, please contact Adobe Customer Care to add the `Halos UPS` dataset to your merge policy.
 >
 >For more information on merge policies, please read the [merge policies overview](https://experienceleague.adobe.com/en/docs/experience-platform/profile/merge-policies/overview).
 
