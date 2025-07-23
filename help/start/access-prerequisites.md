@@ -51,7 +51,13 @@ To securely enable Federated Audience Composition to access your databases, you 
 
 Add these IP addresses to your allow list to grant access for Federated Audience Composition.
 
-## Guardrails & limitations {#fac-guardrails}
+## Merge policies {#merge-policies}
+
+If your audience uses a **dataset precedence** merge policy, please contact Adobe Customer Care to add the `Halos UPS` dataset to your merge policy.
+
+For more information on merge policies, please read the [merge policies overview](https://experienceleague.adobe.com/en/docs/experience-platform/profile/merge-policies/overview).
+
+## Guardrails and limitations {#fac-guardrails}
 
 * Entitlements, product limitations and performance guardrails listed in the [Adobe Real-Time Customer Data Platform documentation](https://experienceleague.adobe.com/en/docs/experience-platform/profile/guardrails){target="_blank"} apply to Federated Audience Composition.
 

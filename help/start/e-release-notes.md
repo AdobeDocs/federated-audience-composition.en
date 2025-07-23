@@ -9,6 +9,18 @@ exl-id: 23ea1a5d-a0e4-4f47-b0f8-56009bbc0a4a
 
 [!DNL Federated Audience Composition] continuously delivers new features, enhancements to existing features, and bug fixes. All changes are consolidated in these release notes. [!DNL Federated Audience Composition] is built natively on [!DNL Adobe Experience Platform] and inherits from its latest innovations and improvements. Learn more about these changes in [Adobe Experience Platform Release Notes](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html){target="_blank"}.
 
+## July 2025 release {#fac-25-7}
+
+This release comes with the following changes and improvements:
+
+* **Oracle connector availability**
+  
+    The Oracle connector is now available for use with Federated Audience Composition.
+
+* **Composition status alerts**
+
+    You can subscribe to Alerts to get alerted for the success and failures of your composition runs.
+
 ## June 2025 release {#fac-25-6}
 
 This release comes with the following improvements:

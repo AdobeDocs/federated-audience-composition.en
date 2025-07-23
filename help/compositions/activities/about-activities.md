@@ -6,7 +6,7 @@ exl-id: 1e4e5f53-636f-4f1c-bf2f-cc3b5d6d6dda
 ---
 # Work with activities {#activities}
 
-In Federated Audience Composition, you can create compositions using two types of activites:
+In Federated Audience Composition, you can create compositions using two types of activities:
 
 * **Targeting activities** let you build one or more targets by defining an audience and splitting or combining these audiences using intersection, union or exclusion operations.
 * **Flow control** activities are specific to organizing and executing compositions. Their main task is to coordinate the other activities.
@@ -14,6 +14,7 @@ In Federated Audience Composition, you can create compositions using two types o
 ## Targeting activities
 
 * [Build audience activity](build-audience.md): Define your target population. You can either select an existing audience or use the query modeler to define your own query.
+* [Change data source](./change-data-source.md): Change the data source used by your composition.
 * [Change dimension](change-dimension.md): Change the schema, also known as targeting dimension, as you are building your composition.
 * [Combine](combine.md): Perform segmentation on your inbound population. You can use a union, an intersection or an exclusion.
 * [Deduplication](deduplication.md): Delete duplicates in the result(s) of the inbound activities.

@@ -28,6 +28,12 @@ exl-id: fa67b1ee-8de6-4a71-b597-ade3f5587a38
 >abstract="Select the namespace to use for profiles."
 >additional-url="https://experienceleague.adobe.com/en/docs/experience-platform/identity/features/namespaces" text="Learn more in Experience Platform documentation"
 
+>[!IMPORTANT]
+>
+>If your audience uses a **dataset precedence** merge policy, please contact Adobe Customer Care to add the `Halos UPS` dataset to your merge policy.
+>
+>For more information on merge policies, please read the [merge policies overview](https://experienceleague.adobe.com/en/docs/experience-platform/profile/merge-policies/overview).
+
 The **[!UICONTROL Save audience]** activity allows you to create a new audience from the population computed upstream in a composition. The audiences created are added to the list of Adobe Experience Platform audiences, and are made available via the **Audiences** menu. [Learn how to work with audiences](../../start/audiences.md)
 
 This activity is essentially used to keep population groups computed in the same composition, by converting them into reusable audiences. Connect it to other targeting activities such as a **Build audience** or a **Combine** activity. 
