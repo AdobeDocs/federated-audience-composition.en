@@ -32,21 +32,19 @@ To work with your federated database and Adobe Experience Platform, you must fir
 
 ## Create connection {#create}
 
-To create a connection, select **Federated Databases** within the Federated data section.
+To create a connection, select **[!UICONTROL Federated databases]** within the Federated data section.
 
-IMAGE
+![The Federated Databases button is highlighted within the left navigation.](assets/home/select-federated.png){zoomable="yes" width="70%" align="center"}
 
 The Federated databases section appears. Select **[!UICONTROL Add federated database]** to create a connection.
 
-![](assets/connections_list.png){zoomable="yes"}
+![The Add federated database button is highlighted within the Federated database display page.](assets/home/add-federated.png){zoomable="yes" width="70%" align="center"}
 
 The connection properties popover appears. You can name your connection as well as select what type of database you want to create.
 
-![](assets/connections_name.png){zoomable="yes"}
+![The federated database types are displayed.](assets/home/select-type.png){zoomable="yes" width="70%" align="center"}
 
-After selecting a type, the **Details** section appears. This section differs based on the database type previously chosen.
-
-![](assets/connections_details.png){zoomable="yes"}
+After selecting a type, the **[!UICONTROL Details]** section appears. This section differs based on the database type previously chosen.
 
 >[!BEGINTABS]
 
