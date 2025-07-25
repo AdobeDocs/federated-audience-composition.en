@@ -56,6 +56,22 @@ The history is organized into several tabs, detailed below:
 
 In all tabs, you can choose the displayed columns and their order, apply filters, and use the search field to quickly find the desired information.
 
+## Subscribe to alerts {#alerts}
+
+Additionally, you can subscribe to alerts to receive notifications if your federated composition executions have succeeded or failed.
+
+To subscribe to alerts, select the ![notification icon](/help/assets/icons/bell.png), followed by the ![settings icon](/help/assets/icons/settings.png).
+
+![Both the notification and the settings icons are highlighted.](assets/monitor/select-notifications.png)
+
+The notifications settings page is displayed. On this page, select **[!UICONTROL Experience Platform]** and choose the channels of alerts you want. To see the notifications within the UI, select **[!UICONTROL In-app]**.
+
+![The In-app checkbox is selected within the Experience Platform section.](assets/monitor/add-alerts.png)
+
+With **In-app** selected, you'll now be notified for composition execution successes and failures.
+
+![The alerts are displayed, showing the composition successes and failures.](assets/monitor/view-alerts.png)
+
 ## Composition execution commands {#execution-commands}
 
 The action bar in the upper-right corner provides commands that allow you to manage the composition execution.
