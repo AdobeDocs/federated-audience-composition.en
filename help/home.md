@@ -21,7 +21,7 @@ Federated Audience Composition enable audiences to be created, refined and enric
 
 Create, configure, test and save the connection to your external database.
 
-[![image](assets/learn-more-button.svg)](connections/federated-db.md)
+[![image](assets/learn-more-button.svg)](connections/home.md)
 
 >[!TAB Compose an audience]
 

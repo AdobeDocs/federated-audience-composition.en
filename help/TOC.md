@@ -19,8 +19,7 @@ breadcrumb-title: Experience Platform Federated Audience Composition
     + [Overview](./governance-privacy-security/home.md)
     + [Access Control](governance-privacy-security/access-control.md)
 + Configuration steps {#config}
-    + [Create and manage connections](connections/connections.md)
-    + [Configure your federated databases](connections/federated-db.md)
+    + [Connections overview](connections/home.md)
     + [FDA rights matrix](connections/fda-rights.md)
     + Data models and schemas{#datamodel}
         + [Create and configure schemas](customer/schemas.md)
