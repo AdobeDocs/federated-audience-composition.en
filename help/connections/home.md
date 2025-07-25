@@ -145,6 +145,12 @@ For Microsoft Fabric, you can set the following additional options:
 
 >[!TAB Oracle]
 
+>[!IMPORTANT]
+>
+>The Oracle database connector can currently **only** be used for audience creation and audience enrichment use cases. 
+>
+>Additionally, before setting up your Oracle database, please contact your Adobe Customer Care representative. 
+
 After selecting Oracle, you can add the following details:
 
 | Field | Description |

@@ -63,7 +63,7 @@ To create schemas in Federated Audience Composition, follow the steps below:
 
     ![](assets/schema_create.png){zoomable="yes"}
 
-    This step lets you access to a new screen with a drop-down list where you can find the database(s) connected to your environment. Learn more about database connection in [this section](../connections/connections.md#connections-fdb).
+    This step lets you access to a new screen with a drop-down list where you can find the database(s) connected to your environment. Learn more about database connection in [this section](../connections/home.md#connections-fdb).
 
 1. Select your source database in the list, and click **[!UICONTROL Next]**.
 

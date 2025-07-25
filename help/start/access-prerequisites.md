@@ -23,7 +23,7 @@ Federated Audience Composition supports the following cloud warehouses:
 * Vertica Analytics
 * Microsoft Fabric
 
-Learn how to create a connection with these systems on [this page](../connections/connections.md).
+Learn how to create a connection with these systems on [this page](../connections/home.md).
 
 ## Sandboxes
 
@@ -47,7 +47,7 @@ To access Federated Audience Composition, users must be added to the sandbox-spe
 
 ## IP allow-listing {#ip}
 
-To securely enable Federated Audience Composition to access your databases, you must authorize the IP addresses of the Federated Audience Composition servers that will access them. These IP addresses are displayed when adding a federated database in the Adobe Experience Platform user interface. [Learn more](../connections/connections.md)
+To securely enable Federated Audience Composition to access your databases, you must authorize the IP addresses of the Federated Audience Composition servers that will access them. These IP addresses are displayed when adding a federated database in the Adobe Experience Platform user interface. [Learn more](../connections/home.md)
 
 Add these IP addresses to your allow list to grant access for Federated Audience Composition.
 
