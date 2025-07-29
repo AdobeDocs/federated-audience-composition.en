@@ -62,15 +62,15 @@ Additionally, you can subscribe to alerts to receive notifications if your feder
 
 To subscribe to alerts, select the ![notification icon](/help/assets/icons/bell.png), followed by the ![settings icon](/help/assets/icons/settings.png).
 
-![Both the notification and the settings icons are highlighted.](assets/monitor/select-notifications.png)
+![Both the notification and the settings icons are highlighted.](assets/monitor/select-notifications.png){zoomable="yes"}{width="70%"}
 
 The notifications settings page is displayed. On this page, select **[!UICONTROL Experience Platform]** and choose the channels of alerts you want. To see the notifications within the UI, select **[!UICONTROL In-app]**.
 
-![The In-app checkbox is selected within the Experience Platform section.](assets/monitor/add-alerts.png)
+![The In-app checkbox is selected within the Experience Platform section.](assets/monitor/add-alerts.png){zoomable="yes"}{width="50%"}
 
-With **In-app** selected, you'll now be notified for composition execution successes and failures.
+With **[!UICONTROL In-app]** selected, you'll now be notified for composition execution successes and failures.
 
-![The alerts are displayed, showing the composition successes and failures.](assets/monitor/view-alerts.png)
+![The alerts are displayed, showing the composition successes and failures.](assets/monitor/view-alerts.png){zoomable="yes"}{width="70%"}
 
 ## Composition execution commands {#execution-commands}
 
