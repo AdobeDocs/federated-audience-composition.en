@@ -21,13 +21,38 @@ exl-id: d4dcaf31-93cd-4a4e-888a-cf1bbdc4ca03
 <tr>
 <td>
 <p>The Oracle connector is now available for use with Federated Audience Composition.</p>
-<p>The Canvas view for the Data Models section improves the experience by enabling the visualization of data models and their links in a canvas layout, alongside the existing tabular view. </p>
-<p>For more information about canvas view, please read the <a href="../data-management/gs-models.md">data models overview</a>.</p>
+<p>You can use the Oracle connector for audience creation and audience enrichment use cases.</p>
+<p>For more information about the Oracle connection, please read the <a href="../connections/home.md#create">connections overview</a>.</p>
 </br>
 </td>
 </tr>
 </tbody>
 </table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Composition alerts</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>You can now subscribe to alerts to learn about your composition's successful and failed runs</p>
+<p>For more information about subscribing to notifications for your composition's runs, please read the <a href="../compositions/start-monitor-compositions.md">start and monitor your composition guide</a>.</p>
+</br>
+</td>
+</tr>
+</tbody>
+</table>
+
+### Improvements {#fac-25-07-improvements}
+
+This release comes with the following improvement:
+
+* **Increased server character length**
+
+    When configuring your federated databases, you can now use up to 255 characters, rather than the previous 80 characters.
 
 ## June '25 release {#fac-25-6}
 

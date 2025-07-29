@@ -21,14 +21,14 @@ Experience Platform Federated Audience Composition lets you build and enrich aud
 
 To work with your federated database and Adobe Experience Platform, you must first establish a connection between the two sources. With Federated Audience Composition, you can connect to the following databases.
 
-* [Amazon Redshift](#amazon-redshift)
-* [Azure Synapse Analytics](#azure-synapse)
-* [Databricks](#databricks)
-* [Google BigQuery](#google-bigquery)
-* [Microsoft Fabric](#microsoft-fabric)
-* [Oracle](#oracle)
-* [Snowflake](#snowflake)
-* [Vertica Analytics](#vertica-analytics)
+* Amazon Redshift
+* Azure Synapse Analytics
+* Databricks
+* Google BigQuery
+* Microsoft Fabric
+* Oracle
+* Snowflake
+* Vertica Analytics
 
 ## Create connection {#create}
 
