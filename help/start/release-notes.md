@@ -39,7 +39,7 @@ exl-id: d4dcaf31-93cd-4a4e-888a-cf1bbdc4ca03
 <tr>
 <td>
 <p>You can now subscribe to alerts to learn about your composition's successful and failed runs</p>
-<p>For more information about subscribing to notifications for your composition's runs, please read the <a href="../compositions/start-monitor-compositions.md">start and monitor your composition guide</a>.</p>
+<p>For more information about subscribing to notifications for your composition's runs, please read the <a href="../compositions/start-monitor-composition.md">start and monitor your composition guide</a>.</p>
 </br>
 </td>
 </tr>
