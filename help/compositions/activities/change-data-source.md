@@ -20,7 +20,7 @@ After adding a **[!UICONTROL Change data source]** activity to the canvas, you c
 
 | Source | Description |
 | ------ | ----------- |
-| FDA external account | An external cloud database connected to Adobe Campaign through Federated Audience Composition. |
+| FDA external account | An external cloud database connected to Federated Audience Composition. |
 
 After selecting **[!UICONTROL FDA external account]**, you can choose which external account you want to connect with.
 

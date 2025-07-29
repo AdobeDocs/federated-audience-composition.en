@@ -53,7 +53,7 @@ Add these IP addresses to your allow list to grant access for Federated Audience
 
 ## Merge policies {#merge-policies}
 
-If your audience uses a **dataset precedence** merge policy, please contact Adobe Customer Care to add the `Halos UPS` dataset to your merge policy.
+If your sandbox uses a **dataset precedence** merge policy, please contact Adobe Customer Care to add the `Halos UPS` dataset to your merge policy.
 
 For more information on merge policies, please read the [merge policies overview](https://experienceleague.adobe.com/en/docs/experience-platform/profile/merge-policies/overview).
 
