@@ -67,7 +67,7 @@ This release comes with the improvements below.
 
 * **Snowflake secure connection**
     
-    With this new release, Federated Audience Composition supports secure private link connections to Amazon Redshift databases hosted on Microsoft Azure. [Learn more](../connections/federated-db.md#amazon-redshift)
+    With this new release, Federated Audience Composition supports secure private link connections to Amazon Redshift databases hosted on Microsoft Azure. [Learn more](../connections/home.md#amazon-redshift)
 
 ## March '25 release {#fac-25-3}
 
@@ -99,7 +99,7 @@ This release comes with the improvements below.
 * **Databricks connection**
 
     With this new release, Federated Audience Composition now supports private link connectivity for Databricks database connections. 
-    This includes secure connections to Databricks databases hosted on Amazon Web Services (AWS) via private link and Databricks databases hosted on Microsoft Azure via VPN. [Learn more](../connections/federated-db.md#databricks)
+    This includes secure connections to Databricks databases hosted on Amazon Web Services (AWS) via private link and Databricks databases hosted on Microsoft Azure via VPN. [Learn more](../connections/home.md#databricks)
 
 * **Support for B2B CDP Customers**
 
@@ -107,7 +107,7 @@ This release comes with the improvements below.
 
 * **Snowflake secure connection**
     
-    With this new release, Federated Audience Composition supports secure private link connections to Snowflake databases hosted on Microsoft Azure. [Learn more](../connections/federated-db.md#snowflake)
+    With this new release, Federated Audience Composition supports secure private link connections to Snowflake databases hosted on Microsoft Azure. [Learn more](../connections/home.md#snowflake)
 
 ## February '25 release {#fac-25-2}
 
@@ -115,11 +115,11 @@ This release comes with the changes listed below.
 
 * **Microsoft Fabric support**
 
-    You can now establish connections to Microsoft Fabric databases through Federated Audience Composition. [Learn more](../connections/federated-db.md)
+    You can now establish connections to Microsoft Fabric databases through Federated Audience Composition. [Learn more](../connections/home.md)
 
 * **Amazon Redshift Spectrum support**
 
-    Amazon Redshift Spectrum is now supported for Amazon Redshift Database connections. [Learn more](../connections/federated-db.md#amazon-redshift)
+    Amazon Redshift Spectrum is now supported for Amazon Redshift Database connections. [Learn more](../connections/home.md#amazon-redshift)
 
 * **Enhanced Schema Creation Experience**
 
@@ -137,7 +137,7 @@ This release comes with the improvement below.
 
 * **IP address allow list**
 
-    When adding a federated database in the Adobe Experience Platform user interface, you can now directly view the IP addresses associated with your Federated Audience Composition instances. This enables you to easily copy and authorize these IPs to connect to your database for improved security and flexibility. [Learn more](../connections/connections.md)
+    When adding a federated database in the Adobe Experience Platform user interface, you can now directly view the IP addresses associated with your Federated Audience Composition instances. This enables you to easily copy and authorize these IPs to connect to your database for improved security and flexibility. [Learn more](../connections/home.md)
 
 ## October '24 release {#fac-24-10}
 
@@ -152,11 +152,11 @@ With this new release, Federated Audience Composition is now compatible with the
 
 * **Databricks support**
 
-    You can now establish connections to Databricks databases through Federated Audience Composition. [Learn more](../connections/federated-db.md#databricks)
+    You can now establish connections to Databricks databases through Federated Audience Composition. [Learn more](../connections/home.md#databricks)
 
 * **Support for secure access to Snowflake through AWS PrivateLink**
     
-    Secure access to your external Snowflake data warehouse through private link is now supported. Note that your Snowflake account must be hosted on Amazon Web Services (AWS) and located in the same region as your Federated Audience Composition environment. Please contact your Adobe representative for assistance in setting up secure access to your Snowflake account. [Learn more](../connections/federated-db.md#snowflake)
+    Secure access to your external Snowflake data warehouse through private link is now supported. Note that your Snowflake account must be hosted on Amazon Web Services (AWS) and located in the same region as your Federated Audience Composition environment. Please contact your Adobe representative for assistance in setting up secure access to your Snowflake account. [Learn more](../connections/home.md#snowflake)
 
 * **Amazon Redshift Serverless support**
 

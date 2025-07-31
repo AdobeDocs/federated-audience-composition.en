@@ -23,7 +23,7 @@ Federated Audience Composition supports the following cloud warehouses:
 * Vertica Analytics
 * Microsoft Fabric
 
-Learn how to create a connection with these systems on [this page](../connections/connections.md).
+Learn how to create a connection with these systems on [this page](../connections/home.md).
 
 ## Sandboxes
 
@@ -47,13 +47,13 @@ To access Federated Audience Composition, users must be added to the sandbox-spe
 
 ## IP allow-listing {#ip}
 
-To securely enable Federated Audience Composition to access your databases, you must authorize the IP addresses of the Federated Audience Composition servers that will access them. These IP addresses are displayed when adding a federated database in the Adobe Experience Platform user interface. [Learn more](../connections/connections.md)
+To securely enable Federated Audience Composition to access your databases, you must authorize the IP addresses of the Federated Audience Composition servers that will access them. These IP addresses are displayed when adding a federated database in the Adobe Experience Platform user interface. [Learn more](../connections/home.md)
 
 Add these IP addresses to your allow list to grant access for Federated Audience Composition.
 
 ## Merge policies {#merge-policies}
 
-If your audience uses a **dataset precedence** merge policy, please contact Adobe Customer Care to add the `Halos UPS` dataset to your merge policy.
+If your sandbox uses a **dataset precedence** merge policy, please contact Adobe Customer Care to add the `Halos UPS` dataset to your merge policy.
 
 For more information on merge policies, please read the [merge policies overview](https://experienceleague.adobe.com/en/docs/experience-platform/profile/merge-policies/overview).
 
