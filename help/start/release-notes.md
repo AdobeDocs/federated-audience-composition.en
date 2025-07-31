@@ -39,7 +39,7 @@ exl-id: d4dcaf31-93cd-4a4e-888a-cf1bbdc4ca03
 <tr>
 <td>
 <p>You can now subscribe to alerts to learn about your composition's successful and failed runs</p>
-<p>For more information about subscribing to notifications for your composition's runs, please read the <a href="../compositions/start-monitor-composition.md">start and monitor your composition guide</a>.</p>
+<p>For more information about subscribing to notifications for your composition's runs, please read the <a href="../compositions/start-monitor-composition.md#alerts">start and monitor your composition guide</a>.</p>
 </br>
 </td>
 </tr>
@@ -268,7 +268,6 @@ This release comes with the improvement below.
 >[!AVAILABILITY]
 >
 >Previously available for a set of organizations (LA), Adobe Experience Platform Federated Audience Composition is now available to all users (GA). This capability is activated based on your offering, and only visible with the associated permissions. [Learn more](access-prerequisites.md)
->
 
 ### Compatibility {#fac-24-10-compat}
 
