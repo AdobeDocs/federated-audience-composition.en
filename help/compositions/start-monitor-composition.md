@@ -89,3 +89,4 @@ Available actions are:
 * **[!UICONTROL Stop]** a composition that is being executed, which will then take on the **[!UICONTROL Finished]** status. The operations in progress are interrupted if possible. You cannot resume from the composition from the same place that it was stopped.
 
 * **[!UICONTROL Restart]**: Stops then restart a composition. In most cases, this allows you to restart quicker, as stopping takes a certain amount of time, and the **[!UICONTROL Start]** button is only available when the stop is effective.
+
