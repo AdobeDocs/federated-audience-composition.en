@@ -683,8 +683,8 @@ The string functions are used to manipulate a set of strings.
   </tr> 
   <tr> 
    <td> <strong>Replace</strong><br /> </td> 
-   <td> Replaces all occurrences of a specified string value with another string value.<br /> </td> 
-   <td> Replace(&lt;String&gt;,&lt;String&gt;,&lt;String&gt;)<br /></td> 
+   <td> Replaces all occurrences of a specified string value (String 2) with another string value (String 3) within a string (String 1).<br /> </td> 
+   <td> Replace(&lt;String1&gt;,&lt;String2&gt;,&lt;String3&gt;)<br /></td> 
   </tr> 
   <tr> 
    <td> <strong>Right</strong><br /> </td> 
