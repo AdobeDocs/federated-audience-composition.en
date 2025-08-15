@@ -67,19 +67,21 @@ The **[!UICONTROL Select federated database]** popover appears. On this popover,
 
 The **Select Table** popover appears. On this popover, you can select the tables which you want to use to create the schema.
 
-IMAGE
+![The Select Table popover is displayed.](assets/select-table.png){zoomable="yes"}
 
 Each selected table generates a schema with the chosen columns. For each table, you can change the label of the schema, add a description, rename the field label, set the field label visibility, and select the schema primary key.
 
 ![](assets/schema_fields.png){zoomable="yes"}
+
+Additionally, you can create a key that is made up of multiple schema columns. Turn on **[!UICONTROL Use Composite Key]**, and mark the keys you want to use as your composite key.
+
+![](assets/composite-key.png)
 
 After completing your configuration, select **[!UICONTROL Done]** to finish creating your schema. 
 
 ## Edit a schema {#schema-edit}
 
 To edit a schema, select your previously created schema on the **Schemas** page.
-
-IMAGE
 
 The schema details page appears. Select the ![pencil icon](/help/assets/icons/edit.png) to edit the schema.
 
