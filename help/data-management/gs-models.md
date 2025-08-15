@@ -38,29 +38,33 @@ To create a data model, follow these steps:
 
     ![](assets/datamodel_create.png){zoomable="yes"}
 
-1. Define the name your data model, and click on the **[!UICONTROL Create]** button.
+2. Define the name your data model, and select **[!UICONTROL Create]** button.
 
-1. From your data model dashboard, click **[!UICONTROL Add schemas]** to choose the schema associated with your data model.
+3. From your data model dashboard, click **[!UICONTROL Add schemas]** to choose the schema associated with your data model.
 
     ![](assets/datamodel_schemas.png){zoomable="yes"}
 
-1. Additionally, you can add audiences to your data model. Select **[!UICONTROL Add Audiences]** to define your target groups.
+4. Additionally, you can add audiences to your data model. Select **[!UICONTROL Add Audiences]** to define your target groups.
 
     ![](assets/datamodel-audiences.png){zoomable="yes"}
 
-1. Establish connections between tables in your data model to ensure accurate data relationships. [Learn more](#data-model-links)
+5. Establish connections between tables in your data model to ensure accurate data relationships. [Learn more](#data-model-links)
 
-1. After completing the configuration, click **[!UICONTROL Save]** to apply your changes.
+6. After completing the configuration, click **[!UICONTROL Save]** to apply your changes.
 
 ## Create links {#data-model-links}
+
+>[!NOTE]
+>
+>If using table view, you can create multi-links with your data model.
 
 >[!BEGINTABS]
 
 >[!TAB Table view]
 
-To create links between tables of your datamodel from the Table view tab, follow these steps: 
+To create links between tables of your data model from the Table view tab, follow these steps: 
 
-1. Click  on **[!UICONTROL Create link]** menu of one of the table, or click on **[!UICONTROL Create links]** button, and choose the 2 tables:
+1. Select the ![three dots icon](/help/assets/icons/more.png) followed by **[!UICONTROL Create link]** next to one of the table, or select **[!UICONTROL Create links]** within the **[!UICONTROL Links]** section:
 
     ![](assets/datamodel_createlinks.png){zoomable="yes"}
 
@@ -76,13 +80,13 @@ To create links between tables of your datamodel from the Table view tab, follow
      
      * **1-1**: one occurrence of the source table can have at most one corresponding occurrence of the target table.
 
-All the links defined for your datamodel are listed as below:
+All the links defined for your data model are listed as below:
 
 ![](assets/datamodel_alllinks.png){zoomable="yes"}
 
 >[!TAB Canvas view]
 
-To create links between tables of your datamodel from the Canvas view tab, follow these steps: 
+To create links between tables of your data model from the Canvas view tab, follow these steps: 
 
 1. Access the Canvas view of your data model and choose the two tables you want to link
 
