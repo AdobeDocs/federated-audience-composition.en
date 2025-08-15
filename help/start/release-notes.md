@@ -7,6 +7,68 @@ exl-id: d4dcaf31-93cd-4a4e-888a-cf1bbdc4ca03
 
 [!DNL Federated Audience Composition] continuously delivers new features, enhancements to existing features, and bug fixes. All changes are consolidated in these release notes. [!DNL Federated Audience Composition] is built natively on [!DNL Adobe Experience Platform] and inherits from its latest innovations and improvements. Learn more about these changes in [Adobe Experience Platform Release Notes](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html){target="_blank"}.
 
+## August '25 release {#fac-25-8}
+
+### New capabilities {#fac-25-08-feature}
+
+<table>
+<thead>
+<tr>
+<th><strong>Composite key support in schemas</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>You can now combine columns together to create a composite key for your schema.</p>
+<p>For more information about schemas, please read the <a href="../customer/schemas.md#create">schemas overview</a>.</p>
+</br>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Multiple join link support in models</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>You can now combine multiple joins together in a single link for your models.</p>
+<p>For more information about models, please read the <a href="../data-management/gs-models.md#create">models overview</a>.</p>
+</br>
+</td>
+</tr>
+</tbody>
+</table>
+
+### Improvements {#fac-25-8-improvements}
+
+This release comes with the following improvements:
+
+* **Added `StringAgg` function**
+  
+  You can now use the `StringAgg` function for Amazon Redshift Spectrum Databases when. using the expression editor.
+
+* **`Replace` function**
+  
+  The `Replace` function's description and syntax has been clarified within the documentation.
+
+### Compatibility {#fac-25-8-compatibility}
+
+* **Azure Synapse databases**
+
+    You can now securely connect to Azure Synapse databases with PrivateLink or VPN.
+
+* **Oracle database**
+
+    You can now securely connect to Oracle databases.
+
+For more information on the supported databases in Federated Audience Composition, please read the [connections overview](../connections/home.md).
+
 ## July '25 release {#fac-25-7}
 
 ### New capabilities {#fac-25-07-feature}

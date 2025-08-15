@@ -4,26 +4,28 @@ title: Create compositions
 description: Learn how to create compositions
 exl-id: 4f510805-b700-444d-89bb-832eaa1e3242
 ---
-# Create & configure the composition {#create}
+# Create and configure the composition {#create}
 
 The first step to create a composition is to define its label and configure additional settings if needed.
 
 ## Create the composition {#create-the-composition}
 
-1. Access the **[!UICONTROL Audiences]** menu and select the **[!UICONTROL Federated compositions]** tab.
+To create a composition, select **[!UICONTROL Audiences]** within the **[!UICONTROL Customer]** section, followed by the **[!UICONTROL Federated compositions]** tab.
 
-1. Click the **[!UICONTROL Create composition]** button.
+IMAGE
 
-    ![](assets/composition-create.png)
+The federated compositions browse page appears. Select **[!UICONTROL Create composition]** to continue with the composition creation process.
 
-1. In the **[!UICONTROL Properties]** section, specify a label for your composition and select a data model. Only the schemas associated to this data model will be available in your composition's activities.
+![](assets/composition-create.png)
 
-    ![](assets/composition-select-schema.png)
+The **[!UICONTROL Properties]** section, specify a label for your composition and select a data model. Only the schemas associated to this data model will be available in your composition's activities.
 
-1. Click **[!UICONTROL Create]**. The composition canvas displays. You can now configure your composition by adding as many activities as needed to suit your needs before executing it:
+![](assets/composition-select-schema.png)
 
-    * [Learn how to orchestrate activities](orchestrate-activities.md)
-    * [Learn how to start and monitor a composition](start-monitor-composition.md) 
+Select **[!UICONTROL Create]**. The composition canvas displays. You can now configure your composition by adding as many activities as needed to suit your needs before executing it:
+
+* [Learn how to orchestrate activities](orchestrate-activities.md)
+* [Learn how to start and monitor a composition](start-monitor-composition.md) 
 
 ## Configure the composition's settings {#settings}
 
@@ -42,7 +44,9 @@ The first step to create a composition is to define its label and configure addi
 >title="Error management settings"
 >abstract="In this section, you can define how to manage errors during the execution. You can choose to pause the process, ignore a certain number of errors, or stop the composition execution."
 
-When accessing a composition, you can access advanced settings that allow you, for example, to define how the composition should behave in case of error. To access these additional options, click the **[!UICONTROL Settings]** button located in the upper section of the composition creation screen.
+When accessing a composition, you can access advanced settings that allow you, for example, to define how the composition should behave in case of error. 
+
+To access these additional options, select **[!UICONTROL Settings]** in the upper section of the composition creation screen.
 
 ![](assets/composition-create-settings.png)
 
