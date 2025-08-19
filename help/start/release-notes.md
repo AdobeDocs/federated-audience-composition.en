@@ -14,7 +14,7 @@ exl-id: d4dcaf31-93cd-4a4e-888a-cf1bbdc4ca03
 <table>
 <thead>
 <tr>
-<th><strong>Composite key support in schemas</strong><br/></th>
+<th><strong>Composite key support in schema discovery</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -31,13 +31,13 @@ exl-id: d4dcaf31-93cd-4a4e-888a-cf1bbdc4ca03
 <table>
 <thead>
 <tr>
-<th><strong>Multiple join link support in models</strong><br/></th>
+<th><strong>Adding multiple joins in a link for models</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>You can now combine multiple joins together in a single link for your models.</p>
+<p>You can now add multiple joins together in a single link for your models.</p>
 <p>For more information about models, please read the <a href="../data-management/gs-models.md#create">models overview</a>.</p>
 </br>
 </td>
@@ -61,11 +61,11 @@ This release comes with the following improvements:
 
 * **Azure Synapse databases**
 
-    You can now securely connect to Azure Synapse databases with PrivateLink or VPN.
+    You can now securely connect to Azure Synapse databases with PrivateLink or VPN. Please contact Adobe Customer Care for more information.
 
 * **Oracle database**
 
-    You can now securely connect to Oracle databases.
+    You can now securely connect to Oracle databases. Please contact Adobe Customer Care for more information.
 
 For more information on the supported databases in Federated Audience Composition, please read the [connections overview](../connections/home.md).
 

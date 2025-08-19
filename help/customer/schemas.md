@@ -73,6 +73,10 @@ Each selected table generates a schema with the chosen columns. For each table, 
 
 ![](assets/schema_fields.png){zoomable="yes"}
 
+>[!NOTE]
+>
+>If you enable **[!UICONTROL Use Composite Key]** but only select one key to be used, the key will be treated like a standard schema primary key.
+
 Additionally, you can create a key that is made up of multiple schema columns. Turn on **[!UICONTROL Use Composite Key]**, and mark the keys you want to use as your composite key.
 
 ![](assets/composite-key.png)

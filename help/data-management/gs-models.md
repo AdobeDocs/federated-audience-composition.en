@@ -34,7 +34,7 @@ To create a data model, follow these steps:
 
 1. In the **[!UICONTROL Federated Data]** section, access the **[!UICONTROL Models]** menu, and browse to the **[!UICONTROL Data model]** tab. 
 
-    Click on the **[!UICONTROL Create data model]** button.
+    Select the **[!UICONTROL Create data model]** button.
 
     ![](assets/datamodel_create.png){zoomable="yes"}
 
@@ -56,7 +56,7 @@ To create a data model, follow these steps:
 
 >[!NOTE]
 >
->If you're using table view, you can create multiple joins in your links with your data model.
+>If you're creating a link with multiple joins, you can only use the same combination of source and target schemas once.
 
 >[!BEGINTABS]
 
@@ -94,7 +94,7 @@ To create links between tables of your data model from the Canvas view tab, foll
 
 1. Access the Canvas view of your data model and choose the two tables you want to link
 
-2. Click the ![](assets/do-not-localize/Smock_AddCircle_18_N.svg) button next to the Source Join, then drag and guide the arrow towards the Target Join to establish the connection.
+2. Select the ![](assets/do-not-localize/Smock_AddCircle_18_N.svg) button next to the Source Join, then drag and guide the arrow towards the Target Join to establish the connection.
 
     ![](assets/datamodel.gif){zoomable="yes"}
 
@@ -110,7 +110,7 @@ To create links between tables of your data model from the Canvas view tab, foll
      
      * **1-1**: one occurrence of the source table can have at most one corresponding occurrence of the target table.
 
-4. All links defined in your data model are represented as arrows in the canvas view. Click on an arrow between two tables to view details, make edits, or remove the link as needed.
+4. All links defined in your data model are represented as arrows in the canvas view. Select an arrow between two tables to view details, make edits, or remove the link as needed.
 
     ![](assets/datamodel-canvas-2.png){zoomable="yes"}
 
