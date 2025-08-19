@@ -38,7 +38,7 @@ To create a data model, follow these steps:
 
     ![](assets/datamodel_create.png){zoomable="yes"}
 
-2. Define the name your data model, and select **[!UICONTROL Create]** button.
+2. Define the name of your data model, and select **[!UICONTROL Create]** button.
 
 3. From your data model dashboard, select **[!UICONTROL Add schemas]** to choose the schema associated with your data model.
 

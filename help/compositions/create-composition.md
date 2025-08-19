@@ -22,7 +22,7 @@ The **[!UICONTROL Properties]** section, specify a label for your composition an
 
 ![](assets/composition-select-schema.png)
 
-Select **[!UICONTROL Create]**. The composition canvas displays. You can now configure your composition by adding as many activities as needed to suit your needs before executing it:
+Select **[!UICONTROL Create]**. The composition canvas is displayed. You can now configure your composition by adding as many activities as needed to suit your needs before executing it:
 
 * [Learn how to orchestrate activities](orchestrate-activities.md)
 * [Learn how to start and monitor a composition](start-monitor-composition.md) 
