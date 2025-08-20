@@ -58,7 +58,7 @@ By creating a schema, you can define a representation of your table in Experienc
 
 To create a schema in Federated Audience Composition, select **[!UICONTROL Models]** in the **[!UICONTROL Federated Data]** section. Within the **[!UICONTROL Schema]** tab, select **[!UICONTROL Create schema]**.
 
-![](assets/schema_create.png){zoomable="yes"}
+![The Create schema button is highlighted within the Federate Audience Composition schema section.](assets/schema_create.png){zoomable="yes"}
 
 The **[!UICONTROL Select federated database]** popover appears. On this popover, you can select the [source database](/help/connections/home.md), followed by **[!UICONTROL Next]**.
 
@@ -71,7 +71,7 @@ The **Select Table** popover appears. On this popover, you can select the tables
 
 Each selected table generates a schema with the chosen columns. For each table, you can change the label of the schema, add a description, rename the field label, set the field label visibility, and select the schema primary key.
 
-![](assets/schema_fields.png){zoomable="yes"}
+![](assets/schema-fields.png){zoomable="yes"}
 
 >[!NOTE]
 >
@@ -79,7 +79,7 @@ Each selected table generates a schema with the chosen columns. For each table, 
 
 Additionally, you can create a key that is made up of multiple schema columns. Turn on **[!UICONTROL Use Composite Key]**, and mark the keys you want to use as your composite key.
 
-![](assets/composite-key.png)
+![](assets/composite-key.png){zoomable="yes"}
 
 After completing your configuration, select **[!UICONTROL Done]** to finish creating your schema. 
 
