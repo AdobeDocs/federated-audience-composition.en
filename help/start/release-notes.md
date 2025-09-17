@@ -28,6 +28,14 @@ exl-id: d4dcaf31-93cd-4a4e-888a-cf1bbdc4ca03
 </tbody>
 </table>
 
+### Improvements {#fac-25-9-improvements}
+
+This release comes with the following improvements:
+
+* **Added Manage Access in audience inventory**
+  
+  You can now manage access to your Federated Audience Composition audiences within the inventory page.
+
 ## August '25 release {#fac-25-8}
 
 ### New capabilities {#fac-25-08-feature}
