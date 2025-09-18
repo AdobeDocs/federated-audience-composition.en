@@ -7,6 +7,35 @@ exl-id: d4dcaf31-93cd-4a4e-888a-cf1bbdc4ca03
 
 [!DNL Federated Audience Composition] continuously delivers new features, enhancements to existing features, and bug fixes. All changes are consolidated in these release notes. [!DNL Federated Audience Composition] is built natively on [!DNL Adobe Experience Platform] and inherits from its latest innovations and improvements. Learn more about these changes in [Adobe Experience Platform Release Notes](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html){target="_blank"}.
 
+## September '25 release {#fac-25-9}
+
+### New capabilities {#fac-25-09-feature}
+
+<table>
+<thead>
+<tr>
+<th><strong>OAuth authentication for Google BigQuery</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>You can now connect to Google BigQuery using OAuth.</p>
+<p>For more information about creating connections, please read the <a href="../connections/home.md#create">connections overview</a>.</p>
+</br>
+</td>
+</tr>
+</tbody>
+</table>
+
+### Improvements {#fac-25-9-improvements}
+
+This release comes with the following improvements:
+
+* **Added Manage Access in audience inventory**
+  
+  You can now manage access to your Federated Audience Composition audiences within the inventory page.
+
 ## August '25 release {#fac-25-8}
 
 ### New capabilities {#fac-25-08-feature}

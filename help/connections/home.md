@@ -105,11 +105,28 @@ For Databricks, you can set the following additional options:
 
 >[!TAB Google BigQuery]
 
-After selecting Google BigQuery, you can add the following details:
+After selecting Google BigQuery, you can choose which authentication method you want to use when connecting with Federated Audience Composition.
+
+If you select **[!UICONTROL Account/Password Authentication]**, you can add the following login information:
 
 | Field | Description |
 | ----- | ----------- |
 | Service account | The email address of your service account. For more information, please read the [Google Cloud service account documentation](https://cloud.google.com/iam/docs/service-accounts-create){target="_blank"}. |
+
+If you select **[!UICONTROL OAuth 2.0]**, you can add the following login information:
+
+| Field | Description |
+| ----- | ----------- |
+| Client ID | The client ID from your Google BigQuery project. This field acts like a username for your project. | 
+| Client Secret | The client secret from your Google BigQuery project. This field acts like a password for your project. |
+| Redirection URL | The URL the application will redirect after successfully authorizing. |
+
+Select **[!UICONTROL Sign in]** to finish your authentication.
+
+After inputting your login details, you can add the following details:
+
+| Field | Description |
+| ----- | ----------- |
 | Project | The ID of your project. For more information, please read the [Google Cloud project documentation](https://cloud.google.com/resource-manager/docs/creating-managing-projects){target="_blank"}. |
 | Dataset | The name of the dataset. For more information, please read the [Google Cloud dataset documentation](https://cloud.google.com/bigquery/docs/datasets-intro){target="_blank"}. |
 | Key file path | The key file to the server. Only `json` files are supported. |
