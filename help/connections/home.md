@@ -66,6 +66,10 @@ After selecting Amazon Redshift, you can add the following details:
 
 >[!TAB Azure Synapse Analytics]
 
+>[!NOTE]
+>
+>If you want to create a secure connection using Azure Synapse Analytics, please contact your Adobe Customer Care representative.
+
 After selecting Azure Synapse Analytics, you can add the following details:
 
 | Field | Description |
@@ -145,9 +149,7 @@ For Microsoft Fabric, you can set the following additional options:
 
 >[!IMPORTANT]
 >
->The Oracle database connector can currently **only** be used for audience creation and audience enrichment use cases. 
->
->Additionally, before setting up your Oracle database, please contact your Adobe Customer Care representative. 
+>Before setting up your Oracle database, including setting your Oracle connection to use a secure connection, please contact your Adobe Customer Care representative.
 
 After selecting Oracle, you can add the following details:
 

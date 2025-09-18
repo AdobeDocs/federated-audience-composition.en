@@ -12,7 +12,7 @@ The first step to create a composition is to define its label and configure addi
 
 To create a composition, select **[!UICONTROL Audiences]** within the **[!UICONTROL Customer]** section, followed by the **[!UICONTROL Federated compositions]** tab.
 
-IMAGE
+![The path to access the Federated compositions section is highlighted.](assets/create/access-compositions.png)
 
 The federated compositions browse page appears. Select **[!UICONTROL Create composition]** to continue with the composition creation process.
 
@@ -22,7 +22,7 @@ The **[!UICONTROL Properties]** section, specify a label for your composition an
 
 ![](assets/composition-select-schema.png)
 
-Select **[!UICONTROL Create]**. The composition canvas displays. You can now configure your composition by adding as many activities as needed to suit your needs before executing it:
+Select **[!UICONTROL Create]**. The composition canvas is displayed. You can now configure your composition by adding as many activities as needed to suit your needs before executing it:
 
 * [Learn how to orchestrate activities](orchestrate-activities.md)
 * [Learn how to start and monitor a composition](start-monitor-composition.md) 
