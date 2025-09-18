@@ -40,6 +40,11 @@ The query editing tool allows you to use advanced functions to carry out complex
 
 The aggregate functions are used to perform calculations on a set of values.
 
+| Name | Description | Syntax | Example |
+| ---- | ----------- | ------ | ------- |
+| **Avg** | Returns the average of a number type column | Avg (&lt;VALUE&gt;) | Avg (1, 3, 5) |
+| **Count** | Returns the number of non-null values of a column | Count(&lt;VALUE&gt;) | Count ()
+
 <table> 
  <tbody> 
   <tr> 
