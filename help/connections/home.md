@@ -149,7 +149,7 @@ For Microsoft Fabric, you can set the following additional options:
 
 >[!IMPORTANT]
 >
->Before setting up your Oracle database, including setting your Oracle connection to use a secure connection, please contact your Adobe Customer Care representative.
+>Federated Audience Composition supports federated connection setup with Oracle database version 11g or higher and hosted on AWS, Azure, Exadata, or a private cloud (as long as it's accessible by an outside network). If you have any further queries related to Oracle database setup or need to create a secure connection to Oracle, please contact your Adobe Customer Care representative.
 
 After selecting Oracle, you can add the following details:
 
