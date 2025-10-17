@@ -43,36 +43,16 @@ The aggregate functions are used to perform calculations on a set of values.
 | Name | Description | Syntax | Example |
 | ---- | ----------- | ------ | ------- |
 | **Avg** | Returns the average of a number type column | Avg (&lt;VALUE&gt;) | Avg (1, 3, 5) |
-| **Count** | Returns the number of non-null values of a column | Count(&lt;VALUE&gt;) | Count ()
+| **Count** | Returns the number of non-null values of a column | Count(&lt;VALUE&gt;) | Count () |
+| **CountAll** | Count the values returned (all fields) | CountAll() | |
+| **Countdistinct** | Counts the distinct non-null values of a column | Countdistinct(&lt;VALUE&gt;) | |
+| **Max** | Returns the maximum value of a number, string, or date type column | Max(&lt;VALUE&gt;) | |
+| **Min** | Returns the minimum value of a number, string, or date type column | Min(&lt;VALUE&gt;) | |
+| **StdDev** | Returns the standard deviation of a number, string, or date type column | Max(&lt;VALUE&gt;) | |
+| **StringAgg** | Returns the concatenation of the values of a string type column, separated by the character in the second argument | StringAgg(&lt;Value&gt;, &lt;String&gt;) | |
 
 <table> 
  <tbody> 
-  <tr> 
-   <td> <strong>Name</strong><br /> </td> 
-   <td> <strong>Description</strong><br /> </td> 
-   <td> <strong>Syntax</strong><br /> </td> 
-  </tr> 
-  <tr> 
-   <td> <strong>Avg</strong><br /> </td> 
-   <td> Returns the average of a number type column<br /> </td> 
-   <td> Avg(&lt;value&gt;)<br /></td> 
-  </tr> 
-  <tr> 
-   <td> <strong>Count</strong><br /> </td> 
-   <td> Counts the non-null values of a column<br /> </td> 
-   <td> Count(&lt;value&gt;)<br /></td>  
-  </tr> 
-  <tr> 
-   <td> <strong>CountAll</strong><br /> </td> 
-   <td> Counts the values returned (all fields)<br /> </td> 
-   <td> CountAll()<br /> </td> 
-  </tr> 
-  <tr> 
-   <td> <strong>Countdistinct</strong><br /> </td> 
-   <td> Counts the distinct non-null values of a column<br /> </td> 
-   <td> Countdistinct(&lt;value&gt;)<br /></td> 
-  </tr> 
-  <tr> 
    <td> <strong>Max</strong><br /> </td> 
    <td> Returns the maximum value of a number, string, or date type column<br /> </td> 
    <td> Max(&lt;value&gt;)<br /></td>  
