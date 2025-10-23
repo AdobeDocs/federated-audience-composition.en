@@ -53,6 +53,8 @@ After selecting a type, the **[!UICONTROL Details]** section appears. This secti
 >[!AVAILABILITY]
 >
 >Only Amazon Redshift AWS, Amazon Redshift Spectrum, and Amazon Redshift Serverless are supported.
+>
+>Additionally, secure access to your external Amazon Redshift data warehouse through private link is supported.
 
 After selecting Amazon Redshift, you can add the following details: 
 
@@ -104,6 +106,10 @@ For Databricks, you can set the following additional options:
 | TimeZoneName | The name of the time zone to use. This value represents the `TIMEZONE` session parameter. For more information on time zones, please read the [Databricks documentation on timezones](https://docs.databricks.com/aws/en/sql/language-manual/parameters/timezone#:~:text=The%20system%20default%20is%20UTC%20.){target="_blank"}. |
 
 >[!TAB Google BigQuery]
+
+>[!NOTE]
+>
+>Secure access to your external Google BigQuery data warehouse through private link is supported.
 
 After selecting Google BigQuery, you can choose which authentication method you want to use when connecting with Federated Audience Composition.
 
