@@ -109,7 +109,7 @@ For Databricks, you can set the following additional options:
 
 >[!NOTE]
 >
->Secure access to your external Google BigQuery data warehouse through private link is supported.
+>Secure access to your external Google BigQuery data warehouse through VPN is supported.
 
 After selecting Google BigQuery, you can choose which authentication method you want to use when connecting with Federated Audience Composition.
 
