@@ -129,7 +129,7 @@ If you select **[!UICONTROL OAuth 2.0]**, you can add the following login inform
 | ----- | ----------- |
 | Client ID | The client ID from your Google BigQuery project. This field acts like a username for your project. | 
 | Client Secret | The client secret from your Google BigQuery project. This field acts like a password for your project. |
-| Access Scope | Prepopulated information that lists the scopes your OAuth token is authorized for. |
+| Access scope | Prepopulated information that lists the scopes your OAuth token is authorized for within your Google Cloud resources. |
 
 Select **[!UICONTROL Sign in]** to finish your authentication.
 
