@@ -53,6 +53,8 @@ After selecting a type, the **[!UICONTROL Details]** section appears. This secti
 >[!AVAILABILITY]
 >
 >Only Amazon Redshift AWS, Amazon Redshift Spectrum, and Amazon Redshift Serverless are supported.
+>
+>Additionally, secure access to your external Amazon Redshift data warehouse through private link is supported.
 
 After selecting Amazon Redshift, you can add the following details: 
 
@@ -105,11 +107,32 @@ For Databricks, you can set the following additional options:
 
 >[!TAB Google BigQuery]
 
-After selecting Google BigQuery, you can add the following details:
+>[!NOTE]
+>
+>Secure access to your external Google BigQuery data warehouse through VPN is supported.
+
+After selecting Google BigQuery, you can choose which authentication method you want to use when connecting with Federated Audience Composition.
+
+If you select **[!UICONTROL Account/Password Authentication]**, you can add the following login information:
 
 | Field | Description |
 | ----- | ----------- |
 | Service account | The email address of your service account. For more information, please read the [Google Cloud service account documentation](https://cloud.google.com/iam/docs/service-accounts-create){target="_blank"}. |
+
+If you select **[!UICONTROL OAuth 2.0]**, you can add the following login information:
+
+| Field | Description |
+| ----- | ----------- |
+| Client ID | The client ID from your Google BigQuery project. This field acts like a username for your project. | 
+| Client Secret | The client secret from your Google BigQuery project. This field acts like a password for your project. |
+| Redirection URL | The URL the application will redirect after successfully authorizing. |
+
+Select **[!UICONTROL Sign in]** to finish your authentication.
+
+After inputting your login details, you can add the following details:
+
+| Field | Description |
+| ----- | ----------- |
 | Project | The ID of your project. For more information, please read the [Google Cloud project documentation](https://cloud.google.com/resource-manager/docs/creating-managing-projects){target="_blank"}. |
 | Dataset | The name of the dataset. For more information, please read the [Google Cloud dataset documentation](https://cloud.google.com/bigquery/docs/datasets-intro){target="_blank"}. |
 | Key file path | The key file to the server. Only `json` files are supported. |
@@ -165,13 +188,30 @@ After selecting Oracle, you can add the following details:
 >
 >Secure access to your external Snowflake data warehouse through private link is supported. Note that your Snowflake account must be hosted on Amazon Web Services (AWS) or Azure and located in the same region as your Federated Audience Composition environment. Please contact your Adobe representative for assistance in setting up secure access to your Snowflake account.
 
-After selecting Snowflake, you can add the following details:
+After selecting Snowflake, you can choose which authentication method you want to use when connecting with Federated Audience Composition.
+
+If you select **[!UICONTROL Account/Password Authentication]**, you can add the following login information:
 
 | Field | Description |
 | ----- | ----------- |
 | Server | The name of the server. |
 | User | The username for the account. |
 | Password | The password for the account. |
+
+If you select **[!UICONTROL OAuth 2.0]**, you can add the following login information:
+
+| Field | Description |
+| ----- | ----------- |
+| Server | The name of the server. |
+| Client ID | The client ID from your Snowflake project. This field acts like a username for your project. | 
+| Client Secret | The client secret from your Snowflake project. This field acts like a password for your project. |
+
+Select **[!UICONTROL Sign in]** to finish your authentication.
+
+After inputting your login details, you can add the following details:
+
+| Field | Description |
+| ----- | ----------- |
 | Database | The name of the database. If this is specified in the server name, this field can be left blank. |
 | Working schema | The name of the database schema to use for the work tables. <br/><br/>**Note:** You can use **any** schema from the database, including schemas used for temporary data processing, as long as you have the required permissions to connect to this schema. However, you **must** use distinct working schemas when connecting multiple sandboxes with the same database. |
 | Private key | The private key for your database connection. You can upload a `.pem` file from your local system. |

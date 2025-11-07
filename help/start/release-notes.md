@@ -7,6 +7,44 @@ exl-id: d4dcaf31-93cd-4a4e-888a-cf1bbdc4ca03
 
 [!DNL Federated Audience Composition] continuously delivers new features, enhancements to existing features, and bug fixes. All changes are consolidated in these release notes. [!DNL Federated Audience Composition] is built natively on [!DNL Adobe Experience Platform] and inherits from its latest innovations and improvements. Learn more about these changes in [Adobe Experience Platform Release Notes](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html){target="_blank"}.
 
+## October '25 release {#fac-25-10}
+
+### New capabilities {#fac-25-10-feature}
+
+<!-- <table>
+<thead>
+<tr>
+<th><strong>Availability for Adobe Experience Platform customers on Amazon Web Services (AWS)</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>You can now use Federated Audience Composition if your Experience Platform instance is on AWS.</p>
+<p>For more information about Experience Platform on AWS, please read the <a href="https://experienceleague.adobe.com/en/docs/experience-platform/landing/multi-cloud">multi-cloud overview</a>.</p>
+</br>
+</td>
+</tr>
+</tbody>
+</table> -->
+
+<table>
+<thead>
+<tr>
+<th><strong>OAuth authentication for Google BigQuery and Snowflake</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>You can now connect to Google BigQuery and Snowflake using OAuth.</p>
+<p>For more information about creating connections, please read the <a href="../connections/home.md#create">connections overview</a>.</p>
+</br>
+</td>
+</tr>
+</tbody>
+</table>
+
 ## August '25 release {#fac-25-8}
 
 ### New capabilities {#fac-25-08-feature}
