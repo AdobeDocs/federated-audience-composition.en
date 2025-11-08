@@ -271,4 +271,3 @@ After adding the connection's details, please note the following additional sett
 | Test connection | Lets you verify your configuration details. |
 
 You can now select **[!UICONTROL Deploy functions]**, followed by **[!UICONTROL Add]** to finalize the connection between the federated database and Experience Platform.
-
