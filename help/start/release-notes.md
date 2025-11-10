@@ -408,3 +408,4 @@ Federated Audience Composition addresses growing market demands for enterprises 
 Learn more about Federated Audience Composition capabilities on [this page](get-started.md) and in the [Frequently Asked Questions](faq.md).
 
 Detailed information on the prerequisites to access Federated Audience Compositions and the current guardrails, refer to the [this page](access-prerequisites.md).
+
