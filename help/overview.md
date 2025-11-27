@@ -34,7 +34,7 @@ Federated Audience Composition supports **three** categories of use cases: audie
 * Profile enrichment: You can select individual customer attributes from your data warehouse to enhance Experience Platform profiles. With federated data added to these profiles, you can better power in-the-moment experiences that are triggered by inbound customer signals.
   * **Example:** Enrich an Experience Platform profile with information from the federated audience. You can now market to a site visitor who belongs to the high-value past purchasers federated audience with a targeted offer that is triggered by their on-site behavior. 
 
-![diagram](assets/fac-use-cases.png){zoomable="yes"}{width="75%" align="center"}
+![diagram](assets/overview/fac-use-cases.png){zoomable="yes"}{width="75%" align="center"}
 
 For more information on Federated Audience Composition use cases, please read the [Federated Audience Composition whitepaper](https://business.adobe.com/resources/sdk/flexibly-access-enterprise-data-with-federated-audience-composition.html).
 
