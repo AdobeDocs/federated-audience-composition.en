@@ -15,7 +15,7 @@ Experience Platform Federated Audience Composition provides Adobe Real-Time CDP 
 
 Federated Audience Composition enable audiences to be created, refined and enriched via federated compositions, using raw data from external data warehouses.
 
-[![image](assets/learn-more-button.svg)](start/release-notes.md)
+[![image](assets/learn-more-button.svg)](release-notes/latest.md)
 
 >[!TAB Connect data]
 
