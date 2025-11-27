@@ -1,6 +1,6 @@
 ---
-title: What's new in Experience Platform Federated Audience Composition
-description: Latest updates and release notes
+title: Federated Audience Composition Release Notes
+description: Latest updates and release notes for Federated Audience Composition.
 exl-id: d4dcaf31-93cd-4a4e-888a-cf1bbdc4ca03
 ---
 # Release notes {#rn-new}
