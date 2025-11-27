@@ -143,7 +143,7 @@ This release comes with the improvement below.
 
 >[!AVAILABILITY]
 >
->Previously available for a set of organizations (LA), Adobe Experience Platform Federated Audience Composition is now available to all users (GA). This capability is activated based on your offering, and only visible with the associated permissions. [Learn more](access-prerequisites.md)
+>Previously available for a set of organizations (LA), Adobe Experience Platform Federated Audience Composition is now available to all users (GA). This capability is activated based on your offering, and only visible with the associated permissions. [Learn more](../start/access-prerequisites.md)
 >
 
 ### Compatibility {#fac-24-10-compat}
