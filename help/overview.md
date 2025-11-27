@@ -1,17 +1,11 @@
 ---
-title: Get Started with Experience Platform Federated Audience Composition
-description: Learn what is Adobe Federated Audience Composition and how to use it in Adobe Experience Platform
+title: Federated Audience Composition overview
+description: Learn about Adobe Federated Audience Composition and how to use it in downstream services such as Adobe Experience Platform and Adobe Journey Optimizer
 exl-id: 43464aea-9c1d-4f1f-859f-82f209f350b7
 ---
-# Get Started with Federated Audience Composition {#gs-fac}
+# Federated Audience Composition overview
 
-Federated Audience Composition is available for [Adobe Real-Time Customer Data Platform](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/home){target="_blank"} and [Adobe Journey Optimizer](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/ajo-home){target="_blank"} environments. It allows you to build and enrich audiences from your third-party data warehouses and import the audiences into Adobe Experience Platform. Federated Audience Composition brings an easy and powerful solution to connect your enterprise data warehouse directly within Adobe Real-Time Customer Data Platform and/or Adobe Journey Optimizer, and perform queries on the tables of your data warehouse. 
-
-Adobe Federated Audience Composition helps Adobe Experience Platform apps users to access their customer data which stored into their data warehouses and cloud storage platforms such as Amazon Redshift, Azure Synapse Analytics, and more. Customer data can live in multiple data warehouses and are now accessible instantly, without replication. Supported platforms are listed on [this page](../connections/home.md#supported-db).
-
->[!INFO]
->
->Follow this [step-by-step guide](https://experienceleague.adobe.com/en/docs/platform-learn/tutorial-comprehensive-technical/datacollection/module13/fac) to learn how to create audiences using Federated Audience Composition.
+Federated Audience Composition lets you build and enrich audiences from your third-party data warehouses and import the audiences into Adobe Experience Platform. This brings an easy and powerful solution to connect your enterprise data warehouse directly within downstream services like Adobe Real-Time Customer Data Platform or Adobe Journey Optimizer, and perform queries on the tables of your data warehouse. As a result, you can access customer data that is stored in data warehouses and cloud storage platforms such as Amazon Redshift and Azure Synapse Analytics.
 
 ## Capabilities {#rn-capabilities}
 

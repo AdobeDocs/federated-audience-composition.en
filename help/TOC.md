@@ -7,8 +7,8 @@ breadcrumb-title: Experience Platform Federated Audience Composition
 # Experience Platform Federated Audience Composition documentation {#using}
 
 - [Experience Platform Federated Audience Composition documentation](home.md)
+- [Federated Audience Composition overview](./overview.md)
 - Get started with Federated Audience Composition {#start}
-    - [What is Federated Audience Composition](start/get-started.md)
     - [Prerequisites and guardrails](start/access-prerequisites.md)
     - [Work with audiences](start/audiences.md)
     - [Work with the AI Assistant](start/ai-assistant.md)

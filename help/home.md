@@ -36,7 +36,7 @@ Add and configure activities (Split, Enrichment, Query, etc.) to build compositi
 <table style="table-layout:fixed">
   <tr style="border: 0;">
     <td>
-    <a href="start/get-started.md"><img src="assets/do-not-localize/start-quick.png"></a>
+    <a href="/overview.md"><img src="assets/do-not-localize/start-quick.png"></a>
     <div><strong>Get started</strong><br/>Learn how to create and update Adobe Experience Platform audiences directly from your database, without any ingestion process.
     </div>
     </td>
@@ -51,7 +51,7 @@ Add and configure activities (Split, Enrichment, Query, etc.) to build compositi
     </div>
     </td>
     <td>
-    <a href="start/get-started.md#use-cases"><img src="assets/do-not-localize/start-use-cases.png"></a>
+    <a href="/overview.md#use-cases"><img src="assets/do-not-localize/start-use-cases.png"></a>
     <div><strong>Use cases</strong><br/>Use Federated Audience Composition to create and enrich audiences as well as enrich profile data.
     </div>
     </td>
@@ -61,10 +61,10 @@ Add and configure activities (Split, Enrichment, Query, etc.) to build compositi
     </td>
   </tr>
   <tr style="border: 0;">
-    <td><a href="start/get-started.md"><img src="assets/learn-more-button.svg"></a></td>
+    <td><a href="/overview.md"><img src="assets/learn-more-button.svg"></a></td>
     <td><a href="data-management/gs-models.md"><img src="assets/learn-more-button.svg"></a></td>
     <td><a href="compositions/gs-compositions.md"><img src="assets/learn-more-button.svg"></a></td>
-    <td><a href="start/get-started.md#use-cases"><img src="assets/learn-more-button.svg"></a></td>
+    <td><a href="/overview.md#use-cases"><img src="assets/learn-more-button.svg"></a></td>
     <td><a href="start/faq.md"><img src="assets/learn-more-button.svg"></a></td>
     </tr>
 </table>
