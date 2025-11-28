@@ -78,9 +78,9 @@ The audit trail capability provides a detailed and chronological record of all a
 
 <!-- Workflow + Workflow activities-->
 
-Learn how to access Federated Audience Composition, guardrails and limitations on [this page](access-prerequisites.md).
+Learn how to access Federated Audience Composition, guardrails and limitations on [this page](./start/access-prerequisites.md).
 
-See also frequently asked questions on [this page](faq.md).
+See also frequently asked questions on [this page](./start/faq.md).
 
 >[!CONTEXTUALHELP]
 >id="dc_workflow_settings_execution"
