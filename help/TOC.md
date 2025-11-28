@@ -12,7 +12,6 @@ breadcrumb-title: Experience Platform Federated Audience Composition
     - [Prerequisites and guardrails](start/access-prerequisites.md)
     - [Work with audiences](start/audiences.md)
     - [Work with the AI Assistant](start/ai-assistant.md)
-    - [Frequently asked questions](start/faq.md)
 - Governance, Privacy, Security {#governance-privacy-security}
     - [Overview](./governance-privacy-security/home.md)
     - [Access Control](governance-privacy-security/access-control.md)
@@ -51,6 +50,7 @@ breadcrumb-title: Experience Platform Federated Audience Composition
     - [Build your first query](query/build-query.md)
     - [Edit expressions](query/expression-editor.md)
 - [Audit Trail](admin/audit-trail.md)
+- [Frequently asked questions](./faq.md)
 - Release notes {#release-notes}
   - [Latest release notes](./release-notes/latest.md)
   - [2024](./release-notes/2024.md)

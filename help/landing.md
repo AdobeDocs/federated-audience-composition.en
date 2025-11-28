@@ -56,7 +56,7 @@ Add and configure activities (Split, Enrichment, Query, etc.) to build compositi
     </div>
     </td>
     <td>
-    <a href="start/faq.md"><img src="assets/do-not-localize/start-faq.png"></a>
+    <a href="./faq.md"><img src="assets/do-not-localize/start-faq.png"></a>
     <div><strong>FAQ</strong><br/>Frequently asked questions about Federated Audience Composition.</div>
     </td>
   </tr>
@@ -65,7 +65,7 @@ Add and configure activities (Split, Enrichment, Query, etc.) to build compositi
     <td><a href="data-modelling/models.md"><img src="assets/learn-more-button.svg"></a></td>
     <td><a href="compositions/compositions.md"><img src="assets/learn-more-button.svg"></a></td>
     <td><a href="./overview.md#use-cases"><img src="assets/learn-more-button.svg"></a></td>
-    <td><a href="start/faq.md"><img src="assets/learn-more-button.svg"></a></td>
+    <td><a href="./faq.md"><img src="assets/learn-more-button.svg"></a></td>
     </tr>
 </table>
 

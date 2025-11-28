@@ -80,7 +80,7 @@ The audit trail capability provides a detailed and chronological record of all a
 
 Learn how to access Federated Audience Composition, guardrails and limitations on [this page](./start/access-prerequisites.md).
 
-See also frequently asked questions on [this page](./start/faq.md).
+For answers to frequently asked questions, read the [Federated Audience Composition FAQ](./faq.md).
 
 >[!CONTEXTUALHELP]
 >id="dc_workflow_settings_execution"
