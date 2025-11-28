@@ -25,7 +25,7 @@ The **[!UICONTROL Audit trail]** feature constantly records a detailed log of ac
 
 * **Source Schema audit trail** allows you to monitor activities and recent modifications made to your schemas within the Adobe Federated Audience Composition instance. 
 
-  For detailed information on schemas, refer to this [page](../customer/schemas.md).
+  For detailed information on schemas, refer to this [page](../data-modelling/schemas.md).
 
 * **Workflow audit trail** allows you to keep track of activities and recent changes made to workflows, including their current states such as:
 

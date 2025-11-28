@@ -41,7 +41,7 @@ Add and configure activities (Split, Enrichment, Query, etc.) to build compositi
     </div>
     </td>
     <td>
-    <a href="data-management/models.md"><img src="assets/do-not-localize/start-profiles.png"></a>
+    <a href="data-modellingmodels.md"><img src="assets/do-not-localize/start-profiles.png"></a>
     <div><strong>Audience data</strong><br/>Prepare and map your data in a custom and extensible data model.
     </div>
     </td>
@@ -62,7 +62,7 @@ Add and configure activities (Split, Enrichment, Query, etc.) to build compositi
   </tr>
   <tr style="border: 0;">
     <td><a href="./overview.md"><img src="assets/learn-more-button.svg"></a></td>
-    <td><a href="data-management/models.md"><img src="assets/learn-more-button.svg"></a></td>
+    <td><a href="data-modellingmodels.md"><img src="assets/learn-more-button.svg"></a></td>
     <td><a href="compositions/compositions.md"><img src="assets/learn-more-button.svg"></a></td>
     <td><a href="./overview.md#use-cases"><img src="assets/learn-more-button.svg"></a></td>
     <td><a href="start/faq.md"><img src="assets/learn-more-button.svg"></a></td>

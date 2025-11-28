@@ -49,7 +49,7 @@ This release comes with the improvements below.
 
 * **Data model Canvas view**
 
-    The Canvas view for the Data Models section improves the experience by enabling the visualization of data models and their links in a canvas layout, alongside the existing tabular view. [Learn more](../data-management/models.md)
+    The Canvas view for the Data Models section improves the experience by enabling the visualization of data models and their links in a canvas layout, alongside the existing tabular view. [Learn more](../data-modellingmodels.md)
 
 * **AI Assistant**
 
@@ -86,7 +86,7 @@ This release comes with the improvements below.
 <!--
 * **Data model Canvas view**
 
-    The Canvas view for the Data Models section improves the experience by enabling the visualization of data models and their links in a canvas layout, alongside the existing tabular view. [Learn more](../data-management/models.md)
+    The Canvas view for the Data Models section improves the experience by enabling the visualization of data models and their links in a canvas layout, alongside the existing tabular view. [Learn more](../data-modellingmodels.md)
 
 * **AI Assistant**
 
@@ -123,7 +123,7 @@ This release comes with the changes listed below.
 
 * **Enhanced Schema Creation Experience**
 
-    The process of creating schemas has been improved through an updated user interface, designed to be more intuitive and easier to navigate. These enhancements offer data practitioners a smoother and more efficient way to develop data models. [Learn more](../customer/schemas.md)
+    The process of creating schemas has been improved through an updated user interface, designed to be more intuitive and easier to navigate. These enhancements offer data practitioners a smoother and more efficient way to develop data models. [Learn more](../data-modelling/schemas.md)
 
 * **Audience Enrichment Support for Databricks**
 
@@ -168,7 +168,7 @@ This release comes with the improvements listed below.
 
 * **Refresh existing schemas**
 
-    When a column is created, modified or deleted in a federated database, you can now detect and apply the changes by clicking on the **[!UICONTROL Refresh schema]** button in the corresponding schema. [Learn more](../customer/schemas.md#schema-refresh)
+    When a column is created, modified or deleted in a federated database, you can now detect and apply the changes by clicking on the **[!UICONTROL Refresh schema]** button in the corresponding schema. [Learn more](../data-modelling/schemas.md#schema-refresh)
 
 * **Associate a data model with a new composition**
 
