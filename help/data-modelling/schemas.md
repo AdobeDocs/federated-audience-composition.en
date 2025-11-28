@@ -117,4 +117,4 @@ You can also update the schema definition when editing it.
 
 To delete a schema, select the ![three dots icon](/help/assets/icons/more.png), followed by **[!UICONTROL Delete]**.
 
-![](assets/schema_delete.png){zoomable="yes"}
+![](assets/scheams/schema_delete.png){zoomable="yes"}
