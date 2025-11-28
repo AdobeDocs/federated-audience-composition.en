@@ -24,7 +24,7 @@ The main steps to send Adobe Experience Platform audiences to Adobe Federated Au
 
 1. Access the Adobe Experience Platform Destinations catalog and select the Federated Audience Composition destination.
 
-    In thre right pane, select **[!UICONTROL Configure new destination]**.
+    In the right pane, select **[!UICONTROL Configure new destination]**.
 
     ![](assets/destination-new.png)
 
