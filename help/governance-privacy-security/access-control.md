@@ -74,4 +74,4 @@ The user will then receive an email with instructions to access your instance. I
 
 You can manage access to a specific composition by applying access labels.
 
-For more information on applying access labels to a composition, please read the [apply access labels section](/help/compositions/gs-compositions.md#access-labels) of the compositions guide.
+For more information on applying access labels to a composition, please read the [apply access labels section](/help/compositions/compositions.md#access-labels) of the compositions guide.

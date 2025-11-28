@@ -27,7 +27,7 @@ Create, configure, test and save the connection to your external database.
 
 Add and configure activities (Split, Enrichment, Query, etc.) to build compositions and create your audience.
 
-[![image](assets/learn-more-button.svg)](compositions/gs-compositions.md)
+[![image](assets/learn-more-button.svg)](compositions/compositions.md)
 
 >[!ENDTABS]
 
@@ -41,12 +41,12 @@ Add and configure activities (Split, Enrichment, Query, etc.) to build compositi
     </div>
     </td>
     <td>
-    <a href="data-management/gs-models.md"><img src="assets/do-not-localize/start-profiles.png"></a>
+    <a href="data-management/models.md"><img src="assets/do-not-localize/start-profiles.png"></a>
     <div><strong>Audience data</strong><br/>Prepare and map your data in a custom and extensible data model.
     </div>
     </td>
     <td>
-    <a href="compositions/gs-compositions.md"><img src="assets/do-not-localize/start-journey.jpeg"></a>
+    <a href="compositions/compositions.md"><img src="assets/do-not-localize/start-journey.jpeg"></a>
     <div><strong>Compose an audience</strong><br/>Add and configure activities (such as Split, Enrichment, or Query) to build compositions and create your first federated audience.
     </div>
     </td>
@@ -62,8 +62,8 @@ Add and configure activities (Split, Enrichment, Query, etc.) to build compositi
   </tr>
   <tr style="border: 0;">
     <td><a href="/overview.md"><img src="assets/learn-more-button.svg"></a></td>
-    <td><a href="data-management/gs-models.md"><img src="assets/learn-more-button.svg"></a></td>
-    <td><a href="compositions/gs-compositions.md"><img src="assets/learn-more-button.svg"></a></td>
+    <td><a href="data-management/models.md"><img src="assets/learn-more-button.svg"></a></td>
+    <td><a href="compositions/compositions.md"><img src="assets/learn-more-button.svg"></a></td>
     <td><a href="/overview.md#use-cases"><img src="assets/learn-more-button.svg"></a></td>
     <td><a href="start/faq.md"><img src="assets/learn-more-button.svg"></a></td>
     </tr>

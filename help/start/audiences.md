@@ -6,7 +6,7 @@ exl-id: c6507624-1dc9-43f9-a3ad-c3dc9689f8c7
 ---
 # Work with audiences {#gs-audiences}
 
-Experience Platform Federated Audience Composition allows you to [create compositions](../compositions/gs-compositions.md), where you can leverage various activities into a visual canvas to create audiences and store them into Adobe Experience Platform Audience Portal.
+Experience Platform Federated Audience Composition allows you to [create compositions](../compositions/compositions.md), where you can leverage various activities into a visual canvas to create audiences and store them into Adobe Experience Platform Audience Portal.
 
 You can then target these audience in Journey Optimizer or activate them to any destination supported by Adobe Experience Platform.
 

@@ -5,7 +5,7 @@ description: Learn how to start with data models
 exl-id: 7e1f74c4-b89a-480c-8e12-0257a71e629d
 ---
 
-# Get started with data models {#data-model-beta}
+# Models overview
 
 >[!AVAILABILITY]
 >
@@ -16,9 +16,7 @@ exl-id: 7e1f74c4-b89a-480c-8e12-0257a71e629d
 >
 >For more information on the required permissions, please read the [access control guide](/help/governance-privacy-security/access-control.md).
 
-## What is a data model {#data-model-start}
-
-A data model is a set of schemas, audiences, and the links between them. It is used to federate audiences with databases data.
+A data model is a set of schemas, audiences, and the links between them. You can use models to combine your database's data into your audiences.
 
 In Federated Audience Composition, you can create and manage data models directly in the Canvas view. This includes adding schemas and audiences, as well as defining the links between them based on your use case.
 

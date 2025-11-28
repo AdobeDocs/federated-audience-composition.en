@@ -78,7 +78,7 @@ exl-id: d4dcaf31-93cd-4a4e-888a-cf1bbdc4ca03
 <tr>
 <td>
 <p>You can now add multiple joins together in a single link for your models.</p>
-<p>For more information about models, please read the <a href="../data-management/gs-models.md#create">models overview</a>.</p>
+<p>For more information about models, please read the <a href="../data-management/models.md#create">models overview</a>.</p>
 </br>
 </td>
 </tr>
@@ -172,7 +172,7 @@ This release comes with the following improvements:
 
     Federated Audience Composition now supports object-level access control to apply access labels to your specified compositions.
 
-    More information about using object-level access labels can be found in the [compositions guide](/help/compositions/gs-compositions.md).
+    More information about using object-level access labels can be found in the [compositions guide](/help/compositions/compositions.md).
 
 * **Default roles**
   
@@ -201,7 +201,7 @@ This release comes with the following improvements:
 <td>
 <p>Data model with Canvas view is now available for all customers!</p>
 <p>The Canvas view for the Data Models section improves the experience by enabling the visualization of data models and their links in a canvas layout, alongside the existing tabular view. </p>
-<p>For more information about canvas view, please read the <a href="../data-management/gs-models.md">data models overview</a>.</p>
+<p>For more information about canvas view, please read the <a href="../data-management/models.md">data models overview</a>.</p>
 </br>
 </td>
 </tr>
@@ -233,7 +233,7 @@ This release comes with the following improvements.
 <td>
 <p>The Canvas view for the Data Models section improves the experience by enabling the visualization of data models and their links in a canvas layout, alongside the existing tabular view. </p>
 <p>Data model with Canvas view is currently available as a beta to select users only.</p>
-<p>For more information, refer to the <a href="../data-management/gs-models.md">detailed documentation</a>.</p>
+<p>For more information, refer to the <a href="../data-management/models.md">detailed documentation</a>.</p>
 </br>
 </td>
 </tr>

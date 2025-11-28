@@ -17,7 +17,7 @@ Experience Platform Federated Audience Composition provides a visual canvas that
 
 The composition diagram is a representation of what is supposed to happen. It describes the various tasks to be performed and how they are linked together. 
 
-![](assets/gs-compositions/composition-example.png){zoomable="yes"}{width="70%"}
+![](assets/compositions/composition-example.png){zoomable="yes"}{width="70%"}
 
 Each composition contains:
 
