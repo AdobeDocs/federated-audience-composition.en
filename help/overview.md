@@ -11,27 +11,27 @@ Federated Audience Composition lets you build and enrich audiences from your thi
 
 Federated Audience Composition extends the value of Real-Time CDP and Journey Optimizer with a comprehensive approach to audience curation and activation:
 
-* Expand access to critical warehouse-based datasets to create high-value audiences: Utilize existing data warehouses as the main system of record, while leveraging best-in-class applications to power great customer experiences.
+* **Expand access to critical warehouse-based datasets to create high-value audiences**: You can use existing data warehouses as the main system of record, while leveraging best-in-class applications to power great customer experiences.
 
-* Comprehensive support to power engagement use cases: Federated Audience Composition, paired with Real-Time CDP or Journey Optimizer supports brand-initiated, personalized experiences with federated audiences and delivers in-the-moment experiences triggered by real-time events, combined with person attributes to meet use case requirements across teams.
+* **Comprehensive support to power engagement use cases**: Federated Audience Composition, paired with Real-Time CDP or Journey Optimizer, supports brand-initiated, personalized experiences with federated audiences and delivers in-the-moment experiences triggered by real-time events, combined with person attributes to meet use case requirements across teams.
 
-* Minimize data movement and duplication: Create audiences from datasets that live in an enterprise data warehouse without copying underlying data to manage actionable marketing profiles and audiences.
+* **Minimize data movement and duplication**: You can create audiences from datasets that live in enterprise data warehouses without copying underlying data to manage actionable marketing profiles and audiences.
 
-* Utilize a single system for experience-driven workflows: Curate ingested and federated audiences in Adobe Experience Platform and coordinate outbound experiences across all channels.
+* **Utilize a single system for experience-driven workflows**: You can curate both ingested and federated audiences in Adobe Experience Platform and coordinate outbound experiences across all channels.
 
-* B2C and B2B CDP customers can now leverage Federated Audience Composition to build people-based audiences by integrating data from supported enterprise data warehouses. Additionally, they can enrich existing AEP people-based audiences by incorporating relevant attributes available in the enterprise data warehouse, enhancing their audience profiles for more personalized and targeted engagement. 
+* **Multi-edition support**: B2C and B2B CDP customers can leverage Federated Audience Composition to build people-based audiences by integrating data from supported enterprise data warehouses. Additionally, they can enrich existing Experience Platform people-based audiences by incorporating relevant attributes available in the enterprise data warehouse, enhancing their audience profiles for more personalized and targeted engagement. 
 
 ## Use cases {#use-cases}
 
 Federated Audience Composition supports **three** categories of use cases: audience creation, audience enrichment, and customer profile enrichment. 
 
-* Audience creation: You can create audiences from a data warehouse and federate those audiences into Experience Platform for use in either Real-Time CDP or Journey Optimizer through a marketer friendly drag-and-drop user interface. As a result, you can query your data warehouses without copying sensitive underlying data or duplicating existing data.
+* **Audience creation**: You can create audiences from a data warehouse and federate those audiences into Experience Platform for use in either Real-Time CDP or Journey Optimizer through a marketer friendly drag-and-drop user interface. As a result, you can query your data warehouses without copying sensitive underlying data or duplicating existing data.
   * **Example:** Create an audience of high value past purchasers using historic transaction data in the warehouse, without copying those transactions into Experience Platform.
 
-* Audience enrichment: You can add more detail to your existing audiences in Experience Platform by using additional datasets from your data warehouses and overlaying your audiences with this information - all without copying the underlying data into Experience Platform. With audience enrichment, you can deliver improved personalization with the enriched audience.
+* **Audience enrichment**: You can add more detail to your existing audiences in Experience Platform by using additional datasets from your data warehouses and overlaying your audiences with this information - all without copying the underlying data into Experience Platform. With audience enrichment, you can deliver improved personalization with the enriched audience.
   * **Example:** Enrich an Experience Platform audience of cart abandoners with the Federated Audience Composition audience of high-value past purchasers to deliver a targeted offer.
 
-* Profile enrichment: You can select individual customer attributes from your data warehouse to enhance Experience Platform profiles. With federated data added to these profiles, you can better power in-the-moment experiences that are triggered by inbound customer signals.
+* **Profile enrichment**: You can select individual customer attributes from your data warehouse to enhance Experience Platform profiles. With federated data added to these profiles, you can better power in-the-moment experiences that are triggered by inbound customer signals.
   * **Example:** Enrich an Experience Platform profile with information from the federated audience. You can now market to a site visitor who belongs to the high-value past purchasers federated audience with a targeted offer that is triggered by their on-site behavior. 
 
 ![diagram](assets/overview/fac-use-cases.png){zoomable="yes"}{width="75%" align="center"}
@@ -44,15 +44,13 @@ Adobe Federated Audience Composition lets you create and update Adobe Experience
 
 <!--![diagram](assets/steps-diagram.png){zoomable="yes"}{width="85%" align="center"}-->
 
-Key steps:
+1. **Create a connection**: Bring together data from various sources, and merge them into a unified dataset. For more information on connecting Adobe Experience Platform apps to your enterprise data warehouse, supported databases, and configuring your connection, read the [connections overview](../connections/home.md).
 
-1. **Data Integration**: Bring together data from various sources, and merge them into a unified dataset. Learn how to connect Adobe Experience Platform apps and your enterprise data warehouse, supported databases, and how to configure them are detailed in [this section](../connections/home.md).
+2. **Model your data**: Design and create data models and schemas that define the structure, relationships, and constraints of the data. For more information on schemas, read the [schema overview](../customer/schemas.md). For more information on data models, read the [data model overview](../data-management/gs-models.md).
 
-1. **Data Modeling**: Design and create data models and schemas that define the structure, relationships, and constraints of the data. Learn more about schemas on [this page](../customer/schemas.md). Learn how to create links for your datamodel on [this page](../data-management/gs-models.md).
+3. **Transform your data**: Apply data manipulation techniques to modify the format, structure, or values of data elements to make them compatible or suitable for specific analysis or applications.
 
-1. **Data Transformation**: Apply data manipulation techniques to modify the format, structure, or values of data elements to make them compatible or suitable for specific analysis or applications.
-
-1. **Data Usage**: Create, orchestrate and build audiences. Learn how to compose audiences on [this page](../compositions/gs-compositions.md). You can also update or reuse existing audiences through Adobe Experience Platform Audience portal and Destinations. Learn more on [this page](../connections/destinations.md)
+4. **Compose your audience**: Create, orchestrate and build audiences. Learn how to compose audiences on [this page](../compositions/gs-compositions.md). You can also update or reuse existing audiences through Adobe Experience Platform Audience portal and Destinations. Learn more on [this page](../connections/destinations.md)
 
 >[!NOTE]
 >
@@ -72,24 +70,22 @@ You can then make privacy requests to access and/or delete profile data correspo
 
 You can create and manage individual requests to access and delete customer data from Adobe Federated Audience Composition. The steps to submit **access requests** and **delete requests** are detailed in the [Real-Time Customer Profile documentation](https://experienceleague.adobe.com/en/docs/experience-platform/profile/privacy){target="_blank"}.
 
-### Audit Trail {#gov-audit-trail}
+### Audit trail {#gov-audit-trail}
 
-The Audit trail capability provides a detailed and chronological record of all actions and events that have been made to your environment in real-time. [Learn more](../admin/audit-trail.md)
+The audit trail capability provides a detailed and chronological record of all actions and events that have been made to your environment in real-time. To learn more about the audit trail, please read the [audit trail overview](../admin/audit-trail.md).
 
 ## Learn more {#learn}
 
 <!-- Workflow + Workflow activities-->
 
-
 Learn how to access Federated Audience Composition, guardrails and limitations on [this page](access-prerequisites.md).
 
 See also frequently asked questions on [this page](faq.md).
 
-
 >[!CONTEXTUALHELP]
 >id="dc_workflow_settings_execution"
 >title="Execution settings"
->abstract="In this section, you can configure settings related to the execution of the worklow, such the number of days the composition history is kept."
+>abstract="In this section, you can configure settings related to the execution of the workflow, such the number of days the composition history is kept."
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_query_enrichment_noneditable"
