@@ -21,7 +21,7 @@ breadcrumb-title: Experience Platform Federated Audience Composition
     - [FDA rights matrix](connections/fda-rights.md)
     - Data models and schemas{#datamodel}
         - [Create and configure schemas](data-modelling/schemas.md)
-        - [Configure your data models](data-modellingmodels.md)
+        - [Configure your data models](data-modelling/models.md)
     - [Enrich Adobe Experience Platform audiences with external data](connections/destinations.md)
 - Compose audiences {#compositions}
     - [Get started with compositions](compositions/compositions.md)
