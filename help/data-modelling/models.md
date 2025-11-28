@@ -80,7 +80,7 @@ To create links between tables of your data model from the table view tab, follo
   
     To create a multiple join link, select the plus icon. You can now create multiple joins between the schema fields.
 
-    ![The plus button is highlighted, which lets you create a multiple join link for the model.](assets/multi-join.png){zoomable="yes"}
+    ![The plus button is highlighted, which lets you create a multiple join link for the model.](assets/models/multi-join.png){zoomable="yes"}
 
 All the links defined for your data model are listed as below:
 
@@ -92,7 +92,7 @@ To create links between tables of your data model from the Canvas view tab, foll
 
 1. Access the Canvas view of your data model and choose the two tables you want to link
 
-2. Select the ![](assets/do-not-localize/Smock_AddCircle_18_N.svg) button next to the Source Join, then drag and guide the arrow towards the Target Join to establish the connection.
+2. Select the ![](assets/models/do-not-localize/Smock_AddCircle_18_N.svg) button next to the Source Join, then drag and guide the arrow towards the Target Join to establish the connection.
 
     ![](assets/models/datamodel.gif){zoomable="yes"}
 
