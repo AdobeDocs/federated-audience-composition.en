@@ -49,7 +49,7 @@ This release comes with the improvements below.
 
 * **Data model Canvas view**
 
-    The Canvas view for the Data Models section improves the experience by enabling the visualization of data models and their links in a canvas layout, alongside the existing tabular view. [Learn more](../data-modellingmodels.md)
+    The Canvas view for the Data Models section improves the experience by enabling the visualization of data models and their links in a canvas layout, alongside the existing tabular view. [Learn more](../data-modelling/models.md)
 
 * **AI Assistant**
 
@@ -86,7 +86,7 @@ This release comes with the improvements below.
 <!--
 * **Data model Canvas view**
 
-    The Canvas view for the Data Models section improves the experience by enabling the visualization of data models and their links in a canvas layout, alongside the existing tabular view. [Learn more](../data-modellingmodels.md)
+    The Canvas view for the Data Models section improves the experience by enabling the visualization of data models and their links in a canvas layout, alongside the existing tabular view. [Learn more](../data-modelling/models.md)
 
 * **AI Assistant**
 

@@ -46,7 +46,7 @@ By creating a schema, you can define a representation of your table in Experienc
 
 * Give it a friendly name and description to simplify the comprehension for the user
 * Decide the visibility of each field, according to their real use 
-* Select its primary key, in order to link schemas between them, as needed in the [data model](../data-modellingmodels.md#data-model-start)
+* Select its primary key, in order to link schemas between them, as needed in the [data model](../data-modelling/models.md#data-model-start)
 
 >[!CAUTION]
 >
