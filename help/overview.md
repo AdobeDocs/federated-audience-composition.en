@@ -44,13 +44,13 @@ Adobe Federated Audience Composition lets you create and update Adobe Experience
 
 <!--![diagram](assets/steps-diagram.png){zoomable="yes"}{width="85%" align="center"}-->
 
-1. **Create a connection**: Bring together data from various sources, and merge them into a unified dataset. For more information on connecting Adobe Experience Platform apps to your enterprise data warehouse, supported databases, and configuring your connection, read the [connections overview](../connections/home.md).
+1. **Create a connection**: Bring together data from various sources, and merge them into a unified dataset. For more information on connecting Adobe Experience Platform apps to your enterprise data warehouse, supported databases, and configuring your connection, read the [connections overview](./connections/home.md).
 
-2. **Model your data**: Design and create schemas and data models that define the structure, relationships, and constraints of the data. For more information on schemas, read the [schema overview](../customer/schemas.md). For more information on data models, read the [data model overview](../data-management/models.md).
+2. **Model your data**: Design and create schemas and data models that define the structure, relationships, and constraints of the data. For more information on schemas, read the [schema overview](./customer/schemas.md). For more information on data models, read the [data model overview](./data-management/models.md).
 
 3. **Transform your data**: Apply data manipulation techniques to modify the format, structure, or values of data elements to make them compatible or suitable for specific analysis or applications.
 
-4. **Compose your audience**: Create, orchestrate and build audiences. For more information on composing audiences, read the [composition overview](../compositions/compositions.md). You can also update or reuse existing audiences through Adobe Experience Platform Audience portal and Destinations. Learn more on [this page](../connections/destinations.md)
+4. **Compose your audience**: Create, orchestrate and build audiences. For more information on composing audiences, read the [composition overview](./compositions/compositions.md). You can also update or reuse existing audiences through Adobe Experience Platform Audience portal and Destinations. Learn more on [this page](./connections/destinations.md)
 
 >[!NOTE]
 >
@@ -72,7 +72,7 @@ You can create and manage individual requests to access and delete customer data
 
 ### Audit trail {#gov-audit-trail}
 
-The audit trail capability provides a detailed and chronological record of all actions and events that have been made to your environment in real-time. To learn more about the audit trail, please read the [audit trail overview](../admin/audit-trail.md).
+The audit trail capability provides a detailed and chronological record of all actions and events that have been made to your environment in real-time. To learn more about the audit trail, please read the [audit trail overview](./admin/audit-trail.md).
 
 ## Learn more {#learn}
 
