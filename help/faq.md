@@ -12,20 +12,31 @@ The following is a list of frequently asked questions regarding Adobe Experience
 
 Federated Audience Composition requires Adobe Real-Time Customer Data Platform and Adobe Journey Optimizer Prime or Ultimate packages. You also need to have purchased Federated Audience Composition.
 
-In order to use Federated Audience Audience Composition, each user must be added to a specific profile created for each sandbox. For more information, refer to the [Access Federated Audience Composition](access-prerequisites.md) page.
+In order to use Federated Audience Audience Composition, each user must be added to a specific profile created for each sandbox. For more information, refer to the [Access Federated Audience Composition](./start/access-prerequisites.md) page.
 
 +++
 
 +++What cloud warehouses are supported?
 
-The list of systems supported with Federated Audience Composition is available on [this page](../start/access-prerequisites.md#supported-systems).
+Currently, the following cloud warehouses are supported:
+
+* Amazon Redshift
+* Azure Synapse Analytics
+* Databricks
+* Google BigQuery
+* Microsoft Fabric
+* Oracle
+* Snowflake
+* Vertica Analytics
+
+For more information on connecting to a data warehouse, read the [connections overview](./connections/home.md).
 
 +++
 
 
 +++Can multiple data warehouses be queried in the same composition?
 
-Yes, multiple warehouses can be queried in the same composition, and can combine data from multiple sources.  Typically, each [composition activity](../compositions/orchestrate-activities.md) (Query, Enrichment, Split, etc.) executes one or several SQL statements depending on the activity configuration, the targeted databases (there can be multiple cases of federated data access), and outputs of one or more worktables with the result of the execution. Those worktables are used as the input for consecutive activities.
+Yes, multiple warehouses can be queried in the same composition, and can combine data from multiple sources.  Typically, each [composition activity](./compositions/orchestrate-activities.md) (Query, Enrichment, Split, etc.) executes one or several SQL statements depending on the activity configuration, the targeted databases (there can be multiple cases of federated data access), and outputs of one or more worktables with the result of the execution. Those worktables are used as the input for consecutive activities.
 
 +++
 
