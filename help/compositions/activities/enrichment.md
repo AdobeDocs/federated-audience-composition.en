@@ -60,7 +60,7 @@ Follow these steps to configure the **Enrichment** activity:
 
 1. If multiple transitions have been configured in your composition, you can use the **[!UICONTROL Primary set]** field to define which transition should be used as primary set to enrich with data.
 
-1. Click **Add enrichment data** and select the attribute to use to enrich the data.
+1. Select **Add enrichment data** and select the attribute to use to enrich the data.
 
     ![](../assets/enrichment-add.png)
 

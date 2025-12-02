@@ -33,7 +33,7 @@ exl-id: 2c939185-f1c1-4f2b-ae1b-e2539e121eff
 >[!CONTEXTUALHELP]
 >id="dc_schema_edit_description"
 >title="Schema description"
->abstract="The schema description lists columns, types and labels. You can also check the reconciliation key for the schema. To update the schema definition, click the pencil icon."
+>abstract="The schema description lists columns, types and labels. You can also check the reconciliation key for the schema. To update the schema definition, select the pencil icon."
 
 >[!CONTEXTUALHELP]
 >id="dc_schema_filter_sources"

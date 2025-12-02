@@ -38,7 +38,7 @@ Follow these common steps to start configuring the **Combine** activity:
 
 1. Add a **Combine** activity to any of the previous branches.
 
-1. Select the segmentation type: [Union](#union), [Intersection](#intersection) or [Exclusion](#exclusion), and click **Continue**.
+1. Select the segmentation type: [Union](#union), [Intersection](#intersection) or [Exclusion](#exclusion), and select **Continue**.
 
     ![](../assets/combine.png)
 
@@ -81,7 +81,7 @@ For this, follow the extra steps below:
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_exclusion_options"
 >title="Exclusion rules"
->abstract="When necessary, you can manipulate inbound tables. Indeed, to exclude a target from another schema, also known as targeting dimension, this target has to be returned to the same schema as the main target. To do this, click **Add a rule** in the E**xclusion rules** section and specify the schema change conditions. Data reconciliation is carried out either via an attribute or a join."
+>abstract="When necessary, you can manipulate inbound tables. Indeed, to exclude a target from another schema, also known as targeting dimension, this target has to be returned to the same schema as the main target. To do this, select **Add a rule** in the E**xclusion rules** section and specify the schema change conditions. Data reconciliation is carried out either via an attribute or a join."
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_combine_sets"
@@ -91,7 +91,7 @@ For this, follow the extra steps below:
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_combine_exclusion"
 >title="Exclusion rules"
->abstract="When necessary, you can manipulate inbound tables. Indeed, to exclude a target from another schema, also known as targeting dimension, this target has to be returned to the same schema as the main target. To do this, click **Add a rule** in the **Exclusion rules** section and specify the schema change conditions. Data reconciliation is carried out either via an attribute or a join."
+>abstract="When necessary, you can manipulate inbound tables. Indeed, to exclude a target from another schema, also known as targeting dimension, this target has to be returned to the same schema as the main target. To do this, select **Add a rule** in the **Exclusion rules** section and specify the schema change conditions. Data reconciliation is carried out either via an attribute or a join."
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_combine_complement"
@@ -106,7 +106,7 @@ For this, you need to follow the extra steps below:
 
 1. In the **Sets to join** section, select the **Primary set** from the inbound transitions. This is the set from which elements are excluded. The other sets match elements before being excluded from the primary set.
 
-1. When necessary, you can manipulate inbound tables. Indeed, to exclude a target from another schema, this target has to be returned to the same schema as the main target. To do this, click **Add a rule** in the **Exclusion rules** section and specify the schema change conditions. Data reconciliation is carried out either via an attribute or a join. <!-- pas compris-->
+1. When necessary, you can manipulate inbound tables. Indeed, to exclude a target from another schema, this target has to be returned to the same schema as the main target. To do this, select **Add a rule** in the **Exclusion rules** section and specify the schema change conditions. Data reconciliation is carried out either via an attribute or a join. <!-- pas compris-->
 1. You can check the **Generate completement** option if you wish to process the remaining population. See the [Intersection](#intersection) section.
 
 <!--

@@ -6,7 +6,7 @@ exl-id: bfaf1057-8770-4c3d-945d-4a9d37e5675f
 ---
 # Build your first query {#build-query}
 
-To start building a query, access the query modeler from the location of your choice, depending on the action you want to perform. The Query modeler opens with a blank canvas. Click the **+** button to configure the first node of your query.
+To start building a query, access the query modeler from the location of your choice, depending on the action you want to perform. The Query modeler opens with a blank canvas. Select the **+** button to configure the first node of your query.
 
 You can add two types of elements:  
 
@@ -38,9 +38,9 @@ Filtering components allow you to refine your query by using:
 
 To filter your query using a custom condition, follow these steps:
 
-1. Click the **+** button on the desired node and select **[!UICONTROL Custom condition]**. The custom condition properties pane opens on the right hand side. 
+1. Select the **+** button on the desired node, followed by **[!UICONTROL Custom condition]**. The custom condition properties pane opens on the right hand side. 
 
-1. In the **[!UICONTROL Attribute]** field, select the attribute from the database that you want to leverage to create your condtion. The attributes list includes all the attributes from your database, including attributes from linked tables.
+2. In the **[!UICONTROL Attribute]** field, select the attribute from the database that you want to leverage to create your condtion. The attributes list includes all the attributes from your database, including attributes from linked tables.
 
     ![](assets/query-custom-condition-fields.png){zoomable="yes"}
 
@@ -48,7 +48,7 @@ To filter your query using a custom condition, follow these steps:
     >
     >The **[!UICONTROL Edit expression]** button allows you to leverage the expression editor to manually define an expression using fields from the database and helper functions. [Learn how to edit expressions](expression-editor.md)
 
-1. Select the operator to apply from the drop-down list. Various operators are available for use. Note that operators available in the drop-down list depend on the attribute's data type. 
+3. Select the operator to apply from the drop-down list. Various operators are available for use. Note that operators available in the drop-down list depend on the attribute's data type. 
 
    +++List of available operators
 
@@ -73,7 +73,7 @@ To filter your query using a custom condition, follow these steps:
 
     +++
 
-1. In the **[!UICONTROL Value]** field, define the expected value. You can also leverage the expression editor to manually define an expression using fields from the database and helper functions. To do this, click the **[!UICONTROL Edit expression]** button. [Learn how to edit expressions](expression-editor.md)
+4. In the **[!UICONTROL Value]** field, define the expected value. You can also leverage the expression editor to manually define an expression using fields from the database and helper functions. To do this, select the **[!UICONTROL Edit expression]** button. [Learn how to edit expressions](expression-editor.md)
 
     *Query example returning all profiles aged 21 or more:*
 
@@ -150,7 +150,7 @@ Custom conditions allow you to perform aggregate operations. To do this, you nee
 
 To filter your query using an existing audience, follow these steps:
 
-1. Click the **+** button on the desired node and choose **[!UICONTROL Select audience]**.
+1. Select the **+** button on the desired node and choose **[!UICONTROL Select audience]**.
 
 1. The **[!UICONTROL Select audience]** properties pane opens on the right hand side. Choose the audience that you want to use to filter your query.
 
@@ -167,7 +167,7 @@ To filter your query using an existing audience, follow these steps:
 
 To filter your query using a predefined filter, follow these steps:
 
-1. Click the **+** button on the desired node and select **[!UICONTROL Predefined filter]**.
+1. Select the **+** button on the desired node, followed by **[!UICONTROL Predefined filter]**.
 
 1. The **[!UICONTROL Predefined filter]** properties pane opens on the right hand side. Select a predefined filter from the list of custom filters or from favorites.
 
@@ -185,15 +185,15 @@ The query modeler allows you to copy one or multiple filtering components and pa
 
 To copy-paste filtering components, follow these steps:
 
-1. Select the filtering component that you want to copy by clicking on it in the query canvas. To select multiple components, use the multiple selection tool available in the toolbar located at the upper-right corner of the canvas.
+1. Select the filtering component that you want to copy by selecting it in the query canvas. To select multiple components, use the multiple selection tool available in the toolbar located at the upper-right corner of the canvas.
 
-1. Click the **[!UICONTROL Copy]** button in the component's properties pane or in the blue ribbon at the bottom of the screen if you have selected multiple components.
+1. Select the **[!UICONTROL Copy]** button in the component's properties pane or in the blue ribbon at the bottom of the screen if you have selected multiple components.
 
     |Copy a single component|Copy multiple components|
     |  ---  |  ---  |
     |![](assets/copy-single-component.png){zoomable="yes"}{width="200" align="center" zoomable="yes"}|![](assets/copy-multiple-components.png){zoomable="yes"}{width="200" align="center" zoomable="yes"}|
 
-1. To paste the component(s), click the + button at the end of the desired transition and select **[!UICONTROL Paste n items]**.
+1. To paste the component(s), select the + button at the end of the desired transition, followed by **[!UICONTROL Paste n items]**.
 
     ![](assets/copy-paste.png){zoomable="yes"}
 
@@ -210,7 +210,7 @@ In this example, we have added a new audience-type filtering components on the s
 
 ![](assets/query-operator.png){zoomable="yes"}
 
-To change the operator used to link filtering conditions together, click on it and select the desired operator in the **[!UICONTROL Group]** pane that opens on the right hand side.
+To change the operator used to link filtering conditions together, select it and the desired operator in the **[!UICONTROL Group]** pane that opens on the right hand side.
 
 Available operators are:
 
@@ -220,7 +220,7 @@ Available operators are:
 
 ![](assets/query-operator-change.png){zoomable="yes"}
 
-In addition, you can create intermediate groups of components by clicking the **+** button on a transition. This allows you to add an operator at this specific location to group together multiple components and refine your query. 
+In addition, you can create intermediate groups of components by selecting the **+** button on a transition. This allows you to add an operator at this specific location to group together multiple components and refine your query. 
 
 In the example below, we have created an intermediate group to include results from either the "VIP to reward" or "Super VIP" audiences.
 
@@ -244,7 +244,7 @@ Once you've built your query in the canvas, you can check it using the **[!UICON
     >
     >Select a predefined filter from the Rule properties pane replaces the query that has been built in the canvas with the selected filter.
 
-When your query is ready, click the **[!UICONTROL Confirm]** button in the upper-right corner to save it.
+When your query is ready, select the **[!UICONTROL Confirm]** button in the upper-right corner to save it.
 
 You can modify your query at any time by opening it. Keep in mind that upon opening an existing query, it displays in a simplified view without the visiblity of  **+** buttons. To add new elements to the query, select a component or operator on the canvas to display the **+** buttons.
 

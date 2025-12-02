@@ -41,7 +41,7 @@ To create your own audience, follow these steps:
 
     ![](../assets/build-audience-create.png)
 
-1. Click **Continue**.
+1. Select **Continue**.
 1. Use the query modeler to define your query then confirm. [Learn how to work with the query modeler](../../query/query-modeler-overview.md)
 
 >[!TAB Read audience]
@@ -49,7 +49,7 @@ To create your own audience, follow these steps:
 To select an existing audience, follow these steps:
 
 1. Select **Read audience**.
-1. Click **Continue**.
+1. Select **Continue**.
 
     ![](../assets/build-audience-read.png)
 

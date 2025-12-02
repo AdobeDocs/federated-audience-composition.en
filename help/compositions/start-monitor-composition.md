@@ -10,7 +10,7 @@ Once that you have created your composition and designed the tasks to perform in
 
 ## Start the composition {#start}
 
-To start a composition, click the **[!UICONTROL Start]** button in the upper-right corner of the screen. When the composition is running, each activity in the canvas is executed in a sequential order, until the end of the composition is reached.
+To start a composition, select the **[!UICONTROL Start]** button in the upper-right corner of the screen. When the composition is running, each activity in the canvas is executed in a sequential order, until the end of the composition is reached.
 
 You can track the progress of targeted profiles in real-time using a visual flow. This allows you to quickly identify the status of each activity and the number of profiles transitioning between them.
 
@@ -20,8 +20,8 @@ You can track the progress of targeted profiles in real-time using a visual flow
 
 In compositions, data transported from one activity to another through transitions is stored in a temporary work table. This data can be displayed for each transition. To do this, select a transition to open its properties in the right hand side of the screen.
 
-* Click **[!UICONTROL Preview schema]** to display the schema of the work table.
-* Click **[!UICONTROL Preview results]** to visualize the data transported in the selected transition. This option is available only if the  **[!UICONTROL Keep the result of interim populations between two executions]** option is enabled. [Learn more](create-composition.md#settings).
+* Select **[!UICONTROL Preview schema]** to display the schema of the work table.
+* Select **[!UICONTROL Preview results]** to visualize the data transported in the selected transition. This option is available only if the  **[!UICONTROL Keep the result of interim populations between two executions]** option is enabled. [Learn more](create-composition.md#settings).
 
 ![](assets/transition-preview.png)
 

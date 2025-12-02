@@ -26,7 +26,7 @@ Follow these steps to configure the **Incremental query** activity:
 
 1. Add an **Incremental query** activity into your composition.
 
-1. In the **[!UICONTROL Audience]** section, choose the **Targeting dimension** then click **[!UICONTROL Continue]**.
+1. In the **[!UICONTROL Audience]** section, choose the **Targeting dimension** then select **[!UICONTROL Continue]**.
 
     The targeting dimension lets you define the population targeted by the operation: recipients, contract beneficiaries, operator, subscribers, etc. By default, the target is selected from the recipients. <!--[Learn more about targeting dimensions](../../audience/about-recipients.md#targeting-dimensions)-->
 

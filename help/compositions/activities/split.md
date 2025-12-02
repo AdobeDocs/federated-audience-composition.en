@@ -23,7 +23,7 @@ The **Split** activity allows you to segment incoming populations into multiple 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_split_filter"
 >title="Split activity filter"
->abstract="To apply a filtering condition to the subset, click **[!UICONTROL Create filter]** and configure the desired filtering rule using the query modeler. For example, include profiles from the incoming population whose email address exist in the database."
+>abstract="To apply a filtering condition to the subset, select **[!UICONTROL Create filter]** and configure the desired filtering rule using the query modeler. For example, include profiles from the incoming population whose email address exist in the database."
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_split_limit"
@@ -59,7 +59,7 @@ Follow these steps to configure the **Split** activity:
 
 1. Add a **Split** activity to your composition.
 
-1. The activity configuration pane opens with a default subset. Click the **Add segment** button to add as many subsets as desired to segment the incoming population.
+1. The activity configuration pane opens with a default subset. Select the **Add segment** button to add as many subsets as desired to segment the incoming population.
 
     >[!IMPORTANT]
     >
@@ -77,7 +77,7 @@ Follow these steps to configure the **Split** activity:
 
         ![](../assets/split-subset.png)
 
-    1. To apply a filtering condition to the subset, click **[!UICONTROL Create filter]** and configure the desired filtering rule using the query modeler. For example, include profiles from the incoming population whose email address exist in the database. [Learn how to work with the query modeler](../../query/query-modeler-overview.md)
+    1. To apply a filtering condition to the subset, select **[!UICONTROL Create filter]** and configure the desired filtering rule using the query modeler. For example, include profiles from the incoming population whose email address exist in the database. [Learn how to work with the query modeler](../../query/query-modeler-overview.md)
 
     1. To limit the number of profiles selected by the subset, toggle on the **[!UICONTROL Enable limit]** option, and specify the number or percentages of the population to include.
 

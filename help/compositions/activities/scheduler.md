@@ -48,7 +48,7 @@ Follow these steps to configure the **Scheduler** activity:
 
 1. Define the execution details according to the frequency selected. The detail fields may vary depending on the frequency used (time, repetition frequency, specified days, etc.).
 
-1. Click **Preview launch times** to check the schedule of the next ten executions of your composition.
+1. Select **Preview launch times** to check the schedule of the next ten executions of your composition.
 
 1. Define the validity period of the scheduler:
 
@@ -58,7 +58,7 @@ Follow these steps to configure the **Scheduler** activity:
 
 >[!NOTE]
 >
->If you want to start the composition right away, you can click the **Execute pending task** in the scheduler's top action bar. This button is only available when you have started the composition.
+>If you want to start the composition right away, you can select the **Execute pending task** in the scheduler's top action bar. This button is only available when you have started the composition.
 
 <!--## Example{#scheduler-example}
 

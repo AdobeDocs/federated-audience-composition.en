@@ -9,7 +9,7 @@ exl-id: 55db2461-fcfb-4284-9ab7-7cb01071ed1c
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_deduplication_fields"
 >title="Fields to identify duplicates"
->abstract="In the **[!UICONTROL Fields to identify duplicates]** section, click the **[!UICONTROL Add attribute]** button to specify the fields for which the identical values allow the duplicates to be identified, such as: email address, first name, last name, etc. The order of the fields allows you to specify those to process first."
+>abstract="In the **[!UICONTROL Fields to identify duplicates]** section, select the **[!UICONTROL Add attribute]** button to specify the fields for which the identical values allow the duplicates to be identified, such as: email address, first name, last name, etc. The order of the fields allows you to specify those to process first."
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_deduplication"
@@ -36,7 +36,7 @@ Follow these steps to configure the **Deduplication** activity:
 
 1. If the activity has several inbound transitions, select the transition to use to perform deduplication from the **[!UICONTROL Primary set]** drop-down list
 
-1. In the **[!UICONTROL Fields to identify duplicates]** section, click the **[!UICONTROL Add attribute]** button to specify the fields for which the identical values allow the duplicates to be identified, such as: email address, first name, last name, etc. The order of the fields allows you to specify those to process first.
+1. In the **[!UICONTROL Fields to identify duplicates]** section, select the **[!UICONTROL Add attribute]** button to specify the fields for which the identical values allow the duplicates to be identified, such as: email address, first name, last name, etc. The order of the fields allows you to specify those to process first.
 
     ![](../assets/deduplication.png)
 
@@ -53,7 +53,7 @@ Follow these steps to configure the **Deduplication** activity:
     * **[!UICONTROL Random selection]**: Randomly selects the record to be kept out of the duplicates.
     * **[!UICONTROL Using an expression]**: Keep the records in which the value of the expression entered is the smallest or the biggest.
     * **[!UICONTROL Non-empty values]**: Keep the records for which the expression is not empty.
-    * **[!UICONTROL Following a list of values]**: Define a value priority for one or more fields. To define the values, click **[!UICONTROL Attribute]** to select a field or create an expression, then add the value(s) into the appropriate table. To define a new field, click the **[!UICONTROL Add button]** located above the list of values. 
+    * **[!UICONTROL Following a list of values]**: Define a value priority for one or more fields. To define the values, select **[!UICONTROL Attribute]** to select a field or create an expression, then add the value(s) into the appropriate table. To define a new field, select the **[!UICONTROL Add button]** located above the list of values. 
 
 1. Check the **[!UICONTROL Generate complement]** option if you wish to exploit the remaining population. The complement consists of all the duplicates. An additional transition will then be added to the activity.
 

@@ -38,7 +38,7 @@ The main steps to send Adobe Experience Platform audiences to Adobe Federated Au
     * Databricks
     * Microsoft Fabric
 
-1. Select the **[!UICONTROL Federated database]** you want to connect to and click **[!UICONTROL Next]**.
+1. Select the **[!UICONTROL Federated database]** you want to connect to, followed by **[!UICONTROL Next]**.
 
     ![](assets/destination-configure.png)
 
@@ -48,9 +48,9 @@ The main steps to send Adobe Experience Platform audiences to Adobe Federated Au
 
 1. The **[!UICONTROL Governance policy & enforcement actions]** step, you can define your data governance policies and ensure that the data used is compliant when audiences are sent and active.
 
-    When you are finished selecting the desired marketing actions for the destination, click **[!UICONTROL Create]**.
+    When you are finished selecting the desired marketing actions for the destination, select **[!UICONTROL Create]**.
 
-1. The new connection to the destination is created. You can now activate audiences to send over to the destination. To do so, select it from the list and click **[!UICONTROL Next]**
+1. The new connection to the destination is created. You can now activate audiences to send over to the destination. To do so, select it from the list, followed by **[!UICONTROL Next]**
 
     ![](assets/destination-activate.png)
 
@@ -75,7 +75,7 @@ The main steps to send Adobe Experience Platform audiences to Adobe Federated Au
 
     ![](assets/destination-attributes.png)
 
-1. Review the destination configuration and audience settings, then click **[!UICONTROL Finish]**.
+1. Review the destination configuration and audience settings, then select **[!UICONTROL Finish]**.
 
     ![](assets/destination-review.png)
 

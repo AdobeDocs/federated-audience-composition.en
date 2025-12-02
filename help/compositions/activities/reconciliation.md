@@ -67,22 +67,22 @@ Follow these steps to configure the **Reconciliation** activity:
 
 1. Select the field(s) to use for the reconciliation. You can use one or more reconciliation criteria.
 
-    1. To use attributes to reconcile data, select the **Simple attributes** option then click the **Add rule** button.
+    1. To use attributes to reconcile data, select the **Simple attributes** option then select the **Add rule** button.
     1. Select the **Source** and **Destination** fields for the reconciliation. The **Destination** field corresponds to the fields of the selected schema.
     
-        Data are reconcilied when source and destination are equal. For example, select the **Email** fields to deduplicate profiles based on their email address. 
+        Data is reconciled when the source and destination are equal. For example, select the **Email** fields to deduplicate profiles based on their email address. 
         
-        To add another reconciliation criteria, click the **Add rule** button. If several join conditions are specified, they must ALL be verified so that the data can be linked together.    
+        To add another reconciliation criteria, select the **Add rule** button. If several join conditions are specified, they must ALL be verified so that the data can be linked together.    
 
         ![](../assets/reconciliation-rules.png)
 
-    1. To use other attributes to reconcile data, select the **Advanced reconciliation conditions** option then click the **Create conditions** button. You can then create your own reconciliation condition using the query modeler. [Learn how to work with the query modeler](../../query/query-modeler-overview.md)
+    1. To use other attributes to reconcile data, select the **Advanced reconciliation conditions** option then select the **Create conditions** button. You can then create your own reconciliation condition using the query modeler. [Learn how to work with the query modeler](../../query/query-modeler-overview.md)
 
         ![](../assets/reconciliation-advanced.png)
 
 1. You can filter data to reconcile using the **Create filter** button. This lets you create a custom condition using the query modeler.
 
-By default, non reconcilied data are kept in the outbound transition and available in the worktable for future use. To remove unreconciled data, desactivate the **Keep unreconciled data** option.
+By default, non reconciled data are kept in the outbound transition and available in the worktable for future use. To remove unreconciled data, deactivate the **Keep unreconciled data** option.
 
 <!--
 ## Example {#reconciliation-example}

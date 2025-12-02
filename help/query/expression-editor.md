@@ -22,11 +22,11 @@ The expression editor provides:
 * The list of available **fields (2)** that can be used in the expression and corresponding to the schema, also known as targeting dimension, of the query.
 * **Helper functions (3)**, sorted by category.
 
-Edit the expression by entering an expression directly in the input field. To add a field or a helper function, place your cursor in the expression where you want to add it and click the + button.
+Edit the expression by entering an expression directly in the input field. To add a field or a helper function, place your cursor in the expression where you want to add it and select the + button.
 
 ![](assets/expression-editor.png){zoomable="yes"}
 
-When your expression is ready, click the **[!UICONTROL Confirm]** button. The expression displays in the selected field. To edit it, open the expression editor and make the desired changes.
+When your expression is ready, select **[!UICONTROL Confirm]**. The expression displays in the selected field. To edit it, open the expression editor and make the desired changes.
 
 The example below shows an expression configured for the **[!UICONTROL Value]** field. To edit it, you need to open the expression editor using the **[!UICONTROL Edit expression]** button.
 

@@ -168,7 +168,7 @@ This release comes with the improvements listed below.
 
 * **Refresh existing schemas**
 
-    When a column is created, modified or deleted in a federated database, you can now detect and apply the changes by clicking on the **[!UICONTROL Refresh schema]** button in the corresponding schema. [Learn more](../data-modelling/schemas.md#schema-refresh)
+    When a column is created, modified or deleted in a federated database, you can now detect and apply the changes by selecting **[!UICONTROL Refresh schema]** in the corresponding schema. [Learn more](../data-modelling/schemas.md#schema-refresh)
 
 * **Associate a data model with a new composition**
 
