@@ -4,11 +4,18 @@ title: Create compositions
 description: Learn how to create compositions
 exl-id: 4f510805-b700-444d-89bb-832eaa1e3242
 ---
-# Create and configure the composition {#create}
+# Create a composition
 
-The first step to create a composition is to define its label and configure additional settings if needed.
+>[!CONTEXTUALHELP]
+>id="dc_composition_creation_properties"
+>title="Composition properties"
+>abstract="In this screen, choose the template to use to create the composition and specify a label. Expand the ADDITIONAL OPTIONS section to configure more settings such as the composition internal name, its folder, timezone, and supervisor group. It is highly recommended to select a supervisor group so that operators are alerted if an error occurs."
 
-## Create the composition {#create-the-composition}
+Federated Audience Composition lets you create compositions, where you can leverage various activities into a visual canvas to create audiences. After creating your composition, the resulting audiences are saved into Adobe Experience Platform and can be leveraged in Experience Platform destinations and Adobe Journey Optimizer to target customers. 
+
+## Define your composition {#create}
+
+To create a composition, you'll first need to define its label and optionally configure additional settings.
 
 To create a composition, select **[!UICONTROL Audiences]** within the **[!UICONTROL Customer]** section, followed by the **[!UICONTROL Federated compositions]** tab.
 
@@ -18,11 +25,13 @@ The federated compositions browse page appears. Select **[!UICONTROL Create comp
 
 ![](assets/composition-create.png)
 
-The **[!UICONTROL Properties]** section, specify a label for your composition and select a data model. Only the schemas associated to this data model will be available in your composition's activities.
+Within the **[!UICONTROL Properties]** section, specify a label for your composition and select a data model. Only the schemas associated to this data model will be available in your composition's activities.
 
 ![](assets/composition-select-schema.png)
 
-Select **[!UICONTROL Create]**. The composition canvas is displayed. You can now configure your composition by adding as many activities as needed to suit your needs before executing it:
+Select **[!UICONTROL Create]**. The composition canvas is displayed. You can now configure your composition by adding activities and transitions to the canvas.
+
+## Add activities {#add-activities}
 
 * [Learn how to orchestrate activities](orchestrate-activities.md)
 * [Learn how to start and monitor a composition](start-monitor-composition.md) 

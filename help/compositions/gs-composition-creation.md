@@ -6,10 +6,7 @@ exl-id: 861440ab-ce14-46aa-a215-b86fc9ffeef0
 ---
 # Key principles of composition creation {#gs-composition-creation}
 
->[!CONTEXTUALHELP]
->id="dc_composition_creation_properties"
->title="Composition properties"
->abstract="In this screen, choose the template to use to create the composition and specify a label. Expand the ADDITIONAL OPTIONS section to configure more settings such as the composition internal name, its folder, timezone, and supervisor group. It is highly recommended to select a supervisor group so that operators are alerted if an error occurs."
+
 
 ## What's inside a composition {#gs-composition-inside}
 

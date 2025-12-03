@@ -50,7 +50,7 @@ Adobe Federated Audience Composition lets you create and update Adobe Experience
 
 3. **Transform your data**: Apply data manipulation techniques to modify the format, structure, or values of data elements to make them compatible or suitable for specific analysis or applications.
 
-4. **Compose your audience**: Create, orchestrate and build audiences. For more information on composing audiences, read the [composition overview](./compositions/compositions.md). You can also update or reuse existing audiences through Adobe Experience Platform Audience portal and Destinations. Learn more on [this page](./connections/destinations.md)
+4. **Compose your audience**: Create, orchestrate and build audiences. For more information on composing audiences, read the [composition overview](./compositions/home.md). You can also update or reuse existing audiences through Adobe Experience Platform Audience portal and Destinations. Learn more on [this page](./connections/destinations.md)
 
 >[!NOTE]
 >

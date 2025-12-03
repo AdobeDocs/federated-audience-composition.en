@@ -38,7 +38,7 @@ The **[!UICONTROL Audit trail]** feature constantly records a detailed log of ac
     * Wakeup which equals to the action Execute pending tasks now
     * Unconditional Stop
 
-  For more information on workflows, refer to this [page](../compositions/compositions.md).
+  For more information on workflows, refer to this [page](../compositions/home.md).
 
 * **External Account** allows you to check modifications made to external accounts in Adobe Audience Composition instance.
 

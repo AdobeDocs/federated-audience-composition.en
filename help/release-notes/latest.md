@@ -172,7 +172,7 @@ This release comes with the following improvements:
 
     Federated Audience Composition now supports object-level access control to apply access labels to your specified compositions.
 
-    More information about using object-level access labels can be found in the [compositions guide](/help/compositions/compositions.md).
+    More information about using object-level access labels can be found in the [compositions guide](/help/compositions/home.md).
 
 * **Default roles**
   

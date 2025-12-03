@@ -27,7 +27,7 @@ Create, configure, test and save the connection to your external database.
 
 Add and configure activities (Split, Enrichment, Query, etc.) to build compositions and create your audience.
 
-[![image](assets/learn-more-button.svg)](compositions/compositions.md)
+[![image](assets/learn-more-button.svg)](compositions/home.md)
 
 >[!ENDTABS]
 
@@ -46,7 +46,7 @@ Add and configure activities (Split, Enrichment, Query, etc.) to build compositi
     </div>
     </td>
     <td>
-    <a href="compositions/compositions.md"><img src="assets/do-not-localize/start-journey.jpeg"></a>
+    <a href="compositions/home.md"><img src="assets/do-not-localize/start-journey.jpeg"></a>
     <div><strong>Compose an audience</strong><br/>Add and configure activities (such as Split, Enrichment, or Query) to build compositions and create your first federated audience.
     </div>
     </td>
@@ -63,7 +63,7 @@ Add and configure activities (Split, Enrichment, Query, etc.) to build compositi
   <tr style="border: 0;">
     <td><a href="./overview.md"><img src="assets/learn-more-button.svg"></a></td>
     <td><a href="data-modelling/models.md"><img src="assets/learn-more-button.svg"></a></td>
-    <td><a href="compositions/compositions.md"><img src="assets/learn-more-button.svg"></a></td>
+    <td><a href="compositions/home.md"><img src="assets/learn-more-button.svg"></a></td>
     <td><a href="./overview.md#use-cases"><img src="assets/learn-more-button.svg"></a></td>
     <td><a href="./faq.md"><img src="assets/learn-more-button.svg"></a></td>
     </tr>

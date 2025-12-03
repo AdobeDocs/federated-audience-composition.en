@@ -19,6 +19,14 @@ Federated Audience Composition lets you create compositions, where you can lever
 
 ![A sample composition workflow is displayed within Federated Audience Composition.](assets/compositions/composition-example.png){zoomable="yes"}{width="70%"}
 
+## Composition components {#components}
+
+A composition within Federated Audience Composition is made up of the following parts:
+
+- **[!UICONTROL Activities]**: An activity is a task to be performed, and are represented within the composition by icons.
+- **[!UICONTROL Transitions]**: Transitions link a source activity to a destination activity and define their sequence. 
+- **[!UICONTROL Worktables]**: A worktable contains all the information carried by the transitions. Each composition uses several worktables. The data conveyed in these tables can be used throughout the composition's life cycle.
+
 ## Access and manage compositions {#access}
 
 >[!CONTEXTUALHELP]
@@ -68,6 +76,10 @@ The **[!UICONTROL Manage access]** popover appears. On this page, you can apply 
 | Partner Ecosystem labels | Partner Ecosystem labels are used to categorize data from sources external to your organization. |
 
 For more information about access and data governance labels, please read the [data usage label glossary](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/labels/reference).
+
+## Create {#create}
+
+You can create a composition for Adobe Experience Platform using Audience Composition. For more information, read the [create a composition guide](./create-composition.md).
 
 ## Next steps
 

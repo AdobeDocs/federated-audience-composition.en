@@ -52,7 +52,7 @@ It allows you to link unidentified data to existing resources. Reconciliation op
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_keep_unreconciled_data"
 >title="Keep unreconciled data"
->abstract="By default, non reconciled data are kept in the outbound transition and available in the worktable for future use. To remove unreconciled data, desactivate the **Keep unreconciled data** option." 
+>abstract="By default, non reconciled data are kept in the outbound transition and available in the worktable for future use. To remove unreconciled data, deactivate the **Keep unreconciled data** option." 
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_reconciliation_attribute"

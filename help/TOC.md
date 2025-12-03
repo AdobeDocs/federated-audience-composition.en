@@ -22,8 +22,9 @@ breadcrumb-title: Experience Platform Federated Audience Composition
         - [Create and configure schemas](data-modelling/schemas.md)
         - [Configure your data models](data-modelling/models.md)
     - [Enrich Adobe Experience Platform audiences with external data](connections/destinations.md)
-- Compose audiences {#compositions}
-    - [Get started with compositions](compositions/compositions.md)
+- Compositions {#compositions}
+    - [Composition overview](compositions/home.md)
+    - [Create a composition](compositions/create-composition.md)
     - Create and run your first composition {#create-composition}
         - [Key principles of composition creation](compositions/gs-composition-creation.md)
         - [Create & configure the composition](compositions/create-composition.md)
