@@ -6,16 +6,6 @@ exl-id: e71017bd-6d2f-4ace-b2d9-cbfbb537d127
 ---
 # Change dimension {#change-dimension}
  
->[!CONTEXTUALHELP]
->id="dc_orchestration_dimension_complement"
->title="Generate a complement"
->abstract="You can generate an additional outbound transition with the remaining population, which was excluded as a duplicate. To do this, toggle on the **[!UICONTROL Generate complement]** option"
-
->[!CONTEXTUALHELP]
->id="dc_orchestration_change_dimension"
->title="Change dimension activity"
->abstract="This activity allows you to change the schema, also known as targeting dimension, as you are building an audience. It shifts the axis depending on the data template and the input schema. For example, you can switch from the "contracts" schema to the "clients" schema."
-
 The **Change dimension** activity allows you to change the schema, also known as targeting dimension, as you are building your audience. It shifts the axis depending on the data template and the input schema.
 
 ## Configure the Change dimension activity {#configure}

@@ -33,6 +33,10 @@ Select **[!UICONTROL Create]**. The composition canvas is displayed. You can now
 
 ## Add activities {#add-activities}
 
+In the composition canvas, you can add activities and transitions that help define your audience. Activities let you *define* the components within the audience while transitions let you *organize* the flow of your composition.
+
+For more information about the activities and transitions that are available for use, read the [activities overview](./activities.md). 
+
 * [Learn how to orchestrate activities](orchestrate-activities.md)
 * [Learn how to start and monitor a composition](start-monitor-composition.md) 
 

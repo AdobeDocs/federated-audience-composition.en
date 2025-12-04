@@ -18,10 +18,7 @@ The **Build audience** activity allows you to define the audience that will ente
 
 ## Configure the Build audience activity {#build-audience-configuration}
 
->[!CONTEXTUALHELP]
->id="dc_orchestration_build_audience_audienceselector"
->title="Audience"
->abstract="Select your audience."
+
 
 Follow these steps to configure the **Build audience** activity:
 

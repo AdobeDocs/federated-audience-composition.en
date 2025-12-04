@@ -6,31 +6,11 @@ exl-id: 395e96d1-0af2-4e59-b599-f57a083b68ca
 ---
 # Combine {#combine}
 
->[!CONTEXTUALHELP]
->id="dc_orchestration_combine"
->title="Combine activity"
->abstract="The **Combine** activity allows you to perform segmentation on your inbound population. You can thus combine several populations, exclude part of it, or only keep data common to several targets."
-
 The **Combine** activity allows you to perform segmentation on your inbound population. You can thus combine several populations, exclude part of it or only keep data common to several targets.
 
 The **Combine** activity can be placed after any other activity, but not at the beginning of the composition. Any activity can be placed after the **Combine**.
 
 ## Configure the Combine activity {#combine-configuration}
-
->[!CONTEXTUALHELP]
->id="dc_orchestration_intersection_merging_options"
->title="Intersection merging options"
->abstract="The **intersection** allows you to keep only the elements common to the different inbound populations in the activity. In the **Sets to join** section, check all the previous activities you want you join."
-
->[!CONTEXTUALHELP]
->id="dc_orchestration_exclusion_merging_options"
->title="Exclusion merging options"
->abstract="The **exclusion** allows you to exclude elements from one population according to certain criteria. In the **Sets to join** section, check all the previous activities you want you join."
-
->[!CONTEXTUALHELP]
->id="dc_orchestration_combine_options"
->title="Select the segmentation type"
->abstract="Select how to combine audiences: union, intersection or exclusion."
 
 Follow these common steps to start configuring the **Combine** activity:
 
