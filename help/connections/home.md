@@ -127,7 +127,7 @@ If you select **[!UICONTROL OAuth 2.0]**, you can add the following login inform
 
 | Field | Description |
 | ----- | ----------- |
-| Client ID | The client ID from your Google BigQuery project. This field acts like a username for your project. | 
+| Client ID | The client ID from your Google BigQuery project. This field acts like a username for your project. |
 | Client Secret | The client secret from your Google BigQuery project. This field acts like a password for your project. |
 | Access scope | Prepopulated information that lists the scopes your OAuth token is authorized for within your Google Cloud resources. |
 
@@ -211,7 +211,7 @@ If you select **[!UICONTROL OAuth 2.0]**, you can add the following login inform
 | Field | Description |
 | ----- | ----------- |
 | Server | The name of the server. |
-| Client ID | The client ID from your Snowflake project. This field acts like a username for your project. | 
+| Client ID | The client ID from your Snowflake project. This field acts like a username for your project. |
 | Client Secret | The client secret from your Snowflake project. This field acts like a password for your project. |
 
 Select **[!UICONTROL Sign in]** to finish your authentication.
