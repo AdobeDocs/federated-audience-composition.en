@@ -6,54 +6,15 @@ exl-id: 6346eef6-b164-40cf-9402-b5ff208af97f
 ---
 # Split {#split}
 
->[!CONTEXTUALHELP]
->id="dc_orchestration_split"
->title="Split activity"
->abstract="The **Split** activity allows you to segment incoming populations into multiple subsets based on different selection criteria, such as filtering rules or population size."
+
 
 The **Split** activity allows you to segment incoming populations into multiple subsets based on different selection criteria, such as filtering rules or population size.
 
 ## Configure the Split activity {#split-configuration}
  
->[!CONTEXTUALHELP]
->id="dc_orchestration_split_segments"
->title="Segments for split activity"
->abstract="Add as many subsets as desired to segment the incoming population.<br/></br>When the **Split** activity is executed, the population is segmented across the different subsets in the order they are added to the activity. Before starting your composition, ensure that you have ordered the subsets in the order that suits your needs using the arrow buttons." 
 
->[!CONTEXTUALHELP]
->id="dc_orchestration_split_filter"
->title="Split activity filter"
->abstract="To apply a filtering condition to the subset, select **[!UICONTROL Create filter]** and configure the desired filtering rule using the query modeler. For example, include profiles from the incoming population whose email address exist in the database."
 
->[!CONTEXTUALHELP]
->id="dc_orchestration_split_limit"
->title="Split activity limit"
->abstract="To limit the number of profiles selected by the subset, toggle on the **[!UICONTROL Enable limit]** option, and specify the number or percentages of the population to include."
 
->[!CONTEXTUALHELP]
->id="dc_orchestration_split_sorting"
->title="Split activity sorting"
->abstract="When setting a population limit for a subset, you can rank the selected profiles based on a specific profile attribute, in ascending or descending order. To do this, toggle on the **Enable sorting** option. For instance, you can restrict a subset to include only the top 50 profiles with the highest purchase amount."
-
->[!CONTEXTUALHELP]
->id="dc_orchestration_split_complement"
->title="Split generate complement"
->abstract="Once that you have configured all the subsets, you can select the remaining population that did not match any of the subsets and include them into an additional outbound transition. To do this, toggle on the **Generate complement** option." 
-
->[!CONTEXTUALHELP]
->id="dc_orchestration_split_generatesubsets"
->title="Generate all subsets in the same table"
->abstract="Toggle on this option to group all the subsets into a single output transition."
-
->[!CONTEXTUALHELP]
->id="dc_orchestration_split_emptytransition"
->title="Skip empty transition"
->abstract="Toggle the **[!UICONTROL Skip empty transition]** option on to disable the output transition for this subset if the incoming population is empty."
-
->[!CONTEXTUALHELP]
->id="dc_orchestration_split_enable_overlapping"
->title="Enable overlapping of output populations"
->abstract="The **[!UICONTROL Enable overlapping of output populations]** option lets you manage populations belonging to several subsets. When the box isn't checked, the split activity makes sure a recipient cannot be present in several output transitions, even if it meets the criteria of several subsets. They will be in the target of the first tab with matching criteria. When the box is checked, the recipients can be found in several subsets if they meet their filter criteria. "
 
 Follow these steps to configure the **Split** activity:
 
