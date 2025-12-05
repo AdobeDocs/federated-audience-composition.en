@@ -113,26 +113,360 @@ After you execute the composition, your results will be updated.
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_exclusion_merging_options"
 >title="Exclusion merging options"
->abstract="The **exclusion** allows you to exclude elements from one population according to certain criteria. In the **Sets to join** section, check all the previous activities you want you join."
+>abstract="The **Exclusion** allows you to exclude elements from one population according to certain criteria. In the **Sets to join** section, check all the previous activities you want you join."
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_combine_options"
 >title="Select the segmentation type"
->abstract="Select how to combine audiences: union, intersection or exclusion."
+>abstract="Select how to combine audiences: union, intersection, or exclusion."
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_intersection_reconciliation_options"
+>title="Intersection reconciliation options"
+>abstract="Select the reconciliation type to define how duplicates are handled."
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_combine_reconciliation"
+>title="Reconciliation options"
+>abstract="Select the **Reconciliation type** to define how to handle duplicates."
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_exclusion_options"
+>title="Exclusion rules"
+>abstract="When necessary, you can manipulate inbound tables. Indeed, to exclude a target from another schema, also known as targeting dimension, this target has to be returned to the same schema as the main target. To do this, select **Add a rule** in the E**xclusion rules** section and specify the schema change conditions. Data reconciliation is carried out either via an attribute or a join."
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_combine_sets"
+>title="Select sets to combine"
+>abstract="In the **Sets to join** section, select the **Primary set** from the inbound transitions. This is the set from which elements are excluded. The other sets match elements before being excluded from the primary set."
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_combine_exclusion"
+>title="Exclusion rules"
+>abstract="When necessary, you can manipulate inbound tables. Indeed, to exclude a target from another schema, also known as targeting dimension, this target has to be returned to the same schema as the main target. To do this, select **Add a rule** in the **Exclusion rules** section and specify the schema change conditions. Data reconciliation is carried out either via an attribute or a join."
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_combine_complement"
+>title="Combine generate complement"
+>abstract="Toggle on the **Generate complement** option to process the remaining population in an additional transition." 
+
+>[!NOTE]
+>
+>The **Combine** activity **must** be placed after another activity and **cannot** be placed at the beginning of the composition.
 
 The **Combine** activity lets you join multiple audiences in various ways - a union, intersection, or exclusion.
 
+- **Union**: A union combines the different audiences into a single audience. This is equivalent to an OR operation.
+- **Intersection**: An intersection combines the different audiences into a single audience with only the **shared** content being preserved. This is equivalent to an AND operation.
+- **Exclusion**: An exclusion combines the different audiences into a single audience without the specified exclusion rules. This is equivalent to a XOR operation.
 
++++ Configuration details
+
+After adding multiple activities to form at least **two** different branches, add the **Combine** activity to the end of one of the branches. You can now choose one of the combine options - Union, Intersection, or Exclusion.
+
+![](../assets/combine.png)
+
+>[!BEGINTABS]
+
+>[!TAB Union]
+
+![](../assets/combine-union.png)
+
+If you select **Union**, you'll need to choose the **Reconciliation type** for the combine activity. The reconciliation type lets you define how duplicate entries are handled.
+
+- **Keys only**: Selecting **Keys only** keeps **one** element when multiple elements have the same key. You can only use this option if the incoming populations are homogenous. 
+- **A selection of columns**: Selecting **A selection of columns** lets you define a list of columns on which data reconciliation is applied. You can select the primary set of data that contains the source data, followed by the columns to be used for the join.
+
+>[!TAB Intersection]
+
+![](../assets/combine-intersection.png)
+
+If you select **Intersection**, you'll need to choose the **Reconciliation type** for the combine activity. The reconciliation type lets you define how duplicate entries are handled.
+
+- **Keys only**: Selecting **Keys only** keeps **one** element when multiple elements have the same key. You can only use this option if the incoming populations are homogenous. 
+- **A selection of columns**: Selecting **A selection of columns** lets you define a list of columns on which data reconciliation is applied. 
+
+After configuring your reconciliation type, you can also select the **Generate complement** option. Generating a complement processes the remaining population and contains the data **not** included as part of the intersection. An additional outbound transition will be added to the activity.
+
+>[!TAB Exclusion]
+
+![](../assets/combine-exclusion.png)
+
+If you select **Exclusion**, you'll need to select the **Primary set** from your inbound transitions. This represents the sets from which the elements will be excluded.
+
+After choosing your primary set, you can set up your **Exclusion rules**. You can either select **Match by attribute** or **Join**.
+
+Once you've configured your exclusion rules, you can also select the **Generate complement** option. Generating a complement processes the remaining population and contains the data **not** included as part of the exclusion. An additional outbound transition will be added to the activity.
+
++++
 
 #### Deduplication
 
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_deduplication_fields"
+>title="Fields to identify duplicates"
+>abstract="In the **[!UICONTROL Fields to identify duplicates]** section, select the **[!UICONTROL Add attribute]** button to specify the fields for which the identical values allow the duplicates to be identified, such as: email address, first name, last name, etc. The order of the fields allows you to specify those to process first."
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_deduplication"
+>title="Deduplication activity"
+>abstract="The **Deduplication** activity allows you to delete duplicates in the results of the inbound activities. It is mostly used following targeting activities, and before activities that allow the use of targeted data."
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_deduplication_complement"
+>title="Generate a complement"
+>abstract="You can generate an additional outbound transition with the remaining population, which was excluded as a duplicate. To do this, toggle on the **[!UICONTROL Generate complement]** option"
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_deduplication_settings"
+>title="Deduplication settings"
+>abstract="To delete duplicates in the incoming data, define the deduplication method in the fields below. By default, only one record is kept. You should also select the deduplication mode based on an expression or an attribute. By default, the record to keep out of the duplicates is randomly selected."
+
+The **Deduplication** activity removes any duplicate results within the audience.
+
++++ Configuration details
+
+>[!NOTE]
+>
+>If you have multiple inbound transitions, you'll first need to select the **Primary set** from the dropdown.
+
+After adding a **Deduplication** activity, you can choose the fields to identify duplicates. Select **Add attribute** to identify the fields where duplicates may occur.
+
+![](../assets/deduplication.png)
+
+Once you've identified your fields, you can configure your deduplication settings. 
+
+| Setting | Description |
+| ------- | ----------- |
+| Duplicates to keep | The number of duplicate records to keep. If the value is set to 0, **all** duplicate records will be kept. | 
+| Deduplication method | The method to remove the duplicate records. <ul><li>**Random selection**: The removed record is randomly chosen.</li><li>**Using an expression**: The removed record is based off of the submitted expression. You can either sort in ascending or descending order, depending on what values you want to remove.</li><li>**Non-empty values**: The removed record is based off of the submitted expression. Records where the expression does not have a value will be removed.</li><li>**Following a list of value**: The removed record is based off of the submitted field or expression. You can sort the remaining values randomly, in ascending order, or descending order.</li></ul> |
+
+Additionally, you can select the **Generate complement** option. Generating a complement processes the remaining population and contains the data **not** included as part of the deduplication. An additional outbound transition will be added to the activity.
+
++++
+
 #### Enrichment
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_enrichment"
+>title="Enrichment activity"
+>abstract="The **Enrichment** activity allows you to enhance the targeted data with additional information from the database. It is commonly used in a composition after segmentation activities."
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_enrichment_data"
+>title="Enrichment activity"
+>abstract="Once enrichment data has been added to the composition, it can be used in the activities added after the **Enrichment** activity to segment profiles into distinct groups based on their behaviors, preferences, and choices."
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_enrichment_simplejoin"
+>title="Link definition"
+>abstract="Create a link between the working table data and the federated database."
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_enrichment_reconciliation"
+>title="Enrichment reconciliation"
+>abstract="Set the reconciliation parameters."
+
+>[!CONTEXTUALHELP]
+>id="dc_targetdata_personalization_enrichmentdata"
+>title="Enrichment data"
+>abstract="Select the data to use to enrich your composition. You can select two types of enrichment data: a single enrichment attribute from the schema, also known as targeting dimension, or a collection link, which is a link with a 1-N cardinality between tables."
+
+The **Enrichment** activity lets you enhance your composition by adding additional data from your federated database. 
+
+If you have configured a connection to the Federated Audience Composition destination, you can use the Enrichment activity to enrich data coming Adobe Experience Platform with attributes from your external database. [Learn how to enrich Adobe Experience Platform audiences with external data](../connections/destinations.md)
+
++++ Configuration details
+
+>[!NOTE]
+>
+>If you have multiple inbound transitions, you'll first need to select the **Primary set** from the dropdown.
+
+After adding the **Enrichment** activity to your composition, you can select **Add enrichment data** to choose which attribute you want to use to enrich your composition. You can select **Edit expression** to build an advanced expression to select the attribute.
+
+![](../assets/enrichment-add.png)
+
++++
 
 #### Reconciliation
 
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_reconciliation"
+>title="Reconciliation activity"
+>abstract="The **Reconciliation** activity allows you to define the link between the data in the database and the data in a work table." 
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_reconciliation_field"
+>title="Reconciliation select field"
+>abstract="Reconciliation select field" 
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_reconciliation_condition"
+>title="Reconciliation create condition"
+>abstract="Reconciliation create condition" 
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_reconciliation_complement"
+>title="Reconciliation generate complement"
+>abstract="Reconciliation generate complement" 
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_reconciliation_targeting"
+>title="Schema"
+>abstract="Select the new schema to apply to the data. A schema, also known as targeting dimension, lets you define the targeted population: recipients, app subscribers, operators, subscribers, etc. By default, the composition current schema is selected." 
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_reconciliation_rules"
+>title="Reconciliation rules"
+>abstract="Select reconciliation rules to use for the deduplication. To use attributes, select the **Simple attributes** option and choose the source and destination fields. To create your own reconciliation condition using the query modeler, select the **Advanced reconciliation conditions** option."
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_reconciliation_targeting_selection"
+>title="Select the targeting dimension"
+>abstract="Select the schema, also known as targeting dimension, for your inbound data to reconcile with." 
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_keep_unreconciled_data"
+>title="Keep unreconciled data"
+>abstract="By default, non reconciled data are kept in the outbound transition and available in the worktable for future use. To remove unreconciled data, deactivate the **Keep unreconciled data** option." 
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_reconciliation_attribute"
+>title="Reconciliation attribute"
+>abstract="Select the attribute to use to reconcile data, and confirm."
+
+>[!NOTE]
+>
+>By default, non-reconciled data is kept in the outbound transition and is available in the worktable for future use. If you do **not** want reconciled data to be used, deactivate the **Keep unreconciled data** option.
+
+The **Reconciliation** activity lets you define the link between data in your federated database to the data in a work table. 
+
++++ Configuration details
+
+After adding the **Reconciliation** activity to your composition, you can choose what schema to use for the reconciliation.
+
+Once you've chosen the schema, you'll need to set up your reconciliation rules. You can choose between **Simple attributes** or **Advanced reconciliation conditions**. 
+
+>[!BEGINTABS]
+
+>[!TAB Simple attributes]
+
+After choosing **Simple attributes**, select **Add rule**. You can now set up your reconciliation by adding the **Source** and **Destination** fields. The **Destination** field corresponds to the fields of the selected schema.
+
+![](../assets/reconciliation-rules.png)
+
+Data is reconciled when the source and destination are equal. You can add more reconciliation criteria by selecting **Add rule**. If multiple join conditions are specified, **all** of them must be verified so the data can be linked together.
+
+>[!TAB Advanced reconciliation conditions]
+
+After choosing **Advanced reconciliation conditions**, select **Create conditions**. You can now create your own reconciliation condition using the query modeler. For more information on using the Query Modeler, read the [Query Modeler overview](../../query/query-modeler-overview.md)
+
+![](../assets/reconciliation-advanced.png)
+
+>[!ENDTABS]
+
+You can also filter the reconciled data. Select **Create filter** to create a custom condition using the Query Modeler. For more information on using the Query Modeler, read the [Query Modeler overview](../../query/query-modeler-overview.md)
+
++++
+
 #### Save audience
 
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_save_audience"
+>title="Save an audience"
+>abstract="Use this activity to create a new audience from the population computed upstream in the composition. The audiences created are added to the list of audiences, and available via the **Audiences** menu."
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_saveaudience_outbound"
+>title="Generate outbound transition"
+>abstract="Use this option option if you want to add a transition after the **Save audience** activity."
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_save_audience_primary_identity"
+>title="Primary identity field"
+>abstract="Select the primary identity to use for profiles."
+>additional-url="https://experienceleague.adobe.com/en/docs/experience-platform/xdm/ui/fields/identity#define-a-identity-field" text="Learn more in Experience Platform documentation"
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_saveaudience_namespace"
+>title="Identity namespace"
+>abstract="Select the namespace to use for profiles."
+>additional-url="https://experienceleague.adobe.com/en/docs/experience-platform/identity/features/namespaces" text="Learn more in Experience Platform documentation"
+
+>[!IMPORTANT]
+>
+>If your sandbox uses a **dataset precedence** merge policy, please contact Adobe Customer Care to add the `Halos UPS` dataset to your merge policy.
+>
+>For more information on merge policies, please read the [merge policies overview](https://experienceleague.adobe.com/en/docs/experience-platform/profile/merge-policies/overview).
+
+The **Save audience** activity lets you create an audience based off of the composition. Once the audience has been created, you can use them within Audience Portal in Adobe Experience Platform. For more information on using audiences with Federated Audience Composition, read the [audiences overview](../start/audiences.md). For more information on audiences in Experience Platform, read the [Audience Portal overview](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-portal){target="_blank"}.
+
++++ Configuration details
+
+>[!IMPORTANT]
+>
+>The audience's name **must** be unique within the current sandbox and cannot have the same name as any existing audience. 
+
+After adding the **Save audience** activity to your composition, you can specify the name of your newly created audience.
+
+![](../assets/save-audience.png)
+
+Now, you can specify your mappings to select which fields you want to transfer to the newly created audience. Select **Add Audience Mapping** and choose the source and target audience fields, repeating as many times as necessary.
+
+After adding your mappings, you can select the primary identity and namespace to identify the targeted profiles in the database. The primary identity field is used to identify the profiles while the identity namespace acts as a key to identify the identity.
+
++++
+
 #### Split
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_split"
+>title="Split activity"
+>abstract="The **Split** activity allows you to segment incoming populations into multiple subsets based on different selection criteria, such as filtering rules or population size."
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_split_segments"
+>title="Segments for split activity"
+>abstract="Add as many subsets as desired to segment the incoming population.<br/></br>When the **Split** activity is executed, the population is segmented across the different subsets in the order they are added to the activity. Before starting your composition, ensure that you have ordered the subsets in the order that suits your needs using the arrow buttons." 
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_split_filter"
+>title="Split activity filter"
+>abstract="To apply a filtering condition to the subset, select **[!UICONTROL Create filter]** and configure the desired filtering rule using the query modeler. For example, include profiles from the incoming population whose email address exist in the database."
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_split_limit"
+>title="Split activity limit"
+>abstract="To limit the number of profiles selected by the subset, toggle on the **[!UICONTROL Enable limit]** option, and specify the number or percentages of the population to include."
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_split_sorting"
+>title="Split activity sorting"
+>abstract="When setting a population limit for a subset, you can rank the selected profiles based on a specific profile attribute, in ascending or descending order. To do this, toggle on the **Enable sorting** option. For instance, you can restrict a subset to include only the top 50 profiles with the highest purchase amount."
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_split_complement"
+>title="Split generate complement"
+>abstract="Once that you have configured all the subsets, you can select the remaining population that did not match any of the subsets and include them into an additional outbound transition. To do this, toggle on the **Generate complement** option." 
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_split_generatesubsets"
+>title="Generate all subsets in the same table"
+>abstract="Toggle on this option to group all the subsets into a single output transition."
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_split_emptytransition"
+>title="Skip empty transition"
+>abstract="Toggle the **[!UICONTROL Skip empty transition]** option on to disable the output transition for this subset if the incoming population is empty."
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_split_enable_overlapping"
+>title="Enable overlapping of output populations"
+>abstract="The **[!UICONTROL Enable overlapping of output populations]** option lets you manage populations belonging to several subsets. When the box isn't checked, the split activity makes sure a recipient cannot be present in several output transitions, even if it meets the criteria of several subsets. They will be in the target of the first tab with matching criteria. When the box is checked, the recipients can be found in several subsets if they meet their filter criteria. "
+
+The **Split** activity separates the incoming population into multiple parts, depending on the given criteria.
+
+
 
 ### Flow control activities {#flow-control}
 

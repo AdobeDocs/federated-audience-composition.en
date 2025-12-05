@@ -5,26 +5,6 @@ description: Learn how to use the Deduplication activity
 exl-id: 55db2461-fcfb-4284-9ab7-7cb01071ed1c
 ---
 # Deduplication {#deduplication}
- 
->[!CONTEXTUALHELP]
->id="dc_orchestration_deduplication_fields"
->title="Fields to identify duplicates"
->abstract="In the **[!UICONTROL Fields to identify duplicates]** section, select the **[!UICONTROL Add attribute]** button to specify the fields for which the identical values allow the duplicates to be identified, such as: email address, first name, last name, etc. The order of the fields allows you to specify those to process first."
-
->[!CONTEXTUALHELP]
->id="dc_orchestration_deduplication"
->title="Deduplication activity"
->abstract="The **Deduplication** activity allows you to delete duplicates in the results of the inbound activities. It is mostly used following targeting activities, and before activities that allow the use of targeted data."
-
->[!CONTEXTUALHELP]
->id="dc_orchestration_deduplication_complement"
->title="Generate a complement"
->abstract="You can generate an additional outbound transition with the remaining population, which was excluded as a duplicate. To do this, toggle on the **[!UICONTROL Generate complement]** option"
-
->[!CONTEXTUALHELP]
->id="dc_orchestration_deduplication_settings"
->title="Deduplication settings"
->abstract="To delete duplicates in the incoming data, define the deduplication method in the fields below. By default, only one record is kept. You should also select the deduplication mode based on an expression or an attribute. By default, the record to keep out of the duplicates is randomly selected."
 
 The **Deduplication** activity allows you to delete duplicates in the result(s) of the inbound activities, for example duplicated profiles in the recipient list. The **Deduplication** activity is generally used following targeting activities, and before activities that allow the use of targeted data.
 

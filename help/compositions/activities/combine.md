@@ -26,15 +26,7 @@ Follow these common steps to start configuring the **Combine** activity:
 
 ## Union {#combine-union}
 
->[!CONTEXTUALHELP]
->id="dc_orchestration_intersection_reconciliation_options"
->title="Intersection reconciliation options"
->abstract="Select the reconciliation type to define how duplicates are handled."
 
->[!CONTEXTUALHELP]
->id="dc_orchestration_combine_reconciliation"
->title="Reconciliation options"
->abstract="Select the **Reconciliation type** to define how to handle duplicates."
 
 In the **Combine** activity, you can configure a **Union**.
 
@@ -57,26 +49,6 @@ For this, follow the extra steps below:
 1. You can check the **Generate complement** option if you wish to process the remaining population. The complement will contain the union of the results of all inbound activities minus the intersection. An additional outbound transition will then be added to the activity.
 
 ## Exclusion {#combine-exclusion}
-
->[!CONTEXTUALHELP]
->id="dc_orchestration_exclusion_options"
->title="Exclusion rules"
->abstract="When necessary, you can manipulate inbound tables. Indeed, to exclude a target from another schema, also known as targeting dimension, this target has to be returned to the same schema as the main target. To do this, select **Add a rule** in the E**xclusion rules** section and specify the schema change conditions. Data reconciliation is carried out either via an attribute or a join."
-
->[!CONTEXTUALHELP]
->id="dc_orchestration_combine_sets"
->title="Select sets to combine"
->abstract="In the **Sets to join** section, select the **Primary set** from the inbound transitions. This is the set from which elements are excluded. The other sets match elements before being excluded from the primary set."
-
->[!CONTEXTUALHELP]
->id="dc_orchestration_combine_exclusion"
->title="Exclusion rules"
->abstract="When necessary, you can manipulate inbound tables. Indeed, to exclude a target from another schema, also known as targeting dimension, this target has to be returned to the same schema as the main target. To do this, select **Add a rule** in the **Exclusion rules** section and specify the schema change conditions. Data reconciliation is carried out either via an attribute or a join."
-
->[!CONTEXTUALHELP]
->id="dc_orchestration_combine_complement"
->title="Combine generate complement"
->abstract="Toggle on the **Generate complement** option to process the remaining population in an additional transition." 
 
 In the **Combine** activity, you can configure an **Exclusion**.
 

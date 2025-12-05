@@ -6,26 +6,6 @@ exl-id: 933c3cba-9120-4a93-a668-866fb65ee197
 ---
 # Reconciliation {#reconciliation}
  
->[!CONTEXTUALHELP]
->id="dc_orchestration_reconciliation"
->title="Reconciliation activity"
->abstract="The **Reconciliation** activity allows you to define the link between the data in the database and the data in a work table." 
-
->[!CONTEXTUALHELP]
->id="dc_orchestration_reconciliation_field"
->title="Reconciliation select field"
->abstract="Reconciliation select field" 
-
->[!CONTEXTUALHELP]
->id="dc_orchestration_reconciliation_condition"
->title="Reconciliation create condition"
->abstract="Reconciliation create condition" 
-
->[!CONTEXTUALHELP]
->id="dc_orchestration_reconciliation_complement"
->title="Reconciliation generate complement"
->abstract="Reconciliation generate complement" 
-
 The **Reconciliation** activity allows you to define the link between the data in the database and the data in a work table, for example data loaded from an external system.
 
 <!--For example, the **Reconciliation** activity can be placed after a **Load file** activity to import non-standard data into the database. In this case, the **Reconciliation** activity lets you define the link between the data in the Adobe Campaign database and the data in the work table.-->
@@ -33,31 +13,6 @@ The **Reconciliation** activity allows you to define the link between the data i
 It allows you to link unidentified data to existing resources. Reconciliation operation implies that the data you are joining are already in the database. For example, if you want to reconcile purchases information showing which product was purchased, at what time, by which client, etc., the product as well as the client must already exist in the database.
 
 ## Configure the Reconciliation activity {#reconciliation-configuration}
-
->[!CONTEXTUALHELP]
->id="dc_orchestration_reconciliation_targeting"
->title="Schema"
->abstract="Select the new schema to apply to the data. A schema, also known as targeting dimension, lets you define the targeted population: recipients, app subscribers, operators, subscribers, etc. By default, the composition current schema is selected." 
-
->[!CONTEXTUALHELP]
->id="dc_orchestration_reconciliation_rules"
->title="Reconciliation rules"
->abstract="Select reconciliation rules to use for the deduplication. To use attributes, select the **Simple attributes** option and choose the source and destination fields. To create your own reconciliation condition using the query modeler, select the **Advanced reconciliation conditions** option."
-
->[!CONTEXTUALHELP]
->id="dc_orchestration_reconciliation_targeting_selection"
->title="Select the targeting dimension"
->abstract="Select the schema, also known as targeting dimension, for your inbound data to reconcile with." 
-
->[!CONTEXTUALHELP]
->id="dc_orchestration_keep_unreconciled_data"
->title="Keep unreconciled data"
->abstract="By default, non reconciled data are kept in the outbound transition and available in the worktable for future use. To remove unreconciled data, deactivate the **Keep unreconciled data** option." 
-
->[!CONTEXTUALHELP]
->id="dc_orchestration_reconciliation_attribute"
->title="Reconciliation attribute"
->abstract="Select the attribute to use to reconcile data, and confirm." 
 
 Follow these steps to configure the **Reconciliation** activity:
 

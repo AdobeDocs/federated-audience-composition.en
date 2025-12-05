@@ -6,31 +6,6 @@ exl-id: 6bf12c25-fbef-4588-89d0-28215cbcbf58
 ---
 # Enrichment {#enrichment}
  
->[!CONTEXTUALHELP]
->id="dc_orchestration_enrichment"
->title="Enrichment activity"
->abstract="The **Enrichment** activity allows you to enhance the targeted data with additional information from the database. It is commonly used in a composition after segmentation activities."
-
->[!CONTEXTUALHELP]
->id="dc_orchestration_enrichment_data"
->title="Enrichment activity"
->abstract="Once enrichment data has been added to the composition, it can be used in the activities added after the **Enrichment** activity to segment profiles into distinct groups based on their behaviors, preferences, and choices."
-
->[!CONTEXTUALHELP]
->id="dc_orchestration_enrichment_simplejoin"
->title="Link definition"
->abstract="Create a link between the working table data and the federated database."
-
->[!CONTEXTUALHELP]
->id="dc_orchestration_enrichment_reconciliation"
->title="Enrichment reconciliation"
->abstract="Set the reconciliation parameters."
-
->[!CONTEXTUALHELP]
->id="dc_targetdata_personalization_enrichmentdata"
->title="Enrichment data"
->abstract="Select the data to use to enrich your composition. You can select two types of enrichment data: a single enrichment attribute from the schema, also known as targeting dimension, or a collection link, which is a link with a 1-N cardinality between tables."
-
 The **Enrichment** activity allows you to enhance the targeted data with additional information from the federated database. It is commonly used in a composition after segmentation activities.
 
 If you have configured a connection to the Federated Audience Composition destination, you can use the Enrichment activity to enrich data coming Adobe Experience Platform with attributes from your external database. [Learn how to enrich Adobe Experience Platform audiences with external data](../../connections/destinations.md)
