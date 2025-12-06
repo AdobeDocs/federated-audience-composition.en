@@ -6,16 +6,10 @@ exl-id: 6346eef6-b164-40cf-9402-b5ff208af97f
 ---
 # Split {#split}
 
-
-
 The **Split** activity allows you to segment incoming populations into multiple subsets based on different selection criteria, such as filtering rules or population size.
 
 ## Configure the Split activity {#split-configuration}
  
-
-
-
-
 Follow these steps to configure the **Split** activity:
 
 1. Add a **Split** activity to your composition.

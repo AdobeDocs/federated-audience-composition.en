@@ -466,7 +466,33 @@ After adding your mappings, you can select the primary identity and namespace to
 
 The **Split** activity separates the incoming population into multiple parts, depending on the given criteria.
 
++++ Configuration details
 
+>[!IMPORTANT]
+>
+>When the **Split** activity is executed, the population is separated across the different subsets in the **order they are added**. For example, if the first subset splits 70% of the initial population, the next subset will apply its selection criteria to the remaining 30%.
+>
+>Before executing your composition, make sure you have ordered the subsets in the order you want the splits to be run.
+
+After adding the **Split** activity to your composition, you can now determine how to subset your audience. Select **Add segment** to create your different branching paths. 
+
+You can now provide details for each of these sub-paths. You can give the sub-path a name as well as the filter conditions. To create a filtering condition, select **Create filter** and configure the filtering rule using the Query Modeler. For more information on using the Query Modeler, read the [Query Modeler overview](../query/query-modeler-overview.md).
+
+Once you've created your filtering condition, you can apply the following additional rules:
+
+- **Enable limit**: Limits the number of profiles that are allowed to be split off into the subset. You can set this as either a number or a percentage of the population.
+  - If you enable a limit, you can also rank the selected profiles based on a specific profile attribute. Turn on **Enable sorting**, and you can sort the attributes in ascending or descending order.
+- **Skip empty transition**: Disables the transition if the incoming population is empty.
+
+Now that the subsets have been configured, there are a few more additional options you can set.
+
+| Options | Description |
+| ------- | ----------- |
+| **Generate complement** | Creates an outbound transition that contains the remaining population. |
+| **Enable overlapping of output populations** | If enabled, the recipient **cannot** be present in multiple outbound transitions and will **only** be present in the first outbound transition. If disabled, the recipient **can** appear in multiple outbound transitions. |
+| **Generate all subsets in the same table** | Groups all the subsets into a single outbound transition. |
+
++++
 
 ### Flow control activities {#flow-control}
 
