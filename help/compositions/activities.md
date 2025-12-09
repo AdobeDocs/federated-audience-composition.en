@@ -36,7 +36,7 @@ After adding the **Build audience** activity to the composition canvas, give you
 
 After selecting **Create audience**, choose the **Schema** for your audience. The schema lets you define the population targeted by the operation, such as recipients, contract beneficiaries, operators, or subscribers. By default, the schema is selected from the recipients.
 
-![](../assets/build-audience-create.png)
+![](./assets/activities/build-audience-create.png)
 
 After choosing a schema, select **Continue**. You can now define your audience's definition within the Query Modeler. For more information on using the Query Modeler, read the [Query Modeler overview](../query/query-modeler-overview.md).
 
@@ -44,7 +44,7 @@ After choosing a schema, select **Continue**. You can now define your audience's
 
 After selecting **Read audience**, choose **Continue**. 
 
-![](../assets/build-audience-read.png)
+![](./assets/activities/build-audience-read.png)
 
 You can now select which audience you want to use for your composition.
 
@@ -62,7 +62,7 @@ The **Change data source** activity lets you change which data source is being u
 
 After adding the **Change data source** activity to your composition canvas, you can define the data source that will be used for the composition.
 
-![The data source option is highlighted within the Federated Audience Composition workspace.](/help/compositions/assets/change-data-source/configure.png){zoomable="yes"}{width="70%"}
+![The data source option is highlighted within the Federated Audience Composition workspace.](./assets/activities/configure.png){zoomable="yes"}{width="70%"}
 
 | Source | Description |
 | ------ | ----------- |
@@ -70,7 +70,7 @@ After adding the **Change data source** activity to your composition canvas, you
 
 After selecting **[!UICONTROL FDA external account]**, you can choose which external account you want to connect with.
 
-![The popover displaying the external account options is displayed.](/help/compositions/assets/change-data-source/fda-external-account.png){zoomable="yes"}{width="70%"}
+![The popover displaying the external account options is displayed.](./assets/activities/fda-external-account.png){zoomable="yes"}{width="70%"}
 
 +++
 
@@ -92,7 +92,7 @@ The **Change dimension** activity lets you change the schema (also known as the 
 
 After adding the **Change dimension** activity to your composition canvas, you can define a new schema to replace the previous schema. During this schema change, all records will be kept. 
 
-![](../assets/change-dimension.png)
+![](./assets/activities/change-dimension.png)
 
 After you execute the composition, your results will be updated.
 
@@ -164,13 +164,13 @@ The **Combine** activity lets you join multiple audiences in various ways - a un
 
 After adding multiple activities to form at least **two** different branches, add the **Combine** activity to the end of one of the branches. You can now choose one of the combine options - Union, Intersection, or Exclusion.
 
-![](../assets/combine.png)
+![](./assets/activities/combine.png)
 
 >[!BEGINTABS]
 
 >[!TAB Union]
 
-![](../assets/combine-union.png)
+![](./assets/activities/combine-union.png)
 
 If you select **Union**, you'll need to choose the **Reconciliation type** for the combine activity. The reconciliation type lets you define how duplicate entries are handled.
 
@@ -179,7 +179,7 @@ If you select **Union**, you'll need to choose the **Reconciliation type** for t
 
 >[!TAB Intersection]
 
-![](../assets/combine-intersection.png)
+![](./assets/activities/combine-intersection.png)
 
 If you select **Intersection**, you'll need to choose the **Reconciliation type** for the combine activity. The reconciliation type lets you define how duplicate entries are handled.
 
@@ -190,7 +190,7 @@ After configuring your reconciliation type, you can also select the **Generate c
 
 >[!TAB Exclusion]
 
-![](../assets/combine-exclusion.png)
+![](./assets/activities/combine-exclusion.png)
 
 If you select **Exclusion**, you'll need to select the **Primary set** from your inbound transitions. This represents the sets from which the elements will be excluded.
 
@@ -232,7 +232,7 @@ The **Deduplication** activity removes any duplicate results within the audience
 
 After adding a **Deduplication** activity, you can choose the fields to identify duplicates. Select **Add attribute** to identify the fields where duplicates may occur.
 
-![](../assets/deduplication.png)
+![](./assets/activities/deduplication.png)
 
 Once you've identified your fields, you can configure your deduplication settings. 
 
@@ -284,7 +284,7 @@ If you have configured a connection to the Federated Audience Composition destin
 
 After adding the **Enrichment** activity to your composition, you can select **Add enrichment data** to choose which attribute you want to use to enrich your composition. You can select **Edit expression** to build an advanced expression to select the attribute.
 
-![](../assets/enrichment-add.png)
+![](./assets/activities/enrichment.png)
 
 +++
 
@@ -353,7 +353,7 @@ Once you've chosen the schema, you'll need to set up your reconciliation rules. 
 
 After choosing **Simple attributes**, select **Add rule**. You can now set up your reconciliation by adding the **Source** and **Destination** fields. The **Destination** field corresponds to the fields of the selected schema.
 
-![](../assets/reconciliation-rules.png)
+![](./assets/activities/reconciliation-rules.png)
 
 Data is reconciled when the source and destination are equal. You can add more reconciliation criteria by selecting **Add rule**. If multiple join conditions are specified, **all** of them must be verified so the data can be linked together.
 
@@ -361,7 +361,7 @@ Data is reconciled when the source and destination are equal. You can add more r
 
 After choosing **Advanced reconciliation conditions**, select **Create conditions**. You can now create your own reconciliation condition using the query modeler. For more information on using the Query Modeler, read the [Query Modeler overview](../../query/query-modeler-overview.md)
 
-![](../assets/reconciliation-advanced.png)
+![](./assets/activities/reconciliation-advanced.png)
 
 >[!ENDTABS]
 
@@ -409,7 +409,7 @@ The **Save audience** activity lets you create an audience based off of the comp
 
 After adding the **Save audience** activity to your composition, you can specify the name of your newly created audience.
 
-![](../assets/save-audience.png)
+![](./assets/activities/save-audience.png)
 
 Now, you can specify your mappings to select which fields you want to transfer to the newly created audience. Select **Add Audience Mapping** and choose the source and target audience fields, repeating as many times as necessary.
 
@@ -511,7 +511,7 @@ The **AND-join** activity lets you combine multiple branches of a composition to
 
 After you've added multiple activities to form at least two different branches, you can add the **AND-join** activity to the end of any of the branches.
 
-![](../assets/and-join.png)
+![](./assets/activities/and-join.png)
 
 Within the **Merging options** section, you can select all the activities you want to synchronize. Additionally, you can choose which inbound transition to keep within the **Primary set** dropdown.
 
@@ -533,12 +533,13 @@ The **End** activity graphically marks the end of the composition and has no fun
 >title="Fork activity transitions"
 >abstract="By default, two transitions are created with a **Fork** activity. Select the **Add transition** button to define an additional outbound transition, and enter its label."
 
-
 The **Fork** activity lets you create multiple outbound transitions that simultaneously starts multiple activities.
 
 +++ Configuration details
 
 Once you've added the **Fork** activity to your composition, two outbound transitions are automatically generated. You can give these outbound transitions a name. Additionally, you can select **Add transition** to add another outbound transition. 
+
+![](./assets/activities/fork.png)
 
 +++
 
@@ -653,7 +654,13 @@ The **Wait** activity pauses the composition's execution for the specified amoun
 
 +++ Configuration details
 
-After you add the **Wait** activity to your composition, 
+After you add the **Wait** activity to your composition, you can make it either a **Duration** or a **Fixed time** wait.
+
+![](./assets/activities/wait.png)
+
+If you select duration, you can set the period of time to wait. This period of time can be in seconds, minutes, hours, or days.
+
+If you select fixed time, you can set the composition to wait until the given date and time. The time is set to your **local time zone**.
 
 +++
 
