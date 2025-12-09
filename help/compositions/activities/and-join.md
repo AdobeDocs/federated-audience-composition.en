@@ -6,11 +6,6 @@ exl-id: 9648f17b-e54c-4bc2-8dff-d35c438eeb8b
 ---
 # AND-join {#join}
 
->[!CONTEXTUALHELP]
->id="dc_orchestration_and-join"
->title="AND-join activity"
->abstract="The **And-join** activity allows you to synchronize multiple execution branches of a composition. It is triggered once all of the preceding activities have finished. This allows you to make sure that certain activities are finished before continuing to execute the composition."
-
 The **AND-join** activity allows you to synchronize multiple execution branches of a composition.
 
 This activity only triggers its outbound transition once all the inbound transitions are activated, in other words, once all of the preceding activities have finished. This allows you to make sure that certain activities have finished before continuing to execute the composition.

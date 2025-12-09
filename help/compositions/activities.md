@@ -500,13 +500,162 @@ Flow control activities let you define the organization and coordination of your
 
 #### And join
 
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_and-join"
+>title="AND-join activity"
+>abstract="The **And-join** activity allows you to synchronize multiple execution branches of a composition. It is triggered once all of the preceding activities have finished. This allows you to make sure that certain activities are finished before continuing to execute the composition."
+
+The **AND-join** activity lets you combine multiple branches of a composition together. This activity is only triggered once **all** the inbound transitions are activated.
+
++++ Configuration details
+
+After you've added multiple activities to form at least two different branches, you can add the **AND-join** activity to the end of any of the branches.
+
+![](../assets/and-join.png)
+
+Within the **Merging options** section, you can select all the activities you want to synchronize. Additionally, you can choose which inbound transition to keep within the **Primary set** dropdown.
+
++++
+
 #### End
+
+The **End** activity graphically marks the end of the composition and has no functional impact.
 
 #### Fork
 
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_fork"
+>title="Fork activity"
+>abstract="The **Fork** activity allows you to create outbound transitions to start several activities at the same time."
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_fork_transitions"
+>title="Fork activity transitions"
+>abstract="By default, two transitions are created with a **Fork** activity. Select the **Add transition** button to define an additional outbound transition, and enter its label."
+
+
+The **Fork** activity lets you create multiple outbound transitions that simultaneously starts multiple activities.
+
++++ Configuration details
+
+Once you've added the **Fork** activity to your composition, two outbound transitions are automatically generated. You can give these outbound transitions a name. Additionally, you can select **Add transition** to add another outbound transition. 
+
++++
+
 #### Scheduler
 
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_scheduler"
+>title="Scheduler activity"
+>abstract="The **Scheduler** activity allows you to schedule when the audience composition gets started. This activity should be considered as a scheduled start. It can only be used as the first activity of a composition."
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_schedule_validity"
+>title="Scheduler validity"
+>abstract="You can define a validity period for the scheduler. It can be permanent (default), or can be valid until a specific date."
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_schedule_options"
+>title="Scheduler options"
+>abstract="Define the frequency of the scheduler. It can be executed at a specific moment, once or several times a day, week or month."
+
+The **Scheduler** activity lets you schedule when to start the composition's execution. You **must** use this as the first activity of the composition.
+
++++ Configuration details
+
+After adding the **Scheduler** activity to your composition, you can set the **Execution frequency** for the composition. Options include **Once**, **Daily**, **Several times a day**, **Weekly**, and **Monthly**.
+
+>[!BEGINTABS]
+
+>[!TAB Once]
+
+>[!NOTE]
+>
+>The time is set to UTC.
+
+If you select **Once**, the composition is only executed once. You can select the date and time the composition is run.
+
+>[!TAB Daily]
+
+If you select **Daily**, the composition is executed once a day. However, you can which day of the month the composition is executed under the **Day of the month** section. Possible values include **Every day**, **On week days**, **Through a selected period**, and **Selected days of the week**.
+
+| Day of the month | Description |
+| ---------------- | ----------- |
+| Every day | The composition is executed every day. |
+| On week days | The composition is executed every weekday. |
+| Through a selected period | The composition is executed every day throughout the selected period. You can set the length of the recurrence period as well as the date the period starts. |
+| Selected days of the week | The composition is executed every day of the week that is selected. |
+
+After choosing what day of the month the schedule will run, you can select **Preview launch times** to check the schedule of the next ten executions of your composition.
+
+>[!TAB Several times a day]
+
+If you select **Several times a day**, the composition is executed multiple times per day. You can choose whether the composition is executed at specific times per day or periodically at set times.
+
+If you select **Selected hours**, you can choose the specific times the composition will run. If you select **Periodic**, you can choose how often the composition will run in either hours or minutes and between what times it will run. All the times are in UTC.
+
+After select the hours, you can choose how often the execution is run under the **Day of the month** section.
+
+| Day of the month | Description |
+| ---------------- | ----------- |
+| Every day of the week | The composition is executed every day. |
+| On certain days of the week | The composition is executed every day of the week that is selected. |
+
+After choosing what day of the month the schedule will run, you can select **Preview launch times** to check the schedule of the next ten executions of your composition.
+
+>[!TAB Weekly]
+
+If you select **Weekly**, the composition is executed on the weekly frequency that is set. If you set the weekly frequency as a number larger than 1, you can also choose the date the execution starts from.
+
+After choosing the evaluation frequency, you can choose how often the execution is run under the **Day of the month** section.
+
+| Day of the month | Description |
+| ---------------- | ----------- |
+| Every day of the week | The composition is executed every day. |
+| On certain days of the week | The composition is executed every day of the week that is selected. |
+
+After choosing what day of the month the schedule will run, you can select **Preview launch times** to check the schedule of the next ten executions of your composition.
+
+>[!TAB Monthly]
+
+If you select **Monthly**, the composition is executed on the monthly frequency that is set. You can either set it to be every month or on certain months.
+
+After choosing the monthly frequency, you can choose the **Day of the month** the execution is run.
+
+| Day of the month | Description |
+| ---------------- | ----------- |
+| Every day | The composition is executed every day. |
+| On week days | The composition is executed every weekday. |
+| Through a selected period | The composition is executed every day throughout the selected period. You can set the length of the recurrence period as well as the date the period starts. |
+| Selected days of the week | The composition is executed every day of the week that is selected. |
+
+Once you set the **Day of the month**, you can choose the start time. All the times are in UTC.
+
+>[!ENDTABS]
+
+After selecting the execution frequency, you can choose the **Validity period** of the schedule.
+
+| Validity period | Description |
+| --------------- | ----------- |
+| **Permanent (never expires)** | The composition will never expire. |
+| **Validity period** | The composition will run between the given dates. |
+
++++
+
 #### Wait
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_wait"
+>title="Wait activity"
+>abstract="The **Wait** activity is used to delay the transition from an activity to another."
+
+The **Wait** activity pauses the composition's execution for the specified amount of time.
+
++++ Configuration details
+
+After you add the **Wait** activity to your composition, 
+
++++
 
 ## Transitions {#transitions}
 
