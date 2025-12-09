@@ -29,12 +29,12 @@ In compositions, data transported from one activity to another through transitio
 
 Visual indicators in the upper-right corner of each activity box allows you to check their execution:
 
-|Visual indicator | Description | 
+|Visual indicator | Description |
 |-----|------------|
 |![](assets/activity-status-pending.png){zoomable="yes"}{width="70%"}| The activity is currently being executed. |
 |![](assets/activity-status-orange.png){zoomable="yes"}{width="70%"}| The activity requires your attention. This may involve confirming the sending of a delivery or taking a necessary action. |
 |![](assets/activity-status-red.png){zoomable="yes"}{width="70%"}|The activity has encountered an error. To resolve the issue, open the composition logs for more information.|
-|![](assets/activity-status-green.png){zoomable="yes"}{width="70%"}|The activity has been succesfully executed. | 
+|![](assets/activity-status-green.png){zoomable="yes"}{width="70%"}|The activity has been succesfully executed. |
 
 ## Monitor logs and tasks {#logs-tasks}
 

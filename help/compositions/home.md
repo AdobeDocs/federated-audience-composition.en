@@ -72,7 +72,7 @@ The **[!UICONTROL Manage access]** popover appears. On this page, you can apply 
 | ---------- | ----------- |
 | Contract labels | Contract labels ("C" labels) are used to categorize data that has contractual obligations or is related to your organization's data governance policies. |
 | Identity labels | Identity labels ("I" labels) are used to categorize data that can identify or contact a specific person. |
-| Sensitive labels | Sensitive labels ("S" labels) are used to categorize you and/or your organization consider sensitive. | 
+| Sensitive labels | Sensitive labels ("S" labels) are used to categorize you and/or your organization consider sensitive. |
 | Partner Ecosystem labels | Partner Ecosystem labels are used to categorize data from sources external to your organization. |
 
 For more information about access and data governance labels, please read the [data usage label glossary](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/labels/reference).
