@@ -359,13 +359,13 @@ Data is reconciled when the source and destination are equal. You can add more r
 
 >[!TAB Advanced reconciliation conditions]
 
-After choosing **Advanced reconciliation conditions**, select **Create conditions**. You can now create your own reconciliation condition using the query modeler. For more information on using the Query Modeler, read the [Query Modeler overview](../../query/query-modeler-overview.md)
+After choosing **Advanced reconciliation conditions**, select **Create conditions**. You can now create your own reconciliation condition using the query modeler. For more information on using the Query Modeler, read the [Query Modeler overview](../query/query-modeler-overview.md)
 
 ![](./assets/activities/reconciliation-advanced.png)
 
 >[!ENDTABS]
 
-You can also filter the reconciled data. Select **Create filter** to create a custom condition using the Query Modeler. For more information on using the Query Modeler, read the [Query Modeler overview](../../query/query-modeler-overview.md)
+You can also filter the reconciled data. Select **Create filter** to create a custom condition using the Query Modeler. For more information on using the Query Modeler, read the [Query Modeler overview](../query/query-modeler-overview.md)
 
 +++
 
