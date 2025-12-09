@@ -6,14 +6,14 @@ exl-id: 4f510805-b700-444d-89bb-832eaa1e3242
 ---
 # Create a composition
 
+Federated Audience Composition lets you create compositions, where you can leverage various activities into a visual canvas to create audiences. After creating your composition, the resulting audiences are saved into Adobe Experience Platform and can be leveraged in Experience Platform destinations and Adobe Journey Optimizer to target customers. 
+
+## Define your composition {#create}
+
 >[!CONTEXTUALHELP]
 >id="dc_composition_creation_properties"
 >title="Composition properties"
 >abstract="In this screen, choose the template to use to create the composition and specify a label. Expand the ADDITIONAL OPTIONS section to configure more settings such as the composition internal name, its folder, timezone, and supervisor group. It is highly recommended to select a supervisor group so that operators are alerted if an error occurs."
-
-Federated Audience Composition lets you create compositions, where you can leverage various activities into a visual canvas to create audiences. After creating your composition, the resulting audiences are saved into Adobe Experience Platform and can be leveraged in Experience Platform destinations and Adobe Journey Optimizer to target customers. 
-
-## Define your composition {#create}
 
 To create a composition, you'll first need to define its label and optionally configure additional settings.
 
