@@ -28,7 +28,6 @@ breadcrumb-title: Experience Platform Federated Audience Composition
     - [Activities overview](compositions/activities.md)
     - Create and run your first composition {#create-composition}
         - [Key principles of composition creation](compositions/gs-composition-creation.md)
-        - [Create & configure the composition](compositions/create-composition.md)
         - [Orchestrate activities](compositions/orchestrate-activities.md)
         - [Start and monitor your composition](compositions/start-monitor-composition.md)
 - Query the database {#query-database}

@@ -184,7 +184,7 @@ This release comes with the following improvements:
 
     The Save profiles activity now supports incremental updates. With incremental updates, you can query and update incremental data while enriching profiles with data from external data warehouses.
 
-    More information on using the save profiles activity can be found in the [save profile activity guide](/help/compositions/activities/save-profiles.md).
+    More information on using the save profiles activity can be found in the [save profile section of the activities guide](/help/compositions/activities.md#save-profiles).
 
 ## May '25 release {#fac-25-5}
 
@@ -268,7 +268,7 @@ This release comes with the following improvements.
 <td>
 <p> Federated Audience Composition now supports the profile enrichment use case, allowing customers to enhance existing Experience Platform profiles with data from their external data warehouses.
 </p>
-<p>For more information, refer to the <a href="../compositions/activities/save-profiles.md">detailed documentation</a>.</p>
+<p>For more information, refer to the <a href="../compositions/activities.md#save-profiles">detailed documentation</a>.</p>
 </br>
 </td>
 </tr>

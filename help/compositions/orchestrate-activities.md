@@ -14,7 +14,7 @@ At this stage of the configuration, the diagram is displayed with a start icon, 
 
 A list of activities that can be added to the diagram appears. The available activities depend on your position within the composition diagram. For example, when adding your first activity, you can start your composition by targeting an audience, splitting the composition path, settings a scheduler to delay the composition execution or setting a **Wait** activity to delay the composition execution. On the other hand, after a **Build audience** activity, you can refine your target with targeting activities or organize the composition process with flow control activities.
 
-Once an activity has been added to the diagram, a right pane appears, allowing you to configure the newly added activity with specific settings. Detailed information on how to configure each activity is available in [this section](activities/about-activities.md).
+Once an activity has been added to the diagram, a right pane appears, allowing you to configure the newly added activity with specific settings. Detailed information on how to configure each activity is available in the [activities overview](./activities.md).
 
 ![](assets/composition-create-add.png)
 
