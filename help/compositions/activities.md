@@ -666,3 +666,5 @@ If you select fixed time, you can set the composition to wait until the given da
 
 ## Transitions {#transitions}
 
+In compositions, transitions show how data is transported from one activity to another.
+
