@@ -666,5 +666,13 @@ If you select fixed time, you can set the composition to wait until the given da
 
 ## Transitions {#transitions}
 
-In compositions, transitions show how data is transported from one activity to another.
+In compositions, transitions show how data is transported from one activity to another. The transitions store the data in a temporary work table. If you select the transition, you can view the following information:
 
+- **Preview schema**: You can select this to view the schema for the work table.
+- **Preview results**: You can select this to visualize the data that's transported in the selected transition. This option is only available if **Keep the result of interim populations between two executions** is enabled.
+
+![](assets/transition-preview.png)
+
+## Next steps {#next-steps}
+
+After reading this guide, you'll have a better understanding of the activities and transitions you can use within a composition. For more information on compositions in general, read the [composition overview](./create-composition.md).
