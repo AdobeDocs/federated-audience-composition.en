@@ -72,11 +72,14 @@ Aggregate functions are not available. -->
 | ---- | ----------- | ------ | ------- |
 | **StringAgg** | Returns the concatenation of the values of a string type column, separated by the character in the second argument | StringAgg(&lt;Value&gt;, &lt;String&gt;) | StringAgg(column, ",") | -->
 
-<!-- >[!TAB Vertica]
+<!-- 
+>[!TAB Vertica]
 
 Aggregate functions are not available. -->
 
-<!-- >[!ENDTABS] -->
+<!-- 
+>[!ENDTABS] 
+-->
 
 ### Date
 
