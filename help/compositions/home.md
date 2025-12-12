@@ -24,8 +24,7 @@ Federated Audience Composition lets you create compositions, where you can lever
 A composition within Federated Audience Composition is made up of the following parts:
 
 - **[!UICONTROL Activities]**: An activity is a task to be performed, and are represented within the composition by icons.
-- **[!UICONTROL Transitions]**: Transitions link a source activity to a destination activity and define their sequence. 
-- **[!UICONTROL Worktables]**: A worktable contains all the information carried by the transitions. Each composition uses several worktables. The data conveyed in these tables can be used throughout the composition's life cycle.
+- **[!UICONTROL Transitions]**: Transitions link a source activity to a destination activity and define their sequence. The information contained in the transitions is stored within a work table. Each composition uses several worktables. The data conveyed in these tables can be used throughout the composition's life cycle.
 
 ## Access and manage compositions {#access}
 

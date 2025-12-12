@@ -37,8 +37,22 @@ In the composition canvas, you can add activities and transitions that help defi
 
 For more information about the activities and transitions that are available for use, read the [activities overview](./activities.md). 
 
-* [Learn how to orchestrate activities](orchestrate-activities.md)
-* [Learn how to start and monitor a composition](start-monitor-composition.md) 
+## Start and monitor your composition {#start-and-monitor}
+
+After you've finished adding your activities to the composition, you can start the composition's execution. To start a composition, select the **[!UICONTROL Start]** button in the upper-right corner of the screen. When the composition is running, each activity in the canvas is executed in a sequential order, until the end of the composition is reached.
+
+You can track the progress of targeted profiles in real-time using a visual flow. This allows you to quickly identify the status of each activity and the number of profiles transitioning between them.
+
+![](assets/composition-visual-flow.png)
+
+The visual indicators on the top-right corner of each activity shows the status of the execution:
+
+| Visual indicator | Description |
+| ---------------- | ------------|
+|![](assets/activity-status-pending.png){zoomable="yes"}{width="70%"}| The activity is currently being executed. |
+|![](assets/activity-status-orange.png){zoomable="yes"}{width="70%"}| The activity requires your attention. This may involve confirming the sending of a delivery or taking a necessary action. |
+|![](assets/activity-status-red.png){zoomable="yes"}{width="70%"}|The activity has encountered an error. To resolve the issue, open the composition logs for more information.|
+|![](assets/activity-status-green.png){zoomable="yes"}{width="70%"}|The activity has been successfully executed. |
 
 ## Configure the composition's settings {#settings}
 
