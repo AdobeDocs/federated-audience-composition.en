@@ -47,7 +47,7 @@ You can also view information about the compositions, including the name, status
 | **[!UICONTROL Paused]** | The composition execution has been paused. |
 | **[!UICONTROL Erroneous]** | The composition execution has encountered an error. To view more information about the error, open the composition and access the logs. |
 
-You can learn how to start or stop a composition in the [start and monitor composition guide](./start-monitor-composition.md).
+You can learn how to start or stop a composition in the [create composition guide](./create-composition.md#monitor-logs).
 
 ![A list of the available compositions is displayed.](assets/compositions/compositions-list.png){zoomable="yes"}{width="70%"}
 

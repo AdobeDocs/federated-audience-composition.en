@@ -141,7 +141,7 @@ For more information on the supported databases in Federated Audience Compositio
 <tr>
 <td>
 <p>You can now subscribe to alerts to learn about your composition's successful and failed runs</p>
-<p>For more information about subscribing to notifications for your composition's runs, please read the <a href="../compositions/start-monitor-composition.md#alerts">start and monitor your composition guide</a>.</p>
+<p>For more information about subscribing to notifications for your composition's runs, please read the <a href="../compositions/create-composition.md#alerts">create a composition guide</a>.</p>
 </br>
 </td>
 </tr>
