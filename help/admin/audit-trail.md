@@ -42,7 +42,7 @@ The **[!UICONTROL Audit trail]** feature constantly records a detailed log of ac
 
 * **External Account** allows you to check modifications made to external accounts in Adobe Audience Composition instance.
 
-  For more information on external account, refer to this [page](../connections/federated-db.md).
+  For more information on external account, refer to this [page](../connections/home.md).
 
 +++
 

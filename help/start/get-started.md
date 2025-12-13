@@ -7,7 +7,7 @@ exl-id: 43464aea-9c1d-4f1f-859f-82f209f350b7
 
 Federated Audience Composition is available for [Adobe Real-Time Customer Data Platform](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/home){target="_blank"} and [Adobe Journey Optimizer](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/ajo-home){target="_blank"} environments. It allows you to build and enrich audiences from your third-party data warehouses and import the audiences into Adobe Experience Platform. Federated Audience Composition brings an easy and powerful solution to connect your enterprise data warehouse directly within Adobe Real-Time Customer Data Platform and/or Adobe Journey Optimizer, and perform queries on the tables of your data warehouse. 
 
-Adobe Federated Audience Composition helps Adobe Experience Platform apps users to access their customer data which stored into their data warehouses and cloud storage platforms such as Amazon Redshift, Azure Synapse Analytics, and more. Customer data can live in multiple data warehouses and are now accessible instantly, without replication. Supported platforms are listed on [this page](../connections/federated-db.md#supported-db).
+Adobe Federated Audience Composition helps Adobe Experience Platform apps users to access their customer data which stored into their data warehouses and cloud storage platforms such as Amazon Redshift, Azure Synapse Analytics, and more. Customer data can live in multiple data warehouses and are now accessible instantly, without replication. Supported platforms are listed on [this page](../connections/home.md#supported-db).
 
 >[!INFO]
 >
@@ -32,7 +32,7 @@ Federated Audience Composition extends the value of Real-Time CDP and Journey Op
 Federated Audience Composition supports **three** categories of use cases: audience creation, audience enrichment, and customer profile enrichment. 
 
 * Audience creation: You can create audiences from a data warehouse and federate those audiences into Experience Platform for use in either Real-Time CDP or Journey Optimizer through a marketer friendly drag-and-drop user interface. As a result, you can query your data warehouses without copying sensitive underlying data or duplicating existing data.
-  * **Example:** Create an audience of high value past purchasers using historic transaction data in the warehouse, without copying those transactions into Adobe Experience Platform.
+  * **Example:** Create an audience of high value past purchasers using historic transaction data in the warehouse, without copying those transactions into Experience Platform.
 
 * Audience enrichment: You can add more detail to your existing audiences in Experience Platform by using additional datasets from your data warehouses and overlaying your audiences with this information - all without copying the underlying data into Experience Platform. With audience enrichment, you can deliver improved personalization with the enriched audience.
   * **Example:** Enrich an Experience Platform audience of cart abandoners with the Federated Audience Composition audience of high-value past purchasers to deliver a targeted offer.
@@ -52,7 +52,7 @@ Adobe Federated Audience Composition lets you create and update Adobe Experience
 
 Key steps:
 
-1. **Data Integration**: Bring together data from various sources, and merge them into a unified dataset. Learn how to connect Adobe Experience Platform apps and your enterprise data warehouse, supported databases, and how to configure them are detailed in [this section](../connections/federated-db.md).
+1. **Data Integration**: Bring together data from various sources, and merge them into a unified dataset. Learn how to connect Adobe Experience Platform apps and your enterprise data warehouse, supported databases, and how to configure them are detailed in [this section](../connections/home.md).
 
 1. **Data Modeling**: Design and create data models and schemas that define the structure, relationships, and constraints of the data. Learn more about schemas on [this page](../customer/schemas.md). Learn how to create links for your datamodel on [this page](../data-management/gs-models.md).
 

@@ -53,80 +53,70 @@ By creating a schema, you can define a representation of your table in Experienc
 >[!CAUTION]
 >
 >When connecting multiple sandboxes with same database, you must use distinct working schemas.
->
 
 ## Create a schema {#schema-create}
 
-To create schemas in Federated Audience Composition, follow the steps below:
+To create a schema in Federated Audience Composition, select **[!UICONTROL Models]** in the **[!UICONTROL Federated Data]** section. Within the **[!UICONTROL Schema]** tab, select **[!UICONTROL Create schema]**.
 
-1. In **[!UICONTROL Federated Data]** section, access the **[!UICONTROL Models]** menu. Browse to the **[!UICONTROL Schema]** tab and click **[!UICONTROL Create schema]**.
+![The Create schema button is highlighted within the Federate Audience Composition schema section.](assets/schema_create.png){zoomable="yes"}
 
-    ![](assets/schema_create.png){zoomable="yes"}
+The **[!UICONTROL Select federated database]** popover appears. On this popover, you can select the [source database](/help/connections/home.md), followed by **[!UICONTROL Next]**.
 
-    This step lets you access to a new screen with a drop-down list where you can find the database(s) connected to your environment. Learn more about database connection in [this section](../connections/connections.md#connections-fdb).
 
-1. Select your source database in the list, and click **[!UICONTROL Next]**.
+![](assets/schema_tables.png){zoomable="yes"}
 
-    ![](assets/schema_tables.png){zoomable="yes"}
+The **Select Table** popover appears. On this popover, you can select the tables which you want to use to create the schema.
 
-    You can then see the list of all the tables in the database.
+![The Select Table popover is displayed.](assets/select-table.png){zoomable="yes"}
 
-1. Select the tables for which you want to create the schema.
+Each selected table generates a schema with the chosen columns. For each table, you can change the label of the schema, add a description, rename the field label, set the field label visibility, and select the schema primary key.
 
-1. Each selected table generates a schema with the chosen columns. Configure the schema and its columns as needed.
+![](assets/schema-fields.png){zoomable="yes"}
 
-    ![](assets/schema_fields.png){zoomable="yes"}
+>[!NOTE]
+>
+>If you enable **[!UICONTROL Use Composite Key]** but only select one key to be used, the key will be treated like a standard schema primary key.
 
-    For each table, you can:
+Additionally, you can create a key that is made up of multiple schema columns. Turn on **[!UICONTROL Use Composite Key]**, and mark the keys you want to use as your composite key.
 
-    * change the label of the schema
-    * add a description
-    * rename all the field labels, and set their visibility
-    * select the schema primary key
+![](assets/composite-key.png){zoomable="yes"}
 
-    The schema can be defined as follows:
-
-    ![](assets/schema_example.png)
-
-1. After completing your configuration, click **[!UICONTROL Done]**. 
+After completing your configuration, select **[!UICONTROL Done]** to finish creating your schema. 
 
 ## Edit a schema {#schema-edit}
 
-To edit a schema, follow these steps:
+To edit a schema, select your previously created schema on the **Schemas** page.
 
-1. Access your previously created schema.
+The schema details page appears. Select the ![pencil icon](/help/assets/icons/edit.png) to edit the schema.
 
-1. Click on **[!UICONTROL Edit]** button.
+![](assets/schema_edit.png){zoomable="yes"}
 
-    ![](assets/schema_edit.png){zoomable="yes"}
+On the **[!UICONTROL Edit schema]** window, you can access and configure the same options as when [creating a schema](#schema-create).
 
-1. From the **[!UICONTROL Edit schema]** window, you can access and configure the same options as when [creating a schema](#schema-create).
-
-    ![](assets/schema_edit_orders.png){zoomable="yes"}
+![](assets/schema_edit_orders.png){zoomable="yes"}
 
 ## Preview data in a schema {#schema-preview}
 
 To preview the data in the table represented by your schema, browse to the **[!UICONTROL Data]** tab as below.
 
-Click on the **[!UICONTROL Calculate]** link to preview the total number of recordings.
+Select **[!UICONTROL Calculate]** link to preview the total number of recordings.
 
 ![](assets/schema_data.png){zoomable="yes"}
 
-Click on the **[!UICONTROL Configure columns]** button to change the data display.
+Select the **[!UICONTROL Configure columns]** button to change the data display.
 
 ![](assets/schema_columns.png){zoomable="yes"}
 
 ## Refresh a schema {#schema-refresh}
 
-Tables in a federated database can be updated, added or removed. In such cases, you must refresh the schema in Adobe Experience Platform to align with the latest changes. To perform this, click the three dots next to the name of the schema to update and select **Refresh schema**. 
+Tables in a federated database can be updated, added or removed. In such cases, you must refresh the schema in Adobe Experience Platform to align with the latest changes. To perform this, select the ![three dots icon](/help/assets/icons/more.png) next to the name of the schema followed by **[!UICONTROL Refresh schema]**. 
 
 You can also update the schema definition when editing it.
 
 ![](assets/schema_refresh.png){zoomable="yes"}
 
-
 ## Delete a schema {#schema-delete}
 
-To delete a schema, click on **[!UICONTROL More]** button, then choose **[!UICONTROL Delete]**.
+To delete a schema, select the ![three dots icon](/help/assets/icons/more.png), followed by **[!UICONTROL Delete]**.
 
 ![](assets/schema_delete.png){zoomable="yes"}
