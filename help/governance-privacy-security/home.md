@@ -25,7 +25,7 @@ You can use data governance to manage and identify your customer's data, ensurin
 
 You can use data usage labels to categorize datasets and fields based on the governance policies that apply to that data. After you create an audience using compositions, you can apply the appropriate data labels on the resulting schema to ensure it abides to the required usage restrictions.
 
-For more information on using data labels in Federated Audience Composition, please read the [apply access labels section](../compositions/gs-compositions.md#access-labels){target="_blank"}.
+For more information on using data labels in Federated Audience Composition, please read the [apply access labels section](../compositions/home.md#access-labels){target="_blank"}.
 
 ## Privacy
 

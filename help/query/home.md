@@ -1,10 +1,10 @@
 ---
 audience: end-user
-title: Work with the query modeler
-description: Learn how to work with the query modeler
+title: Query Modeler Overview
+description: Learn how to use the query modeler to define rules to filter your database.
 exl-id: b77b9d1c-61d5-4d6d-9d82-3c72bc9c932a
 ---
-# Work with the query modeler {#segment-builder}
+# Query modeler overview {#query-modeler}
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_querymodeler_querymessage"
@@ -20,7 +20,7 @@ The query modeler is available in every context where you need to define rules t
 |Usage|Example|
 |  ---  |  ---  |
 |**Define audiences**: Specify the population you want to target in your compositions, and effortlessly create new audiences tailored to your needs. |![](assets/access-audience.png){zoomable="yes"}{width="200" align="center" zoomable="yes"}|
-|**Customize activities**: apply rules within composition activities, such as **Split** and **Reconciliation**, to align with your specific requirements. [Learn more about composition activities](../compositions/activities/about-activities.md)|![](assets/access-composition.png){zoomable="yes"}{width="200" align="center" zoomable="yes"}|
+|**Customize activities**: apply rules within composition activities, such as **Split** and **Reconciliation**, to align with your specific requirements. [Learn more about composition activities](../compositions/activities.md)|![](assets/access-composition.png){zoomable="yes"}{width="200" align="center" zoomable="yes"}|
 
 ## Query modeler interface {#interface}
 
