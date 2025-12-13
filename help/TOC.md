@@ -15,20 +15,20 @@ breadcrumb-title: Experience Platform Federated Audience Composition
 - Governance, Privacy, Security {#governance-privacy-security}
     - [Overview](./governance-privacy-security/home.md)
     - [Access Control](governance-privacy-security/access-control.md)
-- Configuration steps {#config}
+- Connections {#connections}
     - [Connections overview](connections/home.md)
-    - [FDA rights matrix](connections/fda-rights.md)
-    - Data models and schemas{#datamodel}
-        - [Create and configure schemas](data-modelling/schemas.md)
-        - [Configure your data models](data-modelling/models.md)
+    - [Data access rights matrix](connections/fda-rights.md)
     - [Enrich Adobe Experience Platform audiences with external data](connections/destinations.md)
+- Data models and schemas {#models}
+    - [Schemas overview](data-modelling/schemas.md)
+    - [Data models overview](data-modelling/models.md)
 - Compositions {#compositions}
     - [Composition overview](compositions/home.md)
     - [Create a composition](compositions/create-composition.md)
     - [Activities overview](compositions/activities.md)
-- Query the database {#query-database}
-    - [Work with the query modeler](query/query-modeler-overview.md)
-    - [Build your first query](query/build-query.md)
+- Query modeler {#query-database}
+    - [Query modeler overview](query/home.md)
+    - [Build a query](query/build-query.md)
     - [Edit expressions](query/expression-editor.md)
 - [Audit Trail](admin/audit-trail.md)
 - [Frequently asked questions](./faq.md)

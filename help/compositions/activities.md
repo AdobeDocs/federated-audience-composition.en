@@ -38,7 +38,7 @@ After selecting **Create audience**, choose the **Schema** for your audience. Th
 
 ![](./assets/activities/build-audience-create.png)
 
-After choosing a schema, select **Continue**. You can now define your audience's definition within the Query Modeler. For more information on using the Query Modeler, read the [Query Modeler overview](../query/query-modeler-overview.md).
+After choosing a schema, select **Continue**. You can now define your audience's definition within the Query Modeler. For more information on using the Query Modeler, read the [Query Modeler overview](../query/home.md).
 
 >[!TAB Use existing audience]
 
@@ -359,13 +359,13 @@ Data is reconciled when the source and destination are equal. You can add more r
 
 >[!TAB Advanced reconciliation conditions]
 
-After choosing **Advanced reconciliation conditions**, select **Create conditions**. You can now create your own reconciliation condition using the query modeler. For more information on using the Query Modeler, read the [Query Modeler overview](../query/query-modeler-overview.md)
+After choosing **Advanced reconciliation conditions**, select **Create conditions**. You can now create your own reconciliation condition using the query modeler. For more information on using the Query Modeler, read the [Query Modeler overview](../query/home.md)
 
 ![](./assets/activities/reconciliation-advanced.png)
 
 >[!ENDTABS]
 
-You can also filter the reconciled data. Select **Create filter** to create a custom condition using the Query Modeler. For more information on using the Query Modeler, read the [Query Modeler overview](../query/query-modeler-overview.md)
+You can also filter the reconciled data. Select **Create filter** to create a custom condition using the Query Modeler. For more information on using the Query Modeler, read the [Query Modeler overview](../query/home.md)
 
 +++
 
@@ -476,7 +476,7 @@ The **Split** activity separates the incoming population into multiple parts, de
 
 After adding the **Split** activity to your composition, you can now determine how to subset your audience. Select **Add segment** to create your different branching paths. 
 
-You can now provide details for each of these sub-paths. You can give the sub-path a name as well as the filter conditions. To create a filtering condition, select **Create filter** and configure the filtering rule using the Query Modeler. For more information on using the Query Modeler, read the [Query Modeler overview](../query/query-modeler-overview.md).
+You can now provide details for each of these sub-paths. You can give the sub-path a name as well as the filter conditions. To create a filtering condition, select **Create filter** and configure the filtering rule using the Query Modeler. For more information on using the Query Modeler, read the [Query Modeler overview](../query/home.md).
 
 Once you've created your filtering condition, you can apply the following additional rules:
 

@@ -1,10 +1,10 @@
 ---
 audience: end-user
-title: Work with the query modeler
-description: Learn how to work with the query modeler
+title: Query Modeler Overview
+description: Learn how to use the query modeler to define rules to filter your database.
 exl-id: b77b9d1c-61d5-4d6d-9d82-3c72bc9c932a
 ---
-# Work with the query modeler {#segment-builder}
+# Query modeler overview {#query-modeler}
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_querymodeler_querymessage"

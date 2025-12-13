@@ -1,10 +1,10 @@
 ---
 audience: end-user
-title: Build your first query using the query modeler
-description: Learn how to build your first query in the query modeler.
+title: Expression Editor Overview
+description: Learn how to use the functions within the expression editor to build a query within the query modeler.
 exl-id: abff07ef-2bc0-4e00-8957-4d59fc3bc938
 ---
-# Edit expressions {#expression}
+# Expression editor overview {#expression}
 
 Editing an expression involves manually entering conditions to form a rule. This mode allows you to use advanced functions, which let you manipulate the values used to carry out specific queries such as manipulating dates, strings, numerical fields, sorting, etc.
 
