@@ -11,7 +11,8 @@ exl-id: d4dcaf31-93cd-4a4e-888a-cf1bbdc4ca03
 
 ### New capabilities {#fac-25-10-feature}
 
-<!-- <table>
+<!-- 
+<table>
 <thead>
 <tr>
 <th><strong>Availability for Adobe Experience Platform customers on Amazon Web Services (AWS)</strong><br/></th>
@@ -26,7 +27,8 @@ exl-id: d4dcaf31-93cd-4a4e-888a-cf1bbdc4ca03
 </td>
 </tr>
 </tbody>
-</table> -->
+</table> 
+-->
 
 <table>
 <thead>
@@ -406,3 +408,4 @@ Federated Audience Composition addresses growing market demands for enterprises 
 Learn more about Federated Audience Composition capabilities on [this page](get-started.md) and in the [Frequently Asked Questions](faq.md).
 
 Detailed information on the prerequisites to access Federated Audience Compositions and the current guardrails, refer to the [this page](access-prerequisites.md).
+

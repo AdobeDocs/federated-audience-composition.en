@@ -121,11 +121,15 @@ If you select **[!UICONTROL Account/Password Authentication]**, you can add the 
 
 If you select **[!UICONTROL OAuth 2.0]**, you can add the following login information:
 
+>[!NOTE]
+>
+>Before connecting to Google BigQuery using OAuth 2.0, you'll need to configure your redirect URL in your Google Cloud project. Add the redirect URL `https://fac-oauth.adobe.io/oauth` to your Google Cloud project under your OAuth 2.0 Client ID configuration.
+
 | Field | Description |
 | ----- | ----------- |
-| Client ID | The client ID from your Google BigQuery project. This field acts like a username for your project. | 
+| Client ID | The client ID from your Google BigQuery project. This field acts like a username for your project. |
 | Client Secret | The client secret from your Google BigQuery project. This field acts like a password for your project. |
-| Redirection URL | The URL the application will redirect after successfully authorizing. |
+| Access scope | Prepopulated information that lists the scopes your OAuth token is authorized for within your Google Cloud resources. |
 
 Select **[!UICONTROL Sign in]** to finish your authentication.
 
@@ -170,7 +174,7 @@ For Microsoft Fabric, you can set the following additional options:
 
 >[!TAB Oracle]
 
->[!IMPORTANT]
+>[!NOTE]
 >
 >Federated Audience Composition supports federated connection setup with Oracle databases on version 11g or higher and hosted on AWS, Azure, Exadata, or a private cloud (as long as it's accessible by an outside network). If you have any further queries related to Oracle database setup or need to create a secure connection to Oracle, please contact your Adobe Customer Care representative.
 
@@ -200,10 +204,14 @@ If you select **[!UICONTROL Account/Password Authentication]**, you can add the 
 
 If you select **[!UICONTROL OAuth 2.0]**, you can add the following login information:
 
+>[!NOTE]
+>
+>Before connecting to Snowflake using OAuth 2.0, you'll need to configure your redirect URL in your Snowflake OAuth integration object. Add the redirect URL `https://fac-oauth.adobe.io/oauth` to your Snowflake OAuth integration configuration.
+
 | Field | Description |
 | ----- | ----------- |
 | Server | The name of the server. |
-| Client ID | The client ID from your Snowflake project. This field acts like a username for your project. | 
+| Client ID | The client ID from your Snowflake project. This field acts like a username for your project. |
 | Client Secret | The client secret from your Snowflake project. This field acts like a password for your project. |
 
 Select **[!UICONTROL Sign in]** to finish your authentication.
