@@ -13,6 +13,10 @@ In Federated Audience Composition, you can create compositions using two types o
 
 ## Targeting activities
 
+>[!NOTE]
+>
+>When working with composition activities, the attribute names **cannot** contain any spaces.
+
 * [Build audience activity](build-audience.md): Define your target population. You can either select an existing audience or use the query modeler to define your own query.
 * [Change data source](./change-data-source.md): Change the data source used by your composition.
 * [Change dimension](change-dimension.md): Change the schema, also known as targeting dimension, as you are building your composition.
