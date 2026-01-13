@@ -6,13 +6,13 @@ exl-id: c6507624-1dc9-43f9-a3ad-c3dc9689f8c7
 ---
 # Work with audiences {#gs-audiences}
 
-Experience Platform Federated Audience Composition allows you to [create compositions](../compositions/gs-compositions.md), where you can leverage various activities into a visual canvas to create audiences and store them into Adobe Experience Platform Audience Portal.
+Experience Platform Federated Audience Composition allows you to [create compositions](../compositions/home.md), where you can leverage various activities into a visual canvas to create audiences and store them into Adobe Experience Platform Audience Portal.
 
 You can then target these audience in Journey Optimizer or activate them to any destination supported by Adobe Experience Platform.
 
 ## Audience creation using compositions {#creation}
 
-To create audiences using Federated Audience composition, you need to create a composition including a **[!UICONTROL Save audience]** activity. This activity allows you to save the audience into Audience Portal, and to select fields from your external databases to include in the audience. [Learn how to configure a Save audience activity](../compositions/activities/save-audience.md)
+To create audiences using Federated Audience composition, you need to create a composition including a **[!UICONTROL Save audience]** activity. This activity allows you to save the audience into Audience Portal, and to select fields from your external databases to include in the audience. [Learn how to configure a Save audience activity](../compositions/activities.md#save-audience)
 
 Audience created using Adobe Federated Data Composition include all the fields selected in the **[!UICONTROL Save audience]** activity, and are stored in Audience Portal alongside all Adobe Experience Platform audiences. 
 

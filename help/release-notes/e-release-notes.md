@@ -49,7 +49,7 @@ This release comes with the improvements below.
 
 * **Data model Canvas view**
 
-    The Canvas view for the Data Models section improves the experience by enabling the visualization of data models and their links in a canvas layout, alongside the existing tabular view. [Learn more](../data-management/gs-models.md)
+    The Canvas view for the Data Models section improves the experience by enabling the visualization of data models and their links in a canvas layout, alongside the existing tabular view. [Learn more](../data-modelling/models.md)
 
 * **AI Assistant**
 
@@ -86,7 +86,7 @@ This release comes with the improvements below.
 <!--
 * **Data model Canvas view**
 
-    The Canvas view for the Data Models section improves the experience by enabling the visualization of data models and their links in a canvas layout, alongside the existing tabular view. [Learn more](../data-management/gs-models.md)
+    The Canvas view for the Data Models section improves the experience by enabling the visualization of data models and their links in a canvas layout, alongside the existing tabular view. [Learn more](../data-modelling/models.md)
 
 * **AI Assistant**
 
@@ -123,7 +123,7 @@ This release comes with the changes listed below.
 
 * **Enhanced Schema Creation Experience**
 
-    The process of creating schemas has been improved through an updated user interface, designed to be more intuitive and easier to navigate. These enhancements offer data practitioners a smoother and more efficient way to develop data models. [Learn more](../customer/schemas.md)
+    The process of creating schemas has been improved through an updated user interface, designed to be more intuitive and easier to navigate. These enhancements offer data practitioners a smoother and more efficient way to develop data models. [Learn more](../data-modelling/schemas.md)
 
 * **Audience Enrichment Support for Databricks**
 
@@ -143,7 +143,7 @@ This release comes with the improvement below.
 
 >[!AVAILABILITY]
 >
->Previously available for a set of organizations (LA), Adobe Experience Platform Federated Audience Composition is now available to all users (GA). This capability is activated based on your offering, and only visible with the associated permissions. [Learn more](access-prerequisites.md)
+>Previously available for a set of organizations (LA), Adobe Experience Platform Federated Audience Composition is now available to all users (GA). This capability is activated based on your offering, and only visible with the associated permissions. [Learn more](../start/access-prerequisites.md)
 >
 
 ### Compatibility {#fac-24-10-compat}
@@ -168,7 +168,7 @@ This release comes with the improvements listed below.
 
 * **Refresh existing schemas**
 
-    When a column is created, modified or deleted in a federated database, you can now detect and apply the changes by clicking on the **[!UICONTROL Refresh schema]** button in the corresponding schema. [Learn more](../customer/schemas.md#schema-refresh)
+    When a column is created, modified or deleted in a federated database, you can now detect and apply the changes by selecting **[!UICONTROL Refresh schema]** in the corresponding schema. [Learn more](../data-modelling/schemas.md#schema-refresh)
 
 * **Associate a data model with a new composition**
 
@@ -180,6 +180,6 @@ Federated Audience Composition equips businesses with flexible and expanded acce
 
 Federated Audience Composition addresses growing market demands for enterprises who need the flexibility to compose audiences with warehouse datasets. This allows businesses to reduce data movement while making critical audience data available to marketing teams to meet use case requirements and power personalized experiences. 
 
-Learn more about Federated Audience Composition capabilities on [this page](get-started.md) and in the [Frequently Asked Questions](faq.md).
+Learn more about Federated Audience Composition capabilities on [this page](../overview.md) and in the [Frequently Asked Questions](../faq.md).
 
-Detailed information on the prerequisites to access Federated Audience Compositions and the current guardrails, refer to the [this page](access-prerequisites.md).
+Detailed information on the prerequisites to access Federated Audience Compositions and the current guardrails, refer to the [this page](../start/access-prerequisites.md).

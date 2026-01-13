@@ -21,9 +21,9 @@ Examples of such questions include:
 
 To ask a question:
 
-1. Access AI Assistant by clicking the icon on the top bar. 
+1. Access AI Assistant by selecting the icon on the top bar. 
 
-    AI Assistant displays on the right section of the screen. You can click ![Dive image alt text](assets/do-not-localize/Smock_FullScreen_18_N.svg "Expand") to expand the AI assistant window.
+    AI Assistant displays on the right section of the screen. You can select ![Dive image alt text](assets/do-not-localize/Smock_FullScreen_18_N.svg "Expand") to expand the AI assistant window.
 
     ![](assets/do-not-localize/ai-assistant-open.png)
 

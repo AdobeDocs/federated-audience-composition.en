@@ -23,7 +23,7 @@ Federated Audience Composition supports the following cloud warehouses:
 * Vertica Analytics
 * Microsoft Fabric
 
-Learn how to create a connection with these systems on [this page](../connections/home.md).
+You can learn how to create a connection with these systems on the [connections overview](../connections/home.md).
 
 ## Sandboxes
 
@@ -33,7 +33,7 @@ To view the list of your active Federated Audience Composition sandboxes, follow
 
 1. From Federated Audience Composition, access the **[!UICONTROL License usage]** menu under **[!UICONTROL Administration]**.
 
-1. Click the ![](assets/do-not-localize/Smock_InfoOutline_18_N.svg) icon from **[!UICONTROL Total volume of data egress]** to access your sandbox properties.
+1. Select the ![](assets/do-not-localize/Smock_InfoOutline_18_N.svg) icon from **[!UICONTROL Total volume of data egress]** to access your sandbox properties.
 
     ![](assets/sandbox_1.png)
 

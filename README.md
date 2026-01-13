@@ -19,8 +19,8 @@ This project has adopted the [Adobe Open Source Code of Conduct](code-of-conduct
 If you are contributing a minor update:
 
 1. Navigate to the topic you want to edit.
-1. In the "Was this content helpful?" banner that appears at the bottom of your browser window click **Detailed feedback options**.
-1. Click **Suggest an edit** and submit a pull request (PR) with your changes in GitHub UI.
+2. In the "Was this content helpful?" banner that appears at the bottom of your browser window, select **Detailed feedback options**.
+3. Select **Suggest an edit** and submit a pull request (PR) with your changes in GitHub UI.
 
    See the general [Adobe Docs contributor guide](https://experienceleague.adobe.com/docs/contributor/contributor-guide/introduction.html) for more information.
 

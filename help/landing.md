@@ -3,7 +3,7 @@ title: Adobe Experience Platform Federated Audience Composition Documentation Ho
 description: Federated Audience Composition documentation
 exl-id: 5cb18794-ae38-4ed7-9ce2-112bc6ae8dce
 ---
-# Federated Audience Composition documentation  {#fac-home}
+# Federated Audience Composition documentation {#fac-home}
 
 Welcome to Adobe Experience Platform Federated Audience Composition Documentation.
 
@@ -15,7 +15,7 @@ Experience Platform Federated Audience Composition provides Adobe Real-Time CDP 
 
 Federated Audience Composition enable audiences to be created, refined and enriched via federated compositions, using raw data from external data warehouses.
 
-[![image](assets/learn-more-button.svg)](start/release-notes.md)
+[![image](assets/learn-more-button.svg)](release-notes/latest.md)
 
 >[!TAB Connect data]
 
@@ -27,7 +27,7 @@ Create, configure, test and save the connection to your external database.
 
 Add and configure activities (Split, Enrichment, Query, etc.) to build compositions and create your audience.
 
-[![image](assets/learn-more-button.svg)](compositions/gs-compositions.md)
+[![image](assets/learn-more-button.svg)](compositions/home.md)
 
 >[!ENDTABS]
 
@@ -36,36 +36,36 @@ Add and configure activities (Split, Enrichment, Query, etc.) to build compositi
 <table style="table-layout:fixed">
   <tr style="border: 0;">
     <td>
-    <a href="start/get-started.md"><img src="assets/do-not-localize/start-quick.png"></a>
+    <a href="./overview.md"><img src="assets/do-not-localize/start-quick.png"></a>
     <div><strong>Get started</strong><br/>Learn how to create and update Adobe Experience Platform audiences directly from your database, without any ingestion process.
     </div>
     </td>
     <td>
-    <a href="data-management/gs-models.md"><img src="assets/do-not-localize/start-profiles.png"></a>
+    <a href="data-modelling/models.md"><img src="assets/do-not-localize/start-profiles.png"></a>
     <div><strong>Audience data</strong><br/>Prepare and map your data in a custom and extensible data model.
     </div>
     </td>
     <td>
-    <a href="compositions/gs-compositions.md"><img src="assets/do-not-localize/start-journey.jpeg"></a>
+    <a href="compositions/home.md"><img src="assets/do-not-localize/start-journey.jpeg"></a>
     <div><strong>Compose an audience</strong><br/>Add and configure activities (such as Split, Enrichment, or Query) to build compositions and create your first federated audience.
     </div>
     </td>
     <td>
-    <a href="start/get-started.md#use-cases"><img src="assets/do-not-localize/start-use-cases.png"></a>
+    <a href="./overview.md#use-cases"><img src="assets/do-not-localize/start-use-cases.png"></a>
     <div><strong>Use cases</strong><br/>Use Federated Audience Composition to create and enrich audiences as well as enrich profile data.
     </div>
     </td>
     <td>
-    <a href="start/faq.md"><img src="assets/do-not-localize/start-faq.png"></a>
+    <a href="./faq.md"><img src="assets/do-not-localize/start-faq.png"></a>
     <div><strong>FAQ</strong><br/>Frequently asked questions about Federated Audience Composition.</div>
     </td>
   </tr>
   <tr style="border: 0;">
-    <td><a href="start/get-started.md"><img src="assets/learn-more-button.svg"></a></td>
-    <td><a href="data-management/gs-models.md"><img src="assets/learn-more-button.svg"></a></td>
-    <td><a href="compositions/gs-compositions.md"><img src="assets/learn-more-button.svg"></a></td>
-    <td><a href="start/get-started.md#use-cases"><img src="assets/learn-more-button.svg"></a></td>
-    <td><a href="start/faq.md"><img src="assets/learn-more-button.svg"></a></td>
+    <td><a href="./overview.md"><img src="assets/learn-more-button.svg"></a></td>
+    <td><a href="data-modelling/models.md"><img src="assets/learn-more-button.svg"></a></td>
+    <td><a href="compositions/home.md"><img src="assets/learn-more-button.svg"></a></td>
+    <td><a href="./overview.md#use-cases"><img src="assets/learn-more-button.svg"></a></td>
+    <td><a href="./faq.md"><img src="assets/learn-more-button.svg"></a></td>
     </tr>
 </table>
 
