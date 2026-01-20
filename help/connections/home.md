@@ -21,14 +21,14 @@ Experience Platform Federated Audience Composition lets you build and enrich aud
 
 To work with your federated database and Adobe Experience Platform, you must first establish a connection between the two sources. With Federated Audience Composition, you can connect to the following databases.
 
-* Amazon Redshift
-* Azure Synapse Analytics
-* Databricks
-* Google BigQuery
-* Microsoft Fabric
-* Oracle
-* Snowflake
-* Vertica Analytics
+- Amazon Redshift
+- Azure Synapse Analytics
+- Databricks
+- Google BigQuery
+- Microsoft Fabric
+- Oracle
+- Snowflake
+- Vertica Analytics
 
 ## Create connection {#create}
 
@@ -77,10 +77,54 @@ After selecting Azure Synapse Analytics, you can add the following details:
 | Field | Description |
 | ----- | ----------- |
 | Server | The URL of the Azure Synapse server. |
-| Account | The username for the Azure Synapse account. |
-| Password | The password for the Azure synapse account. |
+| Account | The application ID (**Client ID**) of the Azure app registration. |
+| Password | The **Client secret** value of the Azure application. |
 | Database | The name of the database. If this is specified in the server name, this field can be left blank. |
 | Options | Additional options for the connection. For Azure Synapse Analytics, you can specify the type of authentication supported by the connector. Currently, Federated Audience Composition supports `ActiveDirectoryMSI`. For more information about connection strings, please read the [example connection strings section within Microsoft's documentation](https://learn.microsoft.com/en-us/sql/connect/odbc/using-azure-active-directory?view=sql-server-ver15#example-connection-strings){target="_blank"} . |
+
+Alternatively, you can securely configure your Azure Synapse Analytics connection by using Service Principal authentication. You should use Service Principal authentication for production-grade integrations as well as automation scenarios.
+
++++ Prerequisites
+
+Before setting up your Service Principal authentication, please note the following prerequisites:
+
+- An Azure subscription with access to Microsoft Entra ID
+- An Azure Synapse workspace and database
+- Permission to create App Registration
+- Permission to manage Azure Synapse database roles
+- Permission to update Federated Database configurations
+
++++
+
+Within the Azure Portal, you'll first need to create a new app registration. Select **Register** after giving the application a unique name.
+
+IMAGE
+
+The **Overview** page appears. Make sure you note the **Application (Client) ID** and the **Directory (Tenant) ID** values.
+
+IMAGE
+
+Within the newly registered application, select **Certificates & secrets**. From here, select **New client secret** within the **Client secrets** section to create a new client secret. After providing a description and expiry, select **Add** to generate the client secret.
+
+>[!IMPORTANT]
+>
+>After generating your client secret, copy and securely store your **Client Secret Value**. This value will **not** be visible again.
+
+Now that you've generated your client secret, you need to make sure you've granted the **Service principal** identity to the resource.
+
+For more information on assigning identity to resources, read the [Managed identities for Azure Synapse Analytics guide](https://learn.microsoft.com/en-us/azure/synapse-analytics/synapse-service-identity).
+
+Since you've finished all your Azure-side configurations, you can now set up your Federated-Audience-Composition-side configurations.
+
+Within your Azure Synapse connection, set the following configuration details:
+
+| Field | Description |
+| ----- | ----------- |
+| Server | The URL of the Azure Synapse server. |
+| Account | The application ID (**Client ID**) of the Azure app registration. |
+| Password | The **Client secret** value of the Azure application. |
+| Database | The name of the database. If this is specified in the server name, this field can be left blank. |
+| Options | Additional options for the connection. In order to use Service Principal authentication, you'll need to set `Authentication="ActiveDirectoryServicePrincipal"`. |
 
 >[!TAB Databricks]
 
