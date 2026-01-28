@@ -100,7 +100,7 @@ The resulting Audience data do not persist indefinitely in Adobe Experience Plat
 
 +++ Answer
 
-No, in the current version you cannot delete Federated Audience Composition audiences.
+Yes, you can delete Federated Audience Composition audiences within Audience Portal.
 
 +++
 
