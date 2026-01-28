@@ -415,6 +415,8 @@ Now, you can specify your mappings to select which fields you want to transfer t
 
 After adding your mappings, you can select the primary identity and namespace to identify the targeted profiles in the database. The primary identity field is used to identify the profiles while the identity namespace acts as a key to identify the identity.
 
+Additionally, you can set the data expiration for the audience. The data expiration determines the number of days after which the audience membership will expire. The data expiration can range from 1 to 90 days. By default, this value is set to 30.
+
 +++
 
 #### Split
