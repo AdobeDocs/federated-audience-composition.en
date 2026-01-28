@@ -96,13 +96,9 @@ Before setting up your Service Principal authentication, please note the followi
 
 +++
 
-Within the Azure Portal, you'll first need to create a new app registration. Select **Register** after giving the application a unique name.
+Within the Azure Portal, you'll first need to create a new app registration. Select **Register** after giving the application a unique name. The **Overview** page appears. Make sure you note the **Application (Client) ID** and the **Directory (Tenant) ID** values.
 
-IMAGE
-
-The **Overview** page appears. Make sure you note the **Application (Client) ID** and the **Directory (Tenant) ID** values.
-
-IMAGE
+![The Application (Client) ID within the overview page is highlighted.](/help/connections/assets/home/azure-client-id.png)
 
 Within the newly registered application, select **Certificates & secrets**. From here, select **New client secret** within the **Client secrets** section to create a new client secret. After providing a description and expiry, select **Add** to generate the client secret.
 
