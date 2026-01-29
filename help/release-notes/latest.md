@@ -31,3 +31,4 @@ This release comes with the following improvement.
     You can now set a data expiration when using the **Save audience** activity in a composition. 
 
     To learn more about data expirations in Federated Audience Composition, please read the [activities guide](../compositions/activities.md#save-audience).
+
