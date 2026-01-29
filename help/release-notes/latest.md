@@ -1,6 +1,7 @@
 ---
 title: Federated Audience Composition Release Notes
 description: Latest updates and release notes for Federated Audience Composition.
+exl-id: d4dcaf31-93cd-4a4e-888a-cf1bbdc4ca03
 ---
 
 # Release notes
