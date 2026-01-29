@@ -17,7 +17,7 @@ There are **two** different types of activities for use within Federated Audienc
 
 Targeting activities let you define what makes up your audience for the composition.
 
-#### Build audience
+#### Build audience {#build-audience}
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_build_audience_audienceselector"
@@ -54,7 +54,7 @@ After you've selected your options, you can choose to **Generate an outbound tra
 
 +++
 
-#### Change data source
+#### Change data source {#change-data-source}
 
 The **Change data source** activity lets you change which data source is being used by your composition.
 
@@ -74,7 +74,7 @@ After selecting **[!UICONTROL FDA external account]**, you can choose which exte
 
 +++
 
-#### Change dimension
+#### Change dimension {#change-dimension}
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_dimension_complement"
@@ -98,7 +98,7 @@ After you execute the composition, your results will be updated.
 
 +++
 
-#### Combine
+#### Combine {#combine}
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_combine"
@@ -200,7 +200,7 @@ Once you've configured your exclusion rules, you can also select the **Generate 
 
 +++
 
-#### Deduplication
+#### Deduplication {#deduplication}
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_deduplication_fields"
@@ -245,7 +245,7 @@ Additionally, you can select the **Generate complement** option. Generating a co
 
 +++
 
-#### Enrichment
+#### Enrichment {#enrichment}
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_enrichment"
@@ -288,7 +288,7 @@ After adding the **Enrichment** activity to your composition, you can select **A
 
 +++
 
-#### Reconciliation
+#### Reconciliation {#reconciliation}
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_reconciliation"
@@ -369,7 +369,7 @@ You can also filter the reconciled data. Select **Create filter** to create a cu
 
 +++
 
-#### Save audience
+#### Save audience {#save-audience}
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_save_audience"
@@ -409,7 +409,7 @@ The **Save audience** activity lets you create an audience based off of the comp
 
 After adding the **Save audience** activity to your composition, you can specify the name of your newly created audience.
 
-![](./assets/activities/save-audience.png)
+![](./assets/activities/save-audience.png){zoomable="yes" width="30%"}
 
 Now, you can specify your mappings to select which fields you want to transfer to the newly created audience. Select **Add Audience Mapping** and choose the source and target audience fields, repeating as many times as necessary.
 
@@ -419,7 +419,7 @@ Additionally, you can set the data expiration for the audience. The data expirat
 
 +++
 
-#### Split
+#### Split {#split}
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_split"
@@ -500,7 +500,7 @@ Now that the subsets have been configured, there are a few more additional optio
 
 Flow control activities let you define the organization and coordination of your composition.
 
-#### And join
+#### And join {#and-join}
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_and-join"
@@ -519,11 +519,11 @@ Within the **Merging options** section, you can select all the activities you wa
 
 +++
 
-#### End
+#### End {#end}
 
 The **End** activity graphically marks the end of the composition and has no functional impact.
 
-#### Fork
+#### Fork {#fork}
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_fork"
@@ -545,7 +545,7 @@ Once you've added the **Fork** activity to your composition, two outbound transi
 
 +++
 
-#### Scheduler
+#### Scheduler {#scheduler}
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_scheduler"
@@ -645,7 +645,7 @@ After selecting the execution frequency, you can choose the **Validity period** 
 
 +++
 
-#### Wait
+#### Wait {#wait}
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_wait"
