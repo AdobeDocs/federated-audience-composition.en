@@ -2,6 +2,7 @@
 audience: end-user
 title: Activities overview
 description: Learn about the different activities and transitions available for use within Federated Audience Composition.
+exl-id: 6ef5c165-c4fa-437b-be16-d42cb2f7991b
 ---
 # Activities overview
 
