@@ -419,17 +419,17 @@ Additionally, you can set the data expiration for the audience. The data expirat
 
 +++
 
-#### Save dataset {#save-dataset}
+#### Enrich fields {#enrich-fields}
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_savedataset"
 >title="Save Dataset"
->abstract="The Save Dataset activity allows you to enrich Experience Platform profiles by federating data from external warehouses, allowing you to enhance customer profiles with additional attributes. "
+>abstract="The Save Dataset activity lets you enrich Experience Platform profiles by federating data from external warehouses, letting you enhance customer profiles with additional attributes. "
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_savedataset_aepschemalist"
 >title="Select Experience Platform Schema"
->abstract="Choose the Experience Platform schema for the profiles."
+>abstract="Choose the Experience Platform schema for the dataset."
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_savedataset_primaryidentitynamespace"
@@ -439,12 +439,12 @@ Additionally, you can set the data expiration for the audience. The data expirat
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_savedataset_selectaepschema"
 >title="Select Experience Platform Schema"
->abstract="Choose the Experience Platform schema for the profiles."
+>abstract="Choose the Experience Platform schema for the dataset."
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_savedataset_updatemode"
->title="Save Profile update mode"
->abstract="The available update modes for the save profile activity include full update and incremental update."
+>title="Enrich fields update mode"
+>abstract="The available update modes for the save dataset activity include full update and incremental update."
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_savedataset_updatemode_full"
@@ -479,52 +479,52 @@ This activity is typically used to enhance customer profiles by bringing in addi
 
 >[!IMPORTANT]
 >
->The **Save Dataset** activity requires a Profile-enabled schema and dataset. To learn how to enable your dataset to be Profile-enabled, please read the [dataset user guide](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/user-guide#enable-profile){target="_blank"}.
+>The **Enrich Fields** activity requires a Profile-enabled schema and dataset. To learn how to enable your dataset to be Profile-enabled, please read the [dataset user guide](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/user-guide#enable-profile){target="_blank"}.
 >
 >Additionally, if the selected dataset does **not** have upsert enabled, the data from the profiles will be **replaced**. To learn how to enable upsert for your datasets, please read the [enable upsert guide](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/enable-upsert).
 
-Follow these steps to configure the **[!UICONTROL Save Profiles]** activity:
+After adding the **[!UICONTROL Enrich Fields]** activity to your composition, you can give a label to the activity and select the Adobe Experience Platform schema you want to use. The schema can either be a standard schema or a relational schema.
 
-1. Add a **[!UICONTROL Save Profiles]** activity to your composition.
+![The available schemas are displayed.](./assets/save-profiles/select-schema.png){width="1500" zoomable="yes"}
 
-    ![The Save Profiles button is highlighted within the activities.](./assets/save-profiles/save-profiles.png){width="1500" zoomable="yes"}
+>[!BEGINTABS]
 
-1. Specify the label of the profiles to create.
+>[!TAB Standard schema]
 
-    >[!IMPORTANT]
-    >
-    >The audience label must be unique within the current sandbox. It cannot be the same label as any existing audience. 
+If you select a standard schema, you'll need to choose the dataset the enrichment is saved to.
 
-1. Select the Adobe Experience Platform schema you want to use.
+![The select dataset section is highlighted.](/help/compositions/assets/activities/enrich-fields/select-dataset-standard.png){width="300" zoomable="yes"}
 
-    ![The available schemas are displayed.](./assets/save-profiles/select-schema.png){width="1500" zoomable="yes"}
+After selecting the dataset, you can see the primary identity field that will be used to identify profiles in the database. However, you'll need to map the primary and required fields. Select **[!UICONTROL Add fields]** and specify the **[!UICONTROL Source]** field (external data) and the **[!UICONTROL Destination]** field (schema field) for each attribute you want to map.
 
-1. Select the dataset that you want to save the enrichment to.
+![The add fields button and the field mapping section are highlighted.](/help/compositions/assets/activities/enrich-fields/specify-mapping-standard.png){width="300" zoomable="yes"}
 
-    ![The dataset dropdown is highlighted.](./assets/save-profiles/select-dataset.png){width="300" zoomable="yes"}
+You can also specify the update mode for the enrichment.
 
-1. After selecting the dataset, you can see the primary identity field that will be used to identify profiles in the database.
+![The update mode types are displayed.](./assets/save-profiles/select-update-mode.png){width="300" zoomable="yes"}
 
-1. Select **[!UICONTROL Add Fields]** to add the primary and required identity fields.
+| Update mode | Description |
+| ----------- | ----------- |
+| Full updates | The full set of profiles is updated for enrichment. |
+| Incremental updates | Only the profiles that have been modified since the last enrichment ran are updated for the enrichment. |
 
-    ![The Add Fields button is highlighted.](./assets/save-profiles/add-fields.png){width="300" zoomable="yes"}
+If you select [!UICONTROL Incremental updates], you also need to choose the last modified date to determine what data is sent.
 
-    You can specify the **Source** field (external data) and the **Destination** field (schema field) for each attribute you want to map.
+>[!TAB Relational schema]
 
-    ![The Source and Destination fields are highlighted, showing where to create the mapping between the fields](./assets/save-profiles/specify-mapping.png){width="300" zoomable="yes"}
+If you select a relational schema, you'll need to choose the dataset the enrichment is saved to.
 
-1. You can also specify the update mode for the enrichment.
+![The select dataset section is highlighted.](/help/compositions/assets/activities/enrich-fields/select-dataset-relational.png){width="300" zoomable="yes"}
 
-    ![The update mode types are displayed.](./assets/save-profiles/select-update-mode.png){width="300" zoomable="yes"}
+After selecting the dataset, you can see the primary key and version descriptor for the database.  However, you'll need to map the primary key and required fields. Select **[!UICONTROL Add field]s** and specify the **[!UICONTROL Source]** field (external data) and the **[!UICONTROL Destination]** field (schema field) for each attribute you want to map.
 
-    | Update mode | Description |
-    | ----------- | ----------- |
-    | Full updates | The full set of profiles is updated for enrichment. |
-    | Incremental updates | Only the profiles that have been modified since the last enrichment ran are updated for the enrichment. |
+![The add fields button and the field mapping section are highlighted.](/help/compositions/assets/activities/enrich-fields/specify-mapping-relational.png){width="300" zoomable="yes"}
 
-    If you select [!UICONTROL Incremental updates], you also need to choose the last modified date to determine what data is sent.
+Since relational schemas only support incremental updates, you'll need to choose the last modified date to determine what data is sent. Incremental updates only update the profiles that have been modified since the last enrichment run.
 
-1. Once configured, select **Start**.
+![The update mode, incremental updates, is displayed.](/help/compositions/assets/activities/enrich-fields/update-mode-relational.png){width="300" zoomable="yes"}
+
+>[!ENDTABS]
 
 +++
 
