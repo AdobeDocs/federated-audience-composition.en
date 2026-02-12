@@ -427,14 +427,9 @@ Additionally, you can set the data expiration for the audience. The data expirat
 >abstract="The Save Dataset activity lets you enrich Experience Platform profiles by federating data from external warehouses, letting you enhance customer profiles with additional attributes. "
 
 >[!CONTEXTUALHELP]
->id="dc_orchestration_savedataset_aepschemalist"
->title="Select Experience Platform Schema"
->abstract="Choose the Experience Platform schema for the dataset."
-
->[!CONTEXTUALHELP]
 >id="dc_orchestration_savedataset_primaryidentitynamespace"
->title="Select the Primary identify field"
->abstract="Select the Primary identity to use to identify the targeted profiles in the database."
+>title="Primary identify field"
+>abstract="The Primary identity to use to identify the targeted profiles in the database."
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_savedataset_selectaepschema"
@@ -471,7 +466,37 @@ Additionally, you can set the data expiration for the audience. The data expirat
 >title="Primary identity field criteria"
 >abstract="The unique identifier for each profile or record. This ensures that every record can be distinctly recognized and matched, preventing the duplication of data."
 
-The **[!UICONTROL Save Dataset]** activity allows you to enrich Adobe Experience Platform profiles with data federated from external warehouses.
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_savedataset_aepschemalist"
+>title="Schema list"
+>abstract="A list of the schemas available in your sandbox. You can select either standard or relational schemas."
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_savedataset_selectaepattribute"
+>title="Select attribute"
+>abstract="You can create a source/destination mapping for the fields."
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_savedataset_selectaepdataset"
+>title="Select dataset"
+>abstract="A list of the datasets that belong to the schema. You can select which dataset you want the enriched data to be saved to."
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_savedataset_primarykeycheck"
+>title="Primary key"
+>abstract="The primary key for the relational schema. This value ensures uniqueness within the datasets by preventing duplicate records from being ingested."
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_savedataset_versiondescriptor"
+>title="Version descriptor"
+>abstract="The version descriptor for the relational schema. This value helps to determine which property takes precedence if multiple values share the same primary key, ensuring the latest update is applied."
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_savedataset_timestampdescriptor"
+>title="Timestamp descriptor"
+>abstract="The timestamp descriptor for the relational schema. This value helps set the event time for ordering and only exists if you are working with time-series data."
+
+The **[!UICONTROL Enrich Fields]** activity allows you to enrich Adobe Experience Platform datasets with data federated from external warehouses.
 
 This activity is typically used to enhance customer profiles by bringing in additional attributes and insights without physically moving or duplicating the data into the platform.
 
@@ -479,13 +504,11 @@ This activity is typically used to enhance customer profiles by bringing in addi
 
 >[!IMPORTANT]
 >
->The **Enrich Fields** activity requires a Profile-enabled schema and dataset. To learn how to enable your dataset to be Profile-enabled, please read the [dataset user guide](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/user-guide#enable-profile){target="_blank"}.
->
->Additionally, if the selected dataset does **not** have upsert enabled, the data from the profiles will be **replaced**. To learn how to enable upsert for your datasets, please read the [enable upsert guide](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/enable-upsert).
+>If the selected dataset does **not** have upsert enabled, the data from the profiles will be **replaced**. To learn how to enable upsert for your datasets, please read the [enable upsert guide](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/enable-upsert).
 
 After adding the **[!UICONTROL Enrich Fields]** activity to your composition, you can give a label to the activity and select the Adobe Experience Platform schema you want to use. The schema can either be a standard schema or a relational schema.
 
-![The available schemas are displayed.](./assets/save-profiles/select-schema.png){width="1500" zoomable="yes"}
+![The available schemas are displayed.](/help/compositions//assets/activities/enrich-fields/select-schema.png){width="1500" zoomable="yes"}
 
 >[!BEGINTABS]
 
