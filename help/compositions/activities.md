@@ -423,33 +423,33 @@ Additionally, you can set the data expiration for the audience. The data expirat
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_savedataset"
->title="Save Dataset"
->abstract="The Save Dataset activity lets you enrich Experience Platform profiles by federating data from external warehouses, letting you enhance customer profiles with additional attributes. "
+>title="Enrich fields"
+>abstract="The Enrich fields activity lets you enrich Experience Platform schemas by federating data from external warehouses, letting you enhance Experience Platform schemas with additional attributes. "
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_savedataset_primaryidentitynamespace"
->title="Primary identify field"
->abstract="The Primary identity to use to identify the targeted profiles in the database."
+>title="Primary identify namespace field"
+>abstract="The namespace for the primary identity. The namespace helps provide context to describe the classification of the primary identity."
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_savedataset_selectaepschema"
->title="Select Experience Platform Schema"
->abstract="Choose the Experience Platform schema for the dataset."
+>title="Select Experience Platform schema"
+>abstract="Choose the Experience Platform schema you want to enrich."
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_savedataset_updatemode"
 >title="Enrich fields update mode"
->abstract="The available update modes for the save dataset activity include full update and incremental update."
+>abstract="The available update modes for the enrich fields activity include full update and incremental update."
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_savedataset_updatemode_full"
 >title="Full update"
->abstract="The full update mode updates the full set of profiles for enrichment."
+>abstract="The full update mode updates the complete set of attributes in the selected schemas."
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_savedataset_updatemode_incremental"
 >title="Incremental update"
->abstract="The incremental update mode updates the profiles that have been modified since the last enrichment ran."
+>abstract="The incremental update mode updates the fields that have been modified since the last enrichment run."
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_savedataset_primaryidentityfield"
@@ -496,15 +496,15 @@ Additionally, you can set the data expiration for the audience. The data expirat
 >title="Timestamp descriptor"
 >abstract="The timestamp descriptor for the relational schema. This value helps set the event time for ordering and only exists if you are working with time-series data."
 
-The **[!UICONTROL Enrich Fields]** activity allows you to enrich Adobe Experience Platform datasets with data federated from external warehouses.
+The **[!UICONTROL Enrich Fields]** activity lets you enrich Experience Platform schemas by federating data from external warehouses, letting you enhance Experience Platform schemas with additional attributes. 
 
-This activity is typically used to enhance customer profiles by bringing in additional attributes and insights without physically moving or duplicating the data into the platform.
+This activity is used to enhance schemas by bringing in additional attributes and insights without physically moving or duplicating the data into the platform.
 
 +++ Configuration details
 
 >[!IMPORTANT]
 >
->If the selected dataset does **not** have upsert enabled, the data from the profiles will be **replaced**. To learn how to enable upsert for your datasets, please read the [enable upsert guide](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/enable-upsert).
+>If the selected dataset does **not** have upsert enabled, the data will be **replaced**. To learn how to enable upsert for your datasets, please read the [enable upsert guide](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/enable-upsert).
 
 After adding the **[!UICONTROL Enrich Fields]** activity to your composition, you can give a label to the activity and select the Adobe Experience Platform schema you want to use. The schema can either be a standard schema or a relational schema.
 
