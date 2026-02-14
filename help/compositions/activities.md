@@ -393,12 +393,12 @@ After selecting the dataset, you can see the primary identity field that will be
 
 You can also specify the update mode for the enrichment.
 
-![The update mode types are displayed.](./assets/save-profiles/select-update-mode.png){width="300" zoomable="yes"}
+![The update mode types are displayed.](./assets/enrich-fields/select-update-mode.png){width="300" zoomable="yes"}
 
 | Update mode | Description |
 | ----------- | ----------- |
-| Full updates | The full set of profiles is updated for enrichment. |
-| Incremental updates | Only the profiles that have been modified since the last enrichment ran are updated for the enrichment. |
+| Full updates | The full set of attributes in the selected schemas is updated for enrichment. |
+| Incremental updates | Only the fields that have been modified since the last enrichment ran are updated for the enrichment. |
 
 If you select [!UICONTROL Incremental updates], you also need to choose the last modified date to determine what data is sent.
 
@@ -412,7 +412,7 @@ After selecting the dataset, you can see the primary key and version descriptor 
 
 ![The add fields button and the field mapping section are highlighted.](/help/compositions/assets/activities/enrich-fields/specify-mapping-relational.png){width="300" zoomable="yes"}
 
-Since relational schemas only support incremental updates, you'll need to choose the last modified date to determine what data is sent. Incremental updates only update the profiles that have been modified since the last enrichment run.
+Since relational schemas only support incremental updates, you'll need to choose the last modified date to determine what data is sent. Incremental updates only update the fields that have been modified since the last enrichment run.
 
 ![The update mode, incremental updates, is displayed.](/help/compositions/assets/activities/enrich-fields/update-mode-relational.png){width="300" zoomable="yes"}
 
