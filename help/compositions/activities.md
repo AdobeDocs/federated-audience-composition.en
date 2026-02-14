@@ -393,7 +393,7 @@ After selecting the dataset, you can see the primary identity field that will be
 
 You can also specify the update mode for the enrichment.
 
-![The update mode types are displayed.](./assets/enrich-fields/select-update-mode.png){width="300" zoomable="yes"}
+![The update mode types are displayed.](/help/compositions/assets/activties/enrich-fields/select-update-mode.png){width="300" zoomable="yes"}
 
 | Update mode | Description |
 | ----------- | ----------- |
