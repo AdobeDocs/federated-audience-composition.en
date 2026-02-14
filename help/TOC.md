@@ -33,7 +33,7 @@ breadcrumb-title: Experience Platform Federated Audience Composition
 - [Audit Trail](admin/audit-trail.md)
 - [Frequently asked questions](./faq.md)
 - Release notes {#release-notes}
-  - [Latest release notes](./release-notes/latest.md)
-  - [2024](./release-notes/2024.md)
-  - [2025](./release-notes/2025.md)
-  - [Pre-release notes](./release-notes/e-release-notes.md)
+    - [Latest release notes](./release-notes/latest.md)
+    - [2024](./release-notes/2024.md)
+    - [2025](./release-notes/2025.md)
+    - [Pre-release notes](./release-notes/e-release-notes.md)

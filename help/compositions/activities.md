@@ -17,7 +17,7 @@ There are **two** different types of activities for use within Federated Audienc
 
 Targeting activities let you define what makes up your audience for the composition.
 
-#### Build audience
+#### Build audience {#build-audience}
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_build_audience_audienceselector"
@@ -54,7 +54,7 @@ After you've selected your options, you can choose to **Generate an outbound tra
 
 +++
 
-#### Change data source
+#### Change data source {#change-data-source}
 
 The **Change data source** activity lets you change which data source is being used by your composition.
 
@@ -74,7 +74,7 @@ After selecting **[!UICONTROL FDA external account]**, you can choose which exte
 
 +++
 
-#### Change dimension
+#### Change dimension {#change-dimension}
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_dimension_complement"
@@ -98,7 +98,7 @@ After you execute the composition, your results will be updated.
 
 +++
 
-#### Combine
+#### Combine {#combine}
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_combine"
@@ -200,7 +200,7 @@ Once you've configured your exclusion rules, you can also select the **Generate 
 
 +++
 
-#### Deduplication
+#### Deduplication {#deduplication}
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_deduplication_fields"
@@ -245,7 +245,7 @@ Additionally, you can select the **Generate complement** option. Generating a co
 
 +++
 
-#### Enrichment
+#### Enrichment {#enrichment}
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_enrichment"
@@ -288,7 +288,139 @@ After adding the **Enrichment** activity to your composition, you can select **A
 
 +++
 
-#### Reconciliation
+#### Enrich fields {#enrich-fields}
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_savedataset"
+>title="Enrich fields"
+>abstract="The Enrich fields activity lets you enrich Experience Platform schemas by federating data from external warehouses, letting you enhance Experience Platform schemas with additional attributes. "
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_savedataset_primaryidentitynamespace"
+>title="Primary identify namespace field"
+>abstract="The namespace for the primary identity. The namespace helps provide context to describe the classification of the primary identity."
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_savedataset_selectaepschema"
+>title="Select Experience Platform schema"
+>abstract="Choose the Experience Platform schema you want to enrich."
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_savedataset_updatemode"
+>title="Enrich fields update mode"
+>abstract="The available update modes for the enrich fields activity include full update and incremental update."
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_savedataset_updatemode_full"
+>title="Full update"
+>abstract="The full update mode updates the complete set of attributes in the selected schemas."
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_savedataset_updatemode_incremental"
+>title="Incremental update"
+>abstract="The incremental update mode updates the fields that have been modified since the last enrichment run."
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_savedataset_primaryidentityfield"
+>title="Primary identity field"
+>abstract="The primary identity field indicates the source of truth when merging profiles together for the enrichment."
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_savedataset_requiredfieldscheck"
+>title="Required fields criteria"
+>abstract="A required field is an attribute that must be filled out for every profile or record when exporting data. If a required field is missing, the export will not be complete or valid."
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_savedataset_primaryidentitycheck"
+>title="Primary identity field criteria"
+>abstract="The unique identifier for each profile or record. This ensures that every record can be distinctly recognized and matched, preventing the duplication of data."
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_savedataset_aepschemalist"
+>title="Schema list"
+>abstract="A list of the schemas available in your sandbox. You can select either standard or relational schemas."
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_savedataset_selectaepattribute"
+>title="Select attribute"
+>abstract="You can create a source/destination mapping for the fields."
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_savedataset_selectaepdataset"
+>title="Select dataset"
+>abstract="A list of the datasets that belong to the schema. You can select which dataset you want the enriched data to be saved to."
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_savedataset_primarykeycheck"
+>title="Primary key"
+>abstract="The primary key for the relational schema. This value ensures uniqueness within the datasets by preventing duplicate records from being ingested."
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_savedataset_versiondescriptor"
+>title="Version descriptor"
+>abstract="The version descriptor for the relational schema. This value helps to determine which property takes precedence if multiple values share the same primary key, ensuring the latest update is applied."
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_savedataset_timestampdescriptor"
+>title="Timestamp descriptor"
+>abstract="The timestamp descriptor for the relational schema. This value helps set the event time for ordering and only exists if you are working with time-series data."
+
+The **[!UICONTROL Enrich Fields]** activity lets you enrich Experience Platform schemas by federating data from external warehouses, letting you enhance Experience Platform schemas with additional attributes. 
+
+This activity is used to enhance schemas by bringing in additional attributes and insights without physically moving or duplicating the data into the platform.
+
++++ Configuration details
+
+>[!IMPORTANT]
+>
+>If the selected dataset does **not** have upsert enabled, the data will be **replaced**. To learn how to enable upsert for your datasets, please read the [enable upsert guide](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/enable-upsert).
+
+After adding the **[!UICONTROL Enrich Fields]** activity to your composition, you can give a label to the activity and select the Adobe Experience Platform schema you want to use. The schema can either be a standard schema or a relational schema.
+
+![The available schemas are displayed.](/help/compositions//assets/activities/enrich-fields/select-schema.png){width="1500" zoomable="yes"}
+
+>[!BEGINTABS]
+
+>[!TAB Standard schema]
+
+If you select a standard schema, you'll need to choose the dataset the enrichment is saved to.
+
+![The select dataset section is highlighted.](/help/compositions/assets/activities/enrich-fields/select-dataset-standard.png){width="300" zoomable="yes"}
+
+After selecting the dataset, you can see the primary identity field that will be used to identify profiles in the database. However, you'll need to map the primary and required fields. Select **[!UICONTROL Add fields]** and specify the **[!UICONTROL Source]** field (external data) and the **[!UICONTROL Destination]** field (schema field) for each attribute you want to map.
+
+![The add fields button and the field mapping section are highlighted.](/help/compositions/assets/activities/enrich-fields/specify-mapping-standard.png){width="300" zoomable="yes"}
+
+You can also specify the update mode for the enrichment.
+
+![The update mode types are displayed.](/help/compositions/assets/activities/enrich-fields/select-update-mode.png){width="300" zoomable="yes"}
+
+| Update mode | Description |
+| ----------- | ----------- |
+| Full updates | The full set of attributes in the selected schemas is updated for enrichment. |
+| Incremental updates | Only the fields that have been modified since the last enrichment ran are updated for the enrichment. |
+
+If you select [!UICONTROL Incremental updates], you also need to choose the last modified date to determine what data is sent.
+
+>[!TAB Relational schema]
+
+If you select a relational schema, you'll need to choose the dataset the enrichment is saved to.
+
+![The select dataset section is highlighted.](/help/compositions/assets/activities/enrich-fields/select-dataset-relational.png){width="300" zoomable="yes"}
+
+After selecting the dataset, you can see the primary key and version descriptor for the database.  However, you'll need to map the primary key and required fields. Select **[!UICONTROL Add field]s** and specify the **[!UICONTROL Source]** field (external data) and the **[!UICONTROL Destination]** field (schema field) for each attribute you want to map.
+
+![The add fields button and the field mapping section are highlighted.](/help/compositions/assets/activities/enrich-fields/specify-mapping-relational.png){width="300" zoomable="yes"}
+
+Since relational schemas only support incremental updates, you'll need to choose the last modified date to determine what data is sent. Incremental updates only update the fields that have been modified since the last enrichment run.
+
+![The update mode, incremental updates, is displayed.](/help/compositions/assets/activities/enrich-fields/update-mode-relational.png){width="300" zoomable="yes"}
+
+>[!ENDTABS]
+
++++
+
+#### Reconciliation {#reconciliation}
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_reconciliation"
@@ -369,7 +501,7 @@ You can also filter the reconciled data. Select **Create filter** to create a cu
 
 +++
 
-#### Save audience
+#### Save audience {#save-audience}
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_save_audience"
@@ -409,17 +541,17 @@ The **Save audience** activity lets you create an audience based off of the comp
 
 After adding the **Save audience** activity to your composition, you can specify the name of your newly created audience.
 
-![](./assets/activities/save-audience.png)
+![](./assets/activities/save-audience.png){zoomable="yes" width="30%"}
 
 Now, you can specify your mappings to select which fields you want to transfer to the newly created audience. Select **Add Audience Mapping** and choose the source and target audience fields, repeating as many times as necessary.
 
 After adding your mappings, you can select the primary identity and namespace to identify the targeted profiles in the database. The primary identity field is used to identify the profiles while the identity namespace acts as a key to identify the identity.
 
-Additionally, you can set the data expiration for the audience. The data expiration determines the number of days after which the audience membership will expire. The data expiration can range from 1 to 180 days. By default, this value is set to 30.
+Additionally, you can set the data expiration for the audience. The data expiration determines the number of days after which the audience membership will expire. The data expiration can range from 1 to 90 days. By default, this value is set to 30.
 
 +++
 
-#### Split
+#### Split {#split}
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_split"
@@ -500,7 +632,7 @@ Now that the subsets have been configured, there are a few more additional optio
 
 Flow control activities let you define the organization and coordination of your composition.
 
-#### And join
+#### And join {#and-join}
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_and-join"
@@ -519,11 +651,11 @@ Within the **Merging options** section, you can select all the activities you wa
 
 +++
 
-#### End
+#### End {#end}
 
 The **End** activity graphically marks the end of the composition and has no functional impact.
 
-#### Fork
+#### Fork {#fork}
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_fork"
@@ -545,7 +677,7 @@ Once you've added the **Fork** activity to your composition, two outbound transi
 
 +++
 
-#### Scheduler
+#### Scheduler {#scheduler}
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_scheduler"
@@ -645,7 +777,7 @@ After selecting the execution frequency, you can choose the **Validity period** 
 
 +++
 
-#### Wait
+#### Wait {#wait}
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_wait"
