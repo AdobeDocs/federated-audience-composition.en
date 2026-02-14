@@ -288,137 +288,6 @@ After adding the **Enrichment** activity to your composition, you can select **A
 
 +++
 
-#### Reconciliation {#reconciliation}
-
->[!CONTEXTUALHELP]
->id="dc_orchestration_reconciliation"
->title="Reconciliation activity"
->abstract="The **Reconciliation** activity allows you to define the link between the data in the database and the data in a work table." 
-
->[!CONTEXTUALHELP]
->id="dc_orchestration_reconciliation_field"
->title="Reconciliation select field"
->abstract="Reconciliation select field" 
-
->[!CONTEXTUALHELP]
->id="dc_orchestration_reconciliation_condition"
->title="Reconciliation create condition"
->abstract="Reconciliation create condition" 
-
->[!CONTEXTUALHELP]
->id="dc_orchestration_reconciliation_complement"
->title="Reconciliation generate complement"
->abstract="Reconciliation generate complement" 
-
->[!CONTEXTUALHELP]
->id="dc_orchestration_reconciliation_targeting"
->title="Schema"
->abstract="Select the new schema to apply to the data. A schema, also known as targeting dimension, lets you define the targeted population: recipients, app subscribers, operators, subscribers, etc. By default, the composition current schema is selected." 
-
->[!CONTEXTUALHELP]
->id="dc_orchestration_reconciliation_rules"
->title="Reconciliation rules"
->abstract="Select reconciliation rules to use for the deduplication. To use attributes, select the **Simple attributes** option and choose the source and destination fields. To create your own reconciliation condition using the query modeler, select the **Advanced reconciliation conditions** option."
-
->[!CONTEXTUALHELP]
->id="dc_orchestration_reconciliation_targeting_selection"
->title="Select the targeting dimension"
->abstract="Select the schema, also known as targeting dimension, for your inbound data to reconcile with." 
-
->[!CONTEXTUALHELP]
->id="dc_orchestration_keep_unreconciled_data"
->title="Keep unreconciled data"
->abstract="By default, non reconciled data are kept in the outbound transition and available in the worktable for future use. To remove unreconciled data, deactivate the **Keep unreconciled data** option." 
-
->[!CONTEXTUALHELP]
->id="dc_orchestration_reconciliation_attribute"
->title="Reconciliation attribute"
->abstract="Select the attribute to use to reconcile data, and confirm."
-
->[!NOTE]
->
->By default, non-reconciled data is kept in the outbound transition and is available in the worktable for future use. If you do **not** want reconciled data to be used, deactivate the **Keep unreconciled data** option.
-
-The **Reconciliation** activity lets you define the link between data in your federated database to the data in a work table. 
-
-+++ Configuration details
-
-After adding the **Reconciliation** activity to your composition, you can choose what schema to use for the reconciliation.
-
-Once you've chosen the schema, you'll need to set up your reconciliation rules. You can choose between **Simple attributes** or **Advanced reconciliation conditions**. 
-
->[!BEGINTABS]
-
->[!TAB Simple attributes]
-
-After choosing **Simple attributes**, select **Add rule**. You can now set up your reconciliation by adding the **Source** and **Destination** fields. The **Destination** field corresponds to the fields of the selected schema.
-
-![](./assets/activities/reconciliation-rules.png)
-
-Data is reconciled when the source and destination are equal. You can add more reconciliation criteria by selecting **Add rule**. If multiple join conditions are specified, **all** of them must be verified so the data can be linked together.
-
->[!TAB Advanced reconciliation conditions]
-
-After choosing **Advanced reconciliation conditions**, select **Create conditions**. You can now create your own reconciliation condition using the query modeler. For more information on using the Query Modeler, read the [Query Modeler overview](../query/home.md)
-
-![](./assets/activities/reconciliation-advanced.png)
-
->[!ENDTABS]
-
-You can also filter the reconciled data. Select **Create filter** to create a custom condition using the Query Modeler. For more information on using the Query Modeler, read the [Query Modeler overview](../query/home.md)
-
-+++
-
-#### Save audience {#save-audience}
-
->[!CONTEXTUALHELP]
->id="dc_orchestration_save_audience"
->title="Save an audience"
->abstract="Use this activity to create a new audience from the population computed upstream in the composition. The audiences created are added to the list of audiences, and available via the **Audiences** menu."
-
->[!CONTEXTUALHELP]
->id="dc_orchestration_saveaudience_outbound"
->title="Generate outbound transition"
->abstract="Use this option option if you want to add a transition after the **Save audience** activity."
-
->[!CONTEXTUALHELP]
->id="dc_orchestration_save_audience_primary_identity"
->title="Primary identity field"
->abstract="Select the primary identity to use for profiles."
->additional-url="https://experienceleague.adobe.com/en/docs/experience-platform/xdm/ui/fields/identity#define-a-identity-field" text="Learn more in Experience Platform documentation"
-
->[!CONTEXTUALHELP]
->id="dc_orchestration_saveaudience_namespace"
->title="Identity namespace"
->abstract="Select the namespace to use for profiles."
->additional-url="https://experienceleague.adobe.com/en/docs/experience-platform/identity/features/namespaces" text="Learn more in Experience Platform documentation"
-
->[!IMPORTANT]
->
->If your sandbox uses a **dataset precedence** merge policy, please contact Adobe Customer Care to add the `Halos UPS` dataset to your merge policy.
->
->For more information on merge policies, please read the [merge policies overview](https://experienceleague.adobe.com/en/docs/experience-platform/profile/merge-policies/overview).
-
-The **Save audience** activity lets you create an audience based off of the composition. Once the audience has been created, you can use them within Audience Portal in Adobe Experience Platform. For more information on using audiences with Federated Audience Composition, read the [audiences overview](../start/audiences.md). For more information on audiences in Experience Platform, read the [Audience Portal overview](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-portal){target="_blank"}.
-
-+++ Configuration details
-
->[!IMPORTANT]
->
->The audience's name **must** be unique within the current sandbox and cannot have the same name as any existing audience. 
-
-After adding the **Save audience** activity to your composition, you can specify the name of your newly created audience.
-
-![](./assets/activities/save-audience.png){zoomable="yes" width="30%"}
-
-Now, you can specify your mappings to select which fields you want to transfer to the newly created audience. Select **Add Audience Mapping** and choose the source and target audience fields, repeating as many times as necessary.
-
-After adding your mappings, you can select the primary identity and namespace to identify the targeted profiles in the database. The primary identity field is used to identify the profiles while the identity namespace acts as a key to identify the identity.
-
-Additionally, you can set the data expiration for the audience. The data expiration determines the number of days after which the audience membership will expire. The data expiration can range from 1 to 90 days. By default, this value is set to 30.
-
-+++
-
 #### Enrich fields {#enrich-fields}
 
 >[!CONTEXTUALHELP]
@@ -548,6 +417,137 @@ Since relational schemas only support incremental updates, you'll need to choose
 ![The update mode, incremental updates, is displayed.](/help/compositions/assets/activities/enrich-fields/update-mode-relational.png){width="300" zoomable="yes"}
 
 >[!ENDTABS]
+
++++
+
+#### Reconciliation {#reconciliation}
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_reconciliation"
+>title="Reconciliation activity"
+>abstract="The **Reconciliation** activity allows you to define the link between the data in the database and the data in a work table." 
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_reconciliation_field"
+>title="Reconciliation select field"
+>abstract="Reconciliation select field" 
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_reconciliation_condition"
+>title="Reconciliation create condition"
+>abstract="Reconciliation create condition" 
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_reconciliation_complement"
+>title="Reconciliation generate complement"
+>abstract="Reconciliation generate complement" 
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_reconciliation_targeting"
+>title="Schema"
+>abstract="Select the new schema to apply to the data. A schema, also known as targeting dimension, lets you define the targeted population: recipients, app subscribers, operators, subscribers, etc. By default, the composition current schema is selected." 
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_reconciliation_rules"
+>title="Reconciliation rules"
+>abstract="Select reconciliation rules to use for the deduplication. To use attributes, select the **Simple attributes** option and choose the source and destination fields. To create your own reconciliation condition using the query modeler, select the **Advanced reconciliation conditions** option."
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_reconciliation_targeting_selection"
+>title="Select the targeting dimension"
+>abstract="Select the schema, also known as targeting dimension, for your inbound data to reconcile with." 
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_keep_unreconciled_data"
+>title="Keep unreconciled data"
+>abstract="By default, non reconciled data are kept in the outbound transition and available in the worktable for future use. To remove unreconciled data, deactivate the **Keep unreconciled data** option." 
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_reconciliation_attribute"
+>title="Reconciliation attribute"
+>abstract="Select the attribute to use to reconcile data, and confirm."
+
+>[!NOTE]
+>
+>By default, non-reconciled data is kept in the outbound transition and is available in the worktable for future use. If you do **not** want reconciled data to be used, deactivate the **Keep unreconciled data** option.
+
+The **Reconciliation** activity lets you define the link between data in your federated database to the data in a work table. 
+
++++ Configuration details
+
+After adding the **Reconciliation** activity to your composition, you can choose what schema to use for the reconciliation.
+
+Once you've chosen the schema, you'll need to set up your reconciliation rules. You can choose between **Simple attributes** or **Advanced reconciliation conditions**. 
+
+>[!BEGINTABS]
+
+>[!TAB Simple attributes]
+
+After choosing **Simple attributes**, select **Add rule**. You can now set up your reconciliation by adding the **Source** and **Destination** fields. The **Destination** field corresponds to the fields of the selected schema.
+
+![](./assets/activities/reconciliation-rules.png)
+
+Data is reconciled when the source and destination are equal. You can add more reconciliation criteria by selecting **Add rule**. If multiple join conditions are specified, **all** of them must be verified so the data can be linked together.
+
+>[!TAB Advanced reconciliation conditions]
+
+After choosing **Advanced reconciliation conditions**, select **Create conditions**. You can now create your own reconciliation condition using the query modeler. For more information on using the Query Modeler, read the [Query Modeler overview](../query/home.md)
+
+![](./assets/activities/reconciliation-advanced.png)
+
+>[!ENDTABS]
+
+You can also filter the reconciled data. Select **Create filter** to create a custom condition using the Query Modeler. For more information on using the Query Modeler, read the [Query Modeler overview](../query/home.md)
+
++++
+
+#### Save audience {#save-audience}
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_save_audience"
+>title="Save an audience"
+>abstract="Use this activity to create a new audience from the population computed upstream in the composition. The audiences created are added to the list of audiences, and available via the **Audiences** menu."
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_saveaudience_outbound"
+>title="Generate outbound transition"
+>abstract="Use this option option if you want to add a transition after the **Save audience** activity."
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_save_audience_primary_identity"
+>title="Primary identity field"
+>abstract="Select the primary identity to use for profiles."
+>additional-url="https://experienceleague.adobe.com/en/docs/experience-platform/xdm/ui/fields/identity#define-a-identity-field" text="Learn more in Experience Platform documentation"
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_saveaudience_namespace"
+>title="Identity namespace"
+>abstract="Select the namespace to use for profiles."
+>additional-url="https://experienceleague.adobe.com/en/docs/experience-platform/identity/features/namespaces" text="Learn more in Experience Platform documentation"
+
+>[!IMPORTANT]
+>
+>If your sandbox uses a **dataset precedence** merge policy, please contact Adobe Customer Care to add the `Halos UPS` dataset to your merge policy.
+>
+>For more information on merge policies, please read the [merge policies overview](https://experienceleague.adobe.com/en/docs/experience-platform/profile/merge-policies/overview).
+
+The **Save audience** activity lets you create an audience based off of the composition. Once the audience has been created, you can use them within Audience Portal in Adobe Experience Platform. For more information on using audiences with Federated Audience Composition, read the [audiences overview](../start/audiences.md). For more information on audiences in Experience Platform, read the [Audience Portal overview](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-portal){target="_blank"}.
+
++++ Configuration details
+
+>[!IMPORTANT]
+>
+>The audience's name **must** be unique within the current sandbox and cannot have the same name as any existing audience. 
+
+After adding the **Save audience** activity to your composition, you can specify the name of your newly created audience.
+
+![](./assets/activities/save-audience.png){zoomable="yes" width="30%"}
+
+Now, you can specify your mappings to select which fields you want to transfer to the newly created audience. Select **Add Audience Mapping** and choose the source and target audience fields, repeating as many times as necessary.
+
+After adding your mappings, you can select the primary identity and namespace to identify the targeted profiles in the database. The primary identity field is used to identify the profiles while the identity namespace acts as a key to identify the identity.
+
+Additionally, you can set the data expiration for the audience. The data expiration determines the number of days after which the audience membership will expire. The data expiration can range from 1 to 90 days. By default, this value is set to 30.
 
 +++
 
