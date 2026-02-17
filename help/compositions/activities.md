@@ -16,6 +16,81 @@ There are **two** different types of activities for use within Federated Audienc
 
 ### Targeting activities {#targeting}
 
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_savedataset"
+>title="Enrich fields"
+>abstract="The Enrich fields activity lets you enrich Experience Platform schemas by federating data from external warehouses, letting you enhance Experience Platform schemas with additional attributes. "
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_savedataset_primaryidentitynamespace"
+>title="Primary identify namespace field"
+>abstract="The namespace for the primary identity. The namespace helps provide context to describe the classification of the primary identity."
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_savedataset_selectaepschema"
+>title="Select Experience Platform schema"
+>abstract="Choose the Experience Platform schema you want to enrich."
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_savedataset_updatemode"
+>title="Enrich fields update mode"
+>abstract="The available update modes for the enrich fields activity include full update and incremental update."
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_savedataset_updatemode_full"
+>title="Full update"
+>abstract="The full update mode updates the complete set of attributes in the selected schemas."
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_savedataset_updatemode_incremental"
+>title="Incremental update"
+>abstract="The incremental update mode updates the fields that have been modified since the last enrichment run."
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_savedataset_primaryidentityfield"
+>title="Primary identity field"
+>abstract="The primary identity field indicates the source of truth when merging profiles together for the enrichment."
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_savedataset_requiredfieldscheck"
+>title="Required fields criteria"
+>abstract="A required field is an attribute that must be filled out for every profile or record when exporting data. If a required field is missing, the export will not be complete or valid."
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_savedataset_primaryidentitycheck"
+>title="Primary identity field criteria"
+>abstract="The unique identifier for each profile or record. This ensures that every record can be distinctly recognized and matched, preventing the duplication of data."
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_savedataset_aepschemalist"
+>title="Schema list"
+>abstract="A list of the schemas available in your sandbox. You can select either standard or relational schemas."
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_savedataset_selectaepattribute"
+>title="Select attribute"
+>abstract="You can create a source/destination mapping for the fields."
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_savedataset_selectaepdataset"
+>title="Select dataset"
+>abstract="A list of the datasets that belong to the schema. You can select which dataset you want the enriched data to be saved to."
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_savedataset_primarykeycheck"
+>title="Primary key"
+>abstract="The primary key for the relational schema. This value ensures uniqueness within the datasets by preventing duplicate records from being ingested."
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_savedataset_versiondescriptor"
+>title="Version descriptor"
+>abstract="The version descriptor for the relational schema. This value helps to determine which property takes precedence if multiple values share the same primary key, ensuring the latest update is applied."
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_savedataset_timestampdescriptor"
+>title="Timestamp descriptor"
+>abstract="The timestamp descriptor for the relational schema. This value helps set the event time for ordering and only exists if you are working with time-series data."
+
 Targeting activities let you define what makes up your audience for the composition.
 
 #### Build audience {#build-audience}
