@@ -289,12 +289,12 @@ After adding the **Enrichment** activity to your composition, you can select **A
 
 +++
 
-#### Enrich fields {#enrich-fields}
+#### Save fields {#save-fields}
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_savedataset"
->title="Enrich fields"
->abstract="The Enrich fields activity lets you enrich Experience Platform schemas by federating data from external warehouses, letting you enhance Experience Platform schemas with additional attributes. "
+>title="Savee fields"
+>abstract="The Save fields activity lets you enrich Experience Platform schemas by federating data from external warehouses, letting you enhance Experience Platform schemas with additional attributes. "
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_savedataset_primaryidentitynamespace"
@@ -308,8 +308,8 @@ After adding the **Enrichment** activity to your composition, you can select **A
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_savedataset_updatemode"
->title="Enrich fields update mode"
->abstract="The available update modes for the enrich fields activity include full update and incremental update."
+>title="Save fields update mode"
+>abstract="The available update modes for the save fields activity include full update and incremental update."
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_savedataset_updatemode_full"
@@ -366,7 +366,7 @@ After adding the **Enrichment** activity to your composition, you can select **A
 >title="Timestamp descriptor"
 >abstract="The timestamp descriptor for the relational schema. This value helps set the event time for ordering and only exists if you are working with time-series data."
 
-The **[!UICONTROL Enrich Fields]** activity lets you enrich Experience Platform schemas by federating data from external warehouses, letting you enhance Experience Platform schemas with additional attributes. 
+The **[!UICONTROL Save Fields]** activity lets you enrich Experience Platform schemas by federating data from external warehouses, letting you enhance Experience Platform schemas with additional attributes. 
 
 This activity is used to enhance schemas by bringing in additional attributes and insights without physically moving or duplicating the data into the platform.
 
@@ -376,7 +376,7 @@ This activity is used to enhance schemas by bringing in additional attributes an
 >
 >If the selected dataset does **not** have upsert enabled, the data will be **replaced**. To learn how to enable upsert for your datasets, please read the [enable upsert guide](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/enable-upsert).
 
-After adding the **[!UICONTROL Enrich Fields]** activity to your composition, you can give a label to the activity and select the Adobe Experience Platform schema you want to use. The schema can either be a standard schema or a relational schema.
+After adding the **[!UICONTROL Save Fields]** activity to your composition, you can give a label to the activity and select the Adobe Experience Platform schema you want to use. The schema can either be a standard schema or a relational schema.
 
 ![The available schemas are displayed.](/help/compositions//assets/activities/enrich-fields/select-schema.png){width="1500" zoomable="yes"}
 
