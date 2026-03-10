@@ -145,6 +145,15 @@ If you select **Service Principal Authentication**, you can add the following de
 | Client ID | The client ID from your Databricks server. This field acts like a username for your project. |
 | Client Secret | The client secret from your Databricks server. This field acts like a password for your project. |
 
+If you select **OAuth 2.0**, you can add the following details:
+
+| Field | Description |
+| ----- | ----------- |
+| Server | The name of the Databricks server. |
+| Client ID | The client ID from your Databricks server. This field is used to identify the application during OAuth 2.0 authentication and acts like a username for your project. | 
+| Client Secret | The client secret from your Databricks server. This confidential credential is issued with the client ID and acts like a password for your project. |
+| Access scope | The scopes that your OAuth token is authorized for within your Databricks server. |
+
 After inputting your login details, you can add the following information:
 
 | Field | Description |
