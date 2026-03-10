@@ -14,13 +14,13 @@ The February release for Federated Audience Composition supports the following c
 
 ### New capabilities {#fac-26-02-feature}
 
-| Enrich field activity |
+| Save field activity |
 | --- |
-| You can now use the Enrich field activity within your compositions. The enrich field activity lets you enrich Experience Platform schemas by federating data from external warehouses, letting you enhance Experience Platform schemas with additional attributes. For more information about using this activity, please read the [activities overview](../compositions/activities.md#enrich-fields). |
+| You can now use the Save field activity within your compositions. The save field activity lets you enrich Experience Platform schemas by federating data from external warehouses, letting you enhance Experience Platform schemas with additional attributes. For more information about using this activity, please read the [activities overview](../compositions/activities.md#save-fields). |
 
-| Service Principal Authentication for Databricks |
+| Service Principal Authentication and OAuth 2.0 for Databricks |
 | --- |
-| You can now connect to Federated Audience Composition with Databricks using service principal authentication. For more information about creating a connection, please read the [connections overview](../connections/home.md#create). |
+| You can now connect to Federated Audience Composition with Databricks using service principal authentication or using OAuth 2.0. For more information about creating a connection, please read the [connections overview](../connections/home.md#create). |
 
 
 ## January '26 release {#fac-26-01}
