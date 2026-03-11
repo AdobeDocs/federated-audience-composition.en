@@ -22,7 +22,6 @@ The February release for Federated Audience Composition supports the following c
 | --- |
 | You can now connect to Federated Audience Composition with Databricks using service principal authentication or using OAuth 2.0. For more information about creating a connection, please read the [connections overview](../connections/home.md#create). |
 
-
 ## January '26 release {#fac-26-01}
 
 The January release for Federated Audience Composition supports the following new capabilities and improvements:
