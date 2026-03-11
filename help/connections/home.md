@@ -128,13 +128,37 @@ Within your Azure Synapse connection, set the following configuration details:
 >
 >Secure access to your external Databricks data warehouse through private link is supported. This includes secure connections to Databricks databases hosted on Amazon Web Services (AWS) via private link and Databricks databases hosted on Microsoft Azure via VPN. Please contact your Adobe representative for assistance in setting up secure access.
 
-After selecting Databricks, you can add the following details:
+After selecting Databricks, you can choose with authentication method you want to use when connecting with Federated Audience Composition.
+
+If you select **Account/Password Authentication**, you can add the following login details:
 
 | Field | Description |
 | ----- | ----------- |
 | Server | The name of the Databricks server. |
-| HTTP path | The path to your Cluster or Warehouse. For more information on the path, please read the [Databricks documentation on connection details](https://docs.databricks.com/aws/en/integrations/compute-details){target="_blank"}. |
 | Password | The access token for the Databricks server. For more information on this value, please read the [Databricks documentation on personal access tokens](https://docs.databricks.com/aws/en/dev-tools/auth/pat){target="_blank"}.  |
+
+If you select **Service Principal Authentication**, you can add the following details:
+
+| Field | Description |
+| ----- | ----------- |
+| Server | The name of the Databricks server. |
+| Client ID | The client ID from your Databricks server. This field acts like a username for your project. |
+| Client Secret | The client secret from your Databricks server. This field acts like a password for your project. |
+
+If you select **OAuth 2.0**, you can add the following details:
+
+| Field | Description |
+| ----- | ----------- |
+| Server | The name of the Databricks server. |
+| Client ID | The client ID from your Databricks server. This field is used to identify the application during OAuth 2.0 authentication and acts like a username for your project. | 
+| Client Secret | The client secret from your Databricks server. This confidential credential is issued with the client ID and acts like a password for your project. |
+| Access scope | Prepopulated information that lists the scopes that your OAuth token is authorized for within your Databricks server. |
+
+After inputting your login details, you can add the following information:
+
+| Field | Description |
+| ----- | ----------- |
+| HTTP path | The path to your Cluster or Warehouse. For more information on the path, please read the [Databricks documentation on connection details](https://docs.databricks.com/aws/en/integrations/compute-details){target="_blank"}. |
 | Catalog | The name of the Databricks Catalog. For more information on catalogs in Databricks, please read the [Databricks documentation on catalogs](https://docs.databricks.com/aws/en/catalogs/){target="_blank"} |
 | Working schema | The name of the database schema to use for the work tables. <br/><br/>**Note:** You can use **any** schema from the database, including schemas used for temporary data processing, as long as you have the required permissions to connect to this schema. However, you **must** use distinct working schemas when connecting multiple sandboxes with the same database. |
 | Options | Additional options for the connection. The available options are listed in the following table. |

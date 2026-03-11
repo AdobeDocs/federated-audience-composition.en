@@ -8,6 +8,21 @@ exl-id: d4dcaf31-93cd-4a4e-888a-cf1bbdc4ca03
 
 [!DNL Federated Audience Composition] continuously delivers new features, enhancements to existing features, and bug fixes. All changes are consolidated in these release notes. [!DNL Federated Audience Composition] is built natively on [!DNL Adobe Experience Platform] and inherits from its latest innovations and improvements. Learn more about these changes in [Adobe Experience Platform Release Notes](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html){target="_blank"}.
 
+## February '26 release {#fac-26-02}
+
+The February release for Federated Audience Composition supports the following capabilities:
+
+### New capabilities {#fac-26-02-feature}
+
+| Field enrichment support |
+| --- |
+| You can now use the Save field activity within your compositions. The save field activity lets you enrich Experience Platform schemas by federating data from external warehouses, letting you enhance Experience Platform schemas with additional attributes. For more information about using this activity, please read the [activities overview](../compositions/activities.md#save-fields). |
+
+| Advanced authentication support for Databricks |
+| --- |
+| You can now connect to Federated Audience Composition with Databricks using service principal authentication or using OAuth 2.0. For more information about creating a connection, please read the [connections overview](../connections/home.md#create). |
+
+
 ## January '26 release {#fac-26-01}
 
 The January release for Federated Audience Composition supports the following new capabilities and improvements:
