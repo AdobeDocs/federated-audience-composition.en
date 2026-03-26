@@ -20,22 +20,12 @@ Examples of such questions include:
 * How can I create a federated composition?
 * How many federated databases do I have in my sandbox?
 
-To ask a question:
+To ask a question, open the AI Assistant. You can access AI Assistant by selecting ![the AI Assistant icon](/help/start/assets/ai-assistant/icon.png) on the top bar. AI Assistant displays on the right section of the screen. You can select ![Dive image alt text](assets/do-not-localize/Smock_FullScreen_18_N.svg "Expand") to expand the AI assistant window.
 
-1. Access AI Assistant by selecting the icon on the top bar. 
+![The AI Assistant icon is highlighted, showing how to access.](/help/start/assets/ai-assistant/access.png)
 
-    AI Assistant displays on the right section of the screen. You can select ![Dive image alt text](assets/do-not-localize/Smock_FullScreen_18_N.svg "Expand") to expand the AI assistant window.
+Enter your question in the field at the bottom of the screen and press enter. The answer to your question is now displayed. You can use thumbs up or thumbs down to rate your answer.
 
-    ![](assets/do-not-localize/ai-assistant-open.png)
+![A sample question and answer within the AI Assistant is displayed.](/help/start/assets/ai-assistant/sample-question-answer.png)
 
-2. Enter it in the field at the bottom of the screen and press enter.
-
-    ![](assets/do-not-localize/ai-assistant-ask.png)
-
-3. Check the answer and use the **Show sources** button to get direct links to the product documentation and learn more.
-
-    ![](assets/do-not-localize/ai-assistant-answer.png)
-
-4. Use the thumb up or thumb down to rate the answer.
-
-To learn how to use AI Assistant, see example objectives you can accomplish with AI Assistant, and learn how AI Assistant works, refer to [Adobe Experience Platform documentation](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/home){target="_blank"}.
+To learn how to use AI Assistant, see example objectives you can accomplish with AI Assistant, and learn how AI Assistant works, read the [AI Assistant overview](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/home){target="_blank"}.
