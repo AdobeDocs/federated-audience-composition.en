@@ -8,6 +8,20 @@ exl-id: d4dcaf31-93cd-4a4e-888a-cf1bbdc4ca03
 
 [!DNL Federated Audience Composition] continuously delivers new features, enhancements to existing features, and bug fixes. All changes are consolidated in these release notes. [!DNL Federated Audience Composition] is built natively on [!DNL Adobe Experience Platform] and inherits from its latest innovations and improvements. Learn more about these changes in [Adobe Experience Platform Release Notes](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html){target="_blank"}.
 
+## March '26 release {#fac-26-03}
+
+The March release for Federated Audience Composition supports the following capabilities:
+
+### New capabilities {#fac-26-03-feature}
+
+| AI-powered Segmentation |
+| --- |
+| You can now create federated audience compositions autonomously within AI Assistant. When using AI Assistant to create the audience, AI Assistant generates a plan that, after you approve, will be executed within your browser. For more information about using AI Assistant to create audiences, read the [AI Assistant overview](/help/start/ai-assistant.md). |
+
+| AI Assistant for Operational Insights |
+| --- |
+| You can now ask questions to AI Assistant about operational insights within Federated Audience Composition. Supported areas include connections, schemas, and data models. Federated compositions are **not** supported with this release. For more information about AI Assistant in Federated Audience Composition, read the [AI Assistant overview](/help/start/ai-assistant.md). |
+
 ## February '26 release {#fac-26-02}
 
 The February release for Federated Audience Composition supports the following capabilities:
