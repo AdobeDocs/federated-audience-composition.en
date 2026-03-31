@@ -497,9 +497,9 @@ Additionally, you can set the data expiration for the audience. The data expirat
 >title="Timestamp descriptor"
 >abstract="The timestamp descriptor for the relational schema. This value helps set the event time for ordering and only exists if you are working with time-series data."
 
-The **[!UICONTROL Save Fields]** activity lets you enrich Experience Platform schemas by federating data from external warehouses, letting you enhance Experience Platform schemas with additional attributes. 
+The **[!UICONTROL Save Fields]** activity lets you enrich Experience Platform schemas by federating data from external warehouses, letting you enrich Experience Platform schemas with additional attributes. 
 
-This activity is used to enhance schemas by bringing in additional attributes and insights without physically moving or duplicating the data into the platform.
+This activity is used to enrich schemas by bringing in additional attributes and insights without physically moving or duplicating the data into the platform.
 
 +++ Configuration details
 
