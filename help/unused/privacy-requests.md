@@ -10,11 +10,13 @@ Once you created a composition, the resulting audiences are saved into Adobe Exp
 
 You can then make privacy requests to access and/or delete profile data corresponding to these audiences through Adobe Experience Platform **Privacy Service**, which provides a [user interface](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html){target="_blank"} and [RESTful API](https://experienceleague.adobe.com/en/docs/experience-platform/privacy/api/overview){target="_blank"} to help you manage customer data requests.
 
-<!--With Privacy Service, you can submit requests to access and delete personal customer data from Adobe Experience Cloud applications, facilitating automated compliance with legal and organizational privacy regulations.
+<!--
+With Privacy Service, you can submit requests to access and delete personal customer data from Adobe Experience Cloud applications, facilitating automated compliance with legal and organizational privacy regulations.
 
 Privacy requests can be created and managed from the **[!UICONTROL Requests]** menu.
 
-![](assets/requests.png)-->
+![](assets/requests.png)
+-->
 
 >[!NOTE]
 >
