@@ -239,7 +239,7 @@ Once you've identified your fields, you can configure your deduplication setting
 
 | Setting | Description |
 | ------- | ----------- |
-| Duplicates to keep | The number of duplicate records to keep. If the value is set to 0, **all** duplicate records will be kept. | 
+| Duplicates to keep | The number of duplicate records to keep. If the value is set to 0, **all** duplicate records will be kept. |
 | Deduplication method | The method to remove the duplicate records. <ul><li>**Random selection**: The removed record is randomly chosen.</li><li>**Using an expression**: The removed record is based off of the submitted expression. You can either sort in ascending or descending order, depending on what values you want to remove.</li><li>**Non-empty values**: The removed record is based off of the submitted expression. Records where the expression does not have a value will be removed.</li><li>**Following a list of value**: The removed record is based off of the submitted field or expression. You can sort the remaining values randomly, in ascending order, or descending order.</li></ul> |
 
 Additionally, you can select the **Generate complement** option. Generating a complement processes the remaining population and contains the data **not** included as part of the deduplication. An additional outbound transition will be added to the activity.

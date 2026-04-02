@@ -34,7 +34,7 @@ The following queries show the available types of questions you can ask AI Assis
 | Open discovery | <ul><li>What is Federated Audience Composition?</li></ul> |
 | Targeted learning | <ul><li>How can I configure a Snowflake Federated database account?</li><li>How can I create a federated composition?</li></ul> |
 | Operational insights | <ul><li>How many federated databases do I have in my sandbox?</li><li>How many schemas have I created in the last 30 days?</li></ul> |
-| Creating a federated audience composition | <ul><li>Create a federated audience of customers living in the UK.</li></ul> | 
+| Creating a federated audience composition | <ul><li>Create a federated audience of customers living in the UK.</li></ul> |
 
 Additionally, you can use AI Assistant to autonomously create a federated audience composition.
 
