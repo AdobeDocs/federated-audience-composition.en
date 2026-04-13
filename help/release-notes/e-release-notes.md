@@ -1,7 +1,7 @@
 ---
 title: What's new in Experience Platform Federated Audience Composition
 description: Latest updates and release notes
-hide: yes
+hide: true
 hidefromtoc: yes
 exl-id: 23ea1a5d-a0e4-4f47-b0f8-56009bbc0a4a
 ---
