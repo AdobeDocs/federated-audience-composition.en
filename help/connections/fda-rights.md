@@ -2,6 +2,15 @@
 title: Permissions for accessing an external database
 description: Learn about which permissions you need to access and perform tasks on each database engine
 exl-id: 287fb4a4-5767-4337-96be-dceca55f756d
+TQID: https://experienceleague.adobe.com/LI7H7b6iM3TAsPy00wDwNj3-D0Z7mIrH9MKW8g9QDsk
+product_v2:
+  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+    internal-label: Experience Cloud
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
 ---
 # Federated Data Access (FDA) Rights matrix {#fda-rights}
 

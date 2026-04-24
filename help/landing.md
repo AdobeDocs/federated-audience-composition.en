@@ -2,6 +2,13 @@
 title: Adobe Experience Platform Federated Audience Composition Documentation Home Page
 description: Federated Audience Composition documentation
 exl-id: 5cb18794-ae38-4ed7-9ce2-112bc6ae8dce
+TQID: https://experienceleague.adobe.com/LV-FlDaa90Z0V1dRxZV8452xrf6FsscjndNpIEjHeIY
+product_v2:
+  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+    internal-label: Experience Cloud
+topic_v2:
+  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+    internal-label: Data management
 ---
 # Federated Audience Composition documentation {#fac-home}
 

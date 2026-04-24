@@ -3,6 +3,10 @@ audience: end-user
 title: Expression Editor Overview
 description: Learn how to use the functions within the expression editor to build a query within the query modeler.
 exl-id: abff07ef-2bc0-4e00-8957-4d59fc3bc938
+TQID: https://experienceleague.adobe.com/CEu72QK6dqP1LCl8Ip1JSdZpZtubK0nyDJvj3QM75FU
+product_v2:
+  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+    internal-label: Experience Cloud
 ---
 # Expression editor overview {#expression}
 
