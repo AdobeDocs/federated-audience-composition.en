@@ -28,6 +28,7 @@ To work with your federated database and Adobe Experience Platform, you must fir
 - Microsoft Fabric
 - Oracle
 - Snowflake
+- Teradata
 - Vertica Analytics
 
 ## Create connection {#create}
@@ -300,6 +301,25 @@ For Snowflake, you can set the following additional options:
 | bulkThreads | The number of threads to use for Snowflake's bulk loader. The more threads added, the better the performance will be for bigger bulk loads. By default, this value is set to 1. |
 | chunkSize | The file size of the each bulk loader's chunk. When used concurrently with more threads, you can improve the performance of your bulk loads. By default, this value is set to 128 MB. For more information about chunk sizes, please read the [Snowflake documentation on preparing data files](https://docs.snowflake.com/en/user-guide/data-load-considerations-prepare){target="_blank"}. |
 | StageName | The name of a pre-provisioned internal staging enviornment. This can be used in bulk loads instead of creating a new temporary stage. |
+
+>[!TAB Teradata]
+
+After selecting Teradata, you can add the following details:
+
+| Field | Description |
+| ----- | ----------- |
+| Server | The URL of the Teradata server. |
+| Account | The username the database uses for the Open Database Connectivity (ODBC) session. |
+| Password | The password that you use to connect to the ODBC session. |
+| Database | The name of the database. |
+| Options | Additional options for the connection. For Teradata, both the listed options are **mandatory** to add. The available options are listed in the following table. |
+
+For Teradata, you can set the following additional options:
+
+| Options | Description |
+| ------- | ----------- |
+| `workTableSchema` | The name of the schema for the work tables. |
+| `ODBCLib` | The location of the system's ODBC library, which you can use if you're mixing Teradata with another ODBC. |
 
 >[!TAB Vertica Analytics]
 
