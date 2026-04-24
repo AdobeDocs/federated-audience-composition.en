@@ -3,6 +3,10 @@ audience: end-user
 title: Create compositions
 description: Learn how to create compositions
 exl-id: 4f510805-b700-444d-89bb-832eaa1e3242
+TQID: https://experienceleague.adobe.com/J1BfErdvMzZZ-23BAU4cbQcx3V3n7ymzv5nZdUOTw6M
+product_v2:
+  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+    internal-label: Experience Cloud
 ---
 # Create a composition
 

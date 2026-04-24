@@ -2,6 +2,17 @@
 title: Access Control in Federated Audience Composition
 description: Learn how to manage data access for users in Federated Audience Composition.
 exl-id: 84138456-218b-4beb-ae7b-146213b03cc2
+TQID: https://experienceleague.adobe.com/Ld1rXMaY21NGXSuPtCo2MbYZUubjJBJZedBFRJ7jsDc
+product_v2:
+  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+    internal-label: Experience Cloud
+topic_v2:
+  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+    internal-label: Governance
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+    internal-label: Privacy
 ---
 # Access Control in Federated Audience Composition
 

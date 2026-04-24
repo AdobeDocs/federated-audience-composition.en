@@ -2,6 +2,17 @@
 title: Privacy and Security in Federated Audience Composition
 description: Learn how Federated Audience Composition deals with privacy and security for user data, including features such as data governance, consent enforcement, access control, data encryption, and privacy compliance.
 exl-id: 677e26e7-1294-4f62-a5ce-17b65e84c65e
+TQID: https://experienceleague.adobe.com/f9H56k6sIfCskuaO1yhHcETFFqLnfufpP2riTT-iGAg
+product_v2:
+  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+    internal-label: Experience Cloud
+topic_v2:
+  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+    internal-label: Governance
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+    internal-label: Privacy
 ---
 # Data governance, privacy, and security
 
