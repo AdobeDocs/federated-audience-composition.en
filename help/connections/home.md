@@ -55,6 +55,10 @@ The Federated databases section appears. Select **[!UICONTROL Add federated data
 
 ![The Add federated database button is highlighted within the Federated database display page.](assets/home/add-federated.png){zoomable="yes" width="70%" align="center"}
 
+>[!NOTE]
+>
+>In order to request secure connectivity using private link or VPN, you **must** have licensed either Privacy and Security Shield or Healthcare Shield.
+
 The connection properties popover appears. You can name your connection as well as select what type of database you want to create.
 
 ![The federated database types are displayed.](assets/home/select-type.png){zoomable="yes" width="70%" align="center"}

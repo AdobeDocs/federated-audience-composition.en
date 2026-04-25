@@ -71,7 +71,6 @@ To create a schema in Federated Audience Composition, select **[!UICONTROL Model
 
 The **[!UICONTROL Select federated database]** popover appears. On this popover, you can select the [source database](/help/connections/home.md), followed by **[!UICONTROL Next]**.
 
-
 ![](assets/schemas/schema_tables.png){zoomable="yes"}
 
 The **Select Table** popover appears. On this popover, you can select the tables which you want to use to create the schema.

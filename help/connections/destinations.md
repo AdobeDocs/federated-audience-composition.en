@@ -26,66 +26,62 @@ To do so, you need to setup a new connection in Adobe Experience Platform to the
 
 For instance, let's say you are storing purchase information in your data warehouse and have an Adobe Experience Platform audience targeting customers interested in a specific product within the last two months. Using the Federated Audience Composition destination, you can:
 
-* Refine the audience based on purchase information. For example, you can filter the audience to target customers who have made a purchase of more than 150$ only.
+* Refine the audience based on purchase information. For example, you can filter the audience to target customers who have made a purchase of more than $150 only.
 * Enrich the audience with fields related to purchases such as the product name and the quantity purchased.
 
-The main steps to send Adobe Experience Platform audiences to Adobe Federated Audience Composition are as follows:
+## Activate audience to destination {#activate}
 
-1. Access the Adobe Experience Platform Destinations catalog and select the Federated Audience Composition destination.
+Within the Adobe Experience Platform Destinations catalog, select the Federated Audience Composition destination. In the right pane, select **[!UICONTROL Configure new destination]**.
 
-    In the right pane, select **[!UICONTROL Configure new destination]**.
+![The Configure new destination button is highlighted within the destinations catalog.](assets/destinations/new.png)
 
-    ![](assets/destination-new.png)
+The **[!UICONTROL Configure new destination]** page appears. On this page, you can configure details of your destination, including the name, description, connection type, and federated database.
 
-1. Enter a name for the new connection and select the **[!UICONTROL Connection Type]** from the following available connections:
+![The Configure new destination page is displayed, showing what details need to be added to create the destination.](assets/destinations/configure.png)
 
-    * Amazon Redshift
-    * Azure Synapse Analytics
-    * Google BigQuery
-    * Snowflake
-    * Vertica Analytics
-    * Databricks
-    * Microsoft Fabric
+In the **[!UICONTROL Alerts]** section, you can enable alerts to receive notifications on the status of the dataflow to your destination. These include alerts for dataflow run delays, run failures, run successes, run starts, and activation skips.
 
-1. Select the **[!UICONTROL Federated database]** you want to connect to, followed by **[!UICONTROL Next]**.
+For more information on alerts, read the Adobe Experience Platform documentation about [subscribing to destinations alerts using the UI](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/alerts){target="_blank"}.
 
-    ![](assets/destination-configure.png)
+![The available alerts for the destination are displayed.](assets/destinations/alerts.png)
 
-1. In the **[!UICONTROL Alerts]** section, you can enable alerts to receive notifications on the status of the dataflow to your destination. 
+Once you've finished configuring the details of your destination, select **[!UICONTROL Next]**. The **[!UICONTROL Governance policy & enforcement actions]** step appears, letting you define your data governance policies and ensure that the data used is compliant when audiences are sent and active.
 
-    For more information on alerts, see the Adobe Experience Platform documentation about [subscribing to destinations alerts using the UI](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/alerts){target="_blank"}
+When you are finished selecting the desired marketing actions for the destination, select **[!UICONTROL Create]**.
 
-1. The **[!UICONTROL Governance policy & enforcement actions]** step, you can define your data governance policies and ensure that the data used is compliant when audiences are sent and active.
+The new connection to the destination is created. You can now activate audiences to send over to the destination. Choose the destination you want to activate the audiences to, followed by **[!UICONTROL Next]**.
 
-    When you are finished selecting the desired marketing actions for the destination, select **[!UICONTROL Create]**.
+![](assets/destinations/activate.png)
 
-1. The new connection to the destination is created. You can now activate audiences to send over to the destination. To do so, select it from the list, followed by **[!UICONTROL Next]**
+The Scheduling step is displayed. You can select the desired audiences that you want to activate to the destination. To set up a schedule, select ![pencil icon](assets/do-not-localize/Smock_Edit_18_N.svg) to edit your export schedule.
 
-    ![](assets/destination-activate.png)
+![The Activate destination page is displayed.](assets/destinations/schedule.png)
 
-1. Select the desired audiences that you want to send.
+The Scheduling popover appears. On this popover, you can define your file export options, frequency, and set up your schedule. 
 
-1. Select the ![](assets/do-not-localize/Smock_Edit_18_N.svg) icon to edit your export schedule.
+![The schedule popover is displayed.](assets/destinations/schedule-2.png)
 
-    ![](assets/destination-schedule.png)
+>[!NOTE]
+>
+>To activate the audiences faster, select the **[!UICONTROL After segment evaluation]** option to trigger the activation job immediately after the daily Platform batch segmentation job finishes.
+>
+>For detailed information on how to configure schedule and filenames, read the following sections of Adobe Experience Platform documentation:
+>
+>* [Schedule audience export](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/activate-batch-profile-destinations#scheduling){target="_blank"} 
+>* [Configure file names](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/activate-batch-profile-destinations#configure-file-names){target="_blank"} 
 
-1. Define your export file options. To activate the audiences faster, select the **[!UICONTROL After segment evaluation]** option to trigger the activation job immediately after the daily Platform batch segmentation job finishes.
+In the **[!UICONTROL Mapping]** step, select which attribute and identity fields to export for your audience(s). 
 
-    ![](assets/destination-schedule-2.png)
+>[!IMPORTANT]
+>
+>You **cannot** use system-generated columns when activating your destination.
 
-    >[!NOTE]
-    >
-    >Detailed information on how to configure schedule and filenames is available in the followins sections of Adobe Experience Platform documentation:
-    >
-    >* [Schedule audience export](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/activate-batch-profile-destinations#scheduling){target="_blank"} 
-    >* [Configure file names](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/activate-batch-profile-destinations#configure-file-names){target="_blank"} 
+For more information, read the [mapping section](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/activate-batch-profile-destinations#mapping){target="_blank"} in the Adobe Experience Platform documentation.
 
-1. In the **[!UICONTROL Mapping]** step, select which attribute and identity fields to export for your audience(s). For more information, view the [mapping step](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/activate-batch-profile-destinations#mapping){target="_blank"} in the Adobe Experience Platform documentation.
+![The mapping attributes page is displayed.](assets/destinations/attributes.png)
 
-    ![](assets/destination-attributes.png)
+Review the destination configuration and audience settings, then select **[!UICONTROL Finish]**.
 
-1. Review the destination configuration and audience settings, then select **[!UICONTROL Finish]**.
-
-    ![](assets/destination-review.png)
+![The review destination page is displayed.](assets/destinations/review.png)
 
 The selected audiences are now activated for the new connection. You can add more audiences to send with this connection by navigating back to the **[!UICONTROL Activate audiences]** page. You cannot remove audiences once they are activated.
