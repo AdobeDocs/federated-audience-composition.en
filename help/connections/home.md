@@ -285,6 +285,15 @@ If you select **[!UICONTROL Account/Password Authentication]**, you can add the 
 | User | The username for the account. |
 | Password | The password for the account. |
 
+If you select **[!UICONTROL Key-pair authentication]**, you can add the following login information:
+
+| Field | Description |
+| ----- | ----------- |
+| Server | The name of the server. |
+| User | The username for the account. |
+| Private key | The private key for the account. Only `.pem` files are accepted. |
+| Password | (Optional) The password for the account. |
+
 If you select **[!UICONTROL OAuth 2.0]**, you can add the following login information:
 
 >[!NOTE]
@@ -321,6 +330,10 @@ For Snowflake, you can set the following additional options:
 | StageName | The name of a pre-provisioned internal staging enviornment. This can be used in bulk loads instead of creating a new temporary stage. |
 
 >[!TAB Teradata]
+
+>[!NOTE]
+>
+>To connect with Teradata, you **must** complete various prerequisites, including installing database drivers. Please contact your Adobe Customer Care representative for more information.
 
 After selecting Teradata, you can add the following details:
 

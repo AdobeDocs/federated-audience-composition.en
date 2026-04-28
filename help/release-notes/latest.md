@@ -11,6 +11,26 @@ product_v2:
 
 [!DNL Federated Audience Composition] continuously delivers new features, enhancements to existing features, and bug fixes. All changes are consolidated in these release notes. [!DNL Federated Audience Composition] is built natively on [!DNL Adobe Experience Platform] and inherits from its latest innovations and improvements. Learn more about these changes in [Adobe Experience Platform Release Notes](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html){target="_blank"}.
 
+## April '26 release {#fac-26-04}
+
+The April release for Federated Audience Composition supports the following capabilities and improvements:
+
+### New capabilities {#fac=26-04-feature}
+
+| New connector - Teradata|
+| --- |
+| The Teradata connector is now available for use with Federated Audience Composition. You can use the Teradata connector for audience creation and audience enrichment use cases. For more information about the Teradata connector, please read the [connections overview](/help/connections/home.md). |
+
+### Improvements {#fac-26-04-improvements}
+
+This release comes with the following improvement.
+
+- **Unencrypted key support for Snowflake**
+
+    You can now use unencrypted keys when using key-pair authentication to connect with Snowflake data warehouses. 
+
+    To learn more about using unencrypted keys with Snowflake, please read the [connections overview](/help/connections/home.md). 
+
 ## March '26 release {#fac-26-03}
 
 The March release for Federated Audience Composition supports the following capabilities:
