@@ -285,13 +285,13 @@ If you select **[!UICONTROL Account/Password Authentication]**, you can add the 
 | User | The username for the account. |
 | Password | The password for the account. |
 
-If you select **[!UICONTROL Key-pair authentication]**, you can add the following login information:
+Alternatively, you can also provide a private key instead of providing a password. If you add a private key, you need to give the following information:
 
 | Field | Description |
 | ----- | ----------- |
 | Server | The name of the server. |
 | User | The username for the account. |
-| Private key | The private key for the account. Only `.pem` files are accepted. |
+| Private key | The private key for the account. Only `.pem` files are supported. |
 | Password | (Optional) The password for the account. |
 
 If you select **[!UICONTROL OAuth 2.0]**, you can add the following login information:
