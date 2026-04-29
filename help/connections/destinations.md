@@ -45,19 +45,19 @@ For more information on alerts, read the Adobe Experience Platform documentation
 
 ![The available alerts for the destination are displayed.](assets/destinations/alerts.png)
 
-Once you've finished configuring the details of your destination, select **[!UICONTROL Next]**. The **[!UICONTROL Governance policy & enforcement actions]** step appears, letting you define your data governance policies and ensure that the data used is compliant when audiences are sent and active.
+Once you've finished configuring the details of your destination, select **[!UICONTROL Next]**. The **[!UICONTROL Governance policy & enforcement actions]** step appears. On this page, you can define your data governance policies and ensure that the data used is compliant when audiences are sent and active.
 
-When you are finished selecting the desired marketing actions for the destination, select **[!UICONTROL Create]**.
+When you finish selecting the desired marketing actions for the destination, select **[!UICONTROL Create]**.
 
 The new connection to the destination is created. You can now activate audiences to send over to the destination. Choose the destination you want to activate the audiences to, followed by **[!UICONTROL Next]**.
 
-![](assets/destinations/activate.png)
+![The activate button is highlighted.](assets/destinations/activate.png)
 
-The Scheduling step is displayed. You can select the desired audiences that you want to activate to the destination. To set up a schedule, select ![pencil icon](assets/do-not-localize/Smock_Edit_18_N.svg) to edit your export schedule.
+The **[!UICONTROL Scheduling]** step is displayed. You can select the desired audiences that you want to activate to the destination. To set up a schedule, select ![pencil icon](assets/do-not-localize/Smock_Edit_18_N.svg) to edit your export schedule.
 
 ![The Activate destination page is displayed.](assets/destinations/schedule.png)
 
-The Scheduling popover appears. On this popover, you can define your file export options, frequency, and set up your schedule. 
+The **[!UICONTROL Scheduling]** popover appears. On this popover, you can define your file export options, frequency, and set up your schedule. 
 
 ![The schedule popover is displayed.](assets/destinations/schedule-2.png)
 
@@ -74,7 +74,7 @@ In the **[!UICONTROL Mapping]** step, select which attribute and identity fields
 
 >[!IMPORTANT]
 >
->You **cannot** use system-generated columns when activating your destination.
+>You **cannot** use system-generated columns when activating your destination. Selecting a system-generated column will cause activation to fail.
 
 For more information, read the [mapping section](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/activate-batch-profile-destinations#mapping){target="_blank"} in the Adobe Experience Platform documentation.
 
