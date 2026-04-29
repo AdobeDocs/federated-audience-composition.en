@@ -30,11 +30,11 @@ A data model is a set of schemas, audiences, and the links between them. You can
 
 In Federated Audience Composition, you can create and manage data models directly in the Canvas view. This includes adding schemas and audiences, as well as defining the links between them based on your use case.
 
-Learn more about [schemas](../data-modelling/schemas.md#schema-start) and [audiences](../start/audiences.md).
+To learn more about schemas, read the [schemas overview](../data-modelling/schemas.md). To learn more about audiences, read the [work with audiences guide](../start/audiences.md).
 
 For example, you can see below a representation of a data model: the tables with their name and the links between them.
 
-![](assets/models/datamodel.png){zoomable="yes"}
+![A sample representation of a data model, with the tables and links between the tables displayed.](assets/models/datamodel.png){zoomable="yes"}
 
 ## Create a data model {#data-model-create}
 
