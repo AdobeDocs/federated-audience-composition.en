@@ -203,6 +203,8 @@ After choosing your primary set, you can set up your **Exclusion rules**. You ca
 
 Once you've configured your exclusion rules, you can also select the **Generate complement** option. Generating a complement processes the remaining population and contains the data **not** included as part of the exclusion. An additional outbound transition will be added to the activity.
 
+>[!ENDTABS]
+
 +++
 
 #### Deduplication {#deduplication}
