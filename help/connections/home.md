@@ -216,6 +216,8 @@ If you select **[!UICONTROL OAuth 2.0]**, you can add the following login inform
 
 Select **[!UICONTROL Sign in]** to finish your authentication.
 
+If you select **[!UICONTROL WIF]**, you do **not** need to provide any login information. However, you **must** add the client library configuration as the **[!UICONTROL Key file path]**. For more information on the client library configuration, read the [Google BigQuery (Workload Identity Federation) configuration section](#wif-configuration).
+
 After inputting your login details, you can add the following details:
 
 | Field | Description |
@@ -386,3 +388,46 @@ After adding the connection's details, please note the following additional sett
 | Test connection | Lets you verify your configuration details. |
 
 You can now select **[!UICONTROL Deploy functions]**, followed by **[!UICONTROL Add]** to finalize the connection between the federated database and Experience Platform.
+
+## Appendix {#appendix}
+
+The following appendix describes how to set up the connections on the external account's side.
+
+### Google BigQuery (Workload Identity Federation) configuration {#wif-configuration}
+
+Before you configure your Google Cloud Platform setup, Adobe will provide you the following details:
+
+- AWS Account ID
+- AWS IAM role name
+
+In Google Cloud Console, create a **Workload Identity Pool** in the **IAM & Admin section**. This lets you organize and manage external identities.
+
+IMAGE
+
+Select **Add provider** to create an identity provider. This configures a one-way trust between the identity provider in Google Cloud and the Worker Identity Pool by providing the relevant metadata about the provider.
+
+IMAGE
+
+When you create a provider, you'll need to provide the following information:
+
+| Field | Description |
+| ----- | ----------- |
+| Name | The name of the Workload Identity Pool provider. |
+| ID | The ID for the provider is automatically generated. |
+| AWS account ID | The previously provided AWS Account ID. |
+| Enabled provider | A boolean that determines of the provider is enabled or disabled. | 
+| Attribute mapping | The mappings to match with the roles. This information is already present. |
+
+After creating the provider, you need to create an IAM policy to let the Workload Identity Pool identities impersonate the Service Account. Select **Grant access** to open the Grant access to service account dialog.
+
+In the dialog, select **Grant access using service account impersonation**. Within the **Select principals** section, you'll need to create your attribute mappings. 
+
+Select **aws_role** and add `arn:aws:sts::AWSAccountID:assumed-role/AWSRoleName` as the value, substituting `AWSAccountID` and `AWSRoleName` with the previously provided values.
+
+IMAGE
+
+After granting access to the service account, download the client library configuration.
+
+IMAGE
+
+After downloading the client library configuration, you can now set up a WIF connection with Federated Audience Configuration.
