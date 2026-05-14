@@ -415,7 +415,7 @@ When you create a provider, you'll need to provide the following information:
 | Name | The name of the Workload Identity Pool provider. |
 | ID | The ID for the provider is automatically generated. |
 | AWS account ID | The previously provided AWS Account ID. |
-| Enabled provider | A boolean that determines of the provider is enabled or disabled. | 
+| Enabled provider | A boolean that determines of the provider is enabled or disabled. |
 | Attribute mapping | The mappings to match with the roles. This information is already present. |
 
 After creating the provider, you need to create an IAM policy to let the Workload Identity Pool identities impersonate the Service Account. Select **Grant access** to open the Grant access to service account dialog.
