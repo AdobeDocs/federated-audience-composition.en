@@ -19,16 +19,6 @@ The May release for Federated Audience Composition supports the following capabi
 | --- |
 | You can now connect to Google Big Query using WIF authentication. For more details about connecting using WIF authentication, please read the [connections overview](/help/connections/home.md#wif-configuration). |
 
-## April '26 release {#fac-26-04}
-
-The April release for Federated Audience Composition supports the following capabilities and improvements:
-
-### New capabilities {#fac=26-04-feature}
-
-| New connector - Teradata |
-| --- |
-| The Teradata connector is now available for use with Federated Audience Composition. You can use the Teradata connector for audience creation and audience enrichment use cases. For more information about the Teradata connector, please read the [connections overview](/help/connections/home.md). |
-
 ### Improvements {#fac-26-05-improvements}
 
 This release comes with the following improvement.
@@ -38,6 +28,16 @@ This release comes with the following improvement.
     You can now leverage FAC audience attributes as supplemental identifiers in Journey Optimizer Read Audience journeys. This lets you activate the audiences at multiple entities such as accounts or subscriptions level. 
 
     For more information, please read the [using supplemental identifiers in journeys guide](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/manage-journey/supplemental-identifier).
+
+## April '26 release {#fac-26-04}
+
+The April release for Federated Audience Composition supports the following capabilities and improvements:
+
+### New capabilities {#fac=26-04-feature}
+
+| New connector - Teradata |
+| --- |
+| The Teradata connector is now available for use with Federated Audience Composition. You can use the Teradata connector for audience creation and audience enrichment use cases. For more information about the Teradata connector, please read the [connections overview](/help/connections/home.md). |
 
 ### Improvements {#fac-26-04-improvements}
 
