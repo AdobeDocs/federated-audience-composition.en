@@ -395,18 +395,18 @@ The following appendix describes how to set up the connections on the external a
 
 ### Google BigQuery (Workload Identity Federation) configuration {#wif-configuration}
 
-Before you configure your Google Cloud Platform setup, Adobe will provide you the following details:
+Before you configure your Google Cloud Platform setup, you will need you the following values:
 
 - AWS Account ID
+  - Please contact your Adobe representative to get this value.
 - AWS IAM role name
+  - The AWS IAM role name follows the the ensuing format: `arn:aws:iam::<ADOBE_AWS_ACCOUNT_ID>:role/fac-<CUSTOMER_IMS_ORG_ID>`
 
 In Google Cloud Console, create a **Workload Identity Pool** in the **IAM & Admin section**. This lets you organize and manage external identities.
 
-IMAGE
-
 Select **Add provider** to create an identity provider. This configures a one-way trust between the identity provider in Google Cloud and the Worker Identity Pool by providing the relevant metadata about the provider.
 
-IMAGE
+![The Add provider button is highlighted in Google Cloud.](/help/connections/assets/home/select-add-provider.png)
 
 When you create a provider, you'll need to provide the following information:
 
@@ -424,10 +424,10 @@ In the dialog, select **Grant access using service account impersonation**. With
 
 Select **aws_role** and add `arn:aws:sts::AWSAccountID:assumed-role/AWSRoleName` as the value, substituting `AWSAccountID` and `AWSRoleName` with the previously provided values.
 
-IMAGE
+![The Grant access dialog is displayed.](/help/connections/assets/home/aws_role.png)
 
 After granting access to the service account, download the client library configuration.
 
-IMAGE
+![The location to download the library configuration is displayed.](/help/connections/assets/home/download-config.png)
 
 After downloading the client library configuration, you can now set up a WIF connection with Federated Audience Configuration.

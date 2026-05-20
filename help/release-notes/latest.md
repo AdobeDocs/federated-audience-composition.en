@@ -11,15 +11,33 @@ product_v2:
 
 [!DNL Federated Audience Composition] continuously delivers new features, enhancements to existing features, and bug fixes. All changes are consolidated in these release notes. [!DNL Federated Audience Composition] is built natively on [!DNL Adobe Experience Platform] and inherits from its latest innovations and improvements. Learn more about these changes in [Adobe Experience Platform Release Notes](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html){target="_blank"}.
 
+## May '26 release {#fac-26-05}
+
+The May release for Federated Audience Composition supports the following capability:
+
+| Workload Identity Federation (WIF) Authentication for Google Big Query |
+| --- |
+| You can now connect to Google Big Query using WIF authentication. For more details about connecting using WIF authentication, please read the [connections overview](/help/connections/home.md#wif-configuration). |
+
 ## April '26 release {#fac-26-04}
 
 The April release for Federated Audience Composition supports the following capabilities and improvements:
 
 ### New capabilities {#fac=26-04-feature}
 
-| New connector - Teradata|
+| New connector - Teradata |
 | --- |
 | The Teradata connector is now available for use with Federated Audience Composition. You can use the Teradata connector for audience creation and audience enrichment use cases. For more information about the Teradata connector, please read the [connections overview](/help/connections/home.md). |
+
+### Improvements {#fac-26-05-improvements}
+
+This release comes with the following improvement.
+
+- **Multi-entity targeting with Federated Audience Composition audiences in Adobe Journey Optimizer Read Audience journeys**
+
+    You can now leverage FAC audience attributes as supplemental identifiers in Journey Optimizer Read Audience journeys. This lets you activate the audiences at multiple entities such as accounts or subscriptions level. 
+
+    For more information, please read the [using supplemental identifiers in journeys guide](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/manage-journey/supplemental-identifier).
 
 ### Improvements {#fac-26-04-improvements}
 
