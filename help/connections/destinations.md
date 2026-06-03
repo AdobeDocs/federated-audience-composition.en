@@ -74,7 +74,7 @@ In the **[!UICONTROL Mapping]** step, select which attribute and identity fields
 
 >[!IMPORTANT]
 >
->You **cannot** use system-generated columns when activating your destination. Selecting a system-generated column will cause activation to fail.
+>You **cannot** use system-generated columns when activating to destinations. Selecting a system-generated column will cause an error to occur.
 
 For more information, read the [mapping section](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/activate-batch-profile-destinations#mapping){target="_blank"} in the Adobe Experience Platform documentation.
 
