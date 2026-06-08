@@ -51,3 +51,4 @@ Your journey will now target the audience profiles based on the **supplemental i
 ## Next steps {#next-steps}
 
 After reading this guide, you now know how to use supplemental identifiers from your Federated Audience Composition audiences in Journey Optimizer journeys. For more information on using supplemental journeys, read the [use supplemental identifiers in journeys guide](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/manage-journey/supplemental-identifier).
+
