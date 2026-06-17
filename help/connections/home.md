@@ -431,3 +431,32 @@ After granting access to the service account, download the client library config
 ![The location to download the library configuration is displayed.](/help/connections/assets/home/download-config.png)
 
 After downloading the client library configuration, you can now set up a WIF connection with Federated Audience Configuration.
+
+### Google Big Query Apigee Gateway Support {#apigee}
+
+You can use Apigee, Google Cloud's native API management platform, to proxy your API calls to Google Big Query. 
+
+You'll first need to create a proxy within the Apigee UI. In Google Cloud, go to **Apigee** followed by **Proxy development**, **API proxies**, and **Create** to bring up the **Create a proxy** panel. On the panel, you can fill in the following details:
+
+IMAGE
+
+| Details | Description |
+| ------- | ----------- |
+| Proxy template | The type of proxy you want to create. For this use case, you should select **Reverse proxy (Most common)**. |
+| Proxy name | The name of your proxy. This value can **only** include alphanumeric characters, dashes (`-`), or underscores (`_`). |
+| Base path | The URI fragment that shows the host address for your API proxy. This base path is based off of the proxy name and **must** be unique. |
+| Description | An optional description for the API proxy. |
+| Target | The URL (which includes either HTTP or HTTPS) of the backend service the API proxy invokes. |
+
+For Federated Audience Composition, you'll want to fill out the following proxy information:
+
+| Base path | Target endpoint | Description |
+| --------- | --------------- | ----------- |
+| `/bigquery` | `https://bigquery.googleapis.com/bigquery` | The main endpoint for Google Big Query. This endpoint is used to get data such as queries and list tables. |
+| `/token` | `https://oauth2.googleapis.com/token` | This endpoint is used for service account authentication. |
+| `/storage` | `https://storage.googleapis.com/storage` | This storage endpoint is used for deleting temporary bulk load files. |
+| `/upload` | `https://storage.googleapis.com/upload` | This storage endpoint is used for bulk loading of files. |
+| `/v1/token` | `https://sts.googleapis.com/v1/token` | This endpoint is used for the Workload Identity Federation (WIF) flow to get the token. |
+| `/v1/projects` | `https://iamcredentials.googleapis.com/v1/projects` | This endpoint is used to impersonate a service account in the Workload Identity Federation (WIF) flow. |
+
+Once you've created your proxy, you're good to use it to connect with Federated Audience Composition.
