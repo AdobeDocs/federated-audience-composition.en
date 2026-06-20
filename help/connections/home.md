@@ -57,7 +57,7 @@ The Federated databases section appears. Select **[!UICONTROL Add federated data
 
 >[!NOTE]
 >
->In order to request secure connectivity using private link or VPN, you **must** have licensed either Privacy and Security Shield or Healthcare Shield.
+>In order to request secure connectivity using PrivateLink or VPN, you **must** have licensed either Privacy and Security Shield or Healthcare Shield.
 
 The connection properties popover appears. You can name your connection as well as select what type of database you want to create.
 
@@ -73,7 +73,7 @@ After selecting a type, the **[!UICONTROL Details]** section appears. This secti
 >
 >Only Amazon Redshift AWS, Amazon Redshift Spectrum, and Amazon Redshift Serverless are supported.
 >
->Additionally, secure access to your external Amazon Redshift data warehouse through private link is supported.
+>Additionally, secure access to your external Amazon Redshift data warehouse through PrivateLink is supported.
 
 After selecting Amazon Redshift, you can add the following details: 
 
@@ -145,7 +145,7 @@ Within your Azure Synapse connection, set the following configuration details:
 
 >[!NOTE]
 >
->Secure access to your external Databricks data warehouse through private link is supported. This includes secure connections to Databricks databases hosted on Amazon Web Services (AWS) via private link and Databricks databases hosted on Microsoft Azure via VPN. Please contact your Adobe representative for assistance in setting up secure access.
+>Secure access to your external Databricks data warehouse through PrivateLink is supported. This includes secure connections to Databricks databases hosted on Amazon Web Services (AWS) via PrivateLink and Databricks databases hosted on Microsoft Azure via VPN. Please contact your Adobe representative for assistance in setting up secure access.
 
 After selecting Databricks, you can choose with authentication method you want to use when connecting with Federated Audience Composition.
 
@@ -275,7 +275,7 @@ After selecting Oracle, you can add the following details:
 
 >[!NOTE]
 >
->Secure access to your external Snowflake data warehouse through private link is supported. Note that your Snowflake account must be hosted on Amazon Web Services (AWS) or Azure and located in the same region as your Federated Audience Composition environment. Please contact your Adobe representative for assistance in setting up secure access to your Snowflake account.
+>Secure access to your external Snowflake data warehouse through PrivateLink is supported. Note that your Snowflake account must be hosted on Amazon Web Services (AWS) or Azure and located in the same region as your Federated Audience Composition environment. Please contact your Adobe representative for assistance in setting up secure access to your Snowflake account.
 
 After selecting Snowflake, you can choose which authentication method you want to use when connecting with Federated Audience Composition.
 
