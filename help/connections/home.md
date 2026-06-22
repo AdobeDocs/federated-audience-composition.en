@@ -3,6 +3,20 @@ audience: end-user
 title: Create and manage connections with Federated databases
 description: Learn how to create and manage connections with Federated databases
 exl-id: ab65cd8a-dfa0-4f09-8e9b-5730564050a1
+TQID: https://experienceleague.adobe.com/6-pzawt2ndn2MKLyYLXPMy-ec1SIOsQI5frTt9IqOX0
+product_v2:
+  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+    internal-label: Experience Cloud
+feature_v2:
+  - id: fc7979f3-56c3-43ca-9784-f1ea3dc69c4b
+    internal-label: Integrations
+topic_v2:
+  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+    internal-label: Governance
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+    internal-label: Privacy
 ---
 # Create connections {#connections-fdb}
 
@@ -28,6 +42,7 @@ To work with your federated database and Adobe Experience Platform, you must fir
 - Microsoft Fabric
 - Oracle
 - Snowflake
+- Teradata
 - Vertica Analytics
 
 ## Create connection {#create}
@@ -39,6 +54,10 @@ To create a connection, select **[!UICONTROL Federated databases]** within the F
 The Federated databases section appears. Select **[!UICONTROL Add federated database]** to create a connection.
 
 ![The Add federated database button is highlighted within the Federated database display page.](assets/home/add-federated.png){zoomable="yes" width="70%" align="center"}
+
+>[!NOTE]
+>
+>In order to request secure connectivity using private link or VPN, you **must** have licensed either Privacy and Security Shield or Healthcare Shield.
 
 The connection properties popover appears. You can name your connection as well as select what type of database you want to create.
 
@@ -150,7 +169,7 @@ If you select **OAuth 2.0**, you can add the following details:
 | Field | Description |
 | ----- | ----------- |
 | Server | The name of the Databricks server. |
-| Client ID | The client ID from your Databricks server. This field is used to identify the application during OAuth 2.0 authentication and acts like a username for your project. | 
+| Client ID | The client ID from your Databricks server. This field is used to identify the application during OAuth 2.0 authentication and acts like a username for your project. |
 | Client Secret | The client secret from your Databricks server. This confidential credential is issued with the client ID and acts like a password for your project. |
 | Access scope | Prepopulated information that lists the scopes that your OAuth token is authorized for within your Databricks server. |
 
@@ -197,12 +216,15 @@ If you select **[!UICONTROL OAuth 2.0]**, you can add the following login inform
 
 Select **[!UICONTROL Sign in]** to finish your authentication.
 
+If you select **[!UICONTROL WIF]**, you do **not** need to provide any login information. However, you **must** add the client library configuration as the **[!UICONTROL Key file path]**. For more information on the client library configuration, read the [Google BigQuery (Workload Identity Federation) configuration section](#wif-configuration).
+
 After inputting your login details, you can add the following details:
 
 | Field | Description |
 | ----- | ----------- |
 | Project | The ID of your project. For more information, please read the [Google Cloud project documentation](https://cloud.google.com/resource-manager/docs/creating-managing-projects){target="_blank"}. |
 | Dataset | The name of the dataset. For more information, please read the [Google Cloud dataset documentation](https://cloud.google.com/bigquery/docs/datasets-intro){target="_blank"}. |
+| Google Bucket location | The location of your Google Bucket. You only need to add this field if you are using the **Change Dimension** activity in your composition. For more information, please read the [Google Cloud bucket locations documentation](https://docs.cloud.google.com/storage/docs/locations){target="_blank"}.  |
 | Key file path | The key file to the server. Only `json` files are supported. |
 | Options | Additional options for the connection. The available options are listed in the following table. |
 
@@ -218,6 +240,7 @@ For Google BigQuery, you can set the following additional options:
 | GCloudConfigName | **Note:** This is only applicable for the **bulk-load tool** (Cloud SDK) above version 7.3.4. <br/><br/> The name of the configuration that stores the parameters for loading the data. By default, this value is `accfda`. |
 | GCloudDefaultConfigName | **Note:** This is only applicable for the **bulk-load tool** (Cloud SDK) above version 7.3.4. <br/><br/> The name of the temporary configuration to recreate the main configuration for loading data. By default, this value is `default`. |
 | GCloudRecreateConfig | **Note:** This is only applicable for the **bulk-load tool** (Cloud SDK) above version 7.3.4. <br/><br/> A boolean value that lets you decide if the bulk loading mechanism should automatically recreate, delete, or modify the Google Cloud SDK configurations. If this value is set to `false`, the bulk loading mechanism loads data using an existing configuration on the machine. If this value is set to `true`, ensure your configuration is properly set up - otherwise, the `No active configuration found. Please either create it manually or remove the GCloudRecreateConfig option` error will appear, and the loading mechanism will revert to the default loading mechanism. |
+| **restEndpoint** | The endpoint for your Apigee proxy. You can use this if you are using the REST-API connector. If you are using the Apigee proxy, enable the **Use REST API Connector** setting. For more information on setup, read the [Google Big Query Apigee Gateway Support section](#apigee). |
 
 >[!TAB Microsoft Fabric]
 
@@ -266,6 +289,15 @@ If you select **[!UICONTROL Account/Password Authentication]**, you can add the 
 | User | The username for the account. |
 | Password | The password for the account. |
 
+Alternatively, you can also provide a private key instead of providing a password. If you add a private key, you need to give the following information:
+
+| Field | Description |
+| ----- | ----------- |
+| Server | The name of the server. |
+| User | The username for the account. |
+| Private key | The private key for the account. Only `.pem` files are supported. |
+| Password | (Optional) The password for the account. |
+
 If you select **[!UICONTROL OAuth 2.0]**, you can add the following login information:
 
 >[!NOTE]
@@ -301,6 +333,29 @@ For Snowflake, you can set the following additional options:
 | chunkSize | The file size of the each bulk loader's chunk. When used concurrently with more threads, you can improve the performance of your bulk loads. By default, this value is set to 128 MB. For more information about chunk sizes, please read the [Snowflake documentation on preparing data files](https://docs.snowflake.com/en/user-guide/data-load-considerations-prepare){target="_blank"}. |
 | StageName | The name of a pre-provisioned internal staging enviornment. This can be used in bulk loads instead of creating a new temporary stage. |
 
+>[!TAB Teradata]
+
+>[!NOTE]
+>
+>To connect with Teradata, you **must** complete various prerequisites, including installing database drivers. Please contact your Adobe Customer Care representative for more information.
+
+After selecting Teradata, you can add the following details:
+
+| Field | Description |
+| ----- | ----------- |
+| Server | The URL of the Teradata server. |
+| Account | The username the database uses for the Open Database Connectivity (ODBC) session. |
+| Password | The password that you use to connect to the ODBC session. |
+| Database | The name of the database. |
+| Options | Additional options for the connection. For Teradata, both the listed options are **mandatory** to add. The available options are listed in the following table. |
+
+For Teradata, you can set the following additional options:
+
+| Options | Description |
+| ------- | ----------- |
+| `workTableSchema` | The name of the schema for the work tables. |
+| `ODBCLib` | The location of the system's ODBC library, which you can use if you're mixing Teradata with another ODBC. |
+
 >[!TAB Vertica Analytics]
 
 After selecting Vertica Analytics, you can add the following details:
@@ -335,3 +390,75 @@ After adding the connection's details, please note the following additional sett
 | Test connection | Lets you verify your configuration details. |
 
 You can now select **[!UICONTROL Deploy functions]**, followed by **[!UICONTROL Add]** to finalize the connection between the federated database and Experience Platform.
+
+## Appendix {#appendix}
+
+The following appendix describes how to set up the connections on the external account's side.
+
+### Google BigQuery (Workload Identity Federation) configuration {#wif-configuration}
+
+Before you configure your Google Cloud Platform setup, you will need you the following values:
+
+- AWS Account ID
+  - Please contact your Adobe representative to get this value.
+- AWS IAM role name
+  - The AWS IAM role name follows the the ensuing format: `arn:aws:iam::<ADOBE_AWS_ACCOUNT_ID>:role/fac-<CUSTOMER_IMS_ORG_ID>`
+
+In Google Cloud Console, create a **Workload Identity Pool** in the **IAM & Admin section**. This lets you organize and manage external identities.
+
+Select **Add provider** to create an identity provider. This configures a one-way trust between the identity provider in Google Cloud and the Worker Identity Pool by providing the relevant metadata about the provider.
+
+![The Add provider button is highlighted in Google Cloud.](/help/connections/assets/home/select-add-provider.png)
+
+When you create a provider, you'll need to provide the following information:
+
+| Field | Description |
+| ----- | ----------- |
+| Name | The name of the Workload Identity Pool provider. |
+| ID | The ID for the provider is automatically generated. |
+| AWS account ID | The previously provided AWS Account ID. |
+| Enabled provider | A boolean that determines of the provider is enabled or disabled. |
+| Attribute mapping | The mappings to match with the roles. This information is already present. |
+
+After creating the provider, you need to create an IAM policy to let the Workload Identity Pool identities impersonate the Service Account. Select **Grant access** to open the Grant access to service account dialog.
+
+In the dialog, select **Grant access using service account impersonation**. Within the **Select principals** section, you'll need to create your attribute mappings. 
+
+Select **aws_role** and add `arn:aws:sts::AWSAccountID:assumed-role/AWSRoleName` as the value, substituting `AWSAccountID` and `AWSRoleName` with the previously provided values.
+
+![The Grant access dialog is displayed.](/help/connections/assets/home/aws-role.png)
+
+After granting access to the service account, download the client library configuration.
+
+![The location to download the library configuration is displayed.](/help/connections/assets/home/download-config.png)
+
+After downloading the client library configuration, you can now set up a WIF connection with Federated Audience Configuration.
+
+### Google Big Query Apigee Gateway Support {#apigee}
+
+You can use Apigee, Google Cloud's native API management platform, to proxy your API calls to Google Big Query. 
+
+You'll first need to create a proxy within the Apigee UI. In Google Cloud, go to **Apigee** followed by **Proxy development**, **API proxies**, and **Create** to bring up the **Create a proxy** panel. On the panel, you can fill in the following details:
+
+![The Apigee proxy creation screen is displayed.](/help/connections/assets/home/create-proxy-apigee.png)
+
+| Details | Description |
+| ------- | ----------- |
+| Proxy template | The type of proxy you want to create. For this use case, you should select **Reverse proxy (Most common)**. |
+| Proxy name | The name of your proxy. This value can **only** include alphanumeric characters, dashes (`-`), or underscores (`_`). |
+| Base path | The URI fragment that shows the host address for your API proxy. This base path is based off of the proxy name and **must** be unique. |
+| Description | An optional description for the API proxy. |
+| Target | The URL (which includes either HTTP or HTTPS) of the backend service the API proxy invokes. |
+
+For Federated Audience Composition, you'll want to fill out the following proxy information:
+
+| Base path | Target endpoint | Description |
+| --------- | --------------- | ----------- |
+| `/bigquery` | `https://bigquery.googleapis.com/bigquery` | The main endpoint for Google Big Query. This endpoint is used to get data such as queries and list tables. |
+| `/token` | `https://oauth2.googleapis.com/token` | This endpoint is used for service account authentication. |
+| `/storage` | `https://storage.googleapis.com/storage` | This storage endpoint is used for deleting temporary bulk load files. |
+| `/upload` | `https://storage.googleapis.com/upload` | This storage endpoint is used for bulk loading of files. |
+| `/v1/token` | `https://sts.googleapis.com/v1/token` | This endpoint is used for the Workload Identity Federation (WIF) flow to get the token. |
+| `/v1/projects` | `https://iamcredentials.googleapis.com/v1/projects` | This endpoint is used to impersonate a service account in the Workload Identity Federation (WIF) flow. |
+
+Once you've created your proxy, you're good to use it to connect with Federated Audience Composition. Once you deploy the proxy, you can find the full URL for your proxy listed under **Hostnames** when you select **Environments** followed by **Groups** within the **Admin** section.

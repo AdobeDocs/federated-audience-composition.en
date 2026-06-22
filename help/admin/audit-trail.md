@@ -3,6 +3,17 @@ audience: end-user
 title: Audit Trail
 description: Learn how actions and events are logged and accessible in the audit trail
 exl-id: 97142f54-53ce-4c2a-9d89-fdcb2a47b159
+TQID: https://experienceleague.adobe.com/5NHFZk5acjL5Ix-MlqSYzjKzgvpEcVsK3YoX73dq040
+product_v2:
+  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+    internal-label: Experience Cloud
+topic_v2:
+  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+    internal-label: Governance
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+    internal-label: Privacy
 ---
 # Audit Trail {#audit-trail}
 

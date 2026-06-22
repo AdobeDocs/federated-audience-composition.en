@@ -3,6 +3,10 @@ audience: end-user
 title: Activities overview
 description: Learn about the different activities and transitions available for use within Federated Audience Composition.
 exl-id: 6ef5c165-c4fa-437b-be16-d42cb2f7991b
+TQID: https://experienceleague.adobe.com/hyCx0law7owYRhatvfX4o9OJQkd0pYEaj47iLi5t7FE
+product_v2:
+  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+    internal-label: Experience Cloud
 ---
 # Activities overview
 
@@ -199,6 +203,8 @@ After choosing your primary set, you can set up your **Exclusion rules**. You ca
 
 Once you've configured your exclusion rules, you can also select the **Generate complement** option. Generating a complement processes the remaining population and contains the data **not** included as part of the exclusion. An additional outbound transition will be added to the activity.
 
+>[!ENDTABS]
+
 +++
 
 #### Deduplication {#deduplication}
@@ -239,7 +245,7 @@ Once you've identified your fields, you can configure your deduplication setting
 
 | Setting | Description |
 | ------- | ----------- |
-| Duplicates to keep | The number of duplicate records to keep. If the value is set to 0, **all** duplicate records will be kept. | 
+| Duplicates to keep | The number of duplicate records to keep. If the value is set to 0, **all** duplicate records will be kept. |
 | Deduplication method | The method to remove the duplicate records. <ul><li>**Random selection**: The removed record is randomly chosen.</li><li>**Using an expression**: The removed record is based off of the submitted expression. You can either sort in ascending or descending order, depending on what values you want to remove.</li><li>**Non-empty values**: The removed record is based off of the submitted expression. Records where the expression does not have a value will be removed.</li><li>**Following a list of value**: The removed record is based off of the submitted field or expression. You can sort the remaining values randomly, in ascending order, or descending order.</li></ul> |
 
 Additionally, you can select the **Generate complement** option. Generating a complement processes the remaining population and contains the data **not** included as part of the deduplication. An additional outbound transition will be added to the activity.

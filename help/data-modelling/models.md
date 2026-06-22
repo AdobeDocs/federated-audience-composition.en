@@ -3,8 +3,18 @@ audience: end-user
 title: Get started with data models
 description: Learn how to start with data models
 exl-id: 7e1f74c4-b89a-480c-8e12-0257a71e629d
+TQID: https://experienceleague.adobe.com/iUpEJiNCYHzeDyGr6DYCKmb3jLEBwnbpN2dakLnf68k
+product_v2:
+  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+    internal-label: Experience Cloud
+topic_v2:
+  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+    internal-label: Governance
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+    internal-label: Privacy
 ---
-
 # Models overview
 
 >[!AVAILABILITY]
@@ -20,11 +30,11 @@ A data model is a set of schemas, audiences, and the links between them. You can
 
 In Federated Audience Composition, you can create and manage data models directly in the Canvas view. This includes adding schemas and audiences, as well as defining the links between them based on your use case.
 
-Learn more about [schemas](../data-modelling/schemas.md#schema-start) and [audiences](../start/audiences.md).
+To learn more about schemas, read the [schemas overview](../data-modelling/schemas.md). To learn more about audiences, read the [work with audiences guide](../start/audiences.md).
 
 For example, you can see below a representation of a data model: the tables with their name and the links between them.
 
-![](assets/models/datamodel.png){zoomable="yes"}
+![A sample representation of a data model, with the tables and links between the tables displayed.](assets/models/datamodel.png){zoomable="yes"}
 
 ## Create a data model {#data-model-create}
 

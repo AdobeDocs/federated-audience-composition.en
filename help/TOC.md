@@ -19,6 +19,7 @@ breadcrumb-title: Experience Platform Federated Audience Composition
     - [Connections overview](connections/home.md)
     - [Data access rights matrix](connections/fda-rights.md)
     - [Enrich Adobe Experience Platform audiences with external data](connections/destinations.md)
+    - [Multi-entity targeting](connections/multi-entity-targeting.md)
 - Data models and schemas {#models}
     - [Schemas overview](data-modelling/schemas.md)
     - [Data models overview](data-modelling/models.md)
@@ -36,4 +37,4 @@ breadcrumb-title: Experience Platform Federated Audience Composition
     - [Latest release notes](./release-notes/latest.md)
     - [2024](./release-notes/2024.md)
     - [2025](./release-notes/2025.md)
-    - [Pre-release notes](./release-notes/e-release-notes.md)
+    - {hide-from-toc} [Pre-release notes](./release-notes/e-release-notes.md)

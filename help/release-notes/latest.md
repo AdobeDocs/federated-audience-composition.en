@@ -2,11 +2,74 @@
 title: Federated Audience Composition Release Notes
 description: Latest updates and release notes for Federated Audience Composition.
 exl-id: d4dcaf31-93cd-4a4e-888a-cf1bbdc4ca03
+TQID: https://experienceleague.adobe.com/AqtqibUr1TNXwQ9lrtVoQ3CBNwyjSMS64e4s8y4iTSc
+product_v2:
+  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+    internal-label: Experience Cloud
 ---
-
 # Release notes
 
 [!DNL Federated Audience Composition] continuously delivers new features, enhancements to existing features, and bug fixes. All changes are consolidated in these release notes. [!DNL Federated Audience Composition] is built natively on [!DNL Adobe Experience Platform] and inherits from its latest innovations and improvements. Learn more about these changes in [Adobe Experience Platform Release Notes](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html){target="_blank"}.
+
+## June '26 release {#fac-26-06}
+
+The June release for Federated Audience Composition supports the following capability:
+
+| Support for the REST API connector via Apigee gateway for Google Big Query |
+| --- |
+| You can now connect to Google Big Query using a REST API connector via an Apigee gateway. For more details about connecting using Apigee, please read the [connections overview](/help/connections/home.md#apigee). |
+
+## May '26 release {#fac-26-05}
+
+The May release for Federated Audience Composition supports the following capability:
+
+| Workload Identity Federation (WIF) Authentication for Google Big Query |
+| --- |
+| You can now connect to Google Big Query using WIF authentication. For more details about connecting using WIF authentication, please read the [connections overview](/help/connections/home.md#wif-configuration). |
+
+### Improvements {#fac-26-05-improvements}
+
+This release comes with the following improvement.
+
+- **Multi-entity targeting with Federated Audience Composition audiences in Adobe Journey Optimizer Read Audience journeys**
+
+    You can now leverage FAC audience attributes as supplemental identifiers in Journey Optimizer Read Audience journeys. This lets you activate the audiences at multiple entities such as accounts or subscriptions level. 
+
+    For more information, please read the [using supplemental identifiers in journeys guide](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/manage-journey/supplemental-identifier).
+
+## April '26 release {#fac-26-04}
+
+The April release for Federated Audience Composition supports the following capabilities and improvements:
+
+### New capabilities {#fac=26-04-feature}
+
+| New connector - Teradata |
+| --- |
+| The Teradata connector is now available for use with Federated Audience Composition. You can use the Teradata connector for audience creation and audience enrichment use cases. For more information about the Teradata connector, please read the [connections overview](/help/connections/home.md). |
+
+### Improvements {#fac-26-04-improvements}
+
+This release comes with the following improvement.
+
+- **Unencrypted key support for Snowflake**
+
+    You can now use unencrypted keys when using key-pair authentication to connect with Snowflake data warehouses. 
+
+    To learn more about using unencrypted keys with Snowflake, please read the [connections overview](/help/connections/home.md). 
+
+## March '26 release {#fac-26-03}
+
+The March release for Federated Audience Composition supports the following capabilities:
+
+### New capabilities {#fac-26-03-feature}
+
+| AI-powered Segmentation |
+| --- |
+| You can now create federated audience compositions autonomously within AI Assistant. When using AI Assistant to create the audience, AI Assistant generates a plan that, after you approve, will be executed within your browser. For more information about using AI Assistant to create audiences, read the [AI Assistant overview](/help/start/ai-assistant.md). |
+
+| AI Assistant for Operational Insights |
+| --- |
+| You can now ask questions to AI Assistant about operational insights within Federated Audience Composition. Supported areas include connections, schemas, and data models. Federated compositions are **not** supported with this release. For more information about AI Assistant in Federated Audience Composition, read the [AI Assistant overview](/help/start/ai-assistant.md). |
 
 ## February '26 release {#fac-26-02}
 

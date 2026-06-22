@@ -3,6 +3,10 @@ audience: end-user
 title: Create compositions
 description: Learn how to create compositions
 exl-id: 4f510805-b700-444d-89bb-832eaa1e3242
+TQID: https://experienceleague.adobe.com/J1BfErdvMzZZ-23BAU4cbQcx3V3n7ymzv5nZdUOTw6M
+product_v2:
+  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+    internal-label: Experience Cloud
 ---
 # Create a composition
 
@@ -64,6 +68,7 @@ The options include:
 * **[!UICONTROL Pause]/[!UICONTROL Resume]**: Pause or resume the activity. When the composition is executed, it pauses at the paused activity. The corresponding task as well as all those that follow it in the same path are not executed.
 * **[!UICONTROL Copy]**: Copies the activity to paste it at another location in the composition. To do this, select the **+** button on a transition and select **[!UICONTROL Paste X activity]**. <!-- cannot copy multiple activities ? cannot paste in another composition?-->
 * Configure **[!UICONTROL Execution options]** for the selected activity. Available execution options include the following: 
+
     +++Available execution options
 
     The **[!UICONTROL Properties]** section allows you to configure generic settings regarding the execution of the activity:
@@ -79,6 +84,7 @@ The options include:
     The **[!UICONTROL Initialization script]** section lets you initialize variables or modify activity properties. Select the **[!UICONTROL Edit code]** button and type the snippet of code to execute. The script is called when the activity executes.
 
     +++
+    
 * **Logs and tasks**: View the logs and tasks for the selected activity.
   
 ## Start and monitor your composition {#start-and-monitor}
