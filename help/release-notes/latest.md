@@ -11,6 +11,14 @@ product_v2:
 
 [!DNL Federated Audience Composition] continuously delivers new features, enhancements to existing features, and bug fixes. All changes are consolidated in these release notes. [!DNL Federated Audience Composition] is built natively on [!DNL Adobe Experience Platform] and inherits from its latest innovations and improvements. Learn more about these changes in [Adobe Experience Platform Release Notes](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html){target="_blank"}.
 
+## June '26 release {#fac-26-06}
+
+The June release for Federated Audience Composition supports the following capability:
+
+| Support for the REST API connector via Apigee gateway for Google Big Query |
+| --- |
+| You can now connect to Google Big Query using a REST API connector via an Apigee gateway. For more details about connecting using Apigee, please read the [connections overview](/help/connections/home.md#apigee). |
+
 ## May '26 release {#fac-26-05}
 
 The May release for Federated Audience Composition supports the following capability:

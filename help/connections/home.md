@@ -224,6 +224,7 @@ After inputting your login details, you can add the following details:
 | ----- | ----------- |
 | Project | The ID of your project. For more information, please read the [Google Cloud project documentation](https://cloud.google.com/resource-manager/docs/creating-managing-projects){target="_blank"}. |
 | Dataset | The name of the dataset. For more information, please read the [Google Cloud dataset documentation](https://cloud.google.com/bigquery/docs/datasets-intro){target="_blank"}. |
+| Google Bucket location | The location of your Google Bucket. You only need to add this field if you are using the **Change Dimension** activity in your composition. For more information, please read the [Google Cloud bucket locations documentation](https://docs.cloud.google.com/storage/docs/locations){target="_blank"}.  |
 | Key file path | The key file to the server. Only `json` files are supported. |
 | Options | Additional options for the connection. The available options are listed in the following table. |
 
@@ -239,6 +240,7 @@ For Google BigQuery, you can set the following additional options:
 | GCloudConfigName | **Note:** This is only applicable for the **bulk-load tool** (Cloud SDK) above version 7.3.4. <br/><br/> The name of the configuration that stores the parameters for loading the data. By default, this value is `accfda`. |
 | GCloudDefaultConfigName | **Note:** This is only applicable for the **bulk-load tool** (Cloud SDK) above version 7.3.4. <br/><br/> The name of the temporary configuration to recreate the main configuration for loading data. By default, this value is `default`. |
 | GCloudRecreateConfig | **Note:** This is only applicable for the **bulk-load tool** (Cloud SDK) above version 7.3.4. <br/><br/> A boolean value that lets you decide if the bulk loading mechanism should automatically recreate, delete, or modify the Google Cloud SDK configurations. If this value is set to `false`, the bulk loading mechanism loads data using an existing configuration on the machine. If this value is set to `true`, ensure your configuration is properly set up - otherwise, the `No active configuration found. Please either create it manually or remove the GCloudRecreateConfig option` error will appear, and the loading mechanism will revert to the default loading mechanism. |
+| **restEndpoint** | The endpoint for your Apigee proxy. You can use this if you are using the REST-API connector. If you are using the Apigee proxy, enable the **Use REST API Connector** setting. For more information on setup, read the [Google Big Query Apigee Gateway Support section](#apigee). |
 
 >[!TAB Microsoft Fabric]
 
@@ -424,7 +426,7 @@ In the dialog, select **Grant access using service account impersonation**. With
 
 Select **aws_role** and add `arn:aws:sts::AWSAccountID:assumed-role/AWSRoleName` as the value, substituting `AWSAccountID` and `AWSRoleName` with the previously provided values.
 
-![The Grant access dialog is displayed.](/help/connections/assets/home/aws_role.png)
+![The Grant access dialog is displayed.](/help/connections/assets/home/aws-role.png)
 
 After granting access to the service account, download the client library configuration.
 
@@ -438,7 +440,7 @@ You can use Apigee, Google Cloud's native API management platform, to proxy your
 
 You'll first need to create a proxy within the Apigee UI. In Google Cloud, go to **Apigee** followed by **Proxy development**, **API proxies**, and **Create** to bring up the **Create a proxy** panel. On the panel, you can fill in the following details:
 
-IMAGE
+![The Apigee proxy creation screen is displayed.](/help/connections/assets/home/create-proxy-apigee.png)
 
 | Details | Description |
 | ------- | ----------- |
@@ -459,4 +461,4 @@ For Federated Audience Composition, you'll want to fill out the following proxy 
 | `/v1/token` | `https://sts.googleapis.com/v1/token` | This endpoint is used for the Workload Identity Federation (WIF) flow to get the token. |
 | `/v1/projects` | `https://iamcredentials.googleapis.com/v1/projects` | This endpoint is used to impersonate a service account in the Workload Identity Federation (WIF) flow. |
 
-Once you've created your proxy, you're good to use it to connect with Federated Audience Composition.
+Once you've created your proxy, you're good to use it to connect with Federated Audience Composition. Once you deploy the proxy, you can find the full URL for your proxy listed under **Hostnames** when you select **Environments** followed by **Groups** within the **Admin** section.
