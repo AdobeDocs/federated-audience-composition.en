@@ -24,7 +24,7 @@ The following databases support private connectivity to Federated Audience Compo
 
 ## Snowflake {#snowflake}
 
->[!NOTE]
+>[!AVAILABILITY]
 >
 >In order to use private connectivity with Snowflake, you **must** be at least on Business Critical tier or higher on Snowflake. For more information on private connectivity with Snowflake, read the [private connectivity guide in the Snowflake documentation](https://docs.snowflake.com/en/user-guide/private-connectivity-inbound).
 
@@ -45,7 +45,11 @@ You can get the `privatelink-vcpe-id` value by running the following commands in
 
 Once you have the `privatelink-vcpe-id`, you can send it to Adobe Customer Care so Adobe can create the VPC interface endpoint for you.
 
-If you want to authorize the PrivateLink for use with an internal staging environment, ???
+For more detailed information to create a PrivateLink connection with AWS, read the [AWS PrivateLink guide](https://docs.snowflake.com/en/user-guide/admin-security-privatelink).
+
+If you want to authorize the PrivateLink for use with an internal staging environment, contact Adobe Customer Care to enable the environment.
+
+For more detailed information to create a PrivateLink connection with AWS for internal staging environments, read the [AWS VPC interface endpoints for internal stages guide](https://docs.snowflake.com/en/user-guide/private-internal-stages-aws).
 
 ### Microsoft Azure {#snowflake-azure}
 
@@ -58,7 +62,42 @@ When you have your `privatelink-pls-id`, you can send it to Adobe Customer Care 
 
 Once Adobe creates the Azure private endpoint, you can get your private endpoint resource ID. Now that you have the private endpoint resource ID, contact Snowflake support to authorize your Snowflake account, while providing the resource ID.
 
-With your 
+For more detailed information to create a PrivateLink connection with Azure, read the [Azure PrivateLink guide](https://docs.snowflake.com/en/user-guide/privatelink-azure).
+
+If you want to authorize PrivateLink for use with an internal staging environment, run the following command in Snowflake, while providing the internal stage resource ID:
+
+`SELECT SYSTEM$AUTHORIZE_STAGE_PRIVATELINK_ACCESS('<internal-stage-private-endpoint-resource-id>');`
+
+For more detailed information to create a PrivateLink connection with Azure for internal staging environments, read the [Azure private endpoints for internal stages guide](https://docs.snowflake.com/en/user-guide/private-internal-stages-azure).
 
 ## Amazon Redshift {#amazon-redshift}
 
+Both Provisioned Clusters and Redshift Serverless support private connections with Federated Audience Composition. 
+
+>[!IMPORTANT]
+>
+>Before starting, contact Adobe Customer Care to receive your Amazon Web Services (AWS) account ID and your Virtual Private Cloud (WPC) ID. You will need **both** of these values to gain cross-account endpoint access.
+
+Once you have both the AWS and WPC IDs, go to the AWS Management Console and open the [Amazon Redshift console](https://console.aws.amazon.com/redshiftv2/). In the AWS Management Console, select **Clusters** if you're using Provisioned Clusters or **Serverless dashboard** if you're using Redshift Serverless.
+
+Select the cluster you want to allow access to, and go to the **Properties** tab. Within the tab, select the account that contains the VPC ID you received from Adobe Customer Care. If you're using a Redshift Serverless workgroup, the **Granted accounts** section is under the **Data access** tab.
+
+After selecting **Grant access**, you can enter the information within **Grantee information**. This includes the AWS account ID that you received from Adobe Customer Care.
+
+Now that you've granted access, you'll need to note the following details in the cluster about the managed VPC endpoint. For a provisioned cluster, note the **Redshift Cluster Identifier** and the **Cluster Owner AWS Account ID**. For Redshift Serverless, note the **Workgroup Name** and the **Owner AWS Account ID**. 
+
+With the relevant information noted, share those details with Adobe Customer Care so Adobe can create the managed VPC endpoint. Adobe then will share the following connection details with you: **Redshift endpoint URL**, **Redshift JDBC URL**, and **Redshift ODBC URL**.
+
+## Databricks {#databricks}
+
+>[!AVAILABILITY]
+>
+>In order to use private connectivity with Databricks, you **must** be on an Enterprise plan on Databricks. For more information on private connectivity with Databricks, read the []().
+
+Using private connectivity with Databricks depends on which cloud provider your Databricks instance is on.
+
+### Amazon Web Services {#databricks-aws}
+
+Before configuring with Amazon Web Services, contact Adobe Customer Care so they can create a front-end (inbound) VPC interface endpoint that points to Databricks. This endpoint covers Federated Audience Composition's ODBC connectivity to your Databricks workspace.
+
+Once you've gotten your VPC endpoint ID from Adobe Customer Care, open your Databricks account so you can register the endpoint.
