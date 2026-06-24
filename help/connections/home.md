@@ -434,11 +434,11 @@ After granting access to the service account, download the client library config
 
 After downloading the client library configuration, you can now set up a WIF connection with Federated Audience Configuration.
 
-### Google BigQuery Apigee Gateway Support {#apigee}
+### Google BigQuery [!DNL Apigee] Gateway Support {#apigee}
 
-You can use Apigee, Google Cloud's native API management platform, to proxy your API calls to Google BigQuery. 
+You can use [!DNL Apigee], Google Cloud's native API management platform, to proxy your API calls to Google BigQuery. 
 
-You'll first need to create a proxy within the Apigee UI. In Google Cloud, go to **Apigee** followed by **Proxy development**, **API proxies**, and **Create** to bring up the **Create a proxy** panel. On the panel, you can fill in the following details:
+You'll first need to create a proxy within the [!DNL Apigee] UI. In Google Cloud, go to **Apigee** followed by **Proxy development**, **API proxies**, and **Create** to bring up the **Create a proxy** panel. On the panel, you can fill in the following details:
 
 ![The Apigee proxy creation screen is displayed.](/help/connections/assets/home/create-proxy-apigee.png)
 
