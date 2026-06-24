@@ -11,13 +11,21 @@ product_v2:
 
 [!DNL Federated Audience Composition] continuously delivers new features, enhancements to existing features, and bug fixes. All changes are consolidated in these release notes. [!DNL Federated Audience Composition] is built natively on [!DNL Adobe Experience Platform] and inherits from its latest innovations and improvements. Learn more about these changes in [Adobe Experience Platform Release Notes](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html){target="_blank"}.
 
+## June '26 release {#fac-26-06}
+
+The June release for Federated Audience Composition supports the following capability:
+
+| REST API connector with [!DNL Apigee] gateway support for Google [!DNL BigQuery] |
+| --- |
+| You can now connect to Google [!DNL BigQuery] using a REST API connector, with the option to route your connection through an [!DNL Apigee] gateway when using service account authentication. For more details about connecting using [!DNL Apigee], please read the [connections overview](/help/connections/home.md#apigee). |
+
 ## May '26 release {#fac-26-05}
 
 The May release for Federated Audience Composition supports the following capability:
 
-| Workload Identity Federation (WIF) Authentication for Google Big Query |
+| Workload Identity Federation (WIF) Authentication for Google [!DNL BigQuery] |
 | --- |
-| You can now connect to Google Big Query using WIF authentication. For more details about connecting using WIF authentication, please read the [connections overview](/help/connections/home.md#wif-configuration). |
+| You can now connect to Google [!DNL BigQuery] using WIF authentication. For more details about connecting using WIF authentication, please read the [connections overview](/help/connections/home.md#wif-configuration). |
 
 ### Improvements {#fac-26-05-improvements}
 
