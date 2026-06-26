@@ -224,8 +224,9 @@ After inputting your login details, you can add the following details:
 | ----- | ----------- |
 | Project | The ID of your project. For more information, please read the [Google Cloud project documentation](https://cloud.google.com/resource-manager/docs/creating-managing-projects){target="_blank"}. |
 | Dataset | The name of the dataset. For more information, please read the [Google Cloud dataset documentation](https://cloud.google.com/bigquery/docs/datasets-intro){target="_blank"}. |
-| Google Bucket location | The location of your Google Bucket. You only need to add this field if you are using the **Change Dimension** activity in your composition. For more information, please read the [Google Cloud bucket locations documentation](https://docs.cloud.google.com/storage/docs/locations){target="_blank"}.  |
 | Key file path | The key file to the server. Only `json` files are supported. |
+| Google Bucket location | The location of your Google Bucket. You only need to add this field if you are using the **Change Dimension** activity in your composition. For more information, please read the [Google Cloud bucket locations documentation](https://docs.cloud.google.com/storage/docs/locations){target="_blank"}. |
+| Use REST API connector | A toggle that enables the REST API connector to be used. This option is **only** available if you're using Account/Password authentication. |
 | Options | Additional options for the connection. The available options are listed in the following table. |
 
 For Google BigQuery, you can set the following additional options:
