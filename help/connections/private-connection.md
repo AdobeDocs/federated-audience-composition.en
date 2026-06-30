@@ -92,7 +92,7 @@ With the relevant information noted, share those details with Adobe Customer Car
 
 >[!AVAILABILITY]
 >
->In order to use private connectivity with Databricks, you **must** be on an Enterprise plan on Databricks. For more information on private connectivity with Databricks, read the []().
+>In order to use private connectivity with Databricks, you **must** be on an Enterprise plan on Databricks. For more information on private connectivity with Databricks, read the [private link concepts guide](https://docs.databricks.com/aws/en/security/network/concepts/privatelink-concepts).
 
 Using private connectivity with Databricks depends on which cloud provider your Databricks instance is on.
 
