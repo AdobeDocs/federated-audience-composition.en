@@ -100,4 +100,24 @@ Using private connectivity with Databricks depends on which cloud provider your 
 
 Before configuring with Amazon Web Services, contact Adobe Customer Care so they can create a front-end (inbound) VPC interface endpoint that points to Databricks. This endpoint covers Federated Audience Composition's ODBC connectivity to your Databricks workspace.
 
-Once you've gotten your VPC endpoint ID from Adobe Customer Care, open your Databricks account so you can register the endpoint.
+Once you've gotten your VPC endpoint ID and AWS region from Adobe Customer Care, open your Databricks account so you can register the endpoint. In your Databricks account, go to **Cloud resources**, followed by **Network**, and **VPC endpoint registrations**. 
+
+The **Register new VPC endpoint** page is displayed. Choose the region that matches your AWS VPC endpoint and paste the VPC endpoint ID you received from Adobe Customer Care. 
+
+Once you've added all the required information, select **Register new VPC endpoint**. For more information about configuring your VPC connection for Databricks, read the [configure inbound PrivateLink guide](https://docs.databricks.com/aws/en/security/network/front-end/front-end-private-connect#step-2-register-vpc-endpoints).
+
+Now that you've registered your VPC endpoint, you'll need to create a Private Access Settings (PAS) object. In your Databricks account, go to **Security** followed by **Private access settings** and **Add private access settings**. 
+
+The **Add private access setting** page is displayed. When you add the necessary information, make sure you set the **Private Access Level** to be at an **Endpoint** level. 
+
+Once you've chosen endpoint level, select the previously created VPC endpoint and complete the private access setting setup. For more information on creating private access settings, read the [configure inbound PrivateLink guide](https://docs.databricks.com/aws/en/security/network/front-end/front-end-private-connect#step-3-create-private-access-settings).
+
+After configuring your private access settings, you can attach the VPC endpoint to your workspace. In your Databricks account, go to **Advanced configurations** followed by **Private Link** and select the previously created private access settings object. For more information on creating your workspace with PrivateLink, read the [configure inbound PrivateLink guide](https://docs.databricks.com/aws/en/security/network/front-end/front-end-private-connect#step-4-create-your-workspace-with-private-link-objects).
+
+Now that all the settings have been configured, you can share your Databricks workspace URL with Adobe Customer Care. Once you've shared your Databricks workspace URL, Adobe can configure the DNS settings required to route requests to the workspace endpoint.
+
+### Microsoft Azure {#databricks-azure}
+
+Since Databricks does not natively support Microsoft Azure, you'll first need to create an Azure VPN Gateway. The Azure VPN Gateway service lets you send encrypted traffic between an Azure virtual network to Databricks.
+
+To set up an Azure VPN gateway, 
