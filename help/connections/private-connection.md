@@ -78,15 +78,11 @@ Both Provisioned Clusters and Redshift Serverless support private connections wi
 >
 >Before starting, contact Adobe Customer Care to receive your Amazon Web Services (AWS) account ID and your Virtual Private Cloud (WPC) ID. You will need **both** of these values to gain cross-account endpoint access.
 
-Once you have both the AWS and WPC IDs, go to the AWS Management Console and open the [Amazon Redshift console](https://console.aws.amazon.com/redshiftv2/). In the AWS Management Console, select **Clusters** if you're using Provisioned Clusters or **Serverless dashboard** if you're using Redshift Serverless.
+Once you have both the AWS and WPC IDs, go to the AWS Management Console to grant cross-account access for a managed VPC endpoint. 
 
-Select the cluster you want to allow access to, and go to the **Properties** tab. Within the tab, select the account that contains the VPC ID you received from Adobe Customer Care. If you're using a Redshift Serverless workgroup, the **Granted accounts** section is under the **Data access** tab.
+For a provisioned cluster, note both the **Redshift Cluster identifier** and the **cluster owner AWS account ID** values. For a Redshift Serverless, not both the **workgroup name** and the **owner AWS account ID** values.
 
-After selecting **Grant access**, you can enter the information within **Grantee information**. This includes the AWS account ID that you received from Adobe Customer Care.
-
-Now that you've granted access, you'll need to note the following details in the cluster about the managed VPC endpoint. For a provisioned cluster, note the **Redshift Cluster Identifier** and the **Cluster Owner AWS Account ID**. For Redshift Serverless, note the **Workgroup Name** and the **Owner AWS Account ID**. 
-
-With the relevant information noted, share those details with Adobe Customer Care so Adobe can create the managed VPC endpoint. Adobe then will share the following connection details with you: **Redshift endpoint URL**, **Redshift JDBC URL**, and **Redshift ODBC URL**.
+After getting these values, share those details with Adobe Customer Care so Adobe can create the managed VPC endpoint. Adobe then will share the following connection details with you: **Redshift endpoint URL**, **Redshift JDBC URL**, and **Redshift ODBC URL**.
 
 ## Databricks {#databricks}
 
@@ -100,24 +96,50 @@ Using private connectivity with Databricks depends on which cloud provider your 
 
 Before configuring with Amazon Web Services, contact Adobe Customer Care so they can create a front-end (inbound) VPC interface endpoint that points to Databricks. This endpoint covers Federated Audience Composition's ODBC connectivity to your Databricks workspace.
 
-Once you've gotten your VPC endpoint ID and AWS region from Adobe Customer Care, open your Databricks account so you can register the endpoint. In your Databricks account, go to **Cloud resources**, followed by **Network**, and **VPC endpoint registrations**. 
+Once you've gotten your VPC endpoint ID and AWS region from Adobe Customer Care, you'll need to register your VPC endpoint with the information provided by Adobe. 
 
-The **Register new VPC endpoint** page is displayed. Choose the region that matches your AWS VPC endpoint and paste the VPC endpoint ID you received from Adobe Customer Care. 
+After registering your VPC endpoint, you'll need to create a Private Access Settings (PAS) object. When you create the endpoint, set the **Private Access Level** to be at an **Endpoint** level and select the previously created VPC endpoint. For more information on creating private access settings, read the [configure inbound PrivateLink guide](https://docs.databricks.com/aws/en/security/network/front-end/front-end-private-connect#step-3-create-private-access-settings).
 
-Once you've added all the required information, select **Register new VPC endpoint**. For more information about configuring your VPC connection for Databricks, read the [configure inbound PrivateLink guide](https://docs.databricks.com/aws/en/security/network/front-end/front-end-private-connect#step-2-register-vpc-endpoints).
-
-Now that you've registered your VPC endpoint, you'll need to create a Private Access Settings (PAS) object. In your Databricks account, go to **Security** followed by **Private access settings** and **Add private access settings**. 
-
-The **Add private access setting** page is displayed. When you add the necessary information, make sure you set the **Private Access Level** to be at an **Endpoint** level. 
-
-Once you've chosen endpoint level, select the previously created VPC endpoint and complete the private access setting setup. For more information on creating private access settings, read the [configure inbound PrivateLink guide](https://docs.databricks.com/aws/en/security/network/front-end/front-end-private-connect#step-3-create-private-access-settings).
-
-After configuring your private access settings, you can attach the VPC endpoint to your workspace. In your Databricks account, go to **Advanced configurations** followed by **Private Link** and select the previously created private access settings object. For more information on creating your workspace with PrivateLink, read the [configure inbound PrivateLink guide](https://docs.databricks.com/aws/en/security/network/front-end/front-end-private-connect#step-4-create-your-workspace-with-private-link-objects).
+After configuring your private access settings, you can attach the VPC endpoint to your workspace. For more information on creating your workspace with PrivateLink, read the [configure inbound PrivateLink guide](https://docs.databricks.com/aws/en/security/network/front-end/front-end-private-connect#step-4-create-your-workspace-with-private-link-objects).
 
 Now that all the settings have been configured, you can share your Databricks workspace URL with Adobe Customer Care. Once you've shared your Databricks workspace URL, Adobe can configure the DNS settings required to route requests to the workspace endpoint.
 
 ### Microsoft Azure {#databricks-azure}
 
-Since Databricks does not natively support Microsoft Azure, you'll first need to create an Azure VPN Gateway. The Azure VPN Gateway service lets you send encrypted traffic between an Azure virtual network to Databricks.
+Since Databricks does not natively support Microsoft Azure, you'll first need to create an Azure VPN Gateway and a Databricks private endpoint. The Azure VPN Gateway lets you send encrypted traffic between an Azure virtual network to Databricks, while the Databricks private endpoint lets you have a private connection to securely transmit your data.
 
-To set up an Azure VPN gateway, 
+Once you set up your Azure VPN Gateway and Databricks private endpoint, share the following details with your Adobe Customer Care representative: **Azure Virtual Network Gateway**, **Databricks Public Endpoint IP**, **Databricks Workspace URL**, and **Autonomous System Number (ASN)**.
+
+With these details, Adobe can establish the VPN tunnels required for your connection. After establishing the VPN tunnels, Adobe provides the **VPN-Tunnel pairings**, **pre-shared keys**, as well as an **autonomous system number**.
+
+You can now configure your VPN tunnels in your Azure VNet Gateway. For more information, read the [connect AWS and Azure using a VPN gateway guide](https://learn.microsoft.com/en-us/azure/vpn-gateway/vpn-gateway-howto-aws-bgp).
+
+### Google Cloud Platform {#databricks-gcp}
+
+Since Databricks does not natively support Google Big Query, you'll first need to create a Google Cloud Platform High Availability VPN gateway and a cloud router. The GCP HA VPN gateway is a Google-managed VPN gateway that lets you send encrypted traffic between GCP and Databricks, while the cloud router is a Google Cloud service that provides dynamic routing between GCP and Databricks.
+
+Once you set up your GCP HA VPN gateway and cloud router, share the following details with your Adobe Customer Care representative: **GCP HA VPN gateway**, **Databricks Workspace URL**, **Private Service Connect (PSC) IP**, and the **Autonomous System Number (ASN)**.
+
+With these details, Adobe can establish the VPN tunnels required for your connection. After establishing the VPN tunnels, Adobe provides the **VPN-Tunnel pairings**, **pre-shared keys**, as well as an **autonomous system number**.
+
+You can now configure your VPN tunnels in your Google Cloud Platform account. For more information, read the [create HA VPN connections guide](https://docs.cloud.google.com/network-connectivity/docs/vpn/tutorials/create-ha-vpn-connections-google-cloud-aws).
+
+## Azure Synapse Analytics {#azure-synapse}
+
+To connect with Azure Synapse Analytics, you'll first need to create an Azure virtual network gateway and a Synapse private endpoint. The Azure virtual network gateway lets you send encrypted traffic between an Azure virtual network to Synapse, while the Synapse private endpoint lets you have a private connection to securely transmit your data.
+
+Once you set up your Azure virtual network gateway and your Synapse private endpoint, share the following details with your Adobe Customer Care representative: **Azure Virtual Network Gateway**, **Synapse Private Endpoint IP**, **Synapse Workspace URL**, and **Autonomous Service Number (ASN)**. 
+
+With these details, Adobe can establish the VPN tunnels required for your connection. After establishing the VPN tunnels, Adobe provides the **VPN-Tunnel pairings**, **pre-shared keys**, as well as an **autonomous system number**.
+
+You can now configure your VPN tunnels in your Azure VNet Gateway. For more information, read the [connect AWS and Azure using a VPN gateway guide](https://learn.microsoft.com/en-us/azure/vpn-gateway/vpn-gateway-howto-aws-bgp).
+
+## Google Big Query {#gbq}
+
+To connect with Google Big Query, you'll first need to create a Google Cloud Platform High Availability VPN gateway and a cloud router. The GCP HA VPN gateway is a Google-managed VPN gateway that lets you send encrypted traffic between GCP and GBQ, while the cloud router is a Google Cloud service that provides dynamic routing between GCP and GBQ.
+
+Once you set up your GCP HA VPN gateway and cloud router, share the following details with your Adobe Customer Care representative: **GCP HA VPN gateway**, **Databricks Workspace URL**, **Private Service Connect (PSC) IP**, and the **Autonomous System Number (ASN)**.
+
+With these details, Adobe can establish the VPN tunnels required for your connection. After establishing the VPN tunnels, Adobe provides the **VPN-Tunnel pairings**, **pre-shared keys**, as well as an **autonomous system number**.
+
+You can now configure your VPN tunnels in your Google Cloud Platform account. For more information, read the [create HA VPN connections guide](https://docs.cloud.google.com/network-connectivity/docs/vpn/tutorials/create-ha-vpn-connections-google-cloud-aws).
