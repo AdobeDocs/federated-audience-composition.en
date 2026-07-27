@@ -15,17 +15,17 @@ product_v2:
 
 The June release for Federated Audience Composition supports the following capability:
 
-| Support for the REST API connector via Apigee gateway for Google Big Query |
+| REST API connector with [!DNL Apigee] gateway support for Google [!DNL BigQuery] |
 | --- |
-| You can now connect to Google Big Query using a REST API connector via an Apigee gateway. For more details about connecting using Apigee, please read the [connections overview](/help/connections/home.md#apigee). |
+| You can now connect to Google [!DNL BigQuery] using a REST API connector, with the option to route your connection through an [!DNL Apigee] gateway when using service account authentication. For more details about connecting using [!DNL Apigee], please read the [connections overview](/help/connections/home.md#apigee). |
 
 ## May '26 release {#fac-26-05}
 
 The May release for Federated Audience Composition supports the following capability:
 
-| Workload Identity Federation (WIF) Authentication for Google Big Query |
+| Workload Identity Federation (WIF) Authentication for Google [!DNL BigQuery] |
 | --- |
-| You can now connect to Google Big Query using WIF authentication. For more details about connecting using WIF authentication, please read the [connections overview](/help/connections/home.md#wif-configuration). |
+| You can now connect to Google [!DNL BigQuery] using WIF authentication. For more details about connecting using WIF authentication, please read the [connections overview](/help/connections/home.md#wif-configuration). |
 
 ### Improvements {#fac-26-05-improvements}
 

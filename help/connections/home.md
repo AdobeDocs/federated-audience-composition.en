@@ -225,8 +225,9 @@ After inputting your login details, you can add the following details:
 | ----- | ----------- |
 | Project | The ID of your project. For more information, please read the [Google Cloud project documentation](https://cloud.google.com/resource-manager/docs/creating-managing-projects){target="_blank"}. |
 | Dataset | The name of the dataset. For more information, please read the [Google Cloud dataset documentation](https://cloud.google.com/bigquery/docs/datasets-intro){target="_blank"}. |
-| Google Bucket location | The location of your Google Bucket. You only need to add this field if you are using the **Change Dimension** activity in your composition. For more information, please read the [Google Cloud bucket locations documentation](https://docs.cloud.google.com/storage/docs/locations){target="_blank"}.  |
 | Key file path | The key file to the server. Only `json` files are supported. |
+| Google Bucket location | The location of your Google Bucket. You only need to add this field if you are using the **Change Dimension** activity in your composition. For more information, please read the [Google Cloud bucket locations documentation](https://docs.cloud.google.com/storage/docs/locations){target="_blank"}. |
+| Use REST API connector | A toggle that enables the REST API connector to be used. This option is **only** available if you're using Account/Password authentication. |
 | Options | Additional options for the connection. The available options are listed in the following table. |
 
 For Google BigQuery, you can set the following additional options:
@@ -241,7 +242,7 @@ For Google BigQuery, you can set the following additional options:
 | GCloudConfigName | **Note:** This is only applicable for the **bulk-load tool** (Cloud SDK) above version 7.3.4. <br/><br/> The name of the configuration that stores the parameters for loading the data. By default, this value is `accfda`. |
 | GCloudDefaultConfigName | **Note:** This is only applicable for the **bulk-load tool** (Cloud SDK) above version 7.3.4. <br/><br/> The name of the temporary configuration to recreate the main configuration for loading data. By default, this value is `default`. |
 | GCloudRecreateConfig | **Note:** This is only applicable for the **bulk-load tool** (Cloud SDK) above version 7.3.4. <br/><br/> A boolean value that lets you decide if the bulk loading mechanism should automatically recreate, delete, or modify the Google Cloud SDK configurations. If this value is set to `false`, the bulk loading mechanism loads data using an existing configuration on the machine. If this value is set to `true`, ensure your configuration is properly set up - otherwise, the `No active configuration found. Please either create it manually or remove the GCloudRecreateConfig option` error will appear, and the loading mechanism will revert to the default loading mechanism. |
-| **restEndpoint** | The endpoint for your Apigee proxy. You can use this if you are using the REST-API connector. If you are using the Apigee proxy, enable the **Use REST API Connector** setting. For more information on setup, read the [Google Big Query Apigee Gateway Support section](#apigee). |
+| **restEndpoint** | The endpoint for your Apigee proxy. You only need to use this if you are using the REST-API connector with the Apigee proxy. If you are using the Apigee proxy, enable the **Use REST API Connector** setting. For more information on setup, read the [Google BigQuery Apigee Gateway Support section](#apigee). |
 
 >[!TAB Microsoft Fabric]
 
@@ -435,11 +436,11 @@ After granting access to the service account, download the client library config
 
 After downloading the client library configuration, you can now set up a WIF connection with Federated Audience Configuration.
 
-### Google Big Query Apigee Gateway Support {#apigee}
+### Google BigQuery [!DNL Apigee] Gateway Support {#apigee}
 
-You can use Apigee, Google Cloud's native API management platform, to proxy your API calls to Google Big Query. 
+You can use [!DNL Apigee], Google Cloud's native API management platform, to proxy your API calls to Google BigQuery. 
 
-You'll first need to create a proxy within the Apigee UI. In Google Cloud, go to **Apigee** followed by **Proxy development**, **API proxies**, and **Create** to bring up the **Create a proxy** panel. On the panel, you can fill in the following details:
+You'll first need to create a proxy within the [!DNL Apigee] UI. In Google Cloud, go to **Apigee** followed by **Proxy development**, **API proxies**, and **Create** to bring up the **Create a proxy** panel. On the panel, you can fill in the following details:
 
 ![The Apigee proxy creation screen is displayed.](/help/connections/assets/home/create-proxy-apigee.png)
 
@@ -451,11 +452,11 @@ You'll first need to create a proxy within the Apigee UI. In Google Cloud, go to
 | Description | An optional description for the API proxy. |
 | Target | The URL (which includes either HTTP or HTTPS) of the backend service the API proxy invokes. |
 
-For Federated Audience Composition, you'll want to fill out the following proxy information:
+For Federated Audience Composition, create a proxy endpoint rule for **each** endpoint that the Google BigQuery connector uses, as listed below:
 
 | Base path | Target endpoint | Description |
 | --------- | --------------- | ----------- |
-| `/bigquery` | `https://bigquery.googleapis.com/bigquery` | The main endpoint for Google Big Query. This endpoint is used to get data such as queries and list tables. |
+| `/bigquery` | `https://bigquery.googleapis.com/bigquery` | The main endpoint for Google BigQuery. This endpoint is used to get data such as queries and list tables. |
 | `/token` | `https://oauth2.googleapis.com/token` | This endpoint is used for service account authentication. |
 | `/storage` | `https://storage.googleapis.com/storage` | This storage endpoint is used for deleting temporary bulk load files. |
 | `/upload` | `https://storage.googleapis.com/upload` | This storage endpoint is used for bulk loading of files. |
