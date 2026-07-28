@@ -11,6 +11,22 @@ product_v2:
 
 [!DNL Federated Audience Composition] continuously delivers new features, enhancements to existing features, and bug fixes. All changes are consolidated in these release notes. [!DNL Federated Audience Composition] is built natively on [!DNL Adobe Experience Platform] and inherits from its latest innovations and improvements. Learn more about these changes in [Adobe Experience Platform Release Notes](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html){target="_blank"}.
 
+## July '26 release {#fac-26-07}
+
+The July release for Federated Audience Composition supports the following capability:
+
+| General Availability for CHE2 (Switzerland) region |
+| --- |
+| You can now have your Federated Audience Composition instance provisioned in the CHE2 (Switzerland) region. |
+
+### Improvements {#fac-26-07-improvements}
+
+This release comes with the following improvement.
+
+- **Support for Federated Audience Composition audiences in Journey simulation**
+  
+  Journey simulation now lets you test your journeys created with Federated Audience Composition audiences before publishing with simulated users. For more information, please read the [get started with Journey simulation guide](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/create-journey/simulate-journey/simulate-journey-gs).
+
 ## June '26 release {#fac-26-06}
 
 The June release for Federated Audience Composition supports the following capability:
