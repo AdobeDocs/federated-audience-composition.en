@@ -35,6 +35,6 @@ breadcrumb-title: Experience Platform Federated Audience Composition
 - [Frequently asked questions](./faq.md)
 - Release notes {#release-notes}
     - [Latest release notes](./release-notes/latest.md)
-    - [2024](./release-notes/2024.md)
     - [2025](./release-notes/2025.md)
+    - [2024](./release-notes/2024.md)
     - {hide-from-toc} [Pre-release notes](./release-notes/e-release-notes.md)
