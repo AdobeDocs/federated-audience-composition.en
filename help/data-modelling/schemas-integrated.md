@@ -37,19 +37,26 @@ By creating a schema, you can define a representation of your table in Experienc
 >
 >When connecting multiple sandboxes with same database, you must use distinct working schemas.
 
-## Create a schema {#schema-create}
+## Create a schema {#create}
+
+>[!CONTEXTUALHELP]
+>id="platform_schemas_manageconfiguration"
+>title="Manage configuration"
+>abstract="Temporary blank content."
 
 To create a schema in Federated Audience Composition, select **Schemas** within the **Data Management** section of the Experience Platform UI.
 
 IMAGE
 
-The Schemas UI appears. Select **Create schema** to create a schema for Federated Audience Composition.
+The Schemas UI appears. Select **Create schema**, followed by **Relational**, and **Discover schemas** to create a schema for Federated Audience Composition.
 
 IMAGE
 
 The **[!UICONTROL Select federated database]** popover appears. On this popover, you can select the [source database](/help/connections/home.md), followed by **[!UICONTROL Next]**.
 
 ![](assets/schemas/schema_tables.png){zoomable="yes"}
+
+## Define schema {#define}
 
 The **Select Table** popover appears. On this popover, you can select the tables which you want to use to create the schema.
 
@@ -71,11 +78,9 @@ After completing your configuration, select **[!UICONTROL Done]** to finish crea
 
 ## Edit a schema {#schema-edit}
 
-To edit a schema, select your previously created schema on the **Schemas** page.
+To edit a schema, select the ICON next to your previously created schema on the **Schemas** page, followed by **Edit**.
 
-The schema details page appears. Select the ![pencil icon](/help/assets/icons/edit.png) to edit the schema.
-
-![](assets/schemas/schema_edit.png){zoomable="yes"}
+IMAGE
 
 On the **[!UICONTROL Edit schema]** window, you can access and configure the same options as when [creating a schema](#schema-create).
 

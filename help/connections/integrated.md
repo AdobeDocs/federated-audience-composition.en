@@ -32,11 +32,21 @@ Experience Platform Federated Audience Composition lets you build and enrich aud
 
 ## Supported databases {#supported-databases}
 
+>[!CONTEXTUALHELP]
+>id="platform_sources_snowflake_privatekey"
+>title="Private key"
+>abstract="Temporary blank content."
+
+>[!CONTEXTUALHELP]
+>id="platform_sources_snowflake_keyfilepath"
+>title="Key file path"
+>abstract="Temporary blank content."
+
 To work with your federated database and Adobe Experience Platform, you must first establish a connection between the two sources. With Federated Audience Composition, you can connect to the following databases.
 
 - Amazon Redshift
 - Azure Synapse Analytics
-- Databricks
+- DataBricks
 - Google BigQuery
 - Microsoft Fabric
 - Oracle
@@ -46,23 +56,32 @@ To work with your federated database and Adobe Experience Platform, you must fir
 
 ## Create connection {#create}
 
-To create a connection, select **[!UICONTROL Federated databases]** within the Federated data section.
+>[!CONTEXTUALHELP]
+>id="platform_sources_snowflake_serverip"
+>title="Server IP"
+>abstract="The IP addresses that need to be allowlisted in order to connect to the database."
 
-![The Federated Databases button is highlighted within the left navigation.](assets/home/select-federated.png){zoomable="yes" width="70%" align="center"}
+To create a connection, select **[!UICONTROL Sources]** within the **[!UICONTROL Connections]** section.
 
-The Federated databases section appears. Select **[!UICONTROL Add federated database]** to create a connection.
+IMAGE
 
-![The Add federated database button is highlighted within the Federated database display page.](assets/home/add-federated.png){zoomable="yes" width="70%" align="center"}
+The Sources catalog appears. Select **[!UICONTROL Federated data]** to view the list of available federated databases for your organization.
+
+IMAGE
+
+Once you've selected the federated database type, select **Add data**.
+
+IMAGE
+
+The connect account page appears. You can either use an **existing** account or create a **new** account. If you select **[!UICONTROL Existing account]**, you can choose one of the previously created source connections.
+
+IMAGE
 
 >[!NOTE]
 >
 >In order to request secure connectivity using private link or VPN, you **must** have licensed either Privacy and Security Shield or Healthcare Shield.
 
-The connection properties popover appears. You can name your connection as well as select what type of database you want to create.
-
-![The federated database types are displayed.](assets/home/select-type.png){zoomable="yes" width="70%" align="center"}
-
-After selecting a type, the **[!UICONTROL Details]** section appears. This section differs based on the database type previously chosen.
+If you select **[!UICONTROL New account]**, the connection details page is displayed. On this page, you can set details about your connection, including account name, description, and account authentication details. The account authentication section differs based on the database type previously chosen.
 
 >[!BEGINTABS]
 
@@ -140,52 +159,52 @@ Within your Azure Synapse connection, set the following configuration details:
 | Database | The name of the database. If this is specified in the server name, this field can be left blank. |
 | Options | Additional options for the connection. In order to use Service Principal authentication, you'll need to set `Authentication="ActiveDirectoryServicePrincipal"`. |
 
->[!TAB Databricks]
+>[!TAB DataBricks]
 
 >[!NOTE]
 >
->Secure access to your external Databricks data warehouse through private link is supported. This includes secure connections to Databricks databases hosted on Amazon Web Services (AWS) via private link and Databricks databases hosted on Microsoft Azure via VPN. Please contact your Adobe representative for assistance in setting up secure access.
+>Secure access to your external DataBricks data warehouse through private link is supported. This includes secure connections to DataBricks databases hosted on Amazon Web Services (AWS) via private link and DataBricks databases hosted on Microsoft Azure via VPN. Please contact your Adobe representative for assistance in setting up secure access.
 
-After selecting Databricks, you can choose with authentication method you want to use when connecting with Federated Audience Composition.
+After selecting DataBricks, you can choose with authentication method you want to use when connecting with Federated Audience Composition.
 
-If you select **Account/Password Authentication**, you can add the following login details:
-
-| Field | Description |
-| ----- | ----------- |
-| Server | The name of the Databricks server. |
-| Password | The access token for the Databricks server. For more information on this value, please read the [Databricks documentation on personal access tokens](https://docs.databricks.com/aws/en/dev-tools/auth/pat){target="_blank"}.  |
-
-If you select **Service Principal Authentication**, you can add the following details:
+If you select **[!UICONTROL Basic authentication]**, you can add the following login details:
 
 | Field | Description |
 | ----- | ----------- |
-| Server | The name of the Databricks server. |
-| Client ID | The client ID from your Databricks server. This field acts like a username for your project. |
-| Client Secret | The client secret from your Databricks server. This field acts like a password for your project. |
+| Server | The name of the DataBricks server. |
+| Password | The access token for the DataBricks server. For more information on this value, please read the [DataBricks documentation on personal access tokens](https://docs.databricks.com/aws/en/dev-tools/auth/pat){target="_blank"}. |
 
-If you select **OAuth 2.0**, you can add the following details:
+If you select **[!UICONTROL OAuth2 Authentication Code]**, you can add the following details:
 
 | Field | Description |
 | ----- | ----------- |
-| Server | The name of the Databricks server. |
-| Client ID | The client ID from your Databricks server. This field is used to identify the application during OAuth 2.0 authentication and acts like a username for your project. |
-| Client Secret | The client secret from your Databricks server. This confidential credential is issued with the client ID and acts like a password for your project. |
-| Access scope | Prepopulated information that lists the scopes that your OAuth token is authorized for within your Databricks server. |
+| Server | The name of the DataBricks server. |
+| Client ID | The client ID from your DataBricks server. This field is used to identify the application during OAuth 2.0 authentication and acts like a username for your project. |
+| Client Secret | The client secret from your DataBricks server. This confidential credential is issued with the client ID and acts like a password for your project. |
+| Access scope | Prepopulated information that lists the scopes that your OAuth token is authorized for within your DataBricks server. |
+
+If you select **[!UICONTROL Service Principal Authentication]**, you can add the following details:
+
+| Field | Description |
+| ----- | ----------- |
+| Server | The name of the DataBricks server. |
+| Client ID | The client ID from your DataBricks server. This field acts like a username for your project. |
+| Client Secret | The client secret from your DataBricks server. This field acts like a password for your project. |
 
 After inputting your login details, you can add the following information:
 
 | Field | Description |
 | ----- | ----------- |
-| HTTP path | The path to your Cluster or Warehouse. For more information on the path, please read the [Databricks documentation on connection details](https://docs.databricks.com/aws/en/integrations/compute-details){target="_blank"}. |
-| Catalog | The name of the Databricks Catalog. For more information on catalogs in Databricks, please read the [Databricks documentation on catalogs](https://docs.databricks.com/aws/en/catalogs/){target="_blank"} |
+| HTTP path | The path to your Cluster or Warehouse. For more information on the path, please read the [DataBricks documentation on connection details](https://docs.databricks.com/aws/en/integrations/compute-details){target="_blank"}. |
+| Catalog | The name of the DataBricks Catalog. For more information on catalogs in DataBricks, please read the [DataBricks documentation on catalogs](https://docs.databricks.com/aws/en/catalogs/){target="_blank"} |
 | Working schema | The name of the database schema to use for the work tables. <br/><br/>**Note:** You can use **any** schema from the database, including schemas used for temporary data processing, as long as you have the required permissions to connect to this schema. However, you **must** use distinct working schemas when connecting multiple sandboxes with the same database. |
 | Options | Additional options for the connection. The available options are listed in the following table. |
 
-For Databricks, you can set the following additional options: 
+For DataBricks, you can set the following additional options: 
 
 | Options | Description |
 | ------- | ----------- |
-| TimeZoneName | The name of the time zone to use. This value represents the `TIMEZONE` session parameter. For more information on time zones, please read the [Databricks documentation on timezones](https://docs.databricks.com/aws/en/sql/language-manual/parameters/timezone#:~:text=The%20system%20default%20is%20UTC%20.){target="_blank"}. |
+| TimeZoneName | The name of the time zone to use. This value represents the `TIMEZONE` session parameter. For more information on time zones, please read the [DataBricks documentation on timezones](https://docs.databricks.com/aws/en/sql/language-manual/parameters/timezone#:~:text=The%20system%20default%20is%20UTC%20.){target="_blank"}. |
 
 >[!TAB Google BigQuery]
 
@@ -195,13 +214,13 @@ For Databricks, you can set the following additional options:
 
 After selecting Google BigQuery, you can choose which authentication method you want to use when connecting with Federated Audience Composition.
 
-If you select **[!UICONTROL Account/Password Authentication]**, you can add the following login information:
+If you select **[!UICONTROL Basic authentication]**, you can add the following login information:
 
 | Field | Description |
 | ----- | ----------- |
 | Service account | The email address of your service account. For more information, please read the [Google Cloud service account documentation](https://cloud.google.com/iam/docs/service-accounts-create){target="_blank"}. |
 
-If you select **[!UICONTROL OAuth 2.0]**, you can add the following login information:
+If you select **[!UICONTROL OAuth2 Authorization Code]**, you can add the following login information:
 
 >[!NOTE]
 >
@@ -215,7 +234,7 @@ If you select **[!UICONTROL OAuth 2.0]**, you can add the following login inform
 
 Select **[!UICONTROL Sign in]** to finish your authentication.
 
-If you select **[!UICONTROL WIF]**, you do **not** need to provide any login information. However, you **must** add the client library configuration as the **[!UICONTROL Key file path]**. For more information on the client library configuration, read the [Google BigQuery (Workload Identity Federation) configuration section](#wif-configuration).
+If you select **[!UICONTROL WIF]**, you do **not** need to provide any login information. However, you **must** add the client library configuration as the **[!UICONTROL Config file path]**. For more information on the client library configuration, read the [Google BigQuery (Workload Identity Federation) configuration section](#wif-configuration).
 
 After inputting your login details, you can add the following details:
 
@@ -223,9 +242,9 @@ After inputting your login details, you can add the following details:
 | ----- | ----------- |
 | Project | The ID of your project. For more information, please read the [Google Cloud project documentation](https://cloud.google.com/resource-manager/docs/creating-managing-projects){target="_blank"}. |
 | Dataset | The name of the dataset. For more information, please read the [Google Cloud dataset documentation](https://cloud.google.com/bigquery/docs/datasets-intro){target="_blank"}. |
-| Key file path | The key file to the server. Only `json` files are supported. |
+| Config file path | The configuration file to the server. Only `json` files are supported. |
 | Google Bucket location | The location of your Google Bucket. You only need to add this field if you are using the **Change Dimension** activity in your composition. For more information, please read the [Google Cloud bucket locations documentation](https://docs.cloud.google.com/storage/docs/locations){target="_blank"}. |
-| Use REST API connector | A toggle that enables the REST API connector to be used. This option is **only** available if you're using Account/Password authentication. |
+| Use REST API connector | A toggle that enables the REST API connector to be used. This option is **only** available if you're using basic authentication. |
 | Options | Additional options for the connection. The available options are listed in the following table. |
 
 For Google BigQuery, you can set the following additional options:
@@ -281,7 +300,7 @@ After selecting Oracle, you can add the following details:
 
 After selecting Snowflake, you can choose which authentication method you want to use when connecting with Federated Audience Composition.
 
-If you select **[!UICONTROL Account/Password Authentication]**, you can add the following login information:
+If you select **[!UICONTROL Basic authentication]**, you can add the following login information:
 
 | Field | Description |
 | ----- | ----------- |
@@ -289,7 +308,7 @@ If you select **[!UICONTROL Account/Password Authentication]**, you can add the 
 | User | The username for the account. |
 | Password | The password for the account. |
 
-Alternatively, you can also provide a private key instead of providing a password. If you add a private key, you need to give the following information:
+If you select **[!UICONTROL Key pair authentication]**, you can add the following login information:
 
 | Field | Description |
 | ----- | ----------- |
@@ -298,7 +317,7 @@ Alternatively, you can also provide a private key instead of providing a passwor
 | Private key | The private key for the account. Only `.pem` files are supported. |
 | Password | (Optional) The password for the account. |
 
-If you select **[!UICONTROL OAuth 2.0]**, you can add the following login information:
+If you select **[!UICONTROL OAuth2 Authorization Code]**, you can add the following login information:
 
 >[!NOTE]
 >
@@ -389,7 +408,7 @@ After adding the connection's details, please note the following additional sett
 | Server IPs | A popover that displays what IP addresses need to be allowlisted to connect to the database. |
 | Test connection | Lets you verify your configuration details. |
 
-You can now select **[!UICONTROL Deploy functions]**, followed by **[!UICONTROL Add]** to finalize the connection between the federated database and Experience Platform.
+You can now select **[!UICONTROL Connect to source]** to set up the schema details for the database connection. For more information on setting up schema details, read the [schemas guide](/help/data-modelling/schemas-integrated.md).
 
 ## Appendix {#appendix}
 

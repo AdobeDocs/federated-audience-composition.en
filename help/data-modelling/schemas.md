@@ -27,11 +27,6 @@ topic_v2:
 >For more information on the required permissions, please read the [access control guide](/help/governance-privacy-security/access-control.md).
 
 >[!CONTEXTUALHELP]
->id="platform_schemas_manageconfiguration"
->title="Manage configuration"
->abstract="Temporary blank content."
-
->[!CONTEXTUALHELP]
 >id="dc_schema_create_select_tables"
 >title="Select tables"
 >abstract="Select the tables to add for the data model."
