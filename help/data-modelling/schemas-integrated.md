@@ -44,49 +44,55 @@ By creating a schema, you can define a representation of your table in Experienc
 >title="Manage configuration"
 >abstract="Temporary blank content."
 
-To create a schema in Federated Audience Composition, select **Schemas** within the **Data Management** section of the Experience Platform UI.
+To create a schema in Federated Audience Composition, select **[!UICONTROL Schemas]** within the **[!UICONTROL Data Management]** section of the Experience Platform UI. Within the Schemas UI, select **[!UICONTROL Create schema]**.
 
-IMAGE
+![The Schemas and the Create schema buttons are both highlighted within the Schemas UI.](/help/data-modelling/assets/integrated/select-create-schema.png)
 
-The Schemas UI appears. Select **Create schema**, followed by **Relational**, and **Discover schemas** to create a schema for Federated Audience Composition.
+Once the Create schema popover appears, select **[!UICONTROL Relational]**, followed by **[!UICONTROL Discover schemas]** and **[!UICONTROL Next]** to create a schema for Federated Audience Composition.
 
-IMAGE
+![The Discover schemas button is highlighted within the Create a relational schema popover.](/help/data-modelling/assets/integrated/select-discover-schemas.png)
 
 The **[!UICONTROL Select federated database]** popover appears. On this popover, you can select the [source database](/help/connections/home.md), followed by **[!UICONTROL Next]**.
 
-![](assets/schemas/schema_tables.png){zoomable="yes"}
+![The Select federated database popover is displayed.](/help/data-modelling/assets/integrated/select-federated-database.png)
 
 ## Define schema {#define}
 
-The **Select Table** popover appears. On this popover, you can select the tables which you want to use to create the schema.
+After choosing the federated database, you can now define your schema. The **[!UICONTROL Add data]** screen appears. On this page, you can select **[!UICONTROL Add table]** to choose which tables you want to add to the schema.
 
-![The Select Table popover is displayed.](assets/schemas/select-table.png){zoomable="yes"}
+![The Add table button is highlighted within the Add data screen.](/help/data-modelling/assets/integrated/select-add-table.png)
+
+The **[!UICONTROL Select Table]** popover appears. On this popover, you can select the tables which you want to use to create the schema.
+
+![The Select Table popover is displayed.](/help/data-modelling/assets/integrated/select-table.png){zoomable="yes"}
 
 Each selected table generates a schema with the chosen columns. For each table, you can change the label of the schema, add a description, rename the field label, set the field label visibility, and select the schema primary key.
 
-![](assets/schemas/schema-fields.png){zoomable="yes"}
+![The selected tables are displayed within the Add data page.](/help/data-modelling/assets/integrated/tables-added.png){zoomable="yes"}
 
 >[!NOTE]
 >
->If you enable **[!UICONTROL Use Composite Key]** but only select one key to be used, the key will be treated like a standard schema primary key.
+>If you choose **[!UICONTROL Composite Key]** but only select one key to be used, the key will be treated like a standard schema primary key.
 
-Additionally, you can create a key that is made up of multiple schema columns. Turn on **[!UICONTROL Use Composite Key]**, and mark the keys you want to use as your composite key.
+Additionally, you can create a key that is made up of multiple schema columns. Select **[!UICONTROL Composite Key]**, and mark the keys you want to use as your composite key.
 
-![](assets/schemas/composite-key.png){zoomable="yes"}
+![Both the Composite Key toggle and the schemas are selected.](/help/data-modelling/assets/integrated/composite-key.png){zoomable="yes"}
 
 After completing your configuration, select **[!UICONTROL Done]** to finish creating your schema. 
 
 ## Edit a schema {#schema-edit}
 
-To edit a schema, select the ICON next to your previously created schema on the **Schemas** page, followed by **Edit**.
+To edit a schema, select the ![three dots](/help/assets/icons/more.png) next to your previously created schema on the **Schemas** page, followed by **[!UICONTROL Edit]**.
 
-IMAGE
+![The Edit schema button is highlighted.](/help/data-modelling/assets/integrated/edit-schema.png)
 
-On the **[!UICONTROL Edit schema]** window, you can access and configure the same options as when [creating a schema](#schema-create).
+On the **[!UICONTROL Edit schema]** window, you can see the Schema Editor. For more information on using the Schema Editor, read the [schema UI guide](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/ui/resources/schemas#customize-schema).
 
-![](assets/schemas/schema_edit_orders.png){zoomable="yes"}
+![The Schema Editor is displayed.](/help/data-modelling/assets/integrated/schema-editor.png)
 
 ## Preview data in a schema {#schema-preview}
+
+I DO NOT SEE THIS IN THE INTEGRATED SYSTEM
 
 To preview the data in the table represented by your schema, browse to the **[!UICONTROL Data]** tab as below.
 
@@ -99,6 +105,8 @@ Select the **[!UICONTROL Configure columns]** button to change the data display.
 ![](assets/schemas/schema_columns.png){zoomable="yes"}
 
 ## Refresh a schema {#schema-refresh}
+
+I DO NOT SEE THIS IN THE INTEGRATED SYSTEM
 
 Tables in a federated database can be updated, added or removed. In such cases, you must refresh the schema in Adobe Experience Platform to align with the latest changes. To perform this, select the ![three dots icon](/help/assets/icons/more.png) next to the name of the schema followed by **[!UICONTROL Refresh schema]**. 
 
