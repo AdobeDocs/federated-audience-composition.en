@@ -63,19 +63,15 @@ To work with your federated database and Adobe Experience Platform, you must fir
 
 To create a connection, select **[!UICONTROL Sources]** within the **[!UICONTROL Connections]** section.
 
-IMAGE
-
 The Sources catalog appears. Select **[!UICONTROL Federated data]** to view the list of available federated databases for your organization.
 
-IMAGE
+![The Federated Data section within the Sources Catalog is highlighted.](/help/connections/assets/integrated/federated-data-sources.png)
 
 Once you've selected the federated database type, select **Add data**.
 
-IMAGE
-
 The connect account page appears. You can either use an **existing** account or create a **new** account. If you select **[!UICONTROL Existing account]**, you can choose one of the previously created source connections.
 
-IMAGE
+![An example of the existing accounts section is displayed.](/help/connections/assets/integrated/existing-account.png)
 
 >[!NOTE]
 >
