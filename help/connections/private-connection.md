@@ -13,32 +13,32 @@ The following databases support private connectivity to Federated Audience Compo
 
 | Database | Cloud | Private connection type |
 | -------- | ----- | ----------------------- |
-| Snowflake | Amazon Web Services (AWS) | AWS PrivateLink (VPC interface endpoint) |
-| Snowflake | Microsoft Azure | Azure PrivateLink (Private endpoint) |
-| Amazon Redshift | Amazon Web Services (AWS) | AWS PrivateLink (Managed VPC endpoint) |
-| Databricks | Amazon Web Services (AWS) | AWS PrivateLink (VPC interface endpoint) |
-| Databricks | Microsoft Azure | Site-to-site VPN |
-| Databricks | Google Cloud Platform (GCP) | Site-to-site VPN |
-| Azure Synapse Analytics | Microsoft Azure | Site-to-site VPN |
-| Google BigQuery | Google Cloud Platform (GCP) | Site-to-site VPN |
+| [!DNL Snowflake] | [!DNL Amazon Web Services] (AWS) | AWS PrivateLink (VPC interface endpoint) |
+| [!DNL Snowflake] | [!DNL Microsoft Azure] | Azure PrivateLink (Private endpoint) |
+| [!DNL Amazon Redshift] | [!DNL Amazon Web Services] (AWS) | AWS PrivateLink (Managed VPC endpoint) |
+| [!DNL Databricks] | [!DNL Amazon Web Services] (AWS) | AWS PrivateLink (VPC interface endpoint) |
+| [!DNL Databricks] | [!DNL Microsoft Azure] | Site-to-site VPN |
+| [!DNL Databricks] | [!DNL Google Cloud Platform] (GCP) | Site-to-site VPN |
+| [!DNL Azure Synapse Analytics] | [!DNL Microsoft Azure] | Site-to-site VPN |
+| [!DNL Google BigQuery] | [!DNL Google Cloud Platform] (GCP) | Site-to-site VPN |
 
 ## Snowflake {#snowflake}
 
 >[!AVAILABILITY]
 >
->In order to use private connectivity with Snowflake, you **must** be at least on Business Critical tier or higher on Snowflake. For more information on private connectivity with Snowflake, read the [private connectivity guide in the Snowflake documentation](https://docs.snowflake.com/en/user-guide/private-connectivity-inbound).
+>In order to use private connectivity with [!DNL Snowflake], you **must** be at least on Business Critical tier or higher on [!DNL Snowflake]. For more information on private connectivity with [!DNL Snowflake], read the [private connectivity guide in the Snowflake documentation](https://docs.snowflake.com/en/user-guide/private-connectivity-inbound).
 
-Using private connectivity with Snowflake depends on which cloud provider your Snowflake instance is on.
+Using private connectivity with [!DNL Snowflake] depends on which cloud provider your [!DNL Snowflake] instance is on.
 
 ### Amazon Web Services (AWS) {#snowflake-aws}
 
 >[!IMPORTANT]
 >
->Before continuing, make sure you get your AWS account ID from Adobe Customer Care. Once you get your AWS account ID, contact Snowflake support so Snowflake can authorize your AWS account to use PrivateLink.
+>Before continuing, make sure you get your AWS account ID from Adobe Customer Care. Once you get your AWS account ID, contact [!DNL Snowflake] support so [!DNL Snowflake] can authorize your AWS account to use PrivateLink.
 
-Once your AWS account has been authorized for use with Snowflake, you'll need to get values including the `privatelink-vpce-id`, `privatelink-account-url`, and `privatelink_ocsp-url` so you can get the VPC interface endpoint. 
+Once your AWS account has been authorized for use with [!DNL Snowflake], you'll need to get values including the `privatelink-vpce-id`, `privatelink-account-url`, and `privatelink_ocsp-url` so you can get the VPC interface endpoint. 
 
-You can get these values by running the following commands in your Snowflake account as the ACCOUNTADMIN:
+You can get these values by running the following commands in your [!DNL Snowflake] account as the ACCOUNTADMIN:
 
 `SELECT SYSTEM$GET_PRIVATELINK_CONFIG();`
 `SELECT SYSTEM$ALLOWLIST_PRIVATELINK();`
@@ -62,11 +62,11 @@ You can get these values by running the following commands in your Snowflake acc
 
 Once you have run these commands, you can send the full SQL output to Adobe Customer Care so Adobe can create the Azure private endpoint for you.
 
-Once Adobe creates the Azure private endpoint, you can get your private endpoint resource ID. Now that you have the private endpoint resource ID, contact Snowflake support to authorize your Snowflake account, while providing the resource ID.
+Once Adobe creates the Azure private endpoint, you can get your private endpoint resource ID. Now that you have the private endpoint resource ID, contact [!DNL Snowflake] support to authorize your [!DNL Snowflake] account, while providing the resource ID.
 
 For more detailed information to create a PrivateLink connection with Azure, read the [Azure PrivateLink guide](https://docs.snowflake.com/en/user-guide/privatelink-azure).
 
-If you want to authorize PrivateLink for use with an internal staging environment, run the following command in Snowflake, while providing the internal stage resource ID which is provided by Adobe Customer Care:
+If you want to authorize PrivateLink for use with an internal staging environment, run the following command in [!DNL Snowflake], while providing the internal stage resource ID which is provided by Adobe Customer Care:
 
 `SELECT SYSTEM$AUTHORIZE_STAGE_PRIVATELINK_ACCESS('<internal-stage-private-endpoint-resource-id>');`
 
