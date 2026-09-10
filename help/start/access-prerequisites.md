@@ -60,6 +60,8 @@ To view the list of your active Federated Audience Composition sandboxes, follow
 
     ![](assets/sandbox_2.png)
 
+If you want to use Federated Audience Composition on another sandbox, contact Adobe Customer Care to request a sandbox switch.
+
 ## Permissions {#permissions}
 
 To access Federated Audience Composition, users must be added to the sandbox-specific product profile created upon purchase and assigned the **[!UICONTROL Manage Federated Data]** permission. [Learn more](/help/governance-privacy-security/access-control.md)

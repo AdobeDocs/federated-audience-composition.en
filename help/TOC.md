@@ -21,6 +21,7 @@ breadcrumb-title: Experience Platform Federated Audience Composition
     - [Data access rights matrix](connections/fda-rights.md)
     - [Enrich Adobe Experience Platform audiences with external data](connections/destinations.md)
     - [Multi-entity targeting](connections/multi-entity-targeting.md)
+    - [Private connection](connections/private-connection.md)
 - Data models and schemas {#models}
     - [Schemas overview](data-modelling/schemas.md)
     - [Schemas in Experience Platform](data-modelling/schemas-integrated.md)
