@@ -34,6 +34,22 @@ Experience Platform Federated Audience Composition lets you build and enrich aud
 
 ## Supported databases {#supported-databases}
 
+>[!CONTEXTUALHELP]
+>id="platform_sources_snowflake_privatekey"
+>title="Private key"
+>abstract="Temporary blank content."
+
+>[!CONTEXTUALHELP]
+>id="platform_sources_snowflake_keyfilepath"
+>title="Key file path"
+>abstract="Temporary blank content."
+
+>[!CONTEXTUALHELP]
+>id="platform_sources_snowflake_serverip"
+>title="Server IP"
+>abstract="Temporary blank content."
+
+
 To work with your federated database and Adobe Experience Platform, you must first establish a connection between the two sources. With Federated Audience Composition, you can connect to the following databases.
 
 - Amazon Redshift
