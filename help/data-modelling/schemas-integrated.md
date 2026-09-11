@@ -90,32 +90,36 @@ On the **[!UICONTROL Edit schema]** window, you can see the Schema Editor. For m
 
 ![The Schema Editor is displayed.](/help/data-modelling/assets/integrated/schema-editor.png)
 
+### Edit relationships {#relationship-edit}
+
+To edit the relationships for a schema, select **[!UICONTROL View entity diagram]** within the Schema Editor.
+
+![The View entity diagram button is highlighted.](/help/data-modelling/assets/integrated/view-entity-diagram.png)
+
+The entity diagram page appears. On this page, you can. For more information, read the [data models overview](/help/data-modelling/models.md#data-model-links).
+
 ## Preview data in a schema {#schema-preview}
 
-I DO NOT SEE THIS IN THE INTEGRATED SYSTEM
+To preview the data in the table represented by your schema, go to the **[!UICONTROL Datasets]** section, and then select **[!UICONTROL Browse]**.
 
-To preview the data in the table represented by your schema, browse to the **[!UICONTROL Data]** tab as below.
+![The Datasets and the Browse buttons are highlighted.](/help/data-modelling/assets/integrated/datasets-browse.png)
 
-Select **[!UICONTROL Calculate]** link to preview the total number of recordings.
+Select the ![three dots](/help/assets/icons/more.png), followed by **[!UICONTROL Preview dataset]** to see a preview of the data within the schema.
 
-![](assets/schemas/schema_data.png){zoomable="yes"}
-
-Select the **[!UICONTROL Configure columns]** button to change the data display.
-
-![](assets/schemas/schema_columns.png){zoomable="yes"}
+![The Preview dataset button is highlighted.](/help/data-modelling/assets/integrated/select-preview-dataset.png)
 
 ## Refresh a schema {#schema-refresh}
 
-I DO NOT SEE THIS IN THE INTEGRATED SYSTEM
+Tables in a federated database can be updated, added or removed. In such cases, you must refresh the schema in Adobe Experience Platform to align with the latest changes. To refresh the schema, select the **[!UICONTROL More]** button, followed by **[!UICONTROL Manage configuration]**. 
 
-Tables in a federated database can be updated, added or removed. In such cases, you must refresh the schema in Adobe Experience Platform to align with the latest changes. To perform this, select the ![three dots icon](/help/assets/icons/more.png) next to the name of the schema followed by **[!UICONTROL Refresh schema]**. 
+![The Manage configuration button is highlighted.](/help/data-modelling/assets/integrated/manage-configuration.png)
 
-You can also update the schema definition when editing it.
+The **[!UICONTROL Edit configuration]** popover appears. Select **[!UICONTROL Refresh]** to refresh the schema.
 
-![](assets/schemas/schema_refresh.png){zoomable="yes"}
+![The Refresh schema button is highlighted.](/help/data-modelling/assets/integrated/refresh-schema.png)
 
 ## Delete a schema {#schema-delete}
 
-To delete a schema, select the ![three dots icon](/help/assets/icons/more.png), followed by **[!UICONTROL Delete]**.
+To delete a schema within the Schema Editor, select **[!UICONTROL More]**, followed by **[!UICONTROL Delete]**.
 
-![](assets/schemas/schema_delete.png){zoomable="yes"}
+![The Delete schema button is highlighted.](/help/data-modelling/assets/integrated/delete-schema.png)

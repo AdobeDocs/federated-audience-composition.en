@@ -67,15 +67,21 @@ The Sources catalog appears. Select **[!UICONTROL Federated data]** to view the 
 
 ![The Federated Data section within the Sources Catalog is highlighted.](/help/connections/assets/integrated/federated-data-sources.png)
 
-Once you've selected the federated database type, select **Add data**.
+Once you've selected the federated database type, select **Set up** if you're making a new connection or **Add data** if you're using an existing connection.
 
-The connect account page appears. You can either use an **existing** account or create a **new** account. If you select **[!UICONTROL Existing account]**, you can choose one of the previously created source connections.
+The connect account page appears. You can either use an **existing** account or create a **new** account. 
+
+### Existing account {#existing-account}
+
+If you select **[!UICONTROL Existing account]**, you can choose one of the previously created source connections.
 
 ![An example of the existing accounts section is displayed.](/help/connections/assets/integrated/existing-account.png)
 
 >[!NOTE]
 >
 >In order to request secure connectivity using private link or VPN, you **must** have licensed either Privacy and Security Shield or Healthcare Shield.
+
+### New account {#new-account}
 
 If you select **[!UICONTROL New account]**, the connection details page is displayed. On this page, you can set details about your connection, including account name, description, and account authentication details. The account authentication section differs based on the database type previously chosen.
 
@@ -404,7 +410,39 @@ After adding the connection's details, please note the following additional sett
 | Server IPs | A popover that displays what IP addresses need to be allowlisted to connect to the database. |
 | Test connection | Lets you verify your configuration details. |
 
-You can now select **[!UICONTROL Connect to source]** to set up the schema details for the database connection. For more information on setting up schema details, read the [schemas guide](/help/data-modelling/schemas-integrated.md).
+You can now select **[!UICONTROL Connect to source]** to set up the schema details for the database connection. 
+
+## Schema selection {#schema-selection}
+
+The **[!UICONTROL Schema selection]** page appears. On this page, you can define the schema for your federated database connection.
+
+![The Add table button is highlighted within the Add data screen.](/help/data-modelling/assets/integrated/select-add-table.png)
+
+For more information on setting up schema details, read the [schemas guide](/help/data-modelling/schemas-integrated.md).
+
+After choosing your schemas, select **[!UICONTROL Next]** to continue.
+
+## Review {#review}
+
+The **[!UICONTROL Review]** page appears. On this page, you can review the details of your federated database connection. If the details look correct, select **[!UICONTROL Finish]** to create the connection.
+
+![The Review page is displayed. This page shows the connection details and schemas information.](/help/connections/assets/integrated/review.png)
+
+The connection is created. A popup appears, asking you to either **[!UICONTROL View schema]** or **[!UICONTROL Create relationships]**. If you select **[!UICONTROL View schema]**, the [schema browse](/help/data-modelling/schemas-integrated.md#edit-a-schema) page appears. If you select **[!UICONTROL Create relationships]**, the [entity diagram](/help/data-modelling/schemas-integrated.md#edit-relationships) page appears.
+
+## Edit connection {#edit-connection}
+
+If you need to edit the login details for the source connection, select **[!UICONTROL Sources]** followed by **[!UICONTROL Accounts]**.
+
+![The Accounts button is highlighted, displaying the source accounts browse page.](/help/connections/assets/integrated/select-accounts.png)
+
+The source connectors browse page appears. Find the source connector you want to update, select ![the three dots](/help/assets/icons/more.png), followed by **[!UICONTROL Edit details]**.
+
+![The Edit details button is highlighted.](/help/connections/assets/integrated/select-edit-details.png)
+
+The **[!UICONTROL Edit account details]** popover appears. On this popover, you can update details of the federated database source connection.
+
+![The Edit account details popover is displayed.](/help/connections/assets/integrated/edit-account-details.png)
 
 ## Appendix {#appendix}
 
