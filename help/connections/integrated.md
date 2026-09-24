@@ -21,6 +21,10 @@ topic_v2:
 
 >[!AVAILABILITY]
 >
+>The new unified connections experience is only available to select customers. For more information, contact Adobe Customer Care.
+>
+>If you don't have access to the new connections experience, read the [connections overview](./home.md).
+>
 >To access connections, you'll need one of the following permissions:
 >
 >-**Manage Federated Database**
@@ -57,7 +61,7 @@ To work with your federated database and Adobe Experience Platform, you must fir
 ## Create connection {#create}
 
 >[!CONTEXTUALHELP]
->id="platform_sources_snowflake_serverip"
+>id="platform_sources_serverip"
 >title="Server IP"
 >abstract="The IP addresses that need to be allowlisted in order to connect to the database."
 
@@ -339,7 +343,8 @@ After inputting your login details, you can add the following details:
 | ----- | ----------- |
 | Database | The name of the database. If this is specified in the server name, this field can be left blank. |
 | Working schema | The name of the database schema to use for the work tables. <br/><br/>**Note:** You can use **any** schema from the database, including schemas used for temporary data processing, as long as you have the required permissions to connect to this schema. However, you **must** use distinct working schemas when connecting multiple sandboxes with the same database. |
-| Private key | The private key for your database connection. You can upload a `.pem` file from your local system. |
+| Private key | The Base64-encoded private key of your Snowflake account. You can generate either encrypted or unencrypted private keys. If you are using an encrypted private key, then you must also provide a private key passphrase when authenticating against Experience Platform. Read the guide on [retrieving your Snowflake private key](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/databases/snowflake) for more information. |
+| Private key passphrase | The private key passphrase is an additional layer of security that you must use when authenticating with an encrypted private key. You are not required to provide the passphrase if you are using an unencrypted private key. |
 | Options | Additional options for the connection. The available options are listed in the following table. |
 
 For Snowflake, you can set the following additional options:

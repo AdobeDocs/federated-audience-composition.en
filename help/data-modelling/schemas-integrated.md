@@ -18,6 +18,10 @@ topic_v2:
 
 >[!AVAILABILITY]
 >
+>The new schemas experience is only available to select customers. For more information, contact Adobe Customer Care.
+>
+>If you don't have access to the new schemas experience, read the [schemas overview](./schemas.md).
+>
 >To access schemas, you'll need one of the following permissions:
 >
 >-**Manage Federated Schema**
@@ -58,6 +62,11 @@ The **[!UICONTROL Select federated database]** popover appears. On this popover,
 
 ## Define schema {#define}
 
+>[!CONTEXTUALHELP]
+>id="platform_schemas_primarycompositekey"
+>title="Composite key"
+>abstract="A schema key that is made up of multiple schema columns. Mark the columns that you want to use as your composite key."
+
 After choosing the federated database, you can now define your schema. The **[!UICONTROL Add data]** screen appears. On this page, you can select **[!UICONTROL Add table]** to choose which tables you want to add to the schema.
 
 ![The Add table button is highlighted within the Add data screen.](/help/data-modelling/assets/integrated/select-add-table.png)
@@ -96,7 +105,11 @@ To edit the relationships for a schema, select **[!UICONTROL View entity diagram
 
 ![The View entity diagram button is highlighted.](/help/data-modelling/assets/integrated/view-entity-diagram.png)
 
-The entity diagram page appears. On this page, you can. For more information, read the [data models overview](/help/data-modelling/models.md#data-model-links).
+The entity diagram page appears. On this page, you can create links to establish relationships between your schemas.
+
+![The entity diagram is displayed.](/help/data-modelling/assets/integrated/entity-diagram.png)
+
+For more information on creating links, read the Canvas view tab of the [data models overview](/help/data-modelling/models.md#data-model-links).
 
 ## Preview data in a schema {#schema-preview}
 

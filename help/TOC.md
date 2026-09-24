@@ -17,14 +17,14 @@ breadcrumb-title: Experience Platform Federated Audience Composition
     - [Access Control](governance-privacy-security/access-control.md)
 - Connections {#connections}
     - [Connections overview](connections/home.md)
-    - [Source connection in Experience Platform](connections/integrated.md)
+    - [NEW - Source connection in Experience Platform](connections/integrated.md)
     - [Data access rights matrix](connections/fda-rights.md)
     - [Enrich Adobe Experience Platform audiences with external data](connections/destinations.md)
     - [Multi-entity targeting](connections/multi-entity-targeting.md)
     - [Private connection](connections/private-connection.md)
 - Data models and schemas {#models}
     - [Schemas overview](data-modelling/schemas.md)
-    - [Schemas in Experience Platform](data-modelling/schemas-integrated.md)
+    - [NEW - Schemas in Experience Platform](data-modelling/schemas-integrated.md)
     - [Data models overview](data-modelling/models.md)
 - Compositions {#compositions}
     - [Composition overview](compositions/home.md)
