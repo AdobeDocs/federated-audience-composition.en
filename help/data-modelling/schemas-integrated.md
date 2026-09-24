@@ -39,7 +39,7 @@ By creating a schema, you can define a representation of your table in Experienc
 
 >[!CAUTION]
 >
->When connecting multiple sandboxes with same database, you must use distinct working schemas.
+>When connecting multiple sandboxes with the same database, you must use distinct working schemas.
 
 ## Create a schema {#create}
 
@@ -91,7 +91,7 @@ After completing your configuration, select **[!UICONTROL Done]** to finish crea
 
 ## Edit a schema {#schema-edit}
 
-To edit a schema, select the ![three dots](/help/assets/icons/more.png) next to your previously created schema on the **Schemas** page, followed by **[!UICONTROL Edit]**.
+To edit a schema, select the ![ellipses icon](/help/assets/icons/more.png) next to your previously created schema on the **Schemas** page, followed by **[!UICONTROL Edit]**.
 
 ![The Edit schema button is highlighted.](/help/data-modelling/assets/integrated/edit-schema.png)
 

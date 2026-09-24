@@ -71,7 +71,7 @@ The Sources catalog appears. Select **[!UICONTROL Federated data]** to view the 
 
 ![The Federated Data section within the Sources Catalog is highlighted.](/help/connections/assets/integrated/federated-data-sources.png)
 
-Once you've selected the federated database type, select **Set up** if you're making a new connection or **Add data** if you're using an existing connection.
+Once you've selected the federated database type, select **[!UICONTROL Set up]** if you're making a new connection or **[!UICONTROL Add data]** if you're using an existing connection.
 
 The connect account page appears. You can either use an **existing** account or create a **new** account. 
 
@@ -83,7 +83,7 @@ If you select **[!UICONTROL Existing account]**, you can choose one of the previ
 
 >[!NOTE]
 >
->In order to request secure connectivity using private link or VPN, you **must** have licensed either Privacy and Security Shield or Healthcare Shield.
+>Tto request secure connectivity using private link or VPN, you **must** have licensed either Privacy and Security Shield or Healthcare Shield.
 
 ### New account {#new-account}
 
@@ -357,7 +357,7 @@ For Snowflake, you can set the following additional options:
 | UseCachedResult | A boolean that determines if Snowflake's cached results will be used. This value represents the `USE_CACHED_RESULTS` session parameter. By default, this value is set to true. For more information on this parameter, please read the [Snowflake documentation on persisting results](https://docs.snowflake.com/en/user-guide/querying-persisted-results){target="_blank"}. |
 | bulkThreads | The number of threads to use for Snowflake's bulk loader. The more threads added, the better the performance will be for bigger bulk loads. By default, this value is set to 1. |
 | chunkSize | The file size of the each bulk loader's chunk. When used concurrently with more threads, you can improve the performance of your bulk loads. By default, this value is set to 128 MB. For more information about chunk sizes, please read the [Snowflake documentation on preparing data files](https://docs.snowflake.com/en/user-guide/data-load-considerations-prepare){target="_blank"}. |
-| StageName | The name of a pre-provisioned internal staging enviornment. This can be used in bulk loads instead of creating a new temporary stage. |
+| StageName | The name of a pre-provisioned internal staging environment. This can be used in bulk loads instead of creating a new temporary stage. |
 
 >[!TAB Teradata]
 
@@ -455,12 +455,12 @@ The following appendix describes how to set up the connections on the external a
 
 ### Google BigQuery (Workload Identity Federation) configuration {#wif-configuration}
 
-Before you configure your Google Cloud Platform setup, you will need you the following values:
+Before you configure your Google Cloud Platform setup, you will need the following values:
 
 - AWS Account ID
   - Please contact your Adobe representative to get this value.
 - AWS IAM role name
-  - The AWS IAM role name follows the the ensuing format: `arn:aws:iam::<ADOBE_AWS_ACCOUNT_ID>:role/fac-<CUSTOMER_IMS_ORG_ID>`
+  - The AWS IAM role name follows the ensuing format: `arn:aws:iam::<ADOBE_AWS_ACCOUNT_ID>:role/fac-<CUSTOMER_IMS_ORG_ID>`
 
 In Google Cloud Console, create a **Workload Identity Pool** in the **IAM & Admin section**. This lets you organize and manage external identities.
 
@@ -475,7 +475,7 @@ When you create a provider, you'll need to provide the following information:
 | Name | The name of the Workload Identity Pool provider. |
 | ID | The ID for the provider is automatically generated. |
 | AWS account ID | The previously provided AWS Account ID. |
-| Enabled provider | A boolean that determines of the provider is enabled or disabled. |
+| Enabled provider | A boolean that determines whether the provider is enabled or disabled. |
 | Attribute mapping | The mappings to match with the roles. This information is already present. |
 
 After creating the provider, you need to create an IAM policy to let the Workload Identity Pool identities impersonate the Service Account. Select **Grant access** to open the Grant access to service account dialog.
