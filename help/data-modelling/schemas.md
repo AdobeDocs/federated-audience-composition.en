@@ -70,6 +70,11 @@ By creating a schema, you can define a representation of your table in Experienc
 
 ## Create a schema {#schema-create}
 
+>[!CONTEXTUALHELP]
+>id="platform_schemas_primarycompositekey"
+>title="Composite key"
+>abstract="A schema key that is made up of multiple schema columns. Mark the columns that you want to use as your composite key."
+
 To create a schema in Federated Audience Composition, select **[!UICONTROL Models]** in the **[!UICONTROL Federated Data]** section. Within the **[!UICONTROL Schema]** tab, select **[!UICONTROL Create schema]**.
 
 ![The Create schema button is highlighted within the Federate Audience Composition schema section.](assets/schemas/schema_create.png){zoomable="yes"}
