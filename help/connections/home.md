@@ -44,10 +44,9 @@ Experience Platform Federated Audience Composition lets you build and enrich aud
 >abstract="Temporary blank content."
 
 >[!CONTEXTUALHELP]
->id="platform_sources_snowflake_serverip"
+>id="platform_sources_serverip"
 >title="Server IP"
->abstract="Temporary blank content."
-
+>abstract="The IP addresses that need to be allowlisted in order to connect to the database."
 
 To work with your federated database and Adobe Experience Platform, you must first establish a connection between the two sources. With Federated Audience Composition, you can connect to the following databases.
 
