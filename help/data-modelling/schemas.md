@@ -27,11 +27,6 @@ topic_v2:
 >For more information on the required permissions, please read the [access control guide](/help/governance-privacy-security/access-control.md).
 
 >[!CONTEXTUALHELP]
->id="platform_schemas_manageconfiguration"
->title="Manage configuration"
->abstract="Temporary blank content."
-
->[!CONTEXTUALHELP]
 >id="dc_schema_create_select_tables"
 >title="Select tables"
 >abstract="Select the tables to add for the data model."
@@ -69,11 +64,6 @@ By creating a schema, you can define a representation of your table in Experienc
 >When connecting multiple sandboxes with same database, you must use distinct working schemas.
 
 ## Create a schema {#schema-create}
-
->[!CONTEXTUALHELP]
->id="platform_schemas_primarycompositekey"
->title="Composite key"
->abstract="A schema key that is made up of multiple schema columns. Mark the columns that you want to use as your composite key."
 
 To create a schema in Federated Audience Composition, select **[!UICONTROL Models]** in the **[!UICONTROL Federated Data]** section. Within the **[!UICONTROL Schema]** tab, select **[!UICONTROL Create schema]**.
 
