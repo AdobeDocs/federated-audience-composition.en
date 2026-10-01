@@ -11,6 +11,22 @@ product_v2:
 
 [!DNL Federated Audience Composition] continuously delivers new features, enhancements to existing features, and bug fixes. All changes are consolidated in these release notes. [!DNL Federated Audience Composition] is built natively on [!DNL Adobe Experience Platform] and inherits from its latest innovations and improvements. Learn more about these changes in [Adobe Experience Platform Release Notes](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html){target="_blank"}.
 
+## September '26 release {#fac-26-09}
+
+The September release for Federated Audience Composition supports the following capability:
+
+| New unified experience for federated connections and schemas |
+| --- |
+| You can now access federated connections and schemas directly within the Adobe Experience Platform UI. To learn how to create federated connections, read the [Create connections in the Experience Platform UI guide](/help/connections/integrated.md). To learn how to create schemas, read the [Schemas overview](/help/data-modelling/schemas-integrated.md). |
+
+### Improvements {#fac-26-09-improvements}
+
+This release comes with the following improvement.
+
+- **Data expiration increase for Federated Audience Composition audiences**
+  
+  The data expiration for Federated Audience Composition audiences has now been increased to 3650 days (10 years).
+
 ## July '26 release {#fac-26-07}
 
 The July release for Federated Audience Composition supports the following capability:
