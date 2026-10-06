@@ -6,7 +6,7 @@ exl-id: 7e1f74c4-b89a-480c-8e12-0257a71e629d
 TQID: https://experienceleague.adobe.com/iUpEJiNCYHzeDyGr6DYCKmb3jLEBwnbpN2dakLnf68k
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-    internal-label: Experience Cloud
+    internal-label: CX Enterprise
 topic_v2:
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
     internal-label: Governance
