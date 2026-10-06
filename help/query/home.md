@@ -6,7 +6,7 @@ exl-id: b77b9d1c-61d5-4d6d-9d82-3c72bc9c932a
 TQID: https://experienceleague.adobe.com/SZIN7fLAdZ1dVkKIsCYWEV-qpazuzgJ1HcF5DfkO-UM
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-    internal-label: Experience Cloud
+    internal-label: CX Enterprise
 ---
 # Query modeler overview {#query-modeler}
 
