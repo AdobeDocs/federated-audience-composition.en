@@ -28,7 +28,7 @@ topic_v2:
 
 Federated Audience Composition lets you create compositions, where you can leverage various activities into a visual canvas to create audiences. After creating your composition, the resulting audiences are saved into Adobe Experience Platform and can be leveraged in Experience Platform destinations and Adobe Journey Optimizer to target customers. 
 
-![A sample composition workflow is displayed within Federated Audience Composition.](assets/compositions/composition-example.png){zoomable="yes"}{width="70%"}
+![A sample composition workflow is displayed within Federated Audience Composition.](/help/compositions/assets/home/composition-example.png){zoomable="yes"}{width="70%"}
 
 ## Composition components {#components}
 
@@ -46,37 +46,42 @@ A composition within Federated Audience Composition is made up of the following 
 
 Compositions are accessible from the Adobe Experience Platform **[!UICONTROL Audiences]** menu, in the **[!UICONTROL Federated compositions]** tab within the **[!UICONTROL Customers]** section.
 
-From this screen, you can create new compositions and access existing ones. You can also duplicate or delete an existing composition by selecting the ![ellipses](/help/assets/icons/more.png) button next to its name.
+![The Federated compositions and Audiences buttons are highlighted, showing how to access the federated compositions section.](/help/compositions/assets/home/access-fac-compositions.png){zoomable="yes"}{width="70%"}
 
-You can also view information about the compositions, including the name, status, creator, and last modified date.
+From this screen, you can view information about the compositions and create new compositions.
 
-| Status | Description |
+![The list of federated compositions is displayed.](/help/compositions/assets/home/composition-list.png){zoomable="yes"}{width="70%"}
+
+| Field | Description |
+| ----- | ----------- |
+| **[!UICONTROL Name]** | The name of the composition. If you select the composition, you can edit the composition. For more information on creating and editing compositions, read the [create a composition guide](/help/compositions/create-composition.md). |
+| **[!UICONTROL Status]** | The status of the composition. Possible values include [!UICONTROL Draft], [!UICONTROL In progress], [!UICONTROL Stopped], [!UICONTROL Paused], and [!UICONTROL Erroneous]. <ul><li>**[!UICONTROL Draft]**: The composition has been created and saved.</li><li>**[!UICONTROL In progress]**: The composition has been executed and is currently running.</li><li>**[!UICONTROL Stopped]**: The composition execution is complete and has stopped.</li><li>**[!UICONTROL Paused]**: The composition execution has been paused.</li><li>**[!UICONTROL Erroneous]**: The composition execution has encountered an error. To view more information about the error, open the composition and access the logs.</li></ul> To learn how to start or stop a composition, read the [create composition guide](./create-composition.md#monitor-logs). |
+| **[!UICONTROL Created by]** | The name and email address of the person that created the composition. |
+| **[!UICONTROL Modified]** | The date and time the composition was last updated. |
+
+You can also perform quick actions to the compositions by selecting the ![ellipses](/help/assets/icons/more.png) button next to its name.
+
+| Action | Description |
 | ------ | ----------- |
-| **[!UICONTROL Draft]** | The composition has been created and saved. |
-| **[!UICONTROL In progress]** | The composition has been executed and is currently running. |
-| **[!UICONTROL Stopped]** | The composition execution is complete and has stopped. |
-| **[!UICONTROL Paused]** | The composition execution has been paused. |
-| **[!UICONTROL Erroneous]** | The composition execution has encountered an error. To view more information about the error, open the composition and access the logs. |
-
-You can learn how to start or stop a composition in the [create composition guide](./create-composition.md#monitor-logs).
-
-![A list of the available compositions is displayed.](assets/compositions/compositions-list.png){zoomable="yes"}{width="70%"}
+| **[!UICONTROL Duplicate]** | Duplicates the selected composition. |
+| **[!UICONTROL Delete]** | Deletes the selected composition. |
+| **[!UICONTROL Add to package]** | Moves the composition between sandboxes. For more information on this feature, read the [sandbox tooling guide](https://experienceleague.adobe.com/en/docs/experience-platform/sandbox/ui/sandbox-tooling). |
 
 To refine the list and find the composition you are looking for, you can search the list, and filter compositions by their statuses or last processing dates.
 
 You can also customize the list by adding or removing columns. To do this, select the **[!UICONTROL Configure columns]** button and add or remove the desired output columns.
 
-![A list of the available columns you can add to the compositions browse page are displayed.](assets/compositions/compositions-columns.png){zoomable="yes"}{width="70%"}
+![A list of the available columns you can add to the compositions browse page are displayed.](/help/compositions/assets/home/compositions-columns.png){zoomable="yes"}{width="70%"}
 
 ### Apply access labels {#access-labels}
 
 To apply access labels to a specific composition, select the composition, followed by **[!UICONTROL Manage access]**.
 
-![The "Manage access" button is highlighted within the composition canvas.](assets/compositions/select-manage-access.png){zoomable="yes"}{width="70%"}
+![The "Manage access" button is highlighted within the composition canvas.](/help/compositions/assets/home/select-manage-access.png){zoomable="yes"}{width="70%"}
 
 The **[!UICONTROL Manage access]** popover appears. On this page, you can apply the applicable access and data governance labels to your composition.
 
-![The Manage access popover is displayed. This shows a list of all the available labels you can apply to the composition.](assets/compositions/manage-access.png){zoomable="yes"}{width="70%"}
+![The Manage access popover is displayed. This shows a list of all the available labels you can apply to the composition.](/help/compositions/assets/home/manage-access.png){zoomable="yes"}{width="70%"}
 
 | Label type | Description |
 | ---------- | ----------- |
