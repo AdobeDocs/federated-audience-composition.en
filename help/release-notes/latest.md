@@ -19,6 +19,10 @@ The September release for Federated Audience Composition supports the following 
 | --- |
 | You can now access federated connections and schemas directly within the Adobe Experience Platform UI. To learn how to create federated connections, read the [Create connections in the Experience Platform UI guide](/help/connections/integrated.md). To learn how to create schemas, read the [Schemas overview](/help/data-modelling/schemas-integrated.md). |
 
+| Sandbox tooling support for Federated Audience Composition audiences |
+| --- |
+| You can now use the Experience Platform sandbox tooling feature to move Federated Audience Composition audiences from one sandbox to another. For more information on using sandbox tooling, read the [sandbox tooling guide](https://experienceleague.adobe.com/en/docs/experience-platform/sandbox/ui/sandbox-tooling). |
+
 ### Improvements {#fac-26-09-improvements}
 
 This release comes with the following improvement.
