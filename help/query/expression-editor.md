@@ -52,9 +52,6 @@ The aggregate functions are used to perform calculations on a set of values.
 | Name | Description | Syntax | Example |
 | ---- | ----------- | ------ | ------- |
 | **StdDev** | Returns the standard deviation of the values given. | StdDev(&lt;VALUE&gt;) | StdDev([0,3,5]) | 
--->
-
-<!-- 
 
 >[!TAB Databricks]
 
@@ -69,24 +66,16 @@ Aggregate functions are not available.
 >[!TAB Redshift]
 
 Aggregate functions are not available. 
--->
-
-<!-- 
 
 >[!TAB Snowflake]
 
 | Name | Description | Syntax | Example |
 | ---- | ----------- | ------ | ------- |
 | **StringAgg** | Returns the concatenation of the values of a string type column, separated by the character in the second argument | StringAgg(&lt;Value&gt;, &lt;String&gt;) | StringAgg(column, ",") | 
--->
 
-<!-- 
 >[!TAB Vertica]
 
 Aggregate functions are not available. 
--->
-
-<!-- 
 >[!ENDTABS] 
 -->
 
@@ -144,17 +133,11 @@ The date functions are used to manipulate date or time values.
 
 <!-- 
 | **YearAndMonth** | Truncates the datetime to just the year and month. | YearAndMonth(&lt;DATETIME&gt;) | YearAndMonth("2019-12-25 15:30:00") |
--->
-
-<!-- 
 | **DaysAgo** | Calculates the number of days between the current date and the provided timestamp, and returns the value as a datetime. | DaysAgo(&lt;DATETIME&gt;) | DaysAgo("2024-06-24 14:43:49") |
 | **DaysAgoInt** | Calculates the number of days between the current date and the provided timestamp, and returns the value as an integer. | DaysAgoInt(&lt;DATETIME&gt;) | DaysAgoInt("2024-06-24 14:43:49") |
 | **MonthsAgo** | Calculates the number of months between the current date and the provided timestamp, and returns the value as a datetime. | MonthsAgo(&lt;DATETIME&gt;) | MonthsAgo("2024-06-24 14:43:49") |
 | **YearsAgo** | Calculates the number of years between the current date and the provided timestamp, and returns the value as a datetime. | YearsAgo(&lt;DATETIME&gt;) | YearsAgo("2024-06-24 14:43:49") | 
--->
 
-
-<!-- 
 >[!TAB Databricks]
 
 | Name | Description | Syntax | Example |
@@ -300,16 +283,10 @@ The date functions are used to manipulate date or time values.
 
 <!-- 
 | **YearAndMonth** | Truncates the datetime to just the year and month. | YearAndMonth(&lt;DATETIME&gt;) | YearAndMonth("2019-12-25 15:30:00") |
--->
-
-<!-- 
 | **DaysAgo** | Calculates the number of days between the current date and the provided timestamp, and returns the value as a datetime. | DaysAgo(&lt;DATETIME&gt;) | DaysAgo("2024-06-24 14:43:49") |
 | **DaysAgoInt** | Calculates the number of days between the current date and the provided timestamp, and returns the value as an integer. | DaysAgoInt(&lt;DATETIME&gt;) | DaysAgoInt("2024-06-24 14:43:49") |
 | **MonthsAgo** | Calculates the number of months between the current date and the provided timestamp, and returns the value as a datetime. | MonthsAgo(&lt;DATETIME&gt;) | MonthsAgo("2024-06-24 14:43:49") |
 | **YearsAgo** | Calculates the number of years between the current date and the provided timestamp, and returns the value as a datetime. | YearsAgo(&lt;DATETIME&gt;) | YearsAgo("2024-06-24 14:43:49") |
--->
-
-<!-- 
 
 >[!TAB Vertica]
 
@@ -441,9 +418,6 @@ The numeric functions are used to convert text to numbers.
 | **Floor** | Rounds down the provided number to the nearest integer. For example, if the provided number is 3.8, it will return 3. | Floor(&lt;NUMBER&gt;) | Floor(3.8) |
 | **Greatest** | Returns the larger number between the two provided numbers. | Greatest(&lt;NUMBER&gt;, &lt;NUMBER&gt;) | Greatest(1, 2) |
 | **Least** | Returns the smaller number between the two provided numbers. | Least(&lt;NUMBER&gt;, &lt;NUMBER&gt;) | Least (1,2) |
--->
-
-<!-- 
 
 >[!TAB Databricks]
 
@@ -820,4 +794,3 @@ Window functions are not available.
 -->
 
 >[!ENDTABS]
-
