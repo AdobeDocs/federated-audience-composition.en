@@ -46,7 +46,7 @@ You can learn how to create a connection with these systems on the [connections 
 
 ## Sandboxes
 
-When purchasing Federated Audience Composition, you are entitled to two sandboxes. For any additional sandbox provisioning requests, contact your Adobe representative.
+When purchasing Federated Audience Composition, you are entitled to five sandboxes. For any additional sandbox provisioning requests, contact your Adobe representative.
 
 To view the list of your active Federated Audience Composition sandboxes, follow the steps below:
 
